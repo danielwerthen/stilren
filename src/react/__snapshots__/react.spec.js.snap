@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`React createFactory should render animations 1`] = `"<div class=\\"ae af\\">foobar</div>"`;
+
+exports[`React createFactory should render animations 2`] = `"@font-face{font-family:ae;src:url(\\"/fonts\\") format(\\"woff2\\"), url(\\"/font2\\") format(\\"woff\\")}.ae{-webkit-animation-name:ae;animation-name:ae}.af{font-family:ae}@keyframes ae{from{opacity:0}to{opacity:0.5}}"`;
+
+exports[`React createFactory should render stuff 1`] = `"<div class=\\"ae af ag\\">foobar</div>"`;
+
+exports[`React createFactory should render stuff 2`] = `".ae{font-size:12px}.af{color:black}@media (min-width: 100px){.ag{font-size:22px}}"`;

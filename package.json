@@ -1,0 +1,31 @@
+{
+  "name": "stilren",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "git@github.com:danielwerthen/ui-builder.git",
+  "author": "<danielwerthen@gmail.com>",
+  "license": "NONE",
+  "private": true,
+  "babel": {
+    "presets": ["babel-preset-es2015"]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.4.3",
+    "prettier": "^1.12.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "rimraf": "^2.6.2",
+    "styletron-engine-atomic": "^1.0.5"
+  },
+  "scripts": {
+    "test": "jest",
+    "build":
+      "rimraf dist && babel src --out-dir dist --ignore *.spec.js --presets=es2015"
+  },
+  "optionalDependencies": {
+    "create-react-context": "^0.2.2"
+  }
+}

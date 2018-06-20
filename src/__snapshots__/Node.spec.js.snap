@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Node should place props at the correct pos 1`] = `
+Object {
+  "@media a": Object {
+    "fontSize": "15px",
+  },
+  "@media a and b": Object {
+    "fontSize": "15px",
+  },
+  "@media b": Object {
+    ":c": Object {
+      "@media a": Object {
+        "fontSize": "17px",
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Object {
+  "@media (max-width: 800px) and (min-width: 100px)": Object {
+    "fontSize": "17px",
+  },
+  "fontSize": "15px",
+}
+`;
+
+exports[` 2`] = `
+Object {
+  ":hover": Object {
+    "@media (min-width: 100px)": Object {
+      "myAttribute": 5,
+    },
+  },
+  "@media (min-width: 100px)": Object {
+    "background": "red",
+    "color": "red",
+  },
+  "background": "red",
+  "color": "red",
+  "fontSize": "15px",
+  "myAttribute": 5,
+}
+`;
