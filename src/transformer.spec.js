@@ -41,13 +41,15 @@ describe('transformer', () => {
   });
   describe('without extensions', () => {
     const transform = transformer({});
-    expect(
-      transform({
-        fontSize: '15px',
-        alphaBetaFontSize: '16px',
-        betaAlphaFontSize: '17px',
-      })
-    ).toMatchSnapshot();
+    it('should match snapshot', () => {
+      expect(
+        transform({
+          fontSize: '15px',
+          alphaBetaFontSize: '16px',
+          betaAlphaFontSize: '17px',
+        })
+      ).toMatchSnapshot();
+    });
   });
   describe('with extensions', () => {
     const transform = transformer({
@@ -60,16 +62,34 @@ describe('transformer', () => {
           background: value,
         };
       },
+      fontSize() {
+        return {
+          fontSize: '12px',
+        };
+      },
     });
-    expect(
-      transform({
-        fontSize: '15px',
-        myAttribute: true,
-        myFunction: 'red',
-        alphaMyFunction: 'yellow',
-        alphaAlphaMyFunction: 'red',
-        alphaHoverMyAttribute: true,
-      })
-    ).toMatchSnapshot();
+    const t = {
+      myAttribute() {
+        return 5;
+      },
+      myFunction(value) {
+        return {
+          color: value,
+          background: value,
+        };
+      },
+    };
+    it('should match snapshot', () => {
+      expect(
+        transform({
+          fontSize: '15px',
+          myAttribute: true,
+          myFunction: 'yellow',
+          alphaMyFunction: 'yellow',
+          alphaAlphaMyFunction: 'red',
+          alphaHoverMyAttribute: true,
+        })
+      ).toMatchSnapshot();
+    });
   });
 });

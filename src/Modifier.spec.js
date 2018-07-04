@@ -1,4 +1,4 @@
-import { Modifier } from './Modifier';
+import { Modifier, MediaModifier, PseudoModifier } from './Modifier';
 
 describe('Modifier', () => {
   it('enforces singletons', () => {

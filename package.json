@@ -7,7 +7,9 @@
   "license": "NONE",
   "private": true,
   "babel": {
-    "presets": ["babel-preset-es2015"]
+    "presets": [
+      "babel-preset-es2015"
+    ]
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -22,8 +24,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build":
-      "rimraf dist && babel src --out-dir dist --ignore *.spec.js --presets=es2015"
+    "build": "rimraf dist && babel src --out-dir dist --ignore *.spec.js --presets=es2015"
   },
   "optionalDependencies": {
     "create-react-context": "^0.2.2"

@@ -1,15 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` 1`] = `
-Object {
-  "@media (max-width: 800px) and (min-width: 100px)": Object {
-    "fontSize": "17px",
-  },
-  "fontSize": "15px",
-}
-`;
-
-exports[` 2`] = `
+exports[`transformer with extensions should match snapshot 1`] = `
 Object {
   ":hover": Object {
     "@media (min-width: 100px)": Object {
@@ -20,9 +11,18 @@ Object {
     "background": "red",
     "color": "red",
   },
-  "background": "red",
-  "color": "red",
-  "fontSize": "15px",
+  "background": "yellow",
+  "color": "yellow",
+  "fontSize": "12px",
   "myAttribute": 5,
+}
+`;
+
+exports[`transformer without extensions should match snapshot 1`] = `
+Object {
+  "@media (max-width: 800px) and (min-width: 100px)": Object {
+    "fontSize": "17px",
+  },
+  "fontSize": "15px",
 }
 `;

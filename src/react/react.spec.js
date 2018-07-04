@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 import { Server } from 'styletron-engine-atomic';
-import createFactory, { Provider } from './index';
+import createFactory, { Provider, getDefaultStyle } from './index';
 
 const { createElement } = React;
 
@@ -31,7 +31,7 @@ function render(Component, props, ...children) {
 describe('React createFactory', () => {
   it('should render stuff', () => {
     class MyStyle {
-      static defaultStyle() {
+      defaultStyle() {
         return {
           fontSize: '10px',
           color: 'black',
@@ -50,7 +50,7 @@ describe('React createFactory', () => {
   });
   it('should render animations', () => {
     class MyStyle {
-      static defaultStyle() {
+      defaultStyle() {
         return {
           animationName: {
             from: {
@@ -68,5 +68,64 @@ describe('React createFactory', () => {
     }
     const MyComponent = factory('div', new MyStyle());
     render(MyComponent, null, 'foobar');
+  });
+  it('should inherit stuff', () => {
+    class MyStyle {
+      defaultStyle() {
+        return {
+          fontSize: '10px',
+          color: 'black',
+        };
+      }
+    }
+    class MyStyle2 {
+      defaultStyle() {
+        return {
+          fontSize: '12px',
+          background: 'yellow',
+          border: '1px solid black',
+        };
+      }
+    }
+    const MyComponent = factory('div', new MyStyle());
+    const MyComponent2 = factory(MyComponent, MyStyle2);
+    render(
+      MyComponent2,
+      {
+        $alphaBackground: '22px',
+      },
+      'foobar'
+    );
+  });
+});
+
+describe('getDefaultStyle', () => {
+  class Base {
+    defaultStyle() {
+      return {
+        fontSize: '12px',
+      };
+    }
+  }
+
+  class Second {
+    defaultStyle() {
+      return {
+        background: 'blue',
+        color: 'yellow',
+      };
+    }
+  }
+
+  const top = {
+    defaultStyle: {
+      fontWeight: 'bold',
+      color: 'red',
+    },
+  };
+
+  it('should match snapshot', () => {
+    const res = getDefaultStyle([top, Second, Base]);
+    expect(res).toMatchSnapshot();
   });
 });

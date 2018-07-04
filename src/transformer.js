@@ -1,4 +1,5 @@
 import { MediaModifier, PseudoModifier } from './Modifier';
+import createExtender from './extender';
 import Node from './Node';
 
 function isUpperCase(str) {
@@ -49,18 +50,17 @@ export default function createTransformer(options) {
   const keys = Object.keys(modifiers);
   const parse = cache(parseKey);
 
-  return extender => {
-    function transform(props, output = new Node()) {
+  return (...extensions) => {
+    const extender = createExtender(...extensions);
+    function transform(props, output = new Node(), parentKey = null) {
       for (var key in props) {
         const [innerKey, ...mods] = parse(key, keys, modifiers);
         const value = props[key];
-        if (
-          Reflect.has(extender, innerKey) &&
-          typeof extender[innerKey] === 'function'
-        ) {
-          const result = extender[innerKey](value);
+        const exted = extender(innerKey);
+        if (exted && typeof exted === 'function' && parentKey !== innerKey) {
+          const result = exted.call(this, value);
           if (typeof result === 'object') {
-            transform(result, output.getNode(mods));
+            transform.call(this, result, output.getNode(mods), innerKey);
           } else {
             output.set(innerKey, result, mods);
           }
