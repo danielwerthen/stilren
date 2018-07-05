@@ -1,67 +1,77 @@
-import createReactContext from 'create-react-context';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { createTransformer } from '../index';
-import { driver } from 'styletron-standard';
+import transformProps from './transformProps';
+import { Provider, Consumer } from './context';
+import { inheritanceStore } from './constants';
+import FreezeStyle from './FreezeStyle';
 
-const StyletronContext = createReactContext();
-
-const Provider = StyletronContext.Provider;
-
-const Consumer = StyletronContext.Consumer;
-
-export function getDefaultStyle(extensions) {
-  return extensions
-    .reverse()
-    .map(ext => ext.prototype || ext)
-    .filter(ext => Reflect.has(ext, 'defaultStyle'))
-    .map(
-      ext =>
-        typeof ext.defaultStyle === 'function'
-          ? ext.defaultStyle()
-          : ext.defaultStyle
-    )
-    .reduce((sum, item) => Object.assign(sum, item), {});
-}
-
-const inheritanceStore = '__STILREN_STORE__';
-
-export default function createFactory(options) {
-  const { createElement, styleIndicator = '$' } = options;
+export function StilrenProvider({
+  styletron,
+  stylePrefix = '$',
+  extensions = [],
+  children,
+  ...options
+}) {
   const transformer = createTransformer(options);
-  function factory(Component, ...extensions) {
-    if (Component[inheritanceStore]) {
-      const [a, b] = Component[inheritanceStore];
-      return factory(a, ...extensions, ...b);
-    }
-    const transform = transformer(...extensions);
-    const defaultStyle = getDefaultStyle(extensions);
-    function StyledElement(props) {
-      return createElement(Consumer, null, styletron => {
-        const elementProps = {},
-          styleProps = Object.assign({}, defaultStyle);
-        for (var key in props) {
-          const val = props[key];
-          if (key === 'innerRef') {
-            elementProps.ref = val;
-          } else if (key[0] === styleIndicator) {
-            styleProps[key.slice(1)] = val;
-          } else {
-            elementProps[key] = props[key];
-          }
-        }
-        const styleClassName = driver(transform(styleProps), styletron);
-        elementProps.className = elementProps.className
-          ? `${elementProps.className} ${styleClassName}`
-          : styleClassName;
-        return createElement(Component, elementProps);
-      });
-    }
-    StyledElement[inheritanceStore] = [Component, extensions];
-    StyledElement.displayName = `stilren(${Component.displayName ||
-      Component.name ||
-      Component})`;
-    return StyledElement;
-  }
-  return factory;
+  return React.createElement(
+    Provider,
+    {
+      value: {
+        styletron,
+        stylePrefix,
+        transformer,
+        extensions,
+      },
+    },
+    children
+  );
 }
 
-export { createFactory, Provider, Consumer };
+StilrenProvider.propTypes = {
+  styletron: PropTypes.object.isRequired,
+  stylePrefix: PropTypes.string,
+  breakpoints: PropTypes.object,
+  pseudos: PropTypes.arrayOf(PropTypes.string),
+};
+
+const cache = {};
+
+export function createElement(Component, ...args) {
+  let decoratedComponent = Component;
+  if (typeof Component === 'string') {
+    decoratedComponent = cache[Component] =
+      cache[Component] || componentFactory(Component);
+  }
+  return React.createElement(decoratedComponent, ...args);
+}
+
+export function componentFactory(Component, ...extensions) {
+  if (Component[inheritanceStore]) {
+    const [a, b] = Component[inheritanceStore];
+    const ExtendedComponent = factory(a, ...extensions, ...b);
+    if (Component.defaultProps) {
+      ExtendedComponent.defaultProps = Object.assign(
+        {},
+        Component.defaultProps
+      );
+    }
+    return ExtendedComponent;
+  }
+  function StyledElement(props) {
+    return React.createElement(Consumer, null, ctx =>
+      React.createElement(Component, transformProps(props, ctx, extensions))
+    );
+  }
+  StyledElement[inheritanceStore] = [Component, extensions];
+  StyledElement.displayName = `stilren(${Component.displayName ||
+    Component.name ||
+    Component})`;
+  return StyledElement;
+}
+
+export { Consumer, FreezeStyle };
+
+export default {
+  createElement,
+};
