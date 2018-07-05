@@ -12,6 +12,7 @@ const pseudos = ['hover', 'focus'];
 
 function render(Component, props, ...children) {
   const styletron = new Server();
+
   expect(
     ReactDOM.renderToString(
       React.createElement(
