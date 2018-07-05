@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { createTransformer } from '../index';
-import transformElement from './transformElement';
+import transformProps from './transformProps';
 import { Provider, Consumer } from './context';
+import { inheritanceStore } from './constants';
+import FreezeStyle from './FreezeStyle';
 
 export function StilrenProvider({
   styletron,
@@ -33,8 +35,6 @@ StilrenProvider.propTypes = {
   pseudos: PropTypes.arrayOf(PropTypes.string),
 };
 
-const inheritanceStore = '__STILREN_STORE__';
-
 const cache = {};
 
 export function createElement(Component, ...args) {
@@ -60,7 +60,7 @@ export function componentFactory(Component, ...extensions) {
   }
   function StyledElement(props) {
     return React.createElement(Consumer, null, ctx =>
-      transformElement(Component, props, ctx, extensions)
+      React.createElement(Component, transformProps(props, ctx, extensions))
     );
   }
   StyledElement[inheritanceStore] = [Component, extensions];
@@ -70,4 +70,8 @@ export function componentFactory(Component, ...extensions) {
   return StyledElement;
 }
 
-export { Consumer };
+export { Consumer, FreezeStyle };
+
+export default {
+  createElement,
+};

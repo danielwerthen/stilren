@@ -1,14 +1,19 @@
 import React from 'react';
 import { Consumer } from './context';
-import transformElement from './transformElement';
+import transformProps from './transformProps';
+import { inheritanceStore } from './constants';
 
-function comp(element, component) {
+function comp(Component, staticProps) {
   function Frozen(props) {
-    return React.cloneElement(element, props);
+    const finalProps = Object.assign({}, staticProps, props);
+    if (props.className && staticProps.className) {
+      finalProps.className = `${props.className} ${staticProps.className}`;
+    }
+    return React.createElement(Component, finalProps);
   }
-  Frozen.displayName = `Frozen(${component.displayName ||
-    component.name ||
-    component})`;
+  Frozen.displayName = `Frozen(${Component.displayName ||
+    Component.name ||
+    Component})`;
   return Frozen;
 }
 
@@ -18,15 +23,30 @@ export default class FreezeStyle extends React.Component {
     return React.createElement(Consumer, {}, ctx => {
       const result = Object.keys(components).reduce((sum, key) => {
         const item = components[key];
-        let component,
+        let Component,
           props = {};
         if (Array.isArray(item)) {
-          component = item[0];
+          Component = item[0];
           props = item[1];
         } else {
-          component = item;
+          Component = item;
         }
-        sum[key] = comp(transformElement(component, props, ctx, []), component);
+        if (!Component[inheritanceStore]) {
+          console.warn('Component is not freezeable', Component);
+          return sum;
+        }
+        const [originalComponent, extensions] = Component[inheritanceStore];
+        sum[key] = comp(
+          originalComponent,
+          transformProps(
+            {
+              ...(Component.defaultProps || {}),
+              ...props,
+            },
+            ctx,
+            extensions
+          )
+        );
         return sum;
       }, {});
 

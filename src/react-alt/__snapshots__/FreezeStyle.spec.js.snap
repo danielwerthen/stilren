@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`React createFactory should render stuff 1`] = `"<div class=\\"ae\\">Normal props is OK</div>"`;
+exports[`React createFactory should render stuff 1`] = `"<div class=\\"ae\\" $fontsize=\\"16px\\" $color=\\"red\\">Normal props is OK</div>"`;
 
 exports[`React createFactory should render stuff 2`] = `".ae{font-size:15px}"`;

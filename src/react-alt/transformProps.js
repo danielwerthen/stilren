@@ -1,8 +1,6 @@
-import React from 'react';
 import { driver } from 'styletron-standard';
 
-export default function transformElement(
-  Component,
+export default function transformProps(
   props,
   { styletron, stylePrefix, transformer, extensions },
   innerExtensions
@@ -26,5 +24,5 @@ export default function transformElement(
       ? `${elementProps.className} ${styleClassName}`
       : styleClassName;
   }
-  return React.createElement(Component, elementProps);
+  return elementProps;
 }

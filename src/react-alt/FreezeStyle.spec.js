@@ -38,7 +38,7 @@ describe('React createFactory', () => {
       ({ Frozen }) =>
         React.createElement(
           Frozen,
-          { $fontSize: '16px', $color: 'red' },
+          { $fontsize: '16px', $color: 'red' },
           'Normal props is OK'
         )
     );
