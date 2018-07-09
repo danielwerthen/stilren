@@ -1,16 +1,21 @@
 {
   "name": "stilren",
   "description": "Expressive and highly extendable styling api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "repository": "git@github.com:danielwerthen/stilren.git",
   "author": "<danielwerthen@gmail.com>",
   "license": "MIT",
   "private": false,
   "babel": {
-    "presets": ["babel-preset-es2015"]
+    "presets": [
+      "babel-preset-es2015"
+    ]
   },
-  "files": ["dist/**/*", "react.js"],
+  "files": [
+    "dist/**/*",
+    "react.js"
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-jest": "^22.4.3",
@@ -26,8 +31,7 @@
   "scripts": {
     "test": "jest",
     "prepublish": "npm run build",
-    "build":
-      "rimraf dist && babel src --out-dir dist --ignore *.spec.js --presets=es2015 --plugins transform-object-rest-spread"
+    "build": "rimraf dist && babel src --out-dir dist --ignore *.spec.js --presets=es2015 --plugins transform-object-rest-spread"
   },
   "peerDependencies": {
     "create-react-context": "*",
