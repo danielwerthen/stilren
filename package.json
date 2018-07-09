@@ -10,7 +10,7 @@
   "babel": {
     "presets": ["babel-preset-es2015"]
   },
-  "files": ["dist/**/*"],
+  "files": ["dist/**/*", "react.js"],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-jest": "^22.4.3",
