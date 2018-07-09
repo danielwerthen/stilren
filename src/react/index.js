@@ -73,5 +73,6 @@ export function componentFactory(Component, ...extensions) {
 export { Consumer, FreezeStyle };
 
 export default {
+  ...React,
   createElement,
 };
