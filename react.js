@@ -1,1 +1,1 @@
-export * from './dist/react';
+module.exports = require('./dist/react');
