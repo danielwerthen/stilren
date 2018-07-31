@@ -6,33 +6,44 @@ import { Provider, Consumer } from './context';
 import { inheritanceStore } from './constants';
 import FreezeStyle from './FreezeStyle';
 
+const defaultOptions = {
+  stylePrefix: '$',
+  extensions: []
+}
+
 export function StilrenProvider({
-  styletron,
-  stylePrefix = '$',
-  extensions = [],
   children,
-  ...options
+  ...options,
 }) {
-  const transformer = createTransformer(options);
   return React.createElement(
-    Provider,
-    {
-      value: {
-        styletron,
-        stylePrefix,
-        transformer,
-        extensions,
-      },
-    },
-    children
-  );
+    Consumer,
+    {},
+    (inherited = {}) => {
+      const value = Object.assign({}, options, inherited, defaultOptions)
+      if (inherited.extensions && options.extensions) {
+        value.extensions = [...options.extensions, ...inherited.extensions]
+      }
+      const transformer = createTransformer(value);
+      return React.createElement(
+        Provider,
+        {
+          value: {
+            ...value,
+            transformer,
+          },
+        },
+        children
+      )
+    }
+  )
 }
 
 StilrenProvider.propTypes = {
-  styletron: PropTypes.object.isRequired,
+  styletron: PropTypes.object,
   stylePrefix: PropTypes.string,
   breakpoints: PropTypes.object,
   pseudos: PropTypes.arrayOf(PropTypes.string),
+  extensions: PropTypes.array,
 };
 
 const cache = {};

@@ -44,3 +44,49 @@ describe('React createFactory', () => {
     );
   });
 });
+
+class Extension {
+  foo() {
+    return {
+      color: 'red',
+    };
+  }
+  baz() {
+    return {
+      background: 'yellow',
+    };
+  }
+}
+
+class Extension2 {
+  baz() {
+    return {
+      background: 'green',
+    };
+  }
+}
+
+describe('React extensions', () => {
+  it('should render stuff', () => {
+    const first = createElement(
+      'p',
+      { $fontSize: '15px', $foo: true, $baz: true },
+      'Daniel'
+    );
+    const body = createElement(
+      StilrenProvider,
+      {
+        extensions: [Extension],
+      },
+      first,
+      createElement(
+        StilrenProvider,
+        {
+          extensions: [Extension2],
+        },
+        first
+      )
+    );
+    render('div', {}, body);
+  });
+});
