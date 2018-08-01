@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 import { Server } from 'styletron-engine-atomic';
-import { componentFactory, StilrenProvider, createElement } from './index';
+import {
+  componentFactory,
+  StilrenProvider,
+  createElement,
+  StilrenExtender,
+} from './index';
 
 const breakpoints = {
   alpha: '(min-width: 100px)',
@@ -74,17 +79,25 @@ describe('React extensions', () => {
       'Daniel'
     );
     const body = createElement(
-      StilrenProvider,
+      StilrenExtender,
       {
         extensions: [Extension],
       },
       first,
       createElement(
-        StilrenProvider,
+        StilrenExtender,
         {
           extensions: [Extension2],
         },
         first
+      ),
+      createElement(
+        StilrenExtender,
+        {
+          extensions: [Extension2],
+          replace: true,
+        },
+        React.cloneElement(first, { $foo: undefined })
       )
     );
     render('div', {}, body);

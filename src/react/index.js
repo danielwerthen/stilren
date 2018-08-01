@@ -15,22 +15,43 @@ export function StilrenProvider({
   children,
   ...options,
 }) {
+  const value = Object.assign({}, options, defaultOptions)
+  const transformer = createTransformer(value);
+  return React.createElement(
+    Provider,
+    {
+      value: {
+        ...value,
+        transformer,
+      },
+    },
+    children
+  )
+}
+
+StilrenProvider.propTypes = {
+  styletron: PropTypes.object,
+  stylePrefix: PropTypes.string,
+  breakpoints: PropTypes.object,
+  pseudos: PropTypes.arrayOf(PropTypes.string),
+  extensions: PropTypes.array,
+};
+
+export function StilrenExtender({
+  children,
+  extensions,
+  replace = false
+}) {
   return React.createElement(
     Consumer,
     {},
-    (inherited = {}) => {
-      const value = Object.assign({}, options, inherited, defaultOptions)
-      if (inherited.extensions && options.extensions) {
-        value.extensions = [...options.extensions, ...inherited.extensions]
-      }
-      const transformer = createTransformer(value);
+    (options = {}) => {
+      const value = Object.assign({}, options)
+      value.extensions = replace ? extensions : [...extensions, ...options.extensions]
       return React.createElement(
         Provider,
         {
-          value: {
-            ...value,
-            transformer,
-          },
+          value: value,
         },
         children
       )
@@ -38,7 +59,7 @@ export function StilrenProvider({
   )
 }
 
-StilrenProvider.propTypes = {
+StilrenExtender.propTypes = {
   styletron: PropTypes.object,
   stylePrefix: PropTypes.string,
   breakpoints: PropTypes.object,

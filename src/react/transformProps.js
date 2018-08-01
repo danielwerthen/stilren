@@ -12,7 +12,7 @@ export default function transformProps(
     const val = props[key];
     if (key === 'innerRef') {
       elementProps.ref = val;
-    } else if (key[0] === stylePrefix) {
+    } else if (key[0] === stylePrefix && val !== undefined) {
       styleProps[key.slice(1)] = val;
     } else {
       elementProps[key] = props[key];
