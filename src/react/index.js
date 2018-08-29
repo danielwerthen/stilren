@@ -81,7 +81,7 @@ export function createElement(Component, ...args) {
 export function componentFactory(Component, ...extensions) {
   if (Component[inheritanceStore]) {
     const [a, b] = Component[inheritanceStore];
-    const ExtendedComponent = factory(a, ...extensions, ...b);
+    const ExtendedComponent = componentFactory(a, ...extensions, ...b);
     if (Component.defaultProps) {
       ExtendedComponent.defaultProps = Object.assign(
         {},
