@@ -1,7 +1,7 @@
 {
   "name": "stilren",
   "description": "Expressive and highly extendable styling api",
-  "version": "0.0.5-rc1",
+  "version": "0.0.5-rc2",
   "main": "dist/index.js",
   "repository": "git@github.com:danielwerthen/stilren.git",
   "author": "<danielwerthen@gmail.com>",
