@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { createTransformer } from "../index";
-import transformProps from "./transformProps";
 import context from "./context";
 import { inheritanceStore } from "./constants";
+import { driver } from "styletron-standard";
 
 const defaultOptions = {
   stylePrefix: "$",
@@ -49,22 +49,24 @@ export function StilrenExtender({ children, extensions, replace = false }) {
 }
 
 StilrenExtender.propTypes = {
-  styletron: PropTypes.object,
-  stylePrefix: PropTypes.string,
-  breakpoints: PropTypes.object,
-  pseudos: PropTypes.arrayOf(PropTypes.string),
-  extensions: PropTypes.array
+  extensions: PropTypes.array,
+  replace: PropTypes.bool
 };
 
 const cache = {};
 
+export const DECORATE_KEY = Symbol("Key for storing wrapped components");
+
 export function createElement(Component, ...args) {
-  let decoratedComponent = Component;
   if (typeof Component === "string") {
-    decoratedComponent = cache[Component] =
-      cache[Component] || componentFactory(Component);
+    const decoratedComponent = (cache[Component] =
+      cache[Component] || componentFactory(Component));
+    return React.createElement(decoratedComponent, ...args);
+  } else if (!Component[DECORATE_KEY]) {
+    const decoratedComponent = componentFactory(Component);
+    Component[DECORATE_KEY] = decoratedComponent;
   }
-  return React.createElement(decoratedComponent, ...args);
+  return React.createElement(Component[DECORATE_KEY], ...args);
 }
 
 export function componentFactory(Component, ...extensions) {
@@ -79,13 +81,37 @@ export function componentFactory(Component, ...extensions) {
     }
     return ExtendedComponent;
   }
-  function StyledElement(props) {
-    const ctx = React.useContext(context);
-    return React.createElement(
-      Component,
-      transformProps(props, ctx, extensions)
-    );
-  }
+  const StyledElement = React.forwardRef((props, ref) => {
+    const {
+      styletron,
+      stylePrefix,
+      transformer,
+      extensions: contextExtensions
+    } = React.useContext(context);
+    const transform = React.useMemo(() => {
+      const transform = transformer(...extensions, ...contextExtensions);
+      return props => {
+        const elementProps = { ref },
+          styleProps = {};
+        for (var key in props) {
+          const val = props[key];
+          if (key[0] === stylePrefix && val !== undefined) {
+            styleProps[key.slice(1)] = val;
+          } else {
+            elementProps[key] = props[key];
+          }
+        }
+        const styleClassName = driver(transform(styleProps), styletron);
+        if (styleClassName) {
+          elementProps.className = elementProps.className
+            ? `${styleClassName} ${elementProps.className}`
+            : styleClassName;
+        }
+        return elementProps;
+      };
+    }, [styletron, stylePrefix, transformer, extensions, contextExtensions]);
+    return React.createElement(Component, transform(props));
+  });
   StyledElement[inheritanceStore] = [Component, extensions];
   StyledElement.displayName = `stilren(${Component.displayName ||
     Component.name ||
