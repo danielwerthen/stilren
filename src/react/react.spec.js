@@ -1,18 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/server';
-import { Server } from 'styletron-engine-atomic';
+import React from "react";
+import ReactDOM from "react-dom/server";
+import { Server } from "styletron-engine-atomic";
 import {
   componentFactory,
   StilrenProvider,
   createElement,
-  StilrenExtender,
-} from './index';
+  StilrenExtender
+} from "./index";
 
 const breakpoints = {
-  alpha: '(min-width: 100px)',
-  beta: '(max-width: 800px)',
+  alpha: "(min-width: 100px)",
+  beta: "(max-width: 800px)"
 };
-const pseudos = ['hover', 'focus'];
+const pseudos = ["hover", "focus"];
 
 function render(Component, props, ...children) {
   const styletron = new Server();
@@ -28,22 +28,22 @@ function render(Component, props, ...children) {
   expect(styletron.getCss()).toMatchSnapshot();
 }
 
-describe('React createFactory', () => {
-  it('should render stuff', () => {
-    const MyComponent = componentFactory('div');
-    const first = createElement('p', { $fontSize: '15px' }, 'Daniel');
+describe("React createFactory", () => {
+  it("should render stuff", () => {
+    const MyComponent = componentFactory("div");
+    const first = createElement("p", { $fontSize: "15px" }, "Daniel");
     const cloned = React.cloneElement(
       first,
       {
-        $fontSize: '25px',
+        $fontSize: "25px"
       },
-      'Cloned'
+      "Cloned"
     );
     render(
       MyComponent,
       {
-        $fontSize: '15px',
-        $alphaFontSize: '25px',
+        $fontSize: "15px",
+        $alphaFontSize: "25px"
       },
       cloned
     );
@@ -53,12 +53,12 @@ describe('React createFactory', () => {
 class Extension {
   foo() {
     return {
-      color: 'red',
+      color: "red"
     };
   }
   baz() {
     return {
-      background: 'yellow',
+      background: "yellow"
     };
   }
 }
@@ -66,28 +66,28 @@ class Extension {
 class Extension2 {
   baz() {
     return {
-      background: 'green',
+      background: "green"
     };
   }
 }
 
-describe('React extensions', () => {
-  it('should render stuff', () => {
+describe("React extensions", () => {
+  it("should render stuff", () => {
     const first = createElement(
-      'p',
-      { $fontSize: '15px', $foo: true, $baz: true },
-      'Daniel'
+      "p",
+      { $fontSize: "15px", $foo: true, $baz: true },
+      "Daniel"
     );
     const body = createElement(
       StilrenExtender,
       {
-        extensions: [Extension],
+        extensions: [Extension]
       },
       first,
       createElement(
         StilrenExtender,
         {
-          extensions: [Extension2],
+          extensions: [Extension2]
         },
         first
       ),
@@ -95,11 +95,11 @@ describe('React extensions', () => {
         StilrenExtender,
         {
           extensions: [Extension2],
-          replace: true,
+          replace: true
         },
         React.cloneElement(first, { $foo: undefined })
       )
     );
-    render('div', {}, body);
+    render("div", {}, body);
   });
 });

@@ -1,32 +1,28 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { createTransformer } from '../index';
-import transformProps from './transformProps';
-import { Provider, Consumer } from './context';
-import { inheritanceStore } from './constants';
-import FreezeStyle from './FreezeStyle';
+import React from "react";
+import PropTypes from "prop-types";
+import { createTransformer } from "../index";
+import transformProps from "./transformProps";
+import context from "./context";
+import { inheritanceStore } from "./constants";
 
 const defaultOptions = {
-  stylePrefix: '$',
+  stylePrefix: "$",
   extensions: []
-}
+};
 
-export function StilrenProvider({
-  children,
-  ...options,
-}) {
-  const value = Object.assign({}, options, defaultOptions)
+export function StilrenProvider({ children, ...options }) {
+  const value = Object.assign({}, options, defaultOptions);
   const transformer = createTransformer(value);
   return React.createElement(
-    Provider,
+    context.Provider,
     {
       value: {
         ...value,
-        transformer,
-      },
+        transformer
+      }
     },
     children
-  )
+  );
 }
 
 StilrenProvider.propTypes = {
@@ -34,29 +30,22 @@ StilrenProvider.propTypes = {
   stylePrefix: PropTypes.string,
   breakpoints: PropTypes.object,
   pseudos: PropTypes.arrayOf(PropTypes.string),
-  extensions: PropTypes.array,
+  extensions: PropTypes.array
 };
 
-export function StilrenExtender({
-  children,
-  extensions,
-  replace = false
-}) {
+export function StilrenExtender({ children, extensions, replace = false }) {
+  const options = React.useContext(context) || {};
+  const value = Object.assign({}, options);
+  value.extensions = replace
+    ? extensions
+    : [...extensions, ...options.extensions];
   return React.createElement(
-    Consumer,
-    {},
-    (options = {}) => {
-      const value = Object.assign({}, options)
-      value.extensions = replace ? extensions : [...extensions, ...options.extensions]
-      return React.createElement(
-        Provider,
-        {
-          value: value,
-        },
-        children
-      )
-    }
-  )
+    context.Provider,
+    {
+      value: value
+    },
+    children
+  );
 }
 
 StilrenExtender.propTypes = {
@@ -64,14 +53,14 @@ StilrenExtender.propTypes = {
   stylePrefix: PropTypes.string,
   breakpoints: PropTypes.object,
   pseudos: PropTypes.arrayOf(PropTypes.string),
-  extensions: PropTypes.array,
+  extensions: PropTypes.array
 };
 
 const cache = {};
 
 export function createElement(Component, ...args) {
   let decoratedComponent = Component;
-  if (typeof Component === 'string') {
+  if (typeof Component === "string") {
     decoratedComponent = cache[Component] =
       cache[Component] || componentFactory(Component);
   }
@@ -91,8 +80,10 @@ export function componentFactory(Component, ...extensions) {
     return ExtendedComponent;
   }
   function StyledElement(props) {
-    return React.createElement(Consumer, null, ctx =>
-      React.createElement(Component, transformProps(props, ctx, extensions))
+    const ctx = React.useContext(context);
+    return React.createElement(
+      Component,
+      transformProps(props, ctx, extensions)
     );
   }
   StyledElement[inheritanceStore] = [Component, extensions];
@@ -102,9 +93,7 @@ export function componentFactory(Component, ...extensions) {
   return StyledElement;
 }
 
-export { Consumer, FreezeStyle };
-
 export default {
   ...React,
-  createElement,
+  createElement
 };

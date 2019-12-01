@@ -1,4 +1,3 @@
-import createReactContext from 'create-react-context';
-const { Provider, Consumer } = createReactContext();
+import React from "react";
 
-export { Provider, Consumer };
+export default React.createContext({});
