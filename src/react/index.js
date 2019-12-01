@@ -69,6 +69,8 @@ export function createElement(Component, ...args) {
   return React.createElement(Component[DECORATE_KEY], ...args);
 }
 
+const identity = id => id;
+
 export function componentFactory(Component, ...extensions) {
   if (Component[inheritanceStore]) {
     const [a, b] = Component[inheritanceStore];
@@ -87,8 +89,11 @@ export function componentFactory(Component, ...extensions) {
       stylePrefix,
       transformer,
       extensions: contextExtensions
-    } = React.useContext(context);
+    } = React.useContext(context) || {};
     const transform = React.useMemo(() => {
+      if (!transformer) {
+        return identity;
+      }
       const transform = transformer(...extensions, ...contextExtensions);
       return props => {
         const elementProps = { ref },
