@@ -7,20 +7,15 @@
   "author": "<danielwerthen@gmail.com>",
   "license": "MIT",
   "private": false,
-  "babel": {
-    "presets": [
-      "babel-preset-es2015"
-    ]
-  },
   "files": [
     "dist/**/*",
     "react.js"
   ],
   "devDependencies": {
-    "babel-cli": "*",
-    "babel-jest": "*",
-    "babel-plugin-transform-object-rest-spread": "*",
-    "babel-preset-es2015": "*",
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-jest": "^24.9.0",
     "jest": "*",
     "prettier": "*",
     "react": "^16.8.0",
@@ -31,7 +26,7 @@
   "scripts": {
     "test": "jest",
     "prepublish": "npm run build",
-    "build": "rimraf dist && babel src --out-dir dist --ignore *.spec.js --presets=es2015 --plugins transform-object-rest-spread"
+    "build": "rimraf dist && babel src -d dist && rimraf dist/**/*.spec.js && rimraf dist/*.spec.js"
   },
   "peerDependencies": {
     "react": "*"
