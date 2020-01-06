@@ -19,6 +19,7 @@ import {
   lazy,
   memo
 } from "react";
+import { extendComponent } from "../extendComponent";
 
 type createElementType = typeof baseCreateElement;
 
@@ -27,7 +28,7 @@ export const createElement: createElementType = ((
   props?: any,
   ...children: any
 ) => {
-  return baseCreateElement(type, props, children);
+  return baseCreateElement(extendComponent(type), props, children);
 }) as createElementType;
 
 type createFactoryType = typeof baseCreateFactory;
