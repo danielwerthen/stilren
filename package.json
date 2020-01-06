@@ -9,12 +9,14 @@
   "private": false,
   "files": [
     "dist/**/*",
-    "react.js"
+    "react.js",
+    "react.d.ts"
   ],
   "devDependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
+    "@types/react": "^16.9.17",
     "babel-jest": "^24.9.0",
     "jest": "*",
     "prettier": "*",
