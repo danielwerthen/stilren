@@ -4,6 +4,7 @@ import { createTransformer } from "../index";
 import context from "./context";
 import { inheritanceStore } from "./constants";
 import { driver } from "styletron-standard";
+export * from 'react'
 
 const defaultOptions = {
   stylePrefix: "$",
