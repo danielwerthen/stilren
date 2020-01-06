@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": false,
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "react.js",
+    "react.d.js"
   ],
   "devDependencies": {
     "@babel/cli": "^7.7.7",
@@ -21,12 +23,14 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "rimraf": "*",
-    "styletron-engine-atomic": "^1.4.4"
+    "styletron-engine-atomic": "^1.4.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.7.4"
   },
   "scripts": {
     "test": "jest",
     "prepublish": "npm run build",
-    "build": "rimraf dist && babel --extensions \".ts,.tsx\" src -d dist && rimraf dist/**/*.spec.js && rimraf dist/*.spec.js"
+    "build": "rimraf dist && babel --extensions \".ts,.tsx\" src -d dist && rimraf dist/**/*.spec.js && rimraf dist/*.spec.js && tsc"
   },
   "peerDependencies": {
     "react": "*"
