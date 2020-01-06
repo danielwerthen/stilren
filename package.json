@@ -1,21 +1,19 @@
 {
   "name": "stilren",
   "description": "Expressive and highly extendable styling api",
-  "version": "0.0.7",
+  "version": "0.1.0-alpha",
   "main": "dist/index.js",
   "repository": "git@github.com:danielwerthen/stilren.git",
   "author": "<danielwerthen@gmail.com>",
   "license": "MIT",
   "private": false,
   "files": [
-    "dist/**/*",
-    "react.js",
-    "react.d.ts"
+    "dist/**/*"
   ],
   "devDependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
     "@types/react": "^16.9.17",
     "babel-jest": "^24.9.0",
     "jest": "*",
@@ -23,17 +21,14 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "rimraf": "*",
-    "styletron-engine-atomic": "^1.0.5"
+    "styletron-engine-atomic": "^1.4.4"
   },
   "scripts": {
     "test": "jest",
     "prepublish": "npm run build",
-    "build": "rimraf dist && babel src -d dist && rimraf dist/**/*.spec.js && rimraf dist/*.spec.js"
+    "build": "rimraf dist && babel --extensions \".ts,.tsx\" src -d dist && rimraf dist/**/*.spec.js && rimraf dist/*.spec.js"
   },
   "peerDependencies": {
     "react": "*"
-  },
-  "dependencies": {
-    "prop-types": "*"
   }
 }
