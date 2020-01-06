@@ -16,6 +16,7 @@
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/preset-typescript": "^7.7.7",
+    "@types/node": "^13.1.4",
     "@types/react": "^16.9.17",
     "babel-jest": "^24.9.0",
     "jest": "*",
@@ -30,9 +31,23 @@
   "scripts": {
     "test": "jest",
     "prepublish": "npm run build",
+    "postinstall": "node dist/postinstall.js",
     "build": "rimraf dist && babel --extensions \".ts,.tsx\" src -d dist && rimraf dist/**/*.spec.js && rimraf dist/*.spec.js && tsc"
   },
   "peerDependencies": {
     "react": "*"
+  },
+  "stilren": {
+    "mediaPrefixes": {
+      "small": "(max-width: 768px)",
+      "medium": "(max-width: 1024px) and (min-width: 769px)",
+      "large": "(min-width: 1025px)"
+    },
+    "pseudoSuffixes": "focus, hover"
+  },
+  "dependencies": {
+    "csstype": "^2.6.8",
+    "humps": "^2.0.1",
+    "mdn-data": "^2.0.6"
   }
 }
