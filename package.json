@@ -2,7 +2,17 @@
   "name": "stilren",
   "description": "Expressive and highly extendable styling api",
   "version": "0.1.0-alpha",
+  "source": "src/index.ts",
   "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "prepublish": "yarn build",
+    "test": "jest",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "postinstall": "node scripts/postinstall.js"
+  },
   "repository": "git@github.com:danielwerthen/stilren.git",
   "author": "<danielwerthen@gmail.com>",
   "license": "MIT",
@@ -13,26 +23,14 @@
     "react.d.js"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.7.7",
-    "@babel/core": "^7.7.7",
-    "@babel/preset-typescript": "^7.7.7",
     "@types/node": "^13.1.4",
     "@types/react": "^16.9.17",
-    "babel-jest": "^24.9.0",
-    "jest": "*",
+    "microbundle": "^0.11.0",
     "prettier": "*",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "rimraf": "*",
-    "styletron-engine-atomic": "^1.4.4",
-    "tsc": "^1.20150623.0",
-    "typescript": "^3.7.4"
-  },
-  "scripts": {
-    "test": "jest",
-    "prepublish": "npm run build",
-    "postinstall": "node dist/postinstall.js",
-    "build": "rimraf dist && babel --extensions \".ts,.tsx\" src -d dist && rimraf dist/**/*.spec.js && rimraf dist/*.spec.js && tsc"
+    "styletron-engine-atomic": "^1.4.4"
   },
   "peerDependencies": {
     "react": "*"

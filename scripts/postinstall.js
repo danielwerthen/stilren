@@ -1,6 +1,6 @@
 const fs = require("fs");
 const humps = require("humps");
-import path from "path";
+const path = require("path");
 
 const prefixes = Object.keys(process.env)
   .filter(key => key.startsWith("npm_package_stilren_mediaPrefixes"))
