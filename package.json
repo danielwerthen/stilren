@@ -46,6 +46,7 @@
   "dependencies": {
     "csstype": "^2.6.8",
     "humps": "^2.0.1",
-    "mdn-data": "^2.0.6"
+    "mdn-data": "^2.0.6",
+    "recast": "^0.18.7"
   }
 }
