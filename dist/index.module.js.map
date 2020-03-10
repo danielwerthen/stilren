@@ -1,1 +1,1 @@
-{"version":3,"file":"index.module.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.module.js","sources":["../src/index.ts"],"sourcesContent":["export function transform(a: number) {\n  return 2 + a;\n}\n"],"names":["transform","a"],"mappings":"SAAgBA,EAAUC,UACjB,EAAIA"}

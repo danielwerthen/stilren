@@ -1,1 +1,1 @@
-export default function Foobar(): void;
+export declare function transform(a: number): number;

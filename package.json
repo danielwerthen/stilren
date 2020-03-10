@@ -23,8 +23,12 @@
     "react.d.js"
   ],
   "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
     "@types/node": "^13.1.4",
     "@types/react": "^16.9.17",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
     "microbundle": "^0.11.0",
     "prettier": "*",
     "react": "^16.8.0",
@@ -44,6 +48,8 @@
     "pseudoSuffixes": "focus, hover"
   },
   "dependencies": {
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.4",
     "csstype": "^2.6.8",
     "humps": "^2.0.1",
     "mdn-data": "^2.0.6",
