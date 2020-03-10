@@ -415,4872 +415,2436 @@
       $largeAlignContent?: AlignContentProperty
       $mediumAlignContent?: AlignContentProperty
       $smallAlignContent?: AlignContentProperty
-      $largeAlignContentFocus?: AlignContentProperty
-      $largeAlignContentHover?: AlignContentProperty
-      $mediumAlignContentFocus?: AlignContentProperty
-      $mediumAlignContentHover?: AlignContentProperty
-      $smallAlignContentFocus?: AlignContentProperty
-      $smallAlignContentHover?: AlignContentProperty
       $alignContentFocus?: AlignContentProperty
       $alignContentHover?: AlignContentProperty
       $alignItems?: AlignItemsProperty
       $largeAlignItems?: AlignItemsProperty
       $mediumAlignItems?: AlignItemsProperty
       $smallAlignItems?: AlignItemsProperty
-      $largeAlignItemsFocus?: AlignItemsProperty
-      $largeAlignItemsHover?: AlignItemsProperty
-      $mediumAlignItemsFocus?: AlignItemsProperty
-      $mediumAlignItemsHover?: AlignItemsProperty
-      $smallAlignItemsFocus?: AlignItemsProperty
-      $smallAlignItemsHover?: AlignItemsProperty
       $alignItemsFocus?: AlignItemsProperty
       $alignItemsHover?: AlignItemsProperty
       $alignSelf?: AlignSelfProperty
       $largeAlignSelf?: AlignSelfProperty
       $mediumAlignSelf?: AlignSelfProperty
       $smallAlignSelf?: AlignSelfProperty
-      $largeAlignSelfFocus?: AlignSelfProperty
-      $largeAlignSelfHover?: AlignSelfProperty
-      $mediumAlignSelfFocus?: AlignSelfProperty
-      $mediumAlignSelfHover?: AlignSelfProperty
-      $smallAlignSelfFocus?: AlignSelfProperty
-      $smallAlignSelfHover?: AlignSelfProperty
       $alignSelfFocus?: AlignSelfProperty
       $alignSelfHover?: AlignSelfProperty
       $animation?: AnimationProperty
       $largeAnimation?: AnimationProperty
       $mediumAnimation?: AnimationProperty
       $smallAnimation?: AnimationProperty
-      $largeAnimationFocus?: AnimationProperty
-      $largeAnimationHover?: AnimationProperty
-      $mediumAnimationFocus?: AnimationProperty
-      $mediumAnimationHover?: AnimationProperty
-      $smallAnimationFocus?: AnimationProperty
-      $smallAnimationHover?: AnimationProperty
       $animationFocus?: AnimationProperty
       $animationHover?: AnimationProperty
       $animationDirection?: AnimationDirectionProperty
       $largeAnimationDirection?: AnimationDirectionProperty
       $mediumAnimationDirection?: AnimationDirectionProperty
       $smallAnimationDirection?: AnimationDirectionProperty
-      $largeAnimationDirectionFocus?: AnimationDirectionProperty
-      $largeAnimationDirectionHover?: AnimationDirectionProperty
-      $mediumAnimationDirectionFocus?: AnimationDirectionProperty
-      $mediumAnimationDirectionHover?: AnimationDirectionProperty
-      $smallAnimationDirectionFocus?: AnimationDirectionProperty
-      $smallAnimationDirectionHover?: AnimationDirectionProperty
       $animationDirectionFocus?: AnimationDirectionProperty
       $animationDirectionHover?: AnimationDirectionProperty
       $animationFillMode?: AnimationFillModeProperty
       $largeAnimationFillMode?: AnimationFillModeProperty
       $mediumAnimationFillMode?: AnimationFillModeProperty
       $smallAnimationFillMode?: AnimationFillModeProperty
-      $largeAnimationFillModeFocus?: AnimationFillModeProperty
-      $largeAnimationFillModeHover?: AnimationFillModeProperty
-      $mediumAnimationFillModeFocus?: AnimationFillModeProperty
-      $mediumAnimationFillModeHover?: AnimationFillModeProperty
-      $smallAnimationFillModeFocus?: AnimationFillModeProperty
-      $smallAnimationFillModeHover?: AnimationFillModeProperty
       $animationFillModeFocus?: AnimationFillModeProperty
       $animationFillModeHover?: AnimationFillModeProperty
       $animationIterationCount?: AnimationIterationCountProperty
       $largeAnimationIterationCount?: AnimationIterationCountProperty
       $mediumAnimationIterationCount?: AnimationIterationCountProperty
       $smallAnimationIterationCount?: AnimationIterationCountProperty
-      $largeAnimationIterationCountFocus?: AnimationIterationCountProperty
-      $largeAnimationIterationCountHover?: AnimationIterationCountProperty
-      $mediumAnimationIterationCountFocus?: AnimationIterationCountProperty
-      $mediumAnimationIterationCountHover?: AnimationIterationCountProperty
-      $smallAnimationIterationCountFocus?: AnimationIterationCountProperty
-      $smallAnimationIterationCountHover?: AnimationIterationCountProperty
       $animationIterationCountFocus?: AnimationIterationCountProperty
       $animationIterationCountHover?: AnimationIterationCountProperty
       $animationName?: AnimationNameProperty
       $largeAnimationName?: AnimationNameProperty
       $mediumAnimationName?: AnimationNameProperty
       $smallAnimationName?: AnimationNameProperty
-      $largeAnimationNameFocus?: AnimationNameProperty
-      $largeAnimationNameHover?: AnimationNameProperty
-      $mediumAnimationNameFocus?: AnimationNameProperty
-      $mediumAnimationNameHover?: AnimationNameProperty
-      $smallAnimationNameFocus?: AnimationNameProperty
-      $smallAnimationNameHover?: AnimationNameProperty
       $animationNameFocus?: AnimationNameProperty
       $animationNameHover?: AnimationNameProperty
       $animationPlayState?: AnimationPlayStateProperty
       $largeAnimationPlayState?: AnimationPlayStateProperty
       $mediumAnimationPlayState?: AnimationPlayStateProperty
       $smallAnimationPlayState?: AnimationPlayStateProperty
-      $largeAnimationPlayStateFocus?: AnimationPlayStateProperty
-      $largeAnimationPlayStateHover?: AnimationPlayStateProperty
-      $mediumAnimationPlayStateFocus?: AnimationPlayStateProperty
-      $mediumAnimationPlayStateHover?: AnimationPlayStateProperty
-      $smallAnimationPlayStateFocus?: AnimationPlayStateProperty
-      $smallAnimationPlayStateHover?: AnimationPlayStateProperty
       $animationPlayStateFocus?: AnimationPlayStateProperty
       $animationPlayStateHover?: AnimationPlayStateProperty
       $animationTimingFunction?: AnimationTimingFunctionProperty
       $largeAnimationTimingFunction?: AnimationTimingFunctionProperty
       $mediumAnimationTimingFunction?: AnimationTimingFunctionProperty
       $smallAnimationTimingFunction?: AnimationTimingFunctionProperty
-      $largeAnimationTimingFunctionFocus?: AnimationTimingFunctionProperty
-      $largeAnimationTimingFunctionHover?: AnimationTimingFunctionProperty
-      $mediumAnimationTimingFunctionFocus?: AnimationTimingFunctionProperty
-      $mediumAnimationTimingFunctionHover?: AnimationTimingFunctionProperty
-      $smallAnimationTimingFunctionFocus?: AnimationTimingFunctionProperty
-      $smallAnimationTimingFunctionHover?: AnimationTimingFunctionProperty
       $animationTimingFunctionFocus?: AnimationTimingFunctionProperty
       $animationTimingFunctionHover?: AnimationTimingFunctionProperty
       $appearance?: AppearanceProperty
       $largeAppearance?: AppearanceProperty
       $mediumAppearance?: AppearanceProperty
       $smallAppearance?: AppearanceProperty
-      $largeAppearanceFocus?: AppearanceProperty
-      $largeAppearanceHover?: AppearanceProperty
-      $mediumAppearanceFocus?: AppearanceProperty
-      $mediumAppearanceHover?: AppearanceProperty
-      $smallAppearanceFocus?: AppearanceProperty
-      $smallAppearanceHover?: AppearanceProperty
       $appearanceFocus?: AppearanceProperty
       $appearanceHover?: AppearanceProperty
       $aspectRatio?: AspectRatioProperty
       $largeAspectRatio?: AspectRatioProperty
       $mediumAspectRatio?: AspectRatioProperty
       $smallAspectRatio?: AspectRatioProperty
-      $largeAspectRatioFocus?: AspectRatioProperty
-      $largeAspectRatioHover?: AspectRatioProperty
-      $mediumAspectRatioFocus?: AspectRatioProperty
-      $mediumAspectRatioHover?: AspectRatioProperty
-      $smallAspectRatioFocus?: AspectRatioProperty
-      $smallAspectRatioHover?: AspectRatioProperty
       $aspectRatioFocus?: AspectRatioProperty
       $aspectRatioHover?: AspectRatioProperty
       $backdropFilter?: BackdropFilterProperty
       $largeBackdropFilter?: BackdropFilterProperty
       $mediumBackdropFilter?: BackdropFilterProperty
       $smallBackdropFilter?: BackdropFilterProperty
-      $largeBackdropFilterFocus?: BackdropFilterProperty
-      $largeBackdropFilterHover?: BackdropFilterProperty
-      $mediumBackdropFilterFocus?: BackdropFilterProperty
-      $mediumBackdropFilterHover?: BackdropFilterProperty
-      $smallBackdropFilterFocus?: BackdropFilterProperty
-      $smallBackdropFilterHover?: BackdropFilterProperty
       $backdropFilterFocus?: BackdropFilterProperty
       $backdropFilterHover?: BackdropFilterProperty
       $backfaceVisibility?: BackfaceVisibilityProperty
       $largeBackfaceVisibility?: BackfaceVisibilityProperty
       $mediumBackfaceVisibility?: BackfaceVisibilityProperty
       $smallBackfaceVisibility?: BackfaceVisibilityProperty
-      $largeBackfaceVisibilityFocus?: BackfaceVisibilityProperty
-      $largeBackfaceVisibilityHover?: BackfaceVisibilityProperty
-      $mediumBackfaceVisibilityFocus?: BackfaceVisibilityProperty
-      $mediumBackfaceVisibilityHover?: BackfaceVisibilityProperty
-      $smallBackfaceVisibilityFocus?: BackfaceVisibilityProperty
-      $smallBackfaceVisibilityHover?: BackfaceVisibilityProperty
       $backfaceVisibilityFocus?: BackfaceVisibilityProperty
       $backfaceVisibilityHover?: BackfaceVisibilityProperty
       $background?: BackgroundProperty<TLength>
       $largeBackground?: BackgroundProperty<TLength>
       $mediumBackground?: BackgroundProperty<TLength>
       $smallBackground?: BackgroundProperty<TLength>
-      $largeBackgroundFocus?: BackgroundProperty<TLength>
-      $largeBackgroundHover?: BackgroundProperty<TLength>
-      $mediumBackgroundFocus?: BackgroundProperty<TLength>
-      $mediumBackgroundHover?: BackgroundProperty<TLength>
-      $smallBackgroundFocus?: BackgroundProperty<TLength>
-      $smallBackgroundHover?: BackgroundProperty<TLength>
       $backgroundFocus?: BackgroundProperty<TLength>
       $backgroundHover?: BackgroundProperty<TLength>
       $backgroundAttachment?: BackgroundAttachmentProperty
       $largeBackgroundAttachment?: BackgroundAttachmentProperty
       $mediumBackgroundAttachment?: BackgroundAttachmentProperty
       $smallBackgroundAttachment?: BackgroundAttachmentProperty
-      $largeBackgroundAttachmentFocus?: BackgroundAttachmentProperty
-      $largeBackgroundAttachmentHover?: BackgroundAttachmentProperty
-      $mediumBackgroundAttachmentFocus?: BackgroundAttachmentProperty
-      $mediumBackgroundAttachmentHover?: BackgroundAttachmentProperty
-      $smallBackgroundAttachmentFocus?: BackgroundAttachmentProperty
-      $smallBackgroundAttachmentHover?: BackgroundAttachmentProperty
       $backgroundAttachmentFocus?: BackgroundAttachmentProperty
       $backgroundAttachmentHover?: BackgroundAttachmentProperty
       $backgroundBlendMode?: BackgroundBlendModeProperty
       $largeBackgroundBlendMode?: BackgroundBlendModeProperty
       $mediumBackgroundBlendMode?: BackgroundBlendModeProperty
       $smallBackgroundBlendMode?: BackgroundBlendModeProperty
-      $largeBackgroundBlendModeFocus?: BackgroundBlendModeProperty
-      $largeBackgroundBlendModeHover?: BackgroundBlendModeProperty
-      $mediumBackgroundBlendModeFocus?: BackgroundBlendModeProperty
-      $mediumBackgroundBlendModeHover?: BackgroundBlendModeProperty
-      $smallBackgroundBlendModeFocus?: BackgroundBlendModeProperty
-      $smallBackgroundBlendModeHover?: BackgroundBlendModeProperty
       $backgroundBlendModeFocus?: BackgroundBlendModeProperty
       $backgroundBlendModeHover?: BackgroundBlendModeProperty
       $backgroundClip?: BackgroundClipProperty
       $largeBackgroundClip?: BackgroundClipProperty
       $mediumBackgroundClip?: BackgroundClipProperty
       $smallBackgroundClip?: BackgroundClipProperty
-      $largeBackgroundClipFocus?: BackgroundClipProperty
-      $largeBackgroundClipHover?: BackgroundClipProperty
-      $mediumBackgroundClipFocus?: BackgroundClipProperty
-      $mediumBackgroundClipHover?: BackgroundClipProperty
-      $smallBackgroundClipFocus?: BackgroundClipProperty
-      $smallBackgroundClipHover?: BackgroundClipProperty
       $backgroundClipFocus?: BackgroundClipProperty
       $backgroundClipHover?: BackgroundClipProperty
       $backgroundColor?: BackgroundColorProperty
       $largeBackgroundColor?: BackgroundColorProperty
       $mediumBackgroundColor?: BackgroundColorProperty
       $smallBackgroundColor?: BackgroundColorProperty
-      $largeBackgroundColorFocus?: BackgroundColorProperty
-      $largeBackgroundColorHover?: BackgroundColorProperty
-      $mediumBackgroundColorFocus?: BackgroundColorProperty
-      $mediumBackgroundColorHover?: BackgroundColorProperty
-      $smallBackgroundColorFocus?: BackgroundColorProperty
-      $smallBackgroundColorHover?: BackgroundColorProperty
       $backgroundColorFocus?: BackgroundColorProperty
       $backgroundColorHover?: BackgroundColorProperty
       $backgroundImage?: BackgroundImageProperty
       $largeBackgroundImage?: BackgroundImageProperty
       $mediumBackgroundImage?: BackgroundImageProperty
       $smallBackgroundImage?: BackgroundImageProperty
-      $largeBackgroundImageFocus?: BackgroundImageProperty
-      $largeBackgroundImageHover?: BackgroundImageProperty
-      $mediumBackgroundImageFocus?: BackgroundImageProperty
-      $mediumBackgroundImageHover?: BackgroundImageProperty
-      $smallBackgroundImageFocus?: BackgroundImageProperty
-      $smallBackgroundImageHover?: BackgroundImageProperty
       $backgroundImageFocus?: BackgroundImageProperty
       $backgroundImageHover?: BackgroundImageProperty
       $backgroundOrigin?: BackgroundOriginProperty
       $largeBackgroundOrigin?: BackgroundOriginProperty
       $mediumBackgroundOrigin?: BackgroundOriginProperty
       $smallBackgroundOrigin?: BackgroundOriginProperty
-      $largeBackgroundOriginFocus?: BackgroundOriginProperty
-      $largeBackgroundOriginHover?: BackgroundOriginProperty
-      $mediumBackgroundOriginFocus?: BackgroundOriginProperty
-      $mediumBackgroundOriginHover?: BackgroundOriginProperty
-      $smallBackgroundOriginFocus?: BackgroundOriginProperty
-      $smallBackgroundOriginHover?: BackgroundOriginProperty
       $backgroundOriginFocus?: BackgroundOriginProperty
       $backgroundOriginHover?: BackgroundOriginProperty
       $backgroundPosition?: BackgroundPositionProperty<TLength>
       $largeBackgroundPosition?: BackgroundPositionProperty<TLength>
       $mediumBackgroundPosition?: BackgroundPositionProperty<TLength>
       $smallBackgroundPosition?: BackgroundPositionProperty<TLength>
-      $largeBackgroundPositionFocus?: BackgroundPositionProperty<TLength>
-      $largeBackgroundPositionHover?: BackgroundPositionProperty<TLength>
-      $mediumBackgroundPositionFocus?: BackgroundPositionProperty<TLength>
-      $mediumBackgroundPositionHover?: BackgroundPositionProperty<TLength>
-      $smallBackgroundPositionFocus?: BackgroundPositionProperty<TLength>
-      $smallBackgroundPositionHover?: BackgroundPositionProperty<TLength>
       $backgroundPositionFocus?: BackgroundPositionProperty<TLength>
       $backgroundPositionHover?: BackgroundPositionProperty<TLength>
       $backgroundPositionX?: BackgroundPositionXProperty<TLength>
       $largeBackgroundPositionX?: BackgroundPositionXProperty<TLength>
       $mediumBackgroundPositionX?: BackgroundPositionXProperty<TLength>
       $smallBackgroundPositionX?: BackgroundPositionXProperty<TLength>
-      $largeBackgroundPositionXFocus?: BackgroundPositionXProperty<TLength>
-      $largeBackgroundPositionXHover?: BackgroundPositionXProperty<TLength>
-      $mediumBackgroundPositionXFocus?: BackgroundPositionXProperty<TLength>
-      $mediumBackgroundPositionXHover?: BackgroundPositionXProperty<TLength>
-      $smallBackgroundPositionXFocus?: BackgroundPositionXProperty<TLength>
-      $smallBackgroundPositionXHover?: BackgroundPositionXProperty<TLength>
       $backgroundPositionXFocus?: BackgroundPositionXProperty<TLength>
       $backgroundPositionXHover?: BackgroundPositionXProperty<TLength>
       $backgroundPositionY?: BackgroundPositionYProperty<TLength>
       $largeBackgroundPositionY?: BackgroundPositionYProperty<TLength>
       $mediumBackgroundPositionY?: BackgroundPositionYProperty<TLength>
       $smallBackgroundPositionY?: BackgroundPositionYProperty<TLength>
-      $largeBackgroundPositionYFocus?: BackgroundPositionYProperty<TLength>
-      $largeBackgroundPositionYHover?: BackgroundPositionYProperty<TLength>
-      $mediumBackgroundPositionYFocus?: BackgroundPositionYProperty<TLength>
-      $mediumBackgroundPositionYHover?: BackgroundPositionYProperty<TLength>
-      $smallBackgroundPositionYFocus?: BackgroundPositionYProperty<TLength>
-      $smallBackgroundPositionYHover?: BackgroundPositionYProperty<TLength>
       $backgroundPositionYFocus?: BackgroundPositionYProperty<TLength>
       $backgroundPositionYHover?: BackgroundPositionYProperty<TLength>
       $backgroundRepeat?: BackgroundRepeatProperty
       $largeBackgroundRepeat?: BackgroundRepeatProperty
       $mediumBackgroundRepeat?: BackgroundRepeatProperty
       $smallBackgroundRepeat?: BackgroundRepeatProperty
-      $largeBackgroundRepeatFocus?: BackgroundRepeatProperty
-      $largeBackgroundRepeatHover?: BackgroundRepeatProperty
-      $mediumBackgroundRepeatFocus?: BackgroundRepeatProperty
-      $mediumBackgroundRepeatHover?: BackgroundRepeatProperty
-      $smallBackgroundRepeatFocus?: BackgroundRepeatProperty
-      $smallBackgroundRepeatHover?: BackgroundRepeatProperty
       $backgroundRepeatFocus?: BackgroundRepeatProperty
       $backgroundRepeatHover?: BackgroundRepeatProperty
       $backgroundSize?: BackgroundSizeProperty<TLength>
       $largeBackgroundSize?: BackgroundSizeProperty<TLength>
       $mediumBackgroundSize?: BackgroundSizeProperty<TLength>
       $smallBackgroundSize?: BackgroundSizeProperty<TLength>
-      $largeBackgroundSizeFocus?: BackgroundSizeProperty<TLength>
-      $largeBackgroundSizeHover?: BackgroundSizeProperty<TLength>
-      $mediumBackgroundSizeFocus?: BackgroundSizeProperty<TLength>
-      $mediumBackgroundSizeHover?: BackgroundSizeProperty<TLength>
-      $smallBackgroundSizeFocus?: BackgroundSizeProperty<TLength>
-      $smallBackgroundSizeHover?: BackgroundSizeProperty<TLength>
       $backgroundSizeFocus?: BackgroundSizeProperty<TLength>
       $backgroundSizeHover?: BackgroundSizeProperty<TLength>
       $blockOverflow?: BlockOverflowProperty
       $largeBlockOverflow?: BlockOverflowProperty
       $mediumBlockOverflow?: BlockOverflowProperty
       $smallBlockOverflow?: BlockOverflowProperty
-      $largeBlockOverflowFocus?: BlockOverflowProperty
-      $largeBlockOverflowHover?: BlockOverflowProperty
-      $mediumBlockOverflowFocus?: BlockOverflowProperty
-      $mediumBlockOverflowHover?: BlockOverflowProperty
-      $smallBlockOverflowFocus?: BlockOverflowProperty
-      $smallBlockOverflowHover?: BlockOverflowProperty
       $blockOverflowFocus?: BlockOverflowProperty
       $blockOverflowHover?: BlockOverflowProperty
       $blockSize?: BlockSizeProperty<TLength>
       $largeBlockSize?: BlockSizeProperty<TLength>
       $mediumBlockSize?: BlockSizeProperty<TLength>
       $smallBlockSize?: BlockSizeProperty<TLength>
-      $largeBlockSizeFocus?: BlockSizeProperty<TLength>
-      $largeBlockSizeHover?: BlockSizeProperty<TLength>
-      $mediumBlockSizeFocus?: BlockSizeProperty<TLength>
-      $mediumBlockSizeHover?: BlockSizeProperty<TLength>
-      $smallBlockSizeFocus?: BlockSizeProperty<TLength>
-      $smallBlockSizeHover?: BlockSizeProperty<TLength>
       $blockSizeFocus?: BlockSizeProperty<TLength>
       $blockSizeHover?: BlockSizeProperty<TLength>
       $border?: BorderProperty<TLength>
       $largeBorder?: BorderProperty<TLength>
       $mediumBorder?: BorderProperty<TLength>
       $smallBorder?: BorderProperty<TLength>
-      $largeBorderFocus?: BorderProperty<TLength>
-      $largeBorderHover?: BorderProperty<TLength>
-      $mediumBorderFocus?: BorderProperty<TLength>
-      $mediumBorderHover?: BorderProperty<TLength>
-      $smallBorderFocus?: BorderProperty<TLength>
-      $smallBorderHover?: BorderProperty<TLength>
       $borderFocus?: BorderProperty<TLength>
       $borderHover?: BorderProperty<TLength>
       $borderBlock?: BorderBlockProperty<TLength>
       $largeBorderBlock?: BorderBlockProperty<TLength>
       $mediumBorderBlock?: BorderBlockProperty<TLength>
       $smallBorderBlock?: BorderBlockProperty<TLength>
-      $largeBorderBlockFocus?: BorderBlockProperty<TLength>
-      $largeBorderBlockHover?: BorderBlockProperty<TLength>
-      $mediumBorderBlockFocus?: BorderBlockProperty<TLength>
-      $mediumBorderBlockHover?: BorderBlockProperty<TLength>
-      $smallBorderBlockFocus?: BorderBlockProperty<TLength>
-      $smallBorderBlockHover?: BorderBlockProperty<TLength>
       $borderBlockFocus?: BorderBlockProperty<TLength>
       $borderBlockHover?: BorderBlockProperty<TLength>
       $borderBlockColor?: BorderBlockColorProperty
       $largeBorderBlockColor?: BorderBlockColorProperty
       $mediumBorderBlockColor?: BorderBlockColorProperty
       $smallBorderBlockColor?: BorderBlockColorProperty
-      $largeBorderBlockColorFocus?: BorderBlockColorProperty
-      $largeBorderBlockColorHover?: BorderBlockColorProperty
-      $mediumBorderBlockColorFocus?: BorderBlockColorProperty
-      $mediumBorderBlockColorHover?: BorderBlockColorProperty
-      $smallBorderBlockColorFocus?: BorderBlockColorProperty
-      $smallBorderBlockColorHover?: BorderBlockColorProperty
       $borderBlockColorFocus?: BorderBlockColorProperty
       $borderBlockColorHover?: BorderBlockColorProperty
       $borderBlockEnd?: BorderBlockEndProperty<TLength>
       $largeBorderBlockEnd?: BorderBlockEndProperty<TLength>
       $mediumBorderBlockEnd?: BorderBlockEndProperty<TLength>
       $smallBorderBlockEnd?: BorderBlockEndProperty<TLength>
-      $largeBorderBlockEndFocus?: BorderBlockEndProperty<TLength>
-      $largeBorderBlockEndHover?: BorderBlockEndProperty<TLength>
-      $mediumBorderBlockEndFocus?: BorderBlockEndProperty<TLength>
-      $mediumBorderBlockEndHover?: BorderBlockEndProperty<TLength>
-      $smallBorderBlockEndFocus?: BorderBlockEndProperty<TLength>
-      $smallBorderBlockEndHover?: BorderBlockEndProperty<TLength>
       $borderBlockEndFocus?: BorderBlockEndProperty<TLength>
       $borderBlockEndHover?: BorderBlockEndProperty<TLength>
       $borderBlockEndColor?: BorderBlockEndColorProperty
       $largeBorderBlockEndColor?: BorderBlockEndColorProperty
       $mediumBorderBlockEndColor?: BorderBlockEndColorProperty
       $smallBorderBlockEndColor?: BorderBlockEndColorProperty
-      $largeBorderBlockEndColorFocus?: BorderBlockEndColorProperty
-      $largeBorderBlockEndColorHover?: BorderBlockEndColorProperty
-      $mediumBorderBlockEndColorFocus?: BorderBlockEndColorProperty
-      $mediumBorderBlockEndColorHover?: BorderBlockEndColorProperty
-      $smallBorderBlockEndColorFocus?: BorderBlockEndColorProperty
-      $smallBorderBlockEndColorHover?: BorderBlockEndColorProperty
       $borderBlockEndColorFocus?: BorderBlockEndColorProperty
       $borderBlockEndColorHover?: BorderBlockEndColorProperty
       $borderBlockEndStyle?: BorderBlockEndStyleProperty
       $largeBorderBlockEndStyle?: BorderBlockEndStyleProperty
       $mediumBorderBlockEndStyle?: BorderBlockEndStyleProperty
       $smallBorderBlockEndStyle?: BorderBlockEndStyleProperty
-      $largeBorderBlockEndStyleFocus?: BorderBlockEndStyleProperty
-      $largeBorderBlockEndStyleHover?: BorderBlockEndStyleProperty
-      $mediumBorderBlockEndStyleFocus?: BorderBlockEndStyleProperty
-      $mediumBorderBlockEndStyleHover?: BorderBlockEndStyleProperty
-      $smallBorderBlockEndStyleFocus?: BorderBlockEndStyleProperty
-      $smallBorderBlockEndStyleHover?: BorderBlockEndStyleProperty
       $borderBlockEndStyleFocus?: BorderBlockEndStyleProperty
       $borderBlockEndStyleHover?: BorderBlockEndStyleProperty
       $borderBlockEndWidth?: BorderBlockEndWidthProperty<TLength>
       $largeBorderBlockEndWidth?: BorderBlockEndWidthProperty<TLength>
       $mediumBorderBlockEndWidth?: BorderBlockEndWidthProperty<TLength>
       $smallBorderBlockEndWidth?: BorderBlockEndWidthProperty<TLength>
-      $largeBorderBlockEndWidthFocus?: BorderBlockEndWidthProperty<TLength>
-      $largeBorderBlockEndWidthHover?: BorderBlockEndWidthProperty<TLength>
-      $mediumBorderBlockEndWidthFocus?: BorderBlockEndWidthProperty<TLength>
-      $mediumBorderBlockEndWidthHover?: BorderBlockEndWidthProperty<TLength>
-      $smallBorderBlockEndWidthFocus?: BorderBlockEndWidthProperty<TLength>
-      $smallBorderBlockEndWidthHover?: BorderBlockEndWidthProperty<TLength>
       $borderBlockEndWidthFocus?: BorderBlockEndWidthProperty<TLength>
       $borderBlockEndWidthHover?: BorderBlockEndWidthProperty<TLength>
       $borderBlockStart?: BorderBlockStartProperty<TLength>
       $largeBorderBlockStart?: BorderBlockStartProperty<TLength>
       $mediumBorderBlockStart?: BorderBlockStartProperty<TLength>
       $smallBorderBlockStart?: BorderBlockStartProperty<TLength>
-      $largeBorderBlockStartFocus?: BorderBlockStartProperty<TLength>
-      $largeBorderBlockStartHover?: BorderBlockStartProperty<TLength>
-      $mediumBorderBlockStartFocus?: BorderBlockStartProperty<TLength>
-      $mediumBorderBlockStartHover?: BorderBlockStartProperty<TLength>
-      $smallBorderBlockStartFocus?: BorderBlockStartProperty<TLength>
-      $smallBorderBlockStartHover?: BorderBlockStartProperty<TLength>
       $borderBlockStartFocus?: BorderBlockStartProperty<TLength>
       $borderBlockStartHover?: BorderBlockStartProperty<TLength>
       $borderBlockStartColor?: BorderBlockStartColorProperty
       $largeBorderBlockStartColor?: BorderBlockStartColorProperty
       $mediumBorderBlockStartColor?: BorderBlockStartColorProperty
       $smallBorderBlockStartColor?: BorderBlockStartColorProperty
-      $largeBorderBlockStartColorFocus?: BorderBlockStartColorProperty
-      $largeBorderBlockStartColorHover?: BorderBlockStartColorProperty
-      $mediumBorderBlockStartColorFocus?: BorderBlockStartColorProperty
-      $mediumBorderBlockStartColorHover?: BorderBlockStartColorProperty
-      $smallBorderBlockStartColorFocus?: BorderBlockStartColorProperty
-      $smallBorderBlockStartColorHover?: BorderBlockStartColorProperty
       $borderBlockStartColorFocus?: BorderBlockStartColorProperty
       $borderBlockStartColorHover?: BorderBlockStartColorProperty
       $borderBlockStartStyle?: BorderBlockStartStyleProperty
       $largeBorderBlockStartStyle?: BorderBlockStartStyleProperty
       $mediumBorderBlockStartStyle?: BorderBlockStartStyleProperty
       $smallBorderBlockStartStyle?: BorderBlockStartStyleProperty
-      $largeBorderBlockStartStyleFocus?: BorderBlockStartStyleProperty
-      $largeBorderBlockStartStyleHover?: BorderBlockStartStyleProperty
-      $mediumBorderBlockStartStyleFocus?: BorderBlockStartStyleProperty
-      $mediumBorderBlockStartStyleHover?: BorderBlockStartStyleProperty
-      $smallBorderBlockStartStyleFocus?: BorderBlockStartStyleProperty
-      $smallBorderBlockStartStyleHover?: BorderBlockStartStyleProperty
       $borderBlockStartStyleFocus?: BorderBlockStartStyleProperty
       $borderBlockStartStyleHover?: BorderBlockStartStyleProperty
       $borderBlockStartWidth?: BorderBlockStartWidthProperty<TLength>
       $largeBorderBlockStartWidth?: BorderBlockStartWidthProperty<TLength>
       $mediumBorderBlockStartWidth?: BorderBlockStartWidthProperty<TLength>
       $smallBorderBlockStartWidth?: BorderBlockStartWidthProperty<TLength>
-      $largeBorderBlockStartWidthFocus?: BorderBlockStartWidthProperty<TLength>
-      $largeBorderBlockStartWidthHover?: BorderBlockStartWidthProperty<TLength>
-      $mediumBorderBlockStartWidthFocus?: BorderBlockStartWidthProperty<TLength>
-      $mediumBorderBlockStartWidthHover?: BorderBlockStartWidthProperty<TLength>
-      $smallBorderBlockStartWidthFocus?: BorderBlockStartWidthProperty<TLength>
-      $smallBorderBlockStartWidthHover?: BorderBlockStartWidthProperty<TLength>
       $borderBlockStartWidthFocus?: BorderBlockStartWidthProperty<TLength>
       $borderBlockStartWidthHover?: BorderBlockStartWidthProperty<TLength>
       $borderBlockStyle?: BorderBlockStyleProperty
       $largeBorderBlockStyle?: BorderBlockStyleProperty
       $mediumBorderBlockStyle?: BorderBlockStyleProperty
       $smallBorderBlockStyle?: BorderBlockStyleProperty
-      $largeBorderBlockStyleFocus?: BorderBlockStyleProperty
-      $largeBorderBlockStyleHover?: BorderBlockStyleProperty
-      $mediumBorderBlockStyleFocus?: BorderBlockStyleProperty
-      $mediumBorderBlockStyleHover?: BorderBlockStyleProperty
-      $smallBorderBlockStyleFocus?: BorderBlockStyleProperty
-      $smallBorderBlockStyleHover?: BorderBlockStyleProperty
       $borderBlockStyleFocus?: BorderBlockStyleProperty
       $borderBlockStyleHover?: BorderBlockStyleProperty
       $borderBlockWidth?: BorderBlockWidthProperty<TLength>
       $largeBorderBlockWidth?: BorderBlockWidthProperty<TLength>
       $mediumBorderBlockWidth?: BorderBlockWidthProperty<TLength>
       $smallBorderBlockWidth?: BorderBlockWidthProperty<TLength>
-      $largeBorderBlockWidthFocus?: BorderBlockWidthProperty<TLength>
-      $largeBorderBlockWidthHover?: BorderBlockWidthProperty<TLength>
-      $mediumBorderBlockWidthFocus?: BorderBlockWidthProperty<TLength>
-      $mediumBorderBlockWidthHover?: BorderBlockWidthProperty<TLength>
-      $smallBorderBlockWidthFocus?: BorderBlockWidthProperty<TLength>
-      $smallBorderBlockWidthHover?: BorderBlockWidthProperty<TLength>
       $borderBlockWidthFocus?: BorderBlockWidthProperty<TLength>
       $borderBlockWidthHover?: BorderBlockWidthProperty<TLength>
       $borderBottom?: BorderBottomProperty<TLength>
       $largeBorderBottom?: BorderBottomProperty<TLength>
       $mediumBorderBottom?: BorderBottomProperty<TLength>
       $smallBorderBottom?: BorderBottomProperty<TLength>
-      $largeBorderBottomFocus?: BorderBottomProperty<TLength>
-      $largeBorderBottomHover?: BorderBottomProperty<TLength>
-      $mediumBorderBottomFocus?: BorderBottomProperty<TLength>
-      $mediumBorderBottomHover?: BorderBottomProperty<TLength>
-      $smallBorderBottomFocus?: BorderBottomProperty<TLength>
-      $smallBorderBottomHover?: BorderBottomProperty<TLength>
       $borderBottomFocus?: BorderBottomProperty<TLength>
       $borderBottomHover?: BorderBottomProperty<TLength>
       $borderBottomColor?: BorderBottomColorProperty
       $largeBorderBottomColor?: BorderBottomColorProperty
       $mediumBorderBottomColor?: BorderBottomColorProperty
       $smallBorderBottomColor?: BorderBottomColorProperty
-      $largeBorderBottomColorFocus?: BorderBottomColorProperty
-      $largeBorderBottomColorHover?: BorderBottomColorProperty
-      $mediumBorderBottomColorFocus?: BorderBottomColorProperty
-      $mediumBorderBottomColorHover?: BorderBottomColorProperty
-      $smallBorderBottomColorFocus?: BorderBottomColorProperty
-      $smallBorderBottomColorHover?: BorderBottomColorProperty
       $borderBottomColorFocus?: BorderBottomColorProperty
       $borderBottomColorHover?: BorderBottomColorProperty
       $borderBottomLeftRadius?: BorderBottomLeftRadiusProperty<TLength>
       $largeBorderBottomLeftRadius?: BorderBottomLeftRadiusProperty<TLength>
       $mediumBorderBottomLeftRadius?: BorderBottomLeftRadiusProperty<TLength>
       $smallBorderBottomLeftRadius?: BorderBottomLeftRadiusProperty<TLength>
-      $largeBorderBottomLeftRadiusFocus?: BorderBottomLeftRadiusProperty<TLength>
-      $largeBorderBottomLeftRadiusHover?: BorderBottomLeftRadiusProperty<TLength>
-      $mediumBorderBottomLeftRadiusFocus?: BorderBottomLeftRadiusProperty<TLength>
-      $mediumBorderBottomLeftRadiusHover?: BorderBottomLeftRadiusProperty<TLength>
-      $smallBorderBottomLeftRadiusFocus?: BorderBottomLeftRadiusProperty<TLength>
-      $smallBorderBottomLeftRadiusHover?: BorderBottomLeftRadiusProperty<TLength>
       $borderBottomLeftRadiusFocus?: BorderBottomLeftRadiusProperty<TLength>
       $borderBottomLeftRadiusHover?: BorderBottomLeftRadiusProperty<TLength>
       $borderBottomRightRadius?: BorderBottomRightRadiusProperty<TLength>
       $largeBorderBottomRightRadius?: BorderBottomRightRadiusProperty<TLength>
       $mediumBorderBottomRightRadius?: BorderBottomRightRadiusProperty<TLength>
       $smallBorderBottomRightRadius?: BorderBottomRightRadiusProperty<TLength>
-      $largeBorderBottomRightRadiusFocus?: BorderBottomRightRadiusProperty<TLength>
-      $largeBorderBottomRightRadiusHover?: BorderBottomRightRadiusProperty<TLength>
-      $mediumBorderBottomRightRadiusFocus?: BorderBottomRightRadiusProperty<TLength>
-      $mediumBorderBottomRightRadiusHover?: BorderBottomRightRadiusProperty<TLength>
-      $smallBorderBottomRightRadiusFocus?: BorderBottomRightRadiusProperty<TLength>
-      $smallBorderBottomRightRadiusHover?: BorderBottomRightRadiusProperty<TLength>
       $borderBottomRightRadiusFocus?: BorderBottomRightRadiusProperty<TLength>
       $borderBottomRightRadiusHover?: BorderBottomRightRadiusProperty<TLength>
       $borderBottomStyle?: BorderBottomStyleProperty
       $largeBorderBottomStyle?: BorderBottomStyleProperty
       $mediumBorderBottomStyle?: BorderBottomStyleProperty
       $smallBorderBottomStyle?: BorderBottomStyleProperty
-      $largeBorderBottomStyleFocus?: BorderBottomStyleProperty
-      $largeBorderBottomStyleHover?: BorderBottomStyleProperty
-      $mediumBorderBottomStyleFocus?: BorderBottomStyleProperty
-      $mediumBorderBottomStyleHover?: BorderBottomStyleProperty
-      $smallBorderBottomStyleFocus?: BorderBottomStyleProperty
-      $smallBorderBottomStyleHover?: BorderBottomStyleProperty
       $borderBottomStyleFocus?: BorderBottomStyleProperty
       $borderBottomStyleHover?: BorderBottomStyleProperty
       $borderBottomWidth?: BorderBottomWidthProperty<TLength>
       $largeBorderBottomWidth?: BorderBottomWidthProperty<TLength>
       $mediumBorderBottomWidth?: BorderBottomWidthProperty<TLength>
       $smallBorderBottomWidth?: BorderBottomWidthProperty<TLength>
-      $largeBorderBottomWidthFocus?: BorderBottomWidthProperty<TLength>
-      $largeBorderBottomWidthHover?: BorderBottomWidthProperty<TLength>
-      $mediumBorderBottomWidthFocus?: BorderBottomWidthProperty<TLength>
-      $mediumBorderBottomWidthHover?: BorderBottomWidthProperty<TLength>
-      $smallBorderBottomWidthFocus?: BorderBottomWidthProperty<TLength>
-      $smallBorderBottomWidthHover?: BorderBottomWidthProperty<TLength>
       $borderBottomWidthFocus?: BorderBottomWidthProperty<TLength>
       $borderBottomWidthHover?: BorderBottomWidthProperty<TLength>
       $borderCollapse?: BorderCollapseProperty
       $largeBorderCollapse?: BorderCollapseProperty
       $mediumBorderCollapse?: BorderCollapseProperty
       $smallBorderCollapse?: BorderCollapseProperty
-      $largeBorderCollapseFocus?: BorderCollapseProperty
-      $largeBorderCollapseHover?: BorderCollapseProperty
-      $mediumBorderCollapseFocus?: BorderCollapseProperty
-      $mediumBorderCollapseHover?: BorderCollapseProperty
-      $smallBorderCollapseFocus?: BorderCollapseProperty
-      $smallBorderCollapseHover?: BorderCollapseProperty
       $borderCollapseFocus?: BorderCollapseProperty
       $borderCollapseHover?: BorderCollapseProperty
       $borderColor?: BorderColorProperty
       $largeBorderColor?: BorderColorProperty
       $mediumBorderColor?: BorderColorProperty
       $smallBorderColor?: BorderColorProperty
-      $largeBorderColorFocus?: BorderColorProperty
-      $largeBorderColorHover?: BorderColorProperty
-      $mediumBorderColorFocus?: BorderColorProperty
-      $mediumBorderColorHover?: BorderColorProperty
-      $smallBorderColorFocus?: BorderColorProperty
-      $smallBorderColorHover?: BorderColorProperty
       $borderColorFocus?: BorderColorProperty
       $borderColorHover?: BorderColorProperty
       $borderEndEndRadius?: BorderEndEndRadiusProperty<TLength>
       $largeBorderEndEndRadius?: BorderEndEndRadiusProperty<TLength>
       $mediumBorderEndEndRadius?: BorderEndEndRadiusProperty<TLength>
       $smallBorderEndEndRadius?: BorderEndEndRadiusProperty<TLength>
-      $largeBorderEndEndRadiusFocus?: BorderEndEndRadiusProperty<TLength>
-      $largeBorderEndEndRadiusHover?: BorderEndEndRadiusProperty<TLength>
-      $mediumBorderEndEndRadiusFocus?: BorderEndEndRadiusProperty<TLength>
-      $mediumBorderEndEndRadiusHover?: BorderEndEndRadiusProperty<TLength>
-      $smallBorderEndEndRadiusFocus?: BorderEndEndRadiusProperty<TLength>
-      $smallBorderEndEndRadiusHover?: BorderEndEndRadiusProperty<TLength>
       $borderEndEndRadiusFocus?: BorderEndEndRadiusProperty<TLength>
       $borderEndEndRadiusHover?: BorderEndEndRadiusProperty<TLength>
       $borderEndStartRadius?: BorderEndStartRadiusProperty<TLength>
       $largeBorderEndStartRadius?: BorderEndStartRadiusProperty<TLength>
       $mediumBorderEndStartRadius?: BorderEndStartRadiusProperty<TLength>
       $smallBorderEndStartRadius?: BorderEndStartRadiusProperty<TLength>
-      $largeBorderEndStartRadiusFocus?: BorderEndStartRadiusProperty<TLength>
-      $largeBorderEndStartRadiusHover?: BorderEndStartRadiusProperty<TLength>
-      $mediumBorderEndStartRadiusFocus?: BorderEndStartRadiusProperty<TLength>
-      $mediumBorderEndStartRadiusHover?: BorderEndStartRadiusProperty<TLength>
-      $smallBorderEndStartRadiusFocus?: BorderEndStartRadiusProperty<TLength>
-      $smallBorderEndStartRadiusHover?: BorderEndStartRadiusProperty<TLength>
       $borderEndStartRadiusFocus?: BorderEndStartRadiusProperty<TLength>
       $borderEndStartRadiusHover?: BorderEndStartRadiusProperty<TLength>
       $borderImage?: BorderImageProperty
       $largeBorderImage?: BorderImageProperty
       $mediumBorderImage?: BorderImageProperty
       $smallBorderImage?: BorderImageProperty
-      $largeBorderImageFocus?: BorderImageProperty
-      $largeBorderImageHover?: BorderImageProperty
-      $mediumBorderImageFocus?: BorderImageProperty
-      $mediumBorderImageHover?: BorderImageProperty
-      $smallBorderImageFocus?: BorderImageProperty
-      $smallBorderImageHover?: BorderImageProperty
       $borderImageFocus?: BorderImageProperty
       $borderImageHover?: BorderImageProperty
       $borderImageOutset?: BorderImageOutsetProperty<TLength>
       $largeBorderImageOutset?: BorderImageOutsetProperty<TLength>
       $mediumBorderImageOutset?: BorderImageOutsetProperty<TLength>
       $smallBorderImageOutset?: BorderImageOutsetProperty<TLength>
-      $largeBorderImageOutsetFocus?: BorderImageOutsetProperty<TLength>
-      $largeBorderImageOutsetHover?: BorderImageOutsetProperty<TLength>
-      $mediumBorderImageOutsetFocus?: BorderImageOutsetProperty<TLength>
-      $mediumBorderImageOutsetHover?: BorderImageOutsetProperty<TLength>
-      $smallBorderImageOutsetFocus?: BorderImageOutsetProperty<TLength>
-      $smallBorderImageOutsetHover?: BorderImageOutsetProperty<TLength>
       $borderImageOutsetFocus?: BorderImageOutsetProperty<TLength>
       $borderImageOutsetHover?: BorderImageOutsetProperty<TLength>
       $borderImageRepeat?: BorderImageRepeatProperty
       $largeBorderImageRepeat?: BorderImageRepeatProperty
       $mediumBorderImageRepeat?: BorderImageRepeatProperty
       $smallBorderImageRepeat?: BorderImageRepeatProperty
-      $largeBorderImageRepeatFocus?: BorderImageRepeatProperty
-      $largeBorderImageRepeatHover?: BorderImageRepeatProperty
-      $mediumBorderImageRepeatFocus?: BorderImageRepeatProperty
-      $mediumBorderImageRepeatHover?: BorderImageRepeatProperty
-      $smallBorderImageRepeatFocus?: BorderImageRepeatProperty
-      $smallBorderImageRepeatHover?: BorderImageRepeatProperty
       $borderImageRepeatFocus?: BorderImageRepeatProperty
       $borderImageRepeatHover?: BorderImageRepeatProperty
       $borderImageSlice?: BorderImageSliceProperty
       $largeBorderImageSlice?: BorderImageSliceProperty
       $mediumBorderImageSlice?: BorderImageSliceProperty
       $smallBorderImageSlice?: BorderImageSliceProperty
-      $largeBorderImageSliceFocus?: BorderImageSliceProperty
-      $largeBorderImageSliceHover?: BorderImageSliceProperty
-      $mediumBorderImageSliceFocus?: BorderImageSliceProperty
-      $mediumBorderImageSliceHover?: BorderImageSliceProperty
-      $smallBorderImageSliceFocus?: BorderImageSliceProperty
-      $smallBorderImageSliceHover?: BorderImageSliceProperty
       $borderImageSliceFocus?: BorderImageSliceProperty
       $borderImageSliceHover?: BorderImageSliceProperty
       $borderImageSource?: BorderImageSourceProperty
       $largeBorderImageSource?: BorderImageSourceProperty
       $mediumBorderImageSource?: BorderImageSourceProperty
       $smallBorderImageSource?: BorderImageSourceProperty
-      $largeBorderImageSourceFocus?: BorderImageSourceProperty
-      $largeBorderImageSourceHover?: BorderImageSourceProperty
-      $mediumBorderImageSourceFocus?: BorderImageSourceProperty
-      $mediumBorderImageSourceHover?: BorderImageSourceProperty
-      $smallBorderImageSourceFocus?: BorderImageSourceProperty
-      $smallBorderImageSourceHover?: BorderImageSourceProperty
       $borderImageSourceFocus?: BorderImageSourceProperty
       $borderImageSourceHover?: BorderImageSourceProperty
       $borderImageWidth?: BorderImageWidthProperty<TLength>
       $largeBorderImageWidth?: BorderImageWidthProperty<TLength>
       $mediumBorderImageWidth?: BorderImageWidthProperty<TLength>
       $smallBorderImageWidth?: BorderImageWidthProperty<TLength>
-      $largeBorderImageWidthFocus?: BorderImageWidthProperty<TLength>
-      $largeBorderImageWidthHover?: BorderImageWidthProperty<TLength>
-      $mediumBorderImageWidthFocus?: BorderImageWidthProperty<TLength>
-      $mediumBorderImageWidthHover?: BorderImageWidthProperty<TLength>
-      $smallBorderImageWidthFocus?: BorderImageWidthProperty<TLength>
-      $smallBorderImageWidthHover?: BorderImageWidthProperty<TLength>
       $borderImageWidthFocus?: BorderImageWidthProperty<TLength>
       $borderImageWidthHover?: BorderImageWidthProperty<TLength>
       $borderInline?: BorderInlineProperty<TLength>
       $largeBorderInline?: BorderInlineProperty<TLength>
       $mediumBorderInline?: BorderInlineProperty<TLength>
       $smallBorderInline?: BorderInlineProperty<TLength>
-      $largeBorderInlineFocus?: BorderInlineProperty<TLength>
-      $largeBorderInlineHover?: BorderInlineProperty<TLength>
-      $mediumBorderInlineFocus?: BorderInlineProperty<TLength>
-      $mediumBorderInlineHover?: BorderInlineProperty<TLength>
-      $smallBorderInlineFocus?: BorderInlineProperty<TLength>
-      $smallBorderInlineHover?: BorderInlineProperty<TLength>
       $borderInlineFocus?: BorderInlineProperty<TLength>
       $borderInlineHover?: BorderInlineProperty<TLength>
       $borderInlineColor?: BorderInlineColorProperty
       $largeBorderInlineColor?: BorderInlineColorProperty
       $mediumBorderInlineColor?: BorderInlineColorProperty
       $smallBorderInlineColor?: BorderInlineColorProperty
-      $largeBorderInlineColorFocus?: BorderInlineColorProperty
-      $largeBorderInlineColorHover?: BorderInlineColorProperty
-      $mediumBorderInlineColorFocus?: BorderInlineColorProperty
-      $mediumBorderInlineColorHover?: BorderInlineColorProperty
-      $smallBorderInlineColorFocus?: BorderInlineColorProperty
-      $smallBorderInlineColorHover?: BorderInlineColorProperty
       $borderInlineColorFocus?: BorderInlineColorProperty
       $borderInlineColorHover?: BorderInlineColorProperty
       $borderInlineEnd?: BorderInlineEndProperty<TLength>
       $largeBorderInlineEnd?: BorderInlineEndProperty<TLength>
       $mediumBorderInlineEnd?: BorderInlineEndProperty<TLength>
       $smallBorderInlineEnd?: BorderInlineEndProperty<TLength>
-      $largeBorderInlineEndFocus?: BorderInlineEndProperty<TLength>
-      $largeBorderInlineEndHover?: BorderInlineEndProperty<TLength>
-      $mediumBorderInlineEndFocus?: BorderInlineEndProperty<TLength>
-      $mediumBorderInlineEndHover?: BorderInlineEndProperty<TLength>
-      $smallBorderInlineEndFocus?: BorderInlineEndProperty<TLength>
-      $smallBorderInlineEndHover?: BorderInlineEndProperty<TLength>
       $borderInlineEndFocus?: BorderInlineEndProperty<TLength>
       $borderInlineEndHover?: BorderInlineEndProperty<TLength>
       $borderInlineEndColor?: BorderInlineEndColorProperty
       $largeBorderInlineEndColor?: BorderInlineEndColorProperty
       $mediumBorderInlineEndColor?: BorderInlineEndColorProperty
       $smallBorderInlineEndColor?: BorderInlineEndColorProperty
-      $largeBorderInlineEndColorFocus?: BorderInlineEndColorProperty
-      $largeBorderInlineEndColorHover?: BorderInlineEndColorProperty
-      $mediumBorderInlineEndColorFocus?: BorderInlineEndColorProperty
-      $mediumBorderInlineEndColorHover?: BorderInlineEndColorProperty
-      $smallBorderInlineEndColorFocus?: BorderInlineEndColorProperty
-      $smallBorderInlineEndColorHover?: BorderInlineEndColorProperty
       $borderInlineEndColorFocus?: BorderInlineEndColorProperty
       $borderInlineEndColorHover?: BorderInlineEndColorProperty
       $borderInlineEndStyle?: BorderInlineEndStyleProperty
       $largeBorderInlineEndStyle?: BorderInlineEndStyleProperty
       $mediumBorderInlineEndStyle?: BorderInlineEndStyleProperty
       $smallBorderInlineEndStyle?: BorderInlineEndStyleProperty
-      $largeBorderInlineEndStyleFocus?: BorderInlineEndStyleProperty
-      $largeBorderInlineEndStyleHover?: BorderInlineEndStyleProperty
-      $mediumBorderInlineEndStyleFocus?: BorderInlineEndStyleProperty
-      $mediumBorderInlineEndStyleHover?: BorderInlineEndStyleProperty
-      $smallBorderInlineEndStyleFocus?: BorderInlineEndStyleProperty
-      $smallBorderInlineEndStyleHover?: BorderInlineEndStyleProperty
       $borderInlineEndStyleFocus?: BorderInlineEndStyleProperty
       $borderInlineEndStyleHover?: BorderInlineEndStyleProperty
       $borderInlineEndWidth?: BorderInlineEndWidthProperty<TLength>
       $largeBorderInlineEndWidth?: BorderInlineEndWidthProperty<TLength>
       $mediumBorderInlineEndWidth?: BorderInlineEndWidthProperty<TLength>
       $smallBorderInlineEndWidth?: BorderInlineEndWidthProperty<TLength>
-      $largeBorderInlineEndWidthFocus?: BorderInlineEndWidthProperty<TLength>
-      $largeBorderInlineEndWidthHover?: BorderInlineEndWidthProperty<TLength>
-      $mediumBorderInlineEndWidthFocus?: BorderInlineEndWidthProperty<TLength>
-      $mediumBorderInlineEndWidthHover?: BorderInlineEndWidthProperty<TLength>
-      $smallBorderInlineEndWidthFocus?: BorderInlineEndWidthProperty<TLength>
-      $smallBorderInlineEndWidthHover?: BorderInlineEndWidthProperty<TLength>
       $borderInlineEndWidthFocus?: BorderInlineEndWidthProperty<TLength>
       $borderInlineEndWidthHover?: BorderInlineEndWidthProperty<TLength>
       $borderInlineStart?: BorderInlineStartProperty<TLength>
       $largeBorderInlineStart?: BorderInlineStartProperty<TLength>
       $mediumBorderInlineStart?: BorderInlineStartProperty<TLength>
       $smallBorderInlineStart?: BorderInlineStartProperty<TLength>
-      $largeBorderInlineStartFocus?: BorderInlineStartProperty<TLength>
-      $largeBorderInlineStartHover?: BorderInlineStartProperty<TLength>
-      $mediumBorderInlineStartFocus?: BorderInlineStartProperty<TLength>
-      $mediumBorderInlineStartHover?: BorderInlineStartProperty<TLength>
-      $smallBorderInlineStartFocus?: BorderInlineStartProperty<TLength>
-      $smallBorderInlineStartHover?: BorderInlineStartProperty<TLength>
       $borderInlineStartFocus?: BorderInlineStartProperty<TLength>
       $borderInlineStartHover?: BorderInlineStartProperty<TLength>
       $borderInlineStartColor?: BorderInlineStartColorProperty
       $largeBorderInlineStartColor?: BorderInlineStartColorProperty
       $mediumBorderInlineStartColor?: BorderInlineStartColorProperty
       $smallBorderInlineStartColor?: BorderInlineStartColorProperty
-      $largeBorderInlineStartColorFocus?: BorderInlineStartColorProperty
-      $largeBorderInlineStartColorHover?: BorderInlineStartColorProperty
-      $mediumBorderInlineStartColorFocus?: BorderInlineStartColorProperty
-      $mediumBorderInlineStartColorHover?: BorderInlineStartColorProperty
-      $smallBorderInlineStartColorFocus?: BorderInlineStartColorProperty
-      $smallBorderInlineStartColorHover?: BorderInlineStartColorProperty
       $borderInlineStartColorFocus?: BorderInlineStartColorProperty
       $borderInlineStartColorHover?: BorderInlineStartColorProperty
       $borderInlineStartStyle?: BorderInlineStartStyleProperty
       $largeBorderInlineStartStyle?: BorderInlineStartStyleProperty
       $mediumBorderInlineStartStyle?: BorderInlineStartStyleProperty
       $smallBorderInlineStartStyle?: BorderInlineStartStyleProperty
-      $largeBorderInlineStartStyleFocus?: BorderInlineStartStyleProperty
-      $largeBorderInlineStartStyleHover?: BorderInlineStartStyleProperty
-      $mediumBorderInlineStartStyleFocus?: BorderInlineStartStyleProperty
-      $mediumBorderInlineStartStyleHover?: BorderInlineStartStyleProperty
-      $smallBorderInlineStartStyleFocus?: BorderInlineStartStyleProperty
-      $smallBorderInlineStartStyleHover?: BorderInlineStartStyleProperty
       $borderInlineStartStyleFocus?: BorderInlineStartStyleProperty
       $borderInlineStartStyleHover?: BorderInlineStartStyleProperty
       $borderInlineStartWidth?: BorderInlineStartWidthProperty<TLength>
       $largeBorderInlineStartWidth?: BorderInlineStartWidthProperty<TLength>
       $mediumBorderInlineStartWidth?: BorderInlineStartWidthProperty<TLength>
       $smallBorderInlineStartWidth?: BorderInlineStartWidthProperty<TLength>
-      $largeBorderInlineStartWidthFocus?: BorderInlineStartWidthProperty<TLength>
-      $largeBorderInlineStartWidthHover?: BorderInlineStartWidthProperty<TLength>
-      $mediumBorderInlineStartWidthFocus?: BorderInlineStartWidthProperty<TLength>
-      $mediumBorderInlineStartWidthHover?: BorderInlineStartWidthProperty<TLength>
-      $smallBorderInlineStartWidthFocus?: BorderInlineStartWidthProperty<TLength>
-      $smallBorderInlineStartWidthHover?: BorderInlineStartWidthProperty<TLength>
       $borderInlineStartWidthFocus?: BorderInlineStartWidthProperty<TLength>
       $borderInlineStartWidthHover?: BorderInlineStartWidthProperty<TLength>
       $borderInlineStyle?: BorderInlineStyleProperty
       $largeBorderInlineStyle?: BorderInlineStyleProperty
       $mediumBorderInlineStyle?: BorderInlineStyleProperty
       $smallBorderInlineStyle?: BorderInlineStyleProperty
-      $largeBorderInlineStyleFocus?: BorderInlineStyleProperty
-      $largeBorderInlineStyleHover?: BorderInlineStyleProperty
-      $mediumBorderInlineStyleFocus?: BorderInlineStyleProperty
-      $mediumBorderInlineStyleHover?: BorderInlineStyleProperty
-      $smallBorderInlineStyleFocus?: BorderInlineStyleProperty
-      $smallBorderInlineStyleHover?: BorderInlineStyleProperty
       $borderInlineStyleFocus?: BorderInlineStyleProperty
       $borderInlineStyleHover?: BorderInlineStyleProperty
       $borderInlineWidth?: BorderInlineWidthProperty<TLength>
       $largeBorderInlineWidth?: BorderInlineWidthProperty<TLength>
       $mediumBorderInlineWidth?: BorderInlineWidthProperty<TLength>
       $smallBorderInlineWidth?: BorderInlineWidthProperty<TLength>
-      $largeBorderInlineWidthFocus?: BorderInlineWidthProperty<TLength>
-      $largeBorderInlineWidthHover?: BorderInlineWidthProperty<TLength>
-      $mediumBorderInlineWidthFocus?: BorderInlineWidthProperty<TLength>
-      $mediumBorderInlineWidthHover?: BorderInlineWidthProperty<TLength>
-      $smallBorderInlineWidthFocus?: BorderInlineWidthProperty<TLength>
-      $smallBorderInlineWidthHover?: BorderInlineWidthProperty<TLength>
       $borderInlineWidthFocus?: BorderInlineWidthProperty<TLength>
       $borderInlineWidthHover?: BorderInlineWidthProperty<TLength>
       $borderLeft?: BorderLeftProperty<TLength>
       $largeBorderLeft?: BorderLeftProperty<TLength>
       $mediumBorderLeft?: BorderLeftProperty<TLength>
       $smallBorderLeft?: BorderLeftProperty<TLength>
-      $largeBorderLeftFocus?: BorderLeftProperty<TLength>
-      $largeBorderLeftHover?: BorderLeftProperty<TLength>
-      $mediumBorderLeftFocus?: BorderLeftProperty<TLength>
-      $mediumBorderLeftHover?: BorderLeftProperty<TLength>
-      $smallBorderLeftFocus?: BorderLeftProperty<TLength>
-      $smallBorderLeftHover?: BorderLeftProperty<TLength>
       $borderLeftFocus?: BorderLeftProperty<TLength>
       $borderLeftHover?: BorderLeftProperty<TLength>
       $borderLeftColor?: BorderLeftColorProperty
       $largeBorderLeftColor?: BorderLeftColorProperty
       $mediumBorderLeftColor?: BorderLeftColorProperty
       $smallBorderLeftColor?: BorderLeftColorProperty
-      $largeBorderLeftColorFocus?: BorderLeftColorProperty
-      $largeBorderLeftColorHover?: BorderLeftColorProperty
-      $mediumBorderLeftColorFocus?: BorderLeftColorProperty
-      $mediumBorderLeftColorHover?: BorderLeftColorProperty
-      $smallBorderLeftColorFocus?: BorderLeftColorProperty
-      $smallBorderLeftColorHover?: BorderLeftColorProperty
       $borderLeftColorFocus?: BorderLeftColorProperty
       $borderLeftColorHover?: BorderLeftColorProperty
       $borderLeftStyle?: BorderLeftStyleProperty
       $largeBorderLeftStyle?: BorderLeftStyleProperty
       $mediumBorderLeftStyle?: BorderLeftStyleProperty
       $smallBorderLeftStyle?: BorderLeftStyleProperty
-      $largeBorderLeftStyleFocus?: BorderLeftStyleProperty
-      $largeBorderLeftStyleHover?: BorderLeftStyleProperty
-      $mediumBorderLeftStyleFocus?: BorderLeftStyleProperty
-      $mediumBorderLeftStyleHover?: BorderLeftStyleProperty
-      $smallBorderLeftStyleFocus?: BorderLeftStyleProperty
-      $smallBorderLeftStyleHover?: BorderLeftStyleProperty
       $borderLeftStyleFocus?: BorderLeftStyleProperty
       $borderLeftStyleHover?: BorderLeftStyleProperty
       $borderLeftWidth?: BorderLeftWidthProperty<TLength>
       $largeBorderLeftWidth?: BorderLeftWidthProperty<TLength>
       $mediumBorderLeftWidth?: BorderLeftWidthProperty<TLength>
       $smallBorderLeftWidth?: BorderLeftWidthProperty<TLength>
-      $largeBorderLeftWidthFocus?: BorderLeftWidthProperty<TLength>
-      $largeBorderLeftWidthHover?: BorderLeftWidthProperty<TLength>
-      $mediumBorderLeftWidthFocus?: BorderLeftWidthProperty<TLength>
-      $mediumBorderLeftWidthHover?: BorderLeftWidthProperty<TLength>
-      $smallBorderLeftWidthFocus?: BorderLeftWidthProperty<TLength>
-      $smallBorderLeftWidthHover?: BorderLeftWidthProperty<TLength>
       $borderLeftWidthFocus?: BorderLeftWidthProperty<TLength>
       $borderLeftWidthHover?: BorderLeftWidthProperty<TLength>
       $borderRadius?: BorderRadiusProperty<TLength>
       $largeBorderRadius?: BorderRadiusProperty<TLength>
       $mediumBorderRadius?: BorderRadiusProperty<TLength>
       $smallBorderRadius?: BorderRadiusProperty<TLength>
-      $largeBorderRadiusFocus?: BorderRadiusProperty<TLength>
-      $largeBorderRadiusHover?: BorderRadiusProperty<TLength>
-      $mediumBorderRadiusFocus?: BorderRadiusProperty<TLength>
-      $mediumBorderRadiusHover?: BorderRadiusProperty<TLength>
-      $smallBorderRadiusFocus?: BorderRadiusProperty<TLength>
-      $smallBorderRadiusHover?: BorderRadiusProperty<TLength>
       $borderRadiusFocus?: BorderRadiusProperty<TLength>
       $borderRadiusHover?: BorderRadiusProperty<TLength>
       $borderRight?: BorderRightProperty<TLength>
       $largeBorderRight?: BorderRightProperty<TLength>
       $mediumBorderRight?: BorderRightProperty<TLength>
       $smallBorderRight?: BorderRightProperty<TLength>
-      $largeBorderRightFocus?: BorderRightProperty<TLength>
-      $largeBorderRightHover?: BorderRightProperty<TLength>
-      $mediumBorderRightFocus?: BorderRightProperty<TLength>
-      $mediumBorderRightHover?: BorderRightProperty<TLength>
-      $smallBorderRightFocus?: BorderRightProperty<TLength>
-      $smallBorderRightHover?: BorderRightProperty<TLength>
       $borderRightFocus?: BorderRightProperty<TLength>
       $borderRightHover?: BorderRightProperty<TLength>
       $borderRightColor?: BorderRightColorProperty
       $largeBorderRightColor?: BorderRightColorProperty
       $mediumBorderRightColor?: BorderRightColorProperty
       $smallBorderRightColor?: BorderRightColorProperty
-      $largeBorderRightColorFocus?: BorderRightColorProperty
-      $largeBorderRightColorHover?: BorderRightColorProperty
-      $mediumBorderRightColorFocus?: BorderRightColorProperty
-      $mediumBorderRightColorHover?: BorderRightColorProperty
-      $smallBorderRightColorFocus?: BorderRightColorProperty
-      $smallBorderRightColorHover?: BorderRightColorProperty
       $borderRightColorFocus?: BorderRightColorProperty
       $borderRightColorHover?: BorderRightColorProperty
       $borderRightStyle?: BorderRightStyleProperty
       $largeBorderRightStyle?: BorderRightStyleProperty
       $mediumBorderRightStyle?: BorderRightStyleProperty
       $smallBorderRightStyle?: BorderRightStyleProperty
-      $largeBorderRightStyleFocus?: BorderRightStyleProperty
-      $largeBorderRightStyleHover?: BorderRightStyleProperty
-      $mediumBorderRightStyleFocus?: BorderRightStyleProperty
-      $mediumBorderRightStyleHover?: BorderRightStyleProperty
-      $smallBorderRightStyleFocus?: BorderRightStyleProperty
-      $smallBorderRightStyleHover?: BorderRightStyleProperty
       $borderRightStyleFocus?: BorderRightStyleProperty
       $borderRightStyleHover?: BorderRightStyleProperty
       $borderRightWidth?: BorderRightWidthProperty<TLength>
       $largeBorderRightWidth?: BorderRightWidthProperty<TLength>
       $mediumBorderRightWidth?: BorderRightWidthProperty<TLength>
       $smallBorderRightWidth?: BorderRightWidthProperty<TLength>
-      $largeBorderRightWidthFocus?: BorderRightWidthProperty<TLength>
-      $largeBorderRightWidthHover?: BorderRightWidthProperty<TLength>
-      $mediumBorderRightWidthFocus?: BorderRightWidthProperty<TLength>
-      $mediumBorderRightWidthHover?: BorderRightWidthProperty<TLength>
-      $smallBorderRightWidthFocus?: BorderRightWidthProperty<TLength>
-      $smallBorderRightWidthHover?: BorderRightWidthProperty<TLength>
       $borderRightWidthFocus?: BorderRightWidthProperty<TLength>
       $borderRightWidthHover?: BorderRightWidthProperty<TLength>
       $borderSpacing?: BorderSpacingProperty<TLength>
       $largeBorderSpacing?: BorderSpacingProperty<TLength>
       $mediumBorderSpacing?: BorderSpacingProperty<TLength>
       $smallBorderSpacing?: BorderSpacingProperty<TLength>
-      $largeBorderSpacingFocus?: BorderSpacingProperty<TLength>
-      $largeBorderSpacingHover?: BorderSpacingProperty<TLength>
-      $mediumBorderSpacingFocus?: BorderSpacingProperty<TLength>
-      $mediumBorderSpacingHover?: BorderSpacingProperty<TLength>
-      $smallBorderSpacingFocus?: BorderSpacingProperty<TLength>
-      $smallBorderSpacingHover?: BorderSpacingProperty<TLength>
       $borderSpacingFocus?: BorderSpacingProperty<TLength>
       $borderSpacingHover?: BorderSpacingProperty<TLength>
       $borderStartEndRadius?: BorderStartEndRadiusProperty<TLength>
       $largeBorderStartEndRadius?: BorderStartEndRadiusProperty<TLength>
       $mediumBorderStartEndRadius?: BorderStartEndRadiusProperty<TLength>
       $smallBorderStartEndRadius?: BorderStartEndRadiusProperty<TLength>
-      $largeBorderStartEndRadiusFocus?: BorderStartEndRadiusProperty<TLength>
-      $largeBorderStartEndRadiusHover?: BorderStartEndRadiusProperty<TLength>
-      $mediumBorderStartEndRadiusFocus?: BorderStartEndRadiusProperty<TLength>
-      $mediumBorderStartEndRadiusHover?: BorderStartEndRadiusProperty<TLength>
-      $smallBorderStartEndRadiusFocus?: BorderStartEndRadiusProperty<TLength>
-      $smallBorderStartEndRadiusHover?: BorderStartEndRadiusProperty<TLength>
       $borderStartEndRadiusFocus?: BorderStartEndRadiusProperty<TLength>
       $borderStartEndRadiusHover?: BorderStartEndRadiusProperty<TLength>
       $borderStartStartRadius?: BorderStartStartRadiusProperty<TLength>
       $largeBorderStartStartRadius?: BorderStartStartRadiusProperty<TLength>
       $mediumBorderStartStartRadius?: BorderStartStartRadiusProperty<TLength>
       $smallBorderStartStartRadius?: BorderStartStartRadiusProperty<TLength>
-      $largeBorderStartStartRadiusFocus?: BorderStartStartRadiusProperty<TLength>
-      $largeBorderStartStartRadiusHover?: BorderStartStartRadiusProperty<TLength>
-      $mediumBorderStartStartRadiusFocus?: BorderStartStartRadiusProperty<TLength>
-      $mediumBorderStartStartRadiusHover?: BorderStartStartRadiusProperty<TLength>
-      $smallBorderStartStartRadiusFocus?: BorderStartStartRadiusProperty<TLength>
-      $smallBorderStartStartRadiusHover?: BorderStartStartRadiusProperty<TLength>
       $borderStartStartRadiusFocus?: BorderStartStartRadiusProperty<TLength>
       $borderStartStartRadiusHover?: BorderStartStartRadiusProperty<TLength>
       $borderStyle?: BorderStyleProperty
       $largeBorderStyle?: BorderStyleProperty
       $mediumBorderStyle?: BorderStyleProperty
       $smallBorderStyle?: BorderStyleProperty
-      $largeBorderStyleFocus?: BorderStyleProperty
-      $largeBorderStyleHover?: BorderStyleProperty
-      $mediumBorderStyleFocus?: BorderStyleProperty
-      $mediumBorderStyleHover?: BorderStyleProperty
-      $smallBorderStyleFocus?: BorderStyleProperty
-      $smallBorderStyleHover?: BorderStyleProperty
       $borderStyleFocus?: BorderStyleProperty
       $borderStyleHover?: BorderStyleProperty
       $borderTop?: BorderTopProperty<TLength>
       $largeBorderTop?: BorderTopProperty<TLength>
       $mediumBorderTop?: BorderTopProperty<TLength>
       $smallBorderTop?: BorderTopProperty<TLength>
-      $largeBorderTopFocus?: BorderTopProperty<TLength>
-      $largeBorderTopHover?: BorderTopProperty<TLength>
-      $mediumBorderTopFocus?: BorderTopProperty<TLength>
-      $mediumBorderTopHover?: BorderTopProperty<TLength>
-      $smallBorderTopFocus?: BorderTopProperty<TLength>
-      $smallBorderTopHover?: BorderTopProperty<TLength>
       $borderTopFocus?: BorderTopProperty<TLength>
       $borderTopHover?: BorderTopProperty<TLength>
       $borderTopColor?: BorderTopColorProperty
       $largeBorderTopColor?: BorderTopColorProperty
       $mediumBorderTopColor?: BorderTopColorProperty
       $smallBorderTopColor?: BorderTopColorProperty
-      $largeBorderTopColorFocus?: BorderTopColorProperty
-      $largeBorderTopColorHover?: BorderTopColorProperty
-      $mediumBorderTopColorFocus?: BorderTopColorProperty
-      $mediumBorderTopColorHover?: BorderTopColorProperty
-      $smallBorderTopColorFocus?: BorderTopColorProperty
-      $smallBorderTopColorHover?: BorderTopColorProperty
       $borderTopColorFocus?: BorderTopColorProperty
       $borderTopColorHover?: BorderTopColorProperty
       $borderTopLeftRadius?: BorderTopLeftRadiusProperty<TLength>
       $largeBorderTopLeftRadius?: BorderTopLeftRadiusProperty<TLength>
       $mediumBorderTopLeftRadius?: BorderTopLeftRadiusProperty<TLength>
       $smallBorderTopLeftRadius?: BorderTopLeftRadiusProperty<TLength>
-      $largeBorderTopLeftRadiusFocus?: BorderTopLeftRadiusProperty<TLength>
-      $largeBorderTopLeftRadiusHover?: BorderTopLeftRadiusProperty<TLength>
-      $mediumBorderTopLeftRadiusFocus?: BorderTopLeftRadiusProperty<TLength>
-      $mediumBorderTopLeftRadiusHover?: BorderTopLeftRadiusProperty<TLength>
-      $smallBorderTopLeftRadiusFocus?: BorderTopLeftRadiusProperty<TLength>
-      $smallBorderTopLeftRadiusHover?: BorderTopLeftRadiusProperty<TLength>
       $borderTopLeftRadiusFocus?: BorderTopLeftRadiusProperty<TLength>
       $borderTopLeftRadiusHover?: BorderTopLeftRadiusProperty<TLength>
       $borderTopRightRadius?: BorderTopRightRadiusProperty<TLength>
       $largeBorderTopRightRadius?: BorderTopRightRadiusProperty<TLength>
       $mediumBorderTopRightRadius?: BorderTopRightRadiusProperty<TLength>
       $smallBorderTopRightRadius?: BorderTopRightRadiusProperty<TLength>
-      $largeBorderTopRightRadiusFocus?: BorderTopRightRadiusProperty<TLength>
-      $largeBorderTopRightRadiusHover?: BorderTopRightRadiusProperty<TLength>
-      $mediumBorderTopRightRadiusFocus?: BorderTopRightRadiusProperty<TLength>
-      $mediumBorderTopRightRadiusHover?: BorderTopRightRadiusProperty<TLength>
-      $smallBorderTopRightRadiusFocus?: BorderTopRightRadiusProperty<TLength>
-      $smallBorderTopRightRadiusHover?: BorderTopRightRadiusProperty<TLength>
       $borderTopRightRadiusFocus?: BorderTopRightRadiusProperty<TLength>
       $borderTopRightRadiusHover?: BorderTopRightRadiusProperty<TLength>
       $borderTopStyle?: BorderTopStyleProperty
       $largeBorderTopStyle?: BorderTopStyleProperty
       $mediumBorderTopStyle?: BorderTopStyleProperty
       $smallBorderTopStyle?: BorderTopStyleProperty
-      $largeBorderTopStyleFocus?: BorderTopStyleProperty
-      $largeBorderTopStyleHover?: BorderTopStyleProperty
-      $mediumBorderTopStyleFocus?: BorderTopStyleProperty
-      $mediumBorderTopStyleHover?: BorderTopStyleProperty
-      $smallBorderTopStyleFocus?: BorderTopStyleProperty
-      $smallBorderTopStyleHover?: BorderTopStyleProperty
       $borderTopStyleFocus?: BorderTopStyleProperty
       $borderTopStyleHover?: BorderTopStyleProperty
       $borderTopWidth?: BorderTopWidthProperty<TLength>
       $largeBorderTopWidth?: BorderTopWidthProperty<TLength>
       $mediumBorderTopWidth?: BorderTopWidthProperty<TLength>
       $smallBorderTopWidth?: BorderTopWidthProperty<TLength>
-      $largeBorderTopWidthFocus?: BorderTopWidthProperty<TLength>
-      $largeBorderTopWidthHover?: BorderTopWidthProperty<TLength>
-      $mediumBorderTopWidthFocus?: BorderTopWidthProperty<TLength>
-      $mediumBorderTopWidthHover?: BorderTopWidthProperty<TLength>
-      $smallBorderTopWidthFocus?: BorderTopWidthProperty<TLength>
-      $smallBorderTopWidthHover?: BorderTopWidthProperty<TLength>
       $borderTopWidthFocus?: BorderTopWidthProperty<TLength>
       $borderTopWidthHover?: BorderTopWidthProperty<TLength>
       $borderWidth?: BorderWidthProperty<TLength>
       $largeBorderWidth?: BorderWidthProperty<TLength>
       $mediumBorderWidth?: BorderWidthProperty<TLength>
       $smallBorderWidth?: BorderWidthProperty<TLength>
-      $largeBorderWidthFocus?: BorderWidthProperty<TLength>
-      $largeBorderWidthHover?: BorderWidthProperty<TLength>
-      $mediumBorderWidthFocus?: BorderWidthProperty<TLength>
-      $mediumBorderWidthHover?: BorderWidthProperty<TLength>
-      $smallBorderWidthFocus?: BorderWidthProperty<TLength>
-      $smallBorderWidthHover?: BorderWidthProperty<TLength>
       $borderWidthFocus?: BorderWidthProperty<TLength>
       $borderWidthHover?: BorderWidthProperty<TLength>
       $bottom?: BottomProperty<TLength>
       $largeBottom?: BottomProperty<TLength>
       $mediumBottom?: BottomProperty<TLength>
       $smallBottom?: BottomProperty<TLength>
-      $largeBottomFocus?: BottomProperty<TLength>
-      $largeBottomHover?: BottomProperty<TLength>
-      $mediumBottomFocus?: BottomProperty<TLength>
-      $mediumBottomHover?: BottomProperty<TLength>
-      $smallBottomFocus?: BottomProperty<TLength>
-      $smallBottomHover?: BottomProperty<TLength>
       $bottomFocus?: BottomProperty<TLength>
       $bottomHover?: BottomProperty<TLength>
       $boxAlign?: BoxAlignProperty
       $largeBoxAlign?: BoxAlignProperty
       $mediumBoxAlign?: BoxAlignProperty
       $smallBoxAlign?: BoxAlignProperty
-      $largeBoxAlignFocus?: BoxAlignProperty
-      $largeBoxAlignHover?: BoxAlignProperty
-      $mediumBoxAlignFocus?: BoxAlignProperty
-      $mediumBoxAlignHover?: BoxAlignProperty
-      $smallBoxAlignFocus?: BoxAlignProperty
-      $smallBoxAlignHover?: BoxAlignProperty
       $boxAlignFocus?: BoxAlignProperty
       $boxAlignHover?: BoxAlignProperty
       $boxDecorationBreak?: BoxDecorationBreakProperty
       $largeBoxDecorationBreak?: BoxDecorationBreakProperty
       $mediumBoxDecorationBreak?: BoxDecorationBreakProperty
       $smallBoxDecorationBreak?: BoxDecorationBreakProperty
-      $largeBoxDecorationBreakFocus?: BoxDecorationBreakProperty
-      $largeBoxDecorationBreakHover?: BoxDecorationBreakProperty
-      $mediumBoxDecorationBreakFocus?: BoxDecorationBreakProperty
-      $mediumBoxDecorationBreakHover?: BoxDecorationBreakProperty
-      $smallBoxDecorationBreakFocus?: BoxDecorationBreakProperty
-      $smallBoxDecorationBreakHover?: BoxDecorationBreakProperty
       $boxDecorationBreakFocus?: BoxDecorationBreakProperty
       $boxDecorationBreakHover?: BoxDecorationBreakProperty
       $boxDirection?: BoxDirectionProperty
       $largeBoxDirection?: BoxDirectionProperty
       $mediumBoxDirection?: BoxDirectionProperty
       $smallBoxDirection?: BoxDirectionProperty
-      $largeBoxDirectionFocus?: BoxDirectionProperty
-      $largeBoxDirectionHover?: BoxDirectionProperty
-      $mediumBoxDirectionFocus?: BoxDirectionProperty
-      $mediumBoxDirectionHover?: BoxDirectionProperty
-      $smallBoxDirectionFocus?: BoxDirectionProperty
-      $smallBoxDirectionHover?: BoxDirectionProperty
       $boxDirectionFocus?: BoxDirectionProperty
       $boxDirectionHover?: BoxDirectionProperty
       $boxLines?: BoxLinesProperty
       $largeBoxLines?: BoxLinesProperty
       $mediumBoxLines?: BoxLinesProperty
       $smallBoxLines?: BoxLinesProperty
-      $largeBoxLinesFocus?: BoxLinesProperty
-      $largeBoxLinesHover?: BoxLinesProperty
-      $mediumBoxLinesFocus?: BoxLinesProperty
-      $mediumBoxLinesHover?: BoxLinesProperty
-      $smallBoxLinesFocus?: BoxLinesProperty
-      $smallBoxLinesHover?: BoxLinesProperty
       $boxLinesFocus?: BoxLinesProperty
       $boxLinesHover?: BoxLinesProperty
       $boxOrient?: BoxOrientProperty
       $largeBoxOrient?: BoxOrientProperty
       $mediumBoxOrient?: BoxOrientProperty
       $smallBoxOrient?: BoxOrientProperty
-      $largeBoxOrientFocus?: BoxOrientProperty
-      $largeBoxOrientHover?: BoxOrientProperty
-      $mediumBoxOrientFocus?: BoxOrientProperty
-      $mediumBoxOrientHover?: BoxOrientProperty
-      $smallBoxOrientFocus?: BoxOrientProperty
-      $smallBoxOrientHover?: BoxOrientProperty
       $boxOrientFocus?: BoxOrientProperty
       $boxOrientHover?: BoxOrientProperty
       $boxPack?: BoxPackProperty
       $largeBoxPack?: BoxPackProperty
       $mediumBoxPack?: BoxPackProperty
       $smallBoxPack?: BoxPackProperty
-      $largeBoxPackFocus?: BoxPackProperty
-      $largeBoxPackHover?: BoxPackProperty
-      $mediumBoxPackFocus?: BoxPackProperty
-      $mediumBoxPackHover?: BoxPackProperty
-      $smallBoxPackFocus?: BoxPackProperty
-      $smallBoxPackHover?: BoxPackProperty
       $boxPackFocus?: BoxPackProperty
       $boxPackHover?: BoxPackProperty
       $boxShadow?: BoxShadowProperty
       $largeBoxShadow?: BoxShadowProperty
       $mediumBoxShadow?: BoxShadowProperty
       $smallBoxShadow?: BoxShadowProperty
-      $largeBoxShadowFocus?: BoxShadowProperty
-      $largeBoxShadowHover?: BoxShadowProperty
-      $mediumBoxShadowFocus?: BoxShadowProperty
-      $mediumBoxShadowHover?: BoxShadowProperty
-      $smallBoxShadowFocus?: BoxShadowProperty
-      $smallBoxShadowHover?: BoxShadowProperty
       $boxShadowFocus?: BoxShadowProperty
       $boxShadowHover?: BoxShadowProperty
       $boxSizing?: BoxSizingProperty
       $largeBoxSizing?: BoxSizingProperty
       $mediumBoxSizing?: BoxSizingProperty
       $smallBoxSizing?: BoxSizingProperty
-      $largeBoxSizingFocus?: BoxSizingProperty
-      $largeBoxSizingHover?: BoxSizingProperty
-      $mediumBoxSizingFocus?: BoxSizingProperty
-      $mediumBoxSizingHover?: BoxSizingProperty
-      $smallBoxSizingFocus?: BoxSizingProperty
-      $smallBoxSizingHover?: BoxSizingProperty
       $boxSizingFocus?: BoxSizingProperty
       $boxSizingHover?: BoxSizingProperty
       $breakAfter?: BreakAfterProperty
       $largeBreakAfter?: BreakAfterProperty
       $mediumBreakAfter?: BreakAfterProperty
       $smallBreakAfter?: BreakAfterProperty
-      $largeBreakAfterFocus?: BreakAfterProperty
-      $largeBreakAfterHover?: BreakAfterProperty
-      $mediumBreakAfterFocus?: BreakAfterProperty
-      $mediumBreakAfterHover?: BreakAfterProperty
-      $smallBreakAfterFocus?: BreakAfterProperty
-      $smallBreakAfterHover?: BreakAfterProperty
       $breakAfterFocus?: BreakAfterProperty
       $breakAfterHover?: BreakAfterProperty
       $breakBefore?: BreakBeforeProperty
       $largeBreakBefore?: BreakBeforeProperty
       $mediumBreakBefore?: BreakBeforeProperty
       $smallBreakBefore?: BreakBeforeProperty
-      $largeBreakBeforeFocus?: BreakBeforeProperty
-      $largeBreakBeforeHover?: BreakBeforeProperty
-      $mediumBreakBeforeFocus?: BreakBeforeProperty
-      $mediumBreakBeforeHover?: BreakBeforeProperty
-      $smallBreakBeforeFocus?: BreakBeforeProperty
-      $smallBreakBeforeHover?: BreakBeforeProperty
       $breakBeforeFocus?: BreakBeforeProperty
       $breakBeforeHover?: BreakBeforeProperty
       $breakInside?: BreakInsideProperty
       $largeBreakInside?: BreakInsideProperty
       $mediumBreakInside?: BreakInsideProperty
       $smallBreakInside?: BreakInsideProperty
-      $largeBreakInsideFocus?: BreakInsideProperty
-      $largeBreakInsideHover?: BreakInsideProperty
-      $mediumBreakInsideFocus?: BreakInsideProperty
-      $mediumBreakInsideHover?: BreakInsideProperty
-      $smallBreakInsideFocus?: BreakInsideProperty
-      $smallBreakInsideHover?: BreakInsideProperty
       $breakInsideFocus?: BreakInsideProperty
       $breakInsideHover?: BreakInsideProperty
       $captionSide?: CaptionSideProperty
       $largeCaptionSide?: CaptionSideProperty
       $mediumCaptionSide?: CaptionSideProperty
       $smallCaptionSide?: CaptionSideProperty
-      $largeCaptionSideFocus?: CaptionSideProperty
-      $largeCaptionSideHover?: CaptionSideProperty
-      $mediumCaptionSideFocus?: CaptionSideProperty
-      $mediumCaptionSideHover?: CaptionSideProperty
-      $smallCaptionSideFocus?: CaptionSideProperty
-      $smallCaptionSideHover?: CaptionSideProperty
       $captionSideFocus?: CaptionSideProperty
       $captionSideHover?: CaptionSideProperty
       $caretColor?: CaretColorProperty
       $largeCaretColor?: CaretColorProperty
       $mediumCaretColor?: CaretColorProperty
       $smallCaretColor?: CaretColorProperty
-      $largeCaretColorFocus?: CaretColorProperty
-      $largeCaretColorHover?: CaretColorProperty
-      $mediumCaretColorFocus?: CaretColorProperty
-      $mediumCaretColorHover?: CaretColorProperty
-      $smallCaretColorFocus?: CaretColorProperty
-      $smallCaretColorHover?: CaretColorProperty
       $caretColorFocus?: CaretColorProperty
       $caretColorHover?: CaretColorProperty
       $clear?: ClearProperty
       $largeClear?: ClearProperty
       $mediumClear?: ClearProperty
       $smallClear?: ClearProperty
-      $largeClearFocus?: ClearProperty
-      $largeClearHover?: ClearProperty
-      $mediumClearFocus?: ClearProperty
-      $mediumClearHover?: ClearProperty
-      $smallClearFocus?: ClearProperty
-      $smallClearHover?: ClearProperty
       $clearFocus?: ClearProperty
       $clearHover?: ClearProperty
       $clip?: ClipProperty
       $largeClip?: ClipProperty
       $mediumClip?: ClipProperty
       $smallClip?: ClipProperty
-      $largeClipFocus?: ClipProperty
-      $largeClipHover?: ClipProperty
-      $mediumClipFocus?: ClipProperty
-      $mediumClipHover?: ClipProperty
-      $smallClipFocus?: ClipProperty
-      $smallClipHover?: ClipProperty
       $clipFocus?: ClipProperty
       $clipHover?: ClipProperty
       $clipPath?: ClipPathProperty
       $largeClipPath?: ClipPathProperty
       $mediumClipPath?: ClipPathProperty
       $smallClipPath?: ClipPathProperty
-      $largeClipPathFocus?: ClipPathProperty
-      $largeClipPathHover?: ClipPathProperty
-      $mediumClipPathFocus?: ClipPathProperty
-      $mediumClipPathHover?: ClipPathProperty
-      $smallClipPathFocus?: ClipPathProperty
-      $smallClipPathHover?: ClipPathProperty
       $clipPathFocus?: ClipPathProperty
       $clipPathHover?: ClipPathProperty
       $color?: ColorProperty
       $largeColor?: ColorProperty
       $mediumColor?: ColorProperty
       $smallColor?: ColorProperty
-      $largeColorFocus?: ColorProperty
-      $largeColorHover?: ColorProperty
-      $mediumColorFocus?: ColorProperty
-      $mediumColorHover?: ColorProperty
-      $smallColorFocus?: ColorProperty
-      $smallColorHover?: ColorProperty
       $colorFocus?: ColorProperty
       $colorHover?: ColorProperty
       $colorAdjust?: ColorAdjustProperty
       $largeColorAdjust?: ColorAdjustProperty
       $mediumColorAdjust?: ColorAdjustProperty
       $smallColorAdjust?: ColorAdjustProperty
-      $largeColorAdjustFocus?: ColorAdjustProperty
-      $largeColorAdjustHover?: ColorAdjustProperty
-      $mediumColorAdjustFocus?: ColorAdjustProperty
-      $mediumColorAdjustHover?: ColorAdjustProperty
-      $smallColorAdjustFocus?: ColorAdjustProperty
-      $smallColorAdjustHover?: ColorAdjustProperty
       $colorAdjustFocus?: ColorAdjustProperty
       $colorAdjustHover?: ColorAdjustProperty
       $columnCount?: ColumnCountProperty
       $largeColumnCount?: ColumnCountProperty
       $mediumColumnCount?: ColumnCountProperty
       $smallColumnCount?: ColumnCountProperty
-      $largeColumnCountFocus?: ColumnCountProperty
-      $largeColumnCountHover?: ColumnCountProperty
-      $mediumColumnCountFocus?: ColumnCountProperty
-      $mediumColumnCountHover?: ColumnCountProperty
-      $smallColumnCountFocus?: ColumnCountProperty
-      $smallColumnCountHover?: ColumnCountProperty
       $columnCountFocus?: ColumnCountProperty
       $columnCountHover?: ColumnCountProperty
       $columnFill?: ColumnFillProperty
       $largeColumnFill?: ColumnFillProperty
       $mediumColumnFill?: ColumnFillProperty
       $smallColumnFill?: ColumnFillProperty
-      $largeColumnFillFocus?: ColumnFillProperty
-      $largeColumnFillHover?: ColumnFillProperty
-      $mediumColumnFillFocus?: ColumnFillProperty
-      $mediumColumnFillHover?: ColumnFillProperty
-      $smallColumnFillFocus?: ColumnFillProperty
-      $smallColumnFillHover?: ColumnFillProperty
       $columnFillFocus?: ColumnFillProperty
       $columnFillHover?: ColumnFillProperty
       $columnGap?: ColumnGapProperty<TLength>
       $largeColumnGap?: ColumnGapProperty<TLength>
       $mediumColumnGap?: ColumnGapProperty<TLength>
       $smallColumnGap?: ColumnGapProperty<TLength>
-      $largeColumnGapFocus?: ColumnGapProperty<TLength>
-      $largeColumnGapHover?: ColumnGapProperty<TLength>
-      $mediumColumnGapFocus?: ColumnGapProperty<TLength>
-      $mediumColumnGapHover?: ColumnGapProperty<TLength>
-      $smallColumnGapFocus?: ColumnGapProperty<TLength>
-      $smallColumnGapHover?: ColumnGapProperty<TLength>
       $columnGapFocus?: ColumnGapProperty<TLength>
       $columnGapHover?: ColumnGapProperty<TLength>
       $columnRule?: ColumnRuleProperty<TLength>
       $largeColumnRule?: ColumnRuleProperty<TLength>
       $mediumColumnRule?: ColumnRuleProperty<TLength>
       $smallColumnRule?: ColumnRuleProperty<TLength>
-      $largeColumnRuleFocus?: ColumnRuleProperty<TLength>
-      $largeColumnRuleHover?: ColumnRuleProperty<TLength>
-      $mediumColumnRuleFocus?: ColumnRuleProperty<TLength>
-      $mediumColumnRuleHover?: ColumnRuleProperty<TLength>
-      $smallColumnRuleFocus?: ColumnRuleProperty<TLength>
-      $smallColumnRuleHover?: ColumnRuleProperty<TLength>
       $columnRuleFocus?: ColumnRuleProperty<TLength>
       $columnRuleHover?: ColumnRuleProperty<TLength>
       $columnRuleColor?: ColumnRuleColorProperty
       $largeColumnRuleColor?: ColumnRuleColorProperty
       $mediumColumnRuleColor?: ColumnRuleColorProperty
       $smallColumnRuleColor?: ColumnRuleColorProperty
-      $largeColumnRuleColorFocus?: ColumnRuleColorProperty
-      $largeColumnRuleColorHover?: ColumnRuleColorProperty
-      $mediumColumnRuleColorFocus?: ColumnRuleColorProperty
-      $mediumColumnRuleColorHover?: ColumnRuleColorProperty
-      $smallColumnRuleColorFocus?: ColumnRuleColorProperty
-      $smallColumnRuleColorHover?: ColumnRuleColorProperty
       $columnRuleColorFocus?: ColumnRuleColorProperty
       $columnRuleColorHover?: ColumnRuleColorProperty
       $columnRuleStyle?: ColumnRuleStyleProperty
       $largeColumnRuleStyle?: ColumnRuleStyleProperty
       $mediumColumnRuleStyle?: ColumnRuleStyleProperty
       $smallColumnRuleStyle?: ColumnRuleStyleProperty
-      $largeColumnRuleStyleFocus?: ColumnRuleStyleProperty
-      $largeColumnRuleStyleHover?: ColumnRuleStyleProperty
-      $mediumColumnRuleStyleFocus?: ColumnRuleStyleProperty
-      $mediumColumnRuleStyleHover?: ColumnRuleStyleProperty
-      $smallColumnRuleStyleFocus?: ColumnRuleStyleProperty
-      $smallColumnRuleStyleHover?: ColumnRuleStyleProperty
       $columnRuleStyleFocus?: ColumnRuleStyleProperty
       $columnRuleStyleHover?: ColumnRuleStyleProperty
       $columnRuleWidth?: ColumnRuleWidthProperty<TLength>
       $largeColumnRuleWidth?: ColumnRuleWidthProperty<TLength>
       $mediumColumnRuleWidth?: ColumnRuleWidthProperty<TLength>
       $smallColumnRuleWidth?: ColumnRuleWidthProperty<TLength>
-      $largeColumnRuleWidthFocus?: ColumnRuleWidthProperty<TLength>
-      $largeColumnRuleWidthHover?: ColumnRuleWidthProperty<TLength>
-      $mediumColumnRuleWidthFocus?: ColumnRuleWidthProperty<TLength>
-      $mediumColumnRuleWidthHover?: ColumnRuleWidthProperty<TLength>
-      $smallColumnRuleWidthFocus?: ColumnRuleWidthProperty<TLength>
-      $smallColumnRuleWidthHover?: ColumnRuleWidthProperty<TLength>
       $columnRuleWidthFocus?: ColumnRuleWidthProperty<TLength>
       $columnRuleWidthHover?: ColumnRuleWidthProperty<TLength>
       $columnSpan?: ColumnSpanProperty
       $largeColumnSpan?: ColumnSpanProperty
       $mediumColumnSpan?: ColumnSpanProperty
       $smallColumnSpan?: ColumnSpanProperty
-      $largeColumnSpanFocus?: ColumnSpanProperty
-      $largeColumnSpanHover?: ColumnSpanProperty
-      $mediumColumnSpanFocus?: ColumnSpanProperty
-      $mediumColumnSpanHover?: ColumnSpanProperty
-      $smallColumnSpanFocus?: ColumnSpanProperty
-      $smallColumnSpanHover?: ColumnSpanProperty
       $columnSpanFocus?: ColumnSpanProperty
       $columnSpanHover?: ColumnSpanProperty
       $columnWidth?: ColumnWidthProperty<TLength>
       $largeColumnWidth?: ColumnWidthProperty<TLength>
       $mediumColumnWidth?: ColumnWidthProperty<TLength>
       $smallColumnWidth?: ColumnWidthProperty<TLength>
-      $largeColumnWidthFocus?: ColumnWidthProperty<TLength>
-      $largeColumnWidthHover?: ColumnWidthProperty<TLength>
-      $mediumColumnWidthFocus?: ColumnWidthProperty<TLength>
-      $mediumColumnWidthHover?: ColumnWidthProperty<TLength>
-      $smallColumnWidthFocus?: ColumnWidthProperty<TLength>
-      $smallColumnWidthHover?: ColumnWidthProperty<TLength>
       $columnWidthFocus?: ColumnWidthProperty<TLength>
       $columnWidthHover?: ColumnWidthProperty<TLength>
       $columns?: ColumnsProperty<TLength>
       $largeColumns?: ColumnsProperty<TLength>
       $mediumColumns?: ColumnsProperty<TLength>
       $smallColumns?: ColumnsProperty<TLength>
-      $largeColumnsFocus?: ColumnsProperty<TLength>
-      $largeColumnsHover?: ColumnsProperty<TLength>
-      $mediumColumnsFocus?: ColumnsProperty<TLength>
-      $mediumColumnsHover?: ColumnsProperty<TLength>
-      $smallColumnsFocus?: ColumnsProperty<TLength>
-      $smallColumnsHover?: ColumnsProperty<TLength>
       $columnsFocus?: ColumnsProperty<TLength>
       $columnsHover?: ColumnsProperty<TLength>
       $contain?: ContainProperty
       $largeContain?: ContainProperty
       $mediumContain?: ContainProperty
       $smallContain?: ContainProperty
-      $largeContainFocus?: ContainProperty
-      $largeContainHover?: ContainProperty
-      $mediumContainFocus?: ContainProperty
-      $mediumContainHover?: ContainProperty
-      $smallContainFocus?: ContainProperty
-      $smallContainHover?: ContainProperty
       $containFocus?: ContainProperty
       $containHover?: ContainProperty
       $content?: ContentProperty
       $largeContent?: ContentProperty
       $mediumContent?: ContentProperty
       $smallContent?: ContentProperty
-      $largeContentFocus?: ContentProperty
-      $largeContentHover?: ContentProperty
-      $mediumContentFocus?: ContentProperty
-      $mediumContentHover?: ContentProperty
-      $smallContentFocus?: ContentProperty
-      $smallContentHover?: ContentProperty
       $contentFocus?: ContentProperty
       $contentHover?: ContentProperty
       $counterIncrement?: CounterIncrementProperty
       $largeCounterIncrement?: CounterIncrementProperty
       $mediumCounterIncrement?: CounterIncrementProperty
       $smallCounterIncrement?: CounterIncrementProperty
-      $largeCounterIncrementFocus?: CounterIncrementProperty
-      $largeCounterIncrementHover?: CounterIncrementProperty
-      $mediumCounterIncrementFocus?: CounterIncrementProperty
-      $mediumCounterIncrementHover?: CounterIncrementProperty
-      $smallCounterIncrementFocus?: CounterIncrementProperty
-      $smallCounterIncrementHover?: CounterIncrementProperty
       $counterIncrementFocus?: CounterIncrementProperty
       $counterIncrementHover?: CounterIncrementProperty
       $counterReset?: CounterResetProperty
       $largeCounterReset?: CounterResetProperty
       $mediumCounterReset?: CounterResetProperty
       $smallCounterReset?: CounterResetProperty
-      $largeCounterResetFocus?: CounterResetProperty
-      $largeCounterResetHover?: CounterResetProperty
-      $mediumCounterResetFocus?: CounterResetProperty
-      $mediumCounterResetHover?: CounterResetProperty
-      $smallCounterResetFocus?: CounterResetProperty
-      $smallCounterResetHover?: CounterResetProperty
       $counterResetFocus?: CounterResetProperty
       $counterResetHover?: CounterResetProperty
       $counterSet?: CounterSetProperty
       $largeCounterSet?: CounterSetProperty
       $mediumCounterSet?: CounterSetProperty
       $smallCounterSet?: CounterSetProperty
-      $largeCounterSetFocus?: CounterSetProperty
-      $largeCounterSetHover?: CounterSetProperty
-      $mediumCounterSetFocus?: CounterSetProperty
-      $mediumCounterSetHover?: CounterSetProperty
-      $smallCounterSetFocus?: CounterSetProperty
-      $smallCounterSetHover?: CounterSetProperty
       $counterSetFocus?: CounterSetProperty
       $counterSetHover?: CounterSetProperty
       $cursor?: CursorProperty
       $largeCursor?: CursorProperty
       $mediumCursor?: CursorProperty
       $smallCursor?: CursorProperty
-      $largeCursorFocus?: CursorProperty
-      $largeCursorHover?: CursorProperty
-      $mediumCursorFocus?: CursorProperty
-      $mediumCursorHover?: CursorProperty
-      $smallCursorFocus?: CursorProperty
-      $smallCursorHover?: CursorProperty
       $cursorFocus?: CursorProperty
       $cursorHover?: CursorProperty
       $direction?: DirectionProperty
       $largeDirection?: DirectionProperty
       $mediumDirection?: DirectionProperty
       $smallDirection?: DirectionProperty
-      $largeDirectionFocus?: DirectionProperty
-      $largeDirectionHover?: DirectionProperty
-      $mediumDirectionFocus?: DirectionProperty
-      $mediumDirectionHover?: DirectionProperty
-      $smallDirectionFocus?: DirectionProperty
-      $smallDirectionHover?: DirectionProperty
       $directionFocus?: DirectionProperty
       $directionHover?: DirectionProperty
       $display?: DisplayProperty
       $largeDisplay?: DisplayProperty
       $mediumDisplay?: DisplayProperty
       $smallDisplay?: DisplayProperty
-      $largeDisplayFocus?: DisplayProperty
-      $largeDisplayHover?: DisplayProperty
-      $mediumDisplayFocus?: DisplayProperty
-      $mediumDisplayHover?: DisplayProperty
-      $smallDisplayFocus?: DisplayProperty
-      $smallDisplayHover?: DisplayProperty
       $displayFocus?: DisplayProperty
       $displayHover?: DisplayProperty
       $emptyCells?: EmptyCellsProperty
       $largeEmptyCells?: EmptyCellsProperty
       $mediumEmptyCells?: EmptyCellsProperty
       $smallEmptyCells?: EmptyCellsProperty
-      $largeEmptyCellsFocus?: EmptyCellsProperty
-      $largeEmptyCellsHover?: EmptyCellsProperty
-      $mediumEmptyCellsFocus?: EmptyCellsProperty
-      $mediumEmptyCellsHover?: EmptyCellsProperty
-      $smallEmptyCellsFocus?: EmptyCellsProperty
-      $smallEmptyCellsHover?: EmptyCellsProperty
       $emptyCellsFocus?: EmptyCellsProperty
       $emptyCellsHover?: EmptyCellsProperty
       $filter?: FilterProperty
       $largeFilter?: FilterProperty
       $mediumFilter?: FilterProperty
       $smallFilter?: FilterProperty
-      $largeFilterFocus?: FilterProperty
-      $largeFilterHover?: FilterProperty
-      $mediumFilterFocus?: FilterProperty
-      $mediumFilterHover?: FilterProperty
-      $smallFilterFocus?: FilterProperty
-      $smallFilterHover?: FilterProperty
       $filterFocus?: FilterProperty
       $filterHover?: FilterProperty
       $flex?: FlexProperty<TLength>
       $largeFlex?: FlexProperty<TLength>
       $mediumFlex?: FlexProperty<TLength>
       $smallFlex?: FlexProperty<TLength>
-      $largeFlexFocus?: FlexProperty<TLength>
-      $largeFlexHover?: FlexProperty<TLength>
-      $mediumFlexFocus?: FlexProperty<TLength>
-      $mediumFlexHover?: FlexProperty<TLength>
-      $smallFlexFocus?: FlexProperty<TLength>
-      $smallFlexHover?: FlexProperty<TLength>
       $flexFocus?: FlexProperty<TLength>
       $flexHover?: FlexProperty<TLength>
       $flexBasis?: FlexBasisProperty<TLength>
       $largeFlexBasis?: FlexBasisProperty<TLength>
       $mediumFlexBasis?: FlexBasisProperty<TLength>
       $smallFlexBasis?: FlexBasisProperty<TLength>
-      $largeFlexBasisFocus?: FlexBasisProperty<TLength>
-      $largeFlexBasisHover?: FlexBasisProperty<TLength>
-      $mediumFlexBasisFocus?: FlexBasisProperty<TLength>
-      $mediumFlexBasisHover?: FlexBasisProperty<TLength>
-      $smallFlexBasisFocus?: FlexBasisProperty<TLength>
-      $smallFlexBasisHover?: FlexBasisProperty<TLength>
       $flexBasisFocus?: FlexBasisProperty<TLength>
       $flexBasisHover?: FlexBasisProperty<TLength>
       $flexDirection?: FlexDirectionProperty
       $largeFlexDirection?: FlexDirectionProperty
       $mediumFlexDirection?: FlexDirectionProperty
       $smallFlexDirection?: FlexDirectionProperty
-      $largeFlexDirectionFocus?: FlexDirectionProperty
-      $largeFlexDirectionHover?: FlexDirectionProperty
-      $mediumFlexDirectionFocus?: FlexDirectionProperty
-      $mediumFlexDirectionHover?: FlexDirectionProperty
-      $smallFlexDirectionFocus?: FlexDirectionProperty
-      $smallFlexDirectionHover?: FlexDirectionProperty
       $flexDirectionFocus?: FlexDirectionProperty
       $flexDirectionHover?: FlexDirectionProperty
       $flexFlow?: FlexFlowProperty
       $largeFlexFlow?: FlexFlowProperty
       $mediumFlexFlow?: FlexFlowProperty
       $smallFlexFlow?: FlexFlowProperty
-      $largeFlexFlowFocus?: FlexFlowProperty
-      $largeFlexFlowHover?: FlexFlowProperty
-      $mediumFlexFlowFocus?: FlexFlowProperty
-      $mediumFlexFlowHover?: FlexFlowProperty
-      $smallFlexFlowFocus?: FlexFlowProperty
-      $smallFlexFlowHover?: FlexFlowProperty
       $flexFlowFocus?: FlexFlowProperty
       $flexFlowHover?: FlexFlowProperty
       $flexWrap?: FlexWrapProperty
       $largeFlexWrap?: FlexWrapProperty
       $mediumFlexWrap?: FlexWrapProperty
       $smallFlexWrap?: FlexWrapProperty
-      $largeFlexWrapFocus?: FlexWrapProperty
-      $largeFlexWrapHover?: FlexWrapProperty
-      $mediumFlexWrapFocus?: FlexWrapProperty
-      $mediumFlexWrapHover?: FlexWrapProperty
-      $smallFlexWrapFocus?: FlexWrapProperty
-      $smallFlexWrapHover?: FlexWrapProperty
       $flexWrapFocus?: FlexWrapProperty
       $flexWrapHover?: FlexWrapProperty
       $float?: FloatProperty
       $largeFloat?: FloatProperty
       $mediumFloat?: FloatProperty
       $smallFloat?: FloatProperty
-      $largeFloatFocus?: FloatProperty
-      $largeFloatHover?: FloatProperty
-      $mediumFloatFocus?: FloatProperty
-      $mediumFloatHover?: FloatProperty
-      $smallFloatFocus?: FloatProperty
-      $smallFloatHover?: FloatProperty
       $floatFocus?: FloatProperty
       $floatHover?: FloatProperty
       $font?: FontProperty
       $largeFont?: FontProperty
       $mediumFont?: FontProperty
       $smallFont?: FontProperty
-      $largeFontFocus?: FontProperty
-      $largeFontHover?: FontProperty
-      $mediumFontFocus?: FontProperty
-      $mediumFontHover?: FontProperty
-      $smallFontFocus?: FontProperty
-      $smallFontHover?: FontProperty
       $fontFocus?: FontProperty
       $fontHover?: FontProperty
       $fontFamily?: FontFamilyProperty
       $largeFontFamily?: FontFamilyProperty
       $mediumFontFamily?: FontFamilyProperty
       $smallFontFamily?: FontFamilyProperty
-      $largeFontFamilyFocus?: FontFamilyProperty
-      $largeFontFamilyHover?: FontFamilyProperty
-      $mediumFontFamilyFocus?: FontFamilyProperty
-      $mediumFontFamilyHover?: FontFamilyProperty
-      $smallFontFamilyFocus?: FontFamilyProperty
-      $smallFontFamilyHover?: FontFamilyProperty
       $fontFamilyFocus?: FontFamilyProperty
       $fontFamilyHover?: FontFamilyProperty
       $fontFeatureSettings?: FontFeatureSettingsProperty
       $largeFontFeatureSettings?: FontFeatureSettingsProperty
       $mediumFontFeatureSettings?: FontFeatureSettingsProperty
       $smallFontFeatureSettings?: FontFeatureSettingsProperty
-      $largeFontFeatureSettingsFocus?: FontFeatureSettingsProperty
-      $largeFontFeatureSettingsHover?: FontFeatureSettingsProperty
-      $mediumFontFeatureSettingsFocus?: FontFeatureSettingsProperty
-      $mediumFontFeatureSettingsHover?: FontFeatureSettingsProperty
-      $smallFontFeatureSettingsFocus?: FontFeatureSettingsProperty
-      $smallFontFeatureSettingsHover?: FontFeatureSettingsProperty
       $fontFeatureSettingsFocus?: FontFeatureSettingsProperty
       $fontFeatureSettingsHover?: FontFeatureSettingsProperty
       $fontKerning?: FontKerningProperty
       $largeFontKerning?: FontKerningProperty
       $mediumFontKerning?: FontKerningProperty
       $smallFontKerning?: FontKerningProperty
-      $largeFontKerningFocus?: FontKerningProperty
-      $largeFontKerningHover?: FontKerningProperty
-      $mediumFontKerningFocus?: FontKerningProperty
-      $mediumFontKerningHover?: FontKerningProperty
-      $smallFontKerningFocus?: FontKerningProperty
-      $smallFontKerningHover?: FontKerningProperty
       $fontKerningFocus?: FontKerningProperty
       $fontKerningHover?: FontKerningProperty
       $fontLanguageOverride?: FontLanguageOverrideProperty
       $largeFontLanguageOverride?: FontLanguageOverrideProperty
       $mediumFontLanguageOverride?: FontLanguageOverrideProperty
       $smallFontLanguageOverride?: FontLanguageOverrideProperty
-      $largeFontLanguageOverrideFocus?: FontLanguageOverrideProperty
-      $largeFontLanguageOverrideHover?: FontLanguageOverrideProperty
-      $mediumFontLanguageOverrideFocus?: FontLanguageOverrideProperty
-      $mediumFontLanguageOverrideHover?: FontLanguageOverrideProperty
-      $smallFontLanguageOverrideFocus?: FontLanguageOverrideProperty
-      $smallFontLanguageOverrideHover?: FontLanguageOverrideProperty
       $fontLanguageOverrideFocus?: FontLanguageOverrideProperty
       $fontLanguageOverrideHover?: FontLanguageOverrideProperty
       $fontOpticalSizing?: FontOpticalSizingProperty
       $largeFontOpticalSizing?: FontOpticalSizingProperty
       $mediumFontOpticalSizing?: FontOpticalSizingProperty
       $smallFontOpticalSizing?: FontOpticalSizingProperty
-      $largeFontOpticalSizingFocus?: FontOpticalSizingProperty
-      $largeFontOpticalSizingHover?: FontOpticalSizingProperty
-      $mediumFontOpticalSizingFocus?: FontOpticalSizingProperty
-      $mediumFontOpticalSizingHover?: FontOpticalSizingProperty
-      $smallFontOpticalSizingFocus?: FontOpticalSizingProperty
-      $smallFontOpticalSizingHover?: FontOpticalSizingProperty
       $fontOpticalSizingFocus?: FontOpticalSizingProperty
       $fontOpticalSizingHover?: FontOpticalSizingProperty
       $fontSize?: FontSizeProperty<TLength>
       $largeFontSize?: FontSizeProperty<TLength>
       $mediumFontSize?: FontSizeProperty<TLength>
       $smallFontSize?: FontSizeProperty<TLength>
-      $largeFontSizeFocus?: FontSizeProperty<TLength>
-      $largeFontSizeHover?: FontSizeProperty<TLength>
-      $mediumFontSizeFocus?: FontSizeProperty<TLength>
-      $mediumFontSizeHover?: FontSizeProperty<TLength>
-      $smallFontSizeFocus?: FontSizeProperty<TLength>
-      $smallFontSizeHover?: FontSizeProperty<TLength>
       $fontSizeFocus?: FontSizeProperty<TLength>
       $fontSizeHover?: FontSizeProperty<TLength>
       $fontSizeAdjust?: FontSizeAdjustProperty
       $largeFontSizeAdjust?: FontSizeAdjustProperty
       $mediumFontSizeAdjust?: FontSizeAdjustProperty
       $smallFontSizeAdjust?: FontSizeAdjustProperty
-      $largeFontSizeAdjustFocus?: FontSizeAdjustProperty
-      $largeFontSizeAdjustHover?: FontSizeAdjustProperty
-      $mediumFontSizeAdjustFocus?: FontSizeAdjustProperty
-      $mediumFontSizeAdjustHover?: FontSizeAdjustProperty
-      $smallFontSizeAdjustFocus?: FontSizeAdjustProperty
-      $smallFontSizeAdjustHover?: FontSizeAdjustProperty
       $fontSizeAdjustFocus?: FontSizeAdjustProperty
       $fontSizeAdjustHover?: FontSizeAdjustProperty
       $fontStretch?: FontStretchProperty
       $largeFontStretch?: FontStretchProperty
       $mediumFontStretch?: FontStretchProperty
       $smallFontStretch?: FontStretchProperty
-      $largeFontStretchFocus?: FontStretchProperty
-      $largeFontStretchHover?: FontStretchProperty
-      $mediumFontStretchFocus?: FontStretchProperty
-      $mediumFontStretchHover?: FontStretchProperty
-      $smallFontStretchFocus?: FontStretchProperty
-      $smallFontStretchHover?: FontStretchProperty
       $fontStretchFocus?: FontStretchProperty
       $fontStretchHover?: FontStretchProperty
       $fontStyle?: FontStyleProperty
       $largeFontStyle?: FontStyleProperty
       $mediumFontStyle?: FontStyleProperty
       $smallFontStyle?: FontStyleProperty
-      $largeFontStyleFocus?: FontStyleProperty
-      $largeFontStyleHover?: FontStyleProperty
-      $mediumFontStyleFocus?: FontStyleProperty
-      $mediumFontStyleHover?: FontStyleProperty
-      $smallFontStyleFocus?: FontStyleProperty
-      $smallFontStyleHover?: FontStyleProperty
       $fontStyleFocus?: FontStyleProperty
       $fontStyleHover?: FontStyleProperty
       $fontSynthesis?: FontSynthesisProperty
       $largeFontSynthesis?: FontSynthesisProperty
       $mediumFontSynthesis?: FontSynthesisProperty
       $smallFontSynthesis?: FontSynthesisProperty
-      $largeFontSynthesisFocus?: FontSynthesisProperty
-      $largeFontSynthesisHover?: FontSynthesisProperty
-      $mediumFontSynthesisFocus?: FontSynthesisProperty
-      $mediumFontSynthesisHover?: FontSynthesisProperty
-      $smallFontSynthesisFocus?: FontSynthesisProperty
-      $smallFontSynthesisHover?: FontSynthesisProperty
       $fontSynthesisFocus?: FontSynthesisProperty
       $fontSynthesisHover?: FontSynthesisProperty
       $fontVariant?: FontVariantProperty
       $largeFontVariant?: FontVariantProperty
       $mediumFontVariant?: FontVariantProperty
       $smallFontVariant?: FontVariantProperty
-      $largeFontVariantFocus?: FontVariantProperty
-      $largeFontVariantHover?: FontVariantProperty
-      $mediumFontVariantFocus?: FontVariantProperty
-      $mediumFontVariantHover?: FontVariantProperty
-      $smallFontVariantFocus?: FontVariantProperty
-      $smallFontVariantHover?: FontVariantProperty
       $fontVariantFocus?: FontVariantProperty
       $fontVariantHover?: FontVariantProperty
       $fontVariantAlternates?: FontVariantAlternatesProperty
       $largeFontVariantAlternates?: FontVariantAlternatesProperty
       $mediumFontVariantAlternates?: FontVariantAlternatesProperty
       $smallFontVariantAlternates?: FontVariantAlternatesProperty
-      $largeFontVariantAlternatesFocus?: FontVariantAlternatesProperty
-      $largeFontVariantAlternatesHover?: FontVariantAlternatesProperty
-      $mediumFontVariantAlternatesFocus?: FontVariantAlternatesProperty
-      $mediumFontVariantAlternatesHover?: FontVariantAlternatesProperty
-      $smallFontVariantAlternatesFocus?: FontVariantAlternatesProperty
-      $smallFontVariantAlternatesHover?: FontVariantAlternatesProperty
       $fontVariantAlternatesFocus?: FontVariantAlternatesProperty
       $fontVariantAlternatesHover?: FontVariantAlternatesProperty
       $fontVariantCaps?: FontVariantCapsProperty
       $largeFontVariantCaps?: FontVariantCapsProperty
       $mediumFontVariantCaps?: FontVariantCapsProperty
       $smallFontVariantCaps?: FontVariantCapsProperty
-      $largeFontVariantCapsFocus?: FontVariantCapsProperty
-      $largeFontVariantCapsHover?: FontVariantCapsProperty
-      $mediumFontVariantCapsFocus?: FontVariantCapsProperty
-      $mediumFontVariantCapsHover?: FontVariantCapsProperty
-      $smallFontVariantCapsFocus?: FontVariantCapsProperty
-      $smallFontVariantCapsHover?: FontVariantCapsProperty
       $fontVariantCapsFocus?: FontVariantCapsProperty
       $fontVariantCapsHover?: FontVariantCapsProperty
       $fontVariantEastAsian?: FontVariantEastAsianProperty
       $largeFontVariantEastAsian?: FontVariantEastAsianProperty
       $mediumFontVariantEastAsian?: FontVariantEastAsianProperty
       $smallFontVariantEastAsian?: FontVariantEastAsianProperty
-      $largeFontVariantEastAsianFocus?: FontVariantEastAsianProperty
-      $largeFontVariantEastAsianHover?: FontVariantEastAsianProperty
-      $mediumFontVariantEastAsianFocus?: FontVariantEastAsianProperty
-      $mediumFontVariantEastAsianHover?: FontVariantEastAsianProperty
-      $smallFontVariantEastAsianFocus?: FontVariantEastAsianProperty
-      $smallFontVariantEastAsianHover?: FontVariantEastAsianProperty
       $fontVariantEastAsianFocus?: FontVariantEastAsianProperty
       $fontVariantEastAsianHover?: FontVariantEastAsianProperty
       $fontVariantLigatures?: FontVariantLigaturesProperty
       $largeFontVariantLigatures?: FontVariantLigaturesProperty
       $mediumFontVariantLigatures?: FontVariantLigaturesProperty
       $smallFontVariantLigatures?: FontVariantLigaturesProperty
-      $largeFontVariantLigaturesFocus?: FontVariantLigaturesProperty
-      $largeFontVariantLigaturesHover?: FontVariantLigaturesProperty
-      $mediumFontVariantLigaturesFocus?: FontVariantLigaturesProperty
-      $mediumFontVariantLigaturesHover?: FontVariantLigaturesProperty
-      $smallFontVariantLigaturesFocus?: FontVariantLigaturesProperty
-      $smallFontVariantLigaturesHover?: FontVariantLigaturesProperty
       $fontVariantLigaturesFocus?: FontVariantLigaturesProperty
       $fontVariantLigaturesHover?: FontVariantLigaturesProperty
       $fontVariantNumeric?: FontVariantNumericProperty
       $largeFontVariantNumeric?: FontVariantNumericProperty
       $mediumFontVariantNumeric?: FontVariantNumericProperty
       $smallFontVariantNumeric?: FontVariantNumericProperty
-      $largeFontVariantNumericFocus?: FontVariantNumericProperty
-      $largeFontVariantNumericHover?: FontVariantNumericProperty
-      $mediumFontVariantNumericFocus?: FontVariantNumericProperty
-      $mediumFontVariantNumericHover?: FontVariantNumericProperty
-      $smallFontVariantNumericFocus?: FontVariantNumericProperty
-      $smallFontVariantNumericHover?: FontVariantNumericProperty
       $fontVariantNumericFocus?: FontVariantNumericProperty
       $fontVariantNumericHover?: FontVariantNumericProperty
       $fontVariantPosition?: FontVariantPositionProperty
       $largeFontVariantPosition?: FontVariantPositionProperty
       $mediumFontVariantPosition?: FontVariantPositionProperty
       $smallFontVariantPosition?: FontVariantPositionProperty
-      $largeFontVariantPositionFocus?: FontVariantPositionProperty
-      $largeFontVariantPositionHover?: FontVariantPositionProperty
-      $mediumFontVariantPositionFocus?: FontVariantPositionProperty
-      $mediumFontVariantPositionHover?: FontVariantPositionProperty
-      $smallFontVariantPositionFocus?: FontVariantPositionProperty
-      $smallFontVariantPositionHover?: FontVariantPositionProperty
       $fontVariantPositionFocus?: FontVariantPositionProperty
       $fontVariantPositionHover?: FontVariantPositionProperty
       $fontVariationSettings?: FontVariationSettingsProperty
       $largeFontVariationSettings?: FontVariationSettingsProperty
       $mediumFontVariationSettings?: FontVariationSettingsProperty
       $smallFontVariationSettings?: FontVariationSettingsProperty
-      $largeFontVariationSettingsFocus?: FontVariationSettingsProperty
-      $largeFontVariationSettingsHover?: FontVariationSettingsProperty
-      $mediumFontVariationSettingsFocus?: FontVariationSettingsProperty
-      $mediumFontVariationSettingsHover?: FontVariationSettingsProperty
-      $smallFontVariationSettingsFocus?: FontVariationSettingsProperty
-      $smallFontVariationSettingsHover?: FontVariationSettingsProperty
       $fontVariationSettingsFocus?: FontVariationSettingsProperty
       $fontVariationSettingsHover?: FontVariationSettingsProperty
       $fontWeight?: FontWeightProperty
       $largeFontWeight?: FontWeightProperty
       $mediumFontWeight?: FontWeightProperty
       $smallFontWeight?: FontWeightProperty
-      $largeFontWeightFocus?: FontWeightProperty
-      $largeFontWeightHover?: FontWeightProperty
-      $mediumFontWeightFocus?: FontWeightProperty
-      $mediumFontWeightHover?: FontWeightProperty
-      $smallFontWeightFocus?: FontWeightProperty
-      $smallFontWeightHover?: FontWeightProperty
       $fontWeightFocus?: FontWeightProperty
       $fontWeightHover?: FontWeightProperty
       $gap?: GapProperty<TLength>
       $largeGap?: GapProperty<TLength>
       $mediumGap?: GapProperty<TLength>
       $smallGap?: GapProperty<TLength>
-      $largeGapFocus?: GapProperty<TLength>
-      $largeGapHover?: GapProperty<TLength>
-      $mediumGapFocus?: GapProperty<TLength>
-      $mediumGapHover?: GapProperty<TLength>
-      $smallGapFocus?: GapProperty<TLength>
-      $smallGapHover?: GapProperty<TLength>
       $gapFocus?: GapProperty<TLength>
       $gapHover?: GapProperty<TLength>
       $grid?: GridProperty
       $largeGrid?: GridProperty
       $mediumGrid?: GridProperty
       $smallGrid?: GridProperty
-      $largeGridFocus?: GridProperty
-      $largeGridHover?: GridProperty
-      $mediumGridFocus?: GridProperty
-      $mediumGridHover?: GridProperty
-      $smallGridFocus?: GridProperty
-      $smallGridHover?: GridProperty
       $gridFocus?: GridProperty
       $gridHover?: GridProperty
       $gridArea?: GridAreaProperty
       $largeGridArea?: GridAreaProperty
       $mediumGridArea?: GridAreaProperty
       $smallGridArea?: GridAreaProperty
-      $largeGridAreaFocus?: GridAreaProperty
-      $largeGridAreaHover?: GridAreaProperty
-      $mediumGridAreaFocus?: GridAreaProperty
-      $mediumGridAreaHover?: GridAreaProperty
-      $smallGridAreaFocus?: GridAreaProperty
-      $smallGridAreaHover?: GridAreaProperty
       $gridAreaFocus?: GridAreaProperty
       $gridAreaHover?: GridAreaProperty
       $gridAutoColumns?: GridAutoColumnsProperty<TLength>
       $largeGridAutoColumns?: GridAutoColumnsProperty<TLength>
       $mediumGridAutoColumns?: GridAutoColumnsProperty<TLength>
       $smallGridAutoColumns?: GridAutoColumnsProperty<TLength>
-      $largeGridAutoColumnsFocus?: GridAutoColumnsProperty<TLength>
-      $largeGridAutoColumnsHover?: GridAutoColumnsProperty<TLength>
-      $mediumGridAutoColumnsFocus?: GridAutoColumnsProperty<TLength>
-      $mediumGridAutoColumnsHover?: GridAutoColumnsProperty<TLength>
-      $smallGridAutoColumnsFocus?: GridAutoColumnsProperty<TLength>
-      $smallGridAutoColumnsHover?: GridAutoColumnsProperty<TLength>
       $gridAutoColumnsFocus?: GridAutoColumnsProperty<TLength>
       $gridAutoColumnsHover?: GridAutoColumnsProperty<TLength>
       $gridAutoFlow?: GridAutoFlowProperty
       $largeGridAutoFlow?: GridAutoFlowProperty
       $mediumGridAutoFlow?: GridAutoFlowProperty
       $smallGridAutoFlow?: GridAutoFlowProperty
-      $largeGridAutoFlowFocus?: GridAutoFlowProperty
-      $largeGridAutoFlowHover?: GridAutoFlowProperty
-      $mediumGridAutoFlowFocus?: GridAutoFlowProperty
-      $mediumGridAutoFlowHover?: GridAutoFlowProperty
-      $smallGridAutoFlowFocus?: GridAutoFlowProperty
-      $smallGridAutoFlowHover?: GridAutoFlowProperty
       $gridAutoFlowFocus?: GridAutoFlowProperty
       $gridAutoFlowHover?: GridAutoFlowProperty
       $gridAutoRows?: GridAutoRowsProperty<TLength>
       $largeGridAutoRows?: GridAutoRowsProperty<TLength>
       $mediumGridAutoRows?: GridAutoRowsProperty<TLength>
       $smallGridAutoRows?: GridAutoRowsProperty<TLength>
-      $largeGridAutoRowsFocus?: GridAutoRowsProperty<TLength>
-      $largeGridAutoRowsHover?: GridAutoRowsProperty<TLength>
-      $mediumGridAutoRowsFocus?: GridAutoRowsProperty<TLength>
-      $mediumGridAutoRowsHover?: GridAutoRowsProperty<TLength>
-      $smallGridAutoRowsFocus?: GridAutoRowsProperty<TLength>
-      $smallGridAutoRowsHover?: GridAutoRowsProperty<TLength>
       $gridAutoRowsFocus?: GridAutoRowsProperty<TLength>
       $gridAutoRowsHover?: GridAutoRowsProperty<TLength>
       $gridColumn?: GridColumnProperty
       $largeGridColumn?: GridColumnProperty
       $mediumGridColumn?: GridColumnProperty
       $smallGridColumn?: GridColumnProperty
-      $largeGridColumnFocus?: GridColumnProperty
-      $largeGridColumnHover?: GridColumnProperty
-      $mediumGridColumnFocus?: GridColumnProperty
-      $mediumGridColumnHover?: GridColumnProperty
-      $smallGridColumnFocus?: GridColumnProperty
-      $smallGridColumnHover?: GridColumnProperty
       $gridColumnFocus?: GridColumnProperty
       $gridColumnHover?: GridColumnProperty
       $gridColumnEnd?: GridColumnEndProperty
       $largeGridColumnEnd?: GridColumnEndProperty
       $mediumGridColumnEnd?: GridColumnEndProperty
       $smallGridColumnEnd?: GridColumnEndProperty
-      $largeGridColumnEndFocus?: GridColumnEndProperty
-      $largeGridColumnEndHover?: GridColumnEndProperty
-      $mediumGridColumnEndFocus?: GridColumnEndProperty
-      $mediumGridColumnEndHover?: GridColumnEndProperty
-      $smallGridColumnEndFocus?: GridColumnEndProperty
-      $smallGridColumnEndHover?: GridColumnEndProperty
       $gridColumnEndFocus?: GridColumnEndProperty
       $gridColumnEndHover?: GridColumnEndProperty
       $gridColumnGap?: GridColumnGapProperty<TLength>
       $largeGridColumnGap?: GridColumnGapProperty<TLength>
       $mediumGridColumnGap?: GridColumnGapProperty<TLength>
       $smallGridColumnGap?: GridColumnGapProperty<TLength>
-      $largeGridColumnGapFocus?: GridColumnGapProperty<TLength>
-      $largeGridColumnGapHover?: GridColumnGapProperty<TLength>
-      $mediumGridColumnGapFocus?: GridColumnGapProperty<TLength>
-      $mediumGridColumnGapHover?: GridColumnGapProperty<TLength>
-      $smallGridColumnGapFocus?: GridColumnGapProperty<TLength>
-      $smallGridColumnGapHover?: GridColumnGapProperty<TLength>
       $gridColumnGapFocus?: GridColumnGapProperty<TLength>
       $gridColumnGapHover?: GridColumnGapProperty<TLength>
       $gridColumnStart?: GridColumnStartProperty
       $largeGridColumnStart?: GridColumnStartProperty
       $mediumGridColumnStart?: GridColumnStartProperty
       $smallGridColumnStart?: GridColumnStartProperty
-      $largeGridColumnStartFocus?: GridColumnStartProperty
-      $largeGridColumnStartHover?: GridColumnStartProperty
-      $mediumGridColumnStartFocus?: GridColumnStartProperty
-      $mediumGridColumnStartHover?: GridColumnStartProperty
-      $smallGridColumnStartFocus?: GridColumnStartProperty
-      $smallGridColumnStartHover?: GridColumnStartProperty
       $gridColumnStartFocus?: GridColumnStartProperty
       $gridColumnStartHover?: GridColumnStartProperty
       $gridGap?: GridGapProperty<TLength>
       $largeGridGap?: GridGapProperty<TLength>
       $mediumGridGap?: GridGapProperty<TLength>
       $smallGridGap?: GridGapProperty<TLength>
-      $largeGridGapFocus?: GridGapProperty<TLength>
-      $largeGridGapHover?: GridGapProperty<TLength>
-      $mediumGridGapFocus?: GridGapProperty<TLength>
-      $mediumGridGapHover?: GridGapProperty<TLength>
-      $smallGridGapFocus?: GridGapProperty<TLength>
-      $smallGridGapHover?: GridGapProperty<TLength>
       $gridGapFocus?: GridGapProperty<TLength>
       $gridGapHover?: GridGapProperty<TLength>
       $gridRow?: GridRowProperty
       $largeGridRow?: GridRowProperty
       $mediumGridRow?: GridRowProperty
       $smallGridRow?: GridRowProperty
-      $largeGridRowFocus?: GridRowProperty
-      $largeGridRowHover?: GridRowProperty
-      $mediumGridRowFocus?: GridRowProperty
-      $mediumGridRowHover?: GridRowProperty
-      $smallGridRowFocus?: GridRowProperty
-      $smallGridRowHover?: GridRowProperty
       $gridRowFocus?: GridRowProperty
       $gridRowHover?: GridRowProperty
       $gridRowEnd?: GridRowEndProperty
       $largeGridRowEnd?: GridRowEndProperty
       $mediumGridRowEnd?: GridRowEndProperty
       $smallGridRowEnd?: GridRowEndProperty
-      $largeGridRowEndFocus?: GridRowEndProperty
-      $largeGridRowEndHover?: GridRowEndProperty
-      $mediumGridRowEndFocus?: GridRowEndProperty
-      $mediumGridRowEndHover?: GridRowEndProperty
-      $smallGridRowEndFocus?: GridRowEndProperty
-      $smallGridRowEndHover?: GridRowEndProperty
       $gridRowEndFocus?: GridRowEndProperty
       $gridRowEndHover?: GridRowEndProperty
       $gridRowGap?: GridRowGapProperty<TLength>
       $largeGridRowGap?: GridRowGapProperty<TLength>
       $mediumGridRowGap?: GridRowGapProperty<TLength>
       $smallGridRowGap?: GridRowGapProperty<TLength>
-      $largeGridRowGapFocus?: GridRowGapProperty<TLength>
-      $largeGridRowGapHover?: GridRowGapProperty<TLength>
-      $mediumGridRowGapFocus?: GridRowGapProperty<TLength>
-      $mediumGridRowGapHover?: GridRowGapProperty<TLength>
-      $smallGridRowGapFocus?: GridRowGapProperty<TLength>
-      $smallGridRowGapHover?: GridRowGapProperty<TLength>
       $gridRowGapFocus?: GridRowGapProperty<TLength>
       $gridRowGapHover?: GridRowGapProperty<TLength>
       $gridRowStart?: GridRowStartProperty
       $largeGridRowStart?: GridRowStartProperty
       $mediumGridRowStart?: GridRowStartProperty
       $smallGridRowStart?: GridRowStartProperty
-      $largeGridRowStartFocus?: GridRowStartProperty
-      $largeGridRowStartHover?: GridRowStartProperty
-      $mediumGridRowStartFocus?: GridRowStartProperty
-      $mediumGridRowStartHover?: GridRowStartProperty
-      $smallGridRowStartFocus?: GridRowStartProperty
-      $smallGridRowStartHover?: GridRowStartProperty
       $gridRowStartFocus?: GridRowStartProperty
       $gridRowStartHover?: GridRowStartProperty
       $gridTemplate?: GridTemplateProperty
       $largeGridTemplate?: GridTemplateProperty
       $mediumGridTemplate?: GridTemplateProperty
       $smallGridTemplate?: GridTemplateProperty
-      $largeGridTemplateFocus?: GridTemplateProperty
-      $largeGridTemplateHover?: GridTemplateProperty
-      $mediumGridTemplateFocus?: GridTemplateProperty
-      $mediumGridTemplateHover?: GridTemplateProperty
-      $smallGridTemplateFocus?: GridTemplateProperty
-      $smallGridTemplateHover?: GridTemplateProperty
       $gridTemplateFocus?: GridTemplateProperty
       $gridTemplateHover?: GridTemplateProperty
       $gridTemplateAreas?: GridTemplateAreasProperty
       $largeGridTemplateAreas?: GridTemplateAreasProperty
       $mediumGridTemplateAreas?: GridTemplateAreasProperty
       $smallGridTemplateAreas?: GridTemplateAreasProperty
-      $largeGridTemplateAreasFocus?: GridTemplateAreasProperty
-      $largeGridTemplateAreasHover?: GridTemplateAreasProperty
-      $mediumGridTemplateAreasFocus?: GridTemplateAreasProperty
-      $mediumGridTemplateAreasHover?: GridTemplateAreasProperty
-      $smallGridTemplateAreasFocus?: GridTemplateAreasProperty
-      $smallGridTemplateAreasHover?: GridTemplateAreasProperty
       $gridTemplateAreasFocus?: GridTemplateAreasProperty
       $gridTemplateAreasHover?: GridTemplateAreasProperty
       $gridTemplateColumns?: GridTemplateColumnsProperty<TLength>
       $largeGridTemplateColumns?: GridTemplateColumnsProperty<TLength>
       $mediumGridTemplateColumns?: GridTemplateColumnsProperty<TLength>
       $smallGridTemplateColumns?: GridTemplateColumnsProperty<TLength>
-      $largeGridTemplateColumnsFocus?: GridTemplateColumnsProperty<TLength>
-      $largeGridTemplateColumnsHover?: GridTemplateColumnsProperty<TLength>
-      $mediumGridTemplateColumnsFocus?: GridTemplateColumnsProperty<TLength>
-      $mediumGridTemplateColumnsHover?: GridTemplateColumnsProperty<TLength>
-      $smallGridTemplateColumnsFocus?: GridTemplateColumnsProperty<TLength>
-      $smallGridTemplateColumnsHover?: GridTemplateColumnsProperty<TLength>
       $gridTemplateColumnsFocus?: GridTemplateColumnsProperty<TLength>
       $gridTemplateColumnsHover?: GridTemplateColumnsProperty<TLength>
       $gridTemplateRows?: GridTemplateRowsProperty<TLength>
       $largeGridTemplateRows?: GridTemplateRowsProperty<TLength>
       $mediumGridTemplateRows?: GridTemplateRowsProperty<TLength>
       $smallGridTemplateRows?: GridTemplateRowsProperty<TLength>
-      $largeGridTemplateRowsFocus?: GridTemplateRowsProperty<TLength>
-      $largeGridTemplateRowsHover?: GridTemplateRowsProperty<TLength>
-      $mediumGridTemplateRowsFocus?: GridTemplateRowsProperty<TLength>
-      $mediumGridTemplateRowsHover?: GridTemplateRowsProperty<TLength>
-      $smallGridTemplateRowsFocus?: GridTemplateRowsProperty<TLength>
-      $smallGridTemplateRowsHover?: GridTemplateRowsProperty<TLength>
       $gridTemplateRowsFocus?: GridTemplateRowsProperty<TLength>
       $gridTemplateRowsHover?: GridTemplateRowsProperty<TLength>
       $hangingPunctuation?: HangingPunctuationProperty
       $largeHangingPunctuation?: HangingPunctuationProperty
       $mediumHangingPunctuation?: HangingPunctuationProperty
       $smallHangingPunctuation?: HangingPunctuationProperty
-      $largeHangingPunctuationFocus?: HangingPunctuationProperty
-      $largeHangingPunctuationHover?: HangingPunctuationProperty
-      $mediumHangingPunctuationFocus?: HangingPunctuationProperty
-      $mediumHangingPunctuationHover?: HangingPunctuationProperty
-      $smallHangingPunctuationFocus?: HangingPunctuationProperty
-      $smallHangingPunctuationHover?: HangingPunctuationProperty
       $hangingPunctuationFocus?: HangingPunctuationProperty
       $hangingPunctuationHover?: HangingPunctuationProperty
       $height?: HeightProperty<TLength>
       $largeHeight?: HeightProperty<TLength>
       $mediumHeight?: HeightProperty<TLength>
       $smallHeight?: HeightProperty<TLength>
-      $largeHeightFocus?: HeightProperty<TLength>
-      $largeHeightHover?: HeightProperty<TLength>
-      $mediumHeightFocus?: HeightProperty<TLength>
-      $mediumHeightHover?: HeightProperty<TLength>
-      $smallHeightFocus?: HeightProperty<TLength>
-      $smallHeightHover?: HeightProperty<TLength>
       $heightFocus?: HeightProperty<TLength>
       $heightHover?: HeightProperty<TLength>
       $hyphens?: HyphensProperty
       $largeHyphens?: HyphensProperty
       $mediumHyphens?: HyphensProperty
       $smallHyphens?: HyphensProperty
-      $largeHyphensFocus?: HyphensProperty
-      $largeHyphensHover?: HyphensProperty
-      $mediumHyphensFocus?: HyphensProperty
-      $mediumHyphensHover?: HyphensProperty
-      $smallHyphensFocus?: HyphensProperty
-      $smallHyphensHover?: HyphensProperty
       $hyphensFocus?: HyphensProperty
       $hyphensHover?: HyphensProperty
       $imageOrientation?: ImageOrientationProperty
       $largeImageOrientation?: ImageOrientationProperty
       $mediumImageOrientation?: ImageOrientationProperty
       $smallImageOrientation?: ImageOrientationProperty
-      $largeImageOrientationFocus?: ImageOrientationProperty
-      $largeImageOrientationHover?: ImageOrientationProperty
-      $mediumImageOrientationFocus?: ImageOrientationProperty
-      $mediumImageOrientationHover?: ImageOrientationProperty
-      $smallImageOrientationFocus?: ImageOrientationProperty
-      $smallImageOrientationHover?: ImageOrientationProperty
       $imageOrientationFocus?: ImageOrientationProperty
       $imageOrientationHover?: ImageOrientationProperty
       $imageRendering?: ImageRenderingProperty
       $largeImageRendering?: ImageRenderingProperty
       $mediumImageRendering?: ImageRenderingProperty
       $smallImageRendering?: ImageRenderingProperty
-      $largeImageRenderingFocus?: ImageRenderingProperty
-      $largeImageRenderingHover?: ImageRenderingProperty
-      $mediumImageRenderingFocus?: ImageRenderingProperty
-      $mediumImageRenderingHover?: ImageRenderingProperty
-      $smallImageRenderingFocus?: ImageRenderingProperty
-      $smallImageRenderingHover?: ImageRenderingProperty
       $imageRenderingFocus?: ImageRenderingProperty
       $imageRenderingHover?: ImageRenderingProperty
       $imageResolution?: ImageResolutionProperty
       $largeImageResolution?: ImageResolutionProperty
       $mediumImageResolution?: ImageResolutionProperty
       $smallImageResolution?: ImageResolutionProperty
-      $largeImageResolutionFocus?: ImageResolutionProperty
-      $largeImageResolutionHover?: ImageResolutionProperty
-      $mediumImageResolutionFocus?: ImageResolutionProperty
-      $mediumImageResolutionHover?: ImageResolutionProperty
-      $smallImageResolutionFocus?: ImageResolutionProperty
-      $smallImageResolutionHover?: ImageResolutionProperty
       $imageResolutionFocus?: ImageResolutionProperty
       $imageResolutionHover?: ImageResolutionProperty
       $imeMode?: ImeModeProperty
       $largeImeMode?: ImeModeProperty
       $mediumImeMode?: ImeModeProperty
       $smallImeMode?: ImeModeProperty
-      $largeImeModeFocus?: ImeModeProperty
-      $largeImeModeHover?: ImeModeProperty
-      $mediumImeModeFocus?: ImeModeProperty
-      $mediumImeModeHover?: ImeModeProperty
-      $smallImeModeFocus?: ImeModeProperty
-      $smallImeModeHover?: ImeModeProperty
       $imeModeFocus?: ImeModeProperty
       $imeModeHover?: ImeModeProperty
       $initialLetter?: InitialLetterProperty
       $largeInitialLetter?: InitialLetterProperty
       $mediumInitialLetter?: InitialLetterProperty
       $smallInitialLetter?: InitialLetterProperty
-      $largeInitialLetterFocus?: InitialLetterProperty
-      $largeInitialLetterHover?: InitialLetterProperty
-      $mediumInitialLetterFocus?: InitialLetterProperty
-      $mediumInitialLetterHover?: InitialLetterProperty
-      $smallInitialLetterFocus?: InitialLetterProperty
-      $smallInitialLetterHover?: InitialLetterProperty
       $initialLetterFocus?: InitialLetterProperty
       $initialLetterHover?: InitialLetterProperty
       $inlineSize?: InlineSizeProperty<TLength>
       $largeInlineSize?: InlineSizeProperty<TLength>
       $mediumInlineSize?: InlineSizeProperty<TLength>
       $smallInlineSize?: InlineSizeProperty<TLength>
-      $largeInlineSizeFocus?: InlineSizeProperty<TLength>
-      $largeInlineSizeHover?: InlineSizeProperty<TLength>
-      $mediumInlineSizeFocus?: InlineSizeProperty<TLength>
-      $mediumInlineSizeHover?: InlineSizeProperty<TLength>
-      $smallInlineSizeFocus?: InlineSizeProperty<TLength>
-      $smallInlineSizeHover?: InlineSizeProperty<TLength>
       $inlineSizeFocus?: InlineSizeProperty<TLength>
       $inlineSizeHover?: InlineSizeProperty<TLength>
       $inset?: InsetProperty<TLength>
       $largeInset?: InsetProperty<TLength>
       $mediumInset?: InsetProperty<TLength>
       $smallInset?: InsetProperty<TLength>
-      $largeInsetFocus?: InsetProperty<TLength>
-      $largeInsetHover?: InsetProperty<TLength>
-      $mediumInsetFocus?: InsetProperty<TLength>
-      $mediumInsetHover?: InsetProperty<TLength>
-      $smallInsetFocus?: InsetProperty<TLength>
-      $smallInsetHover?: InsetProperty<TLength>
       $insetFocus?: InsetProperty<TLength>
       $insetHover?: InsetProperty<TLength>
       $insetBlock?: InsetBlockProperty<TLength>
       $largeInsetBlock?: InsetBlockProperty<TLength>
       $mediumInsetBlock?: InsetBlockProperty<TLength>
       $smallInsetBlock?: InsetBlockProperty<TLength>
-      $largeInsetBlockFocus?: InsetBlockProperty<TLength>
-      $largeInsetBlockHover?: InsetBlockProperty<TLength>
-      $mediumInsetBlockFocus?: InsetBlockProperty<TLength>
-      $mediumInsetBlockHover?: InsetBlockProperty<TLength>
-      $smallInsetBlockFocus?: InsetBlockProperty<TLength>
-      $smallInsetBlockHover?: InsetBlockProperty<TLength>
       $insetBlockFocus?: InsetBlockProperty<TLength>
       $insetBlockHover?: InsetBlockProperty<TLength>
       $insetBlockEnd?: InsetBlockEndProperty<TLength>
       $largeInsetBlockEnd?: InsetBlockEndProperty<TLength>
       $mediumInsetBlockEnd?: InsetBlockEndProperty<TLength>
       $smallInsetBlockEnd?: InsetBlockEndProperty<TLength>
-      $largeInsetBlockEndFocus?: InsetBlockEndProperty<TLength>
-      $largeInsetBlockEndHover?: InsetBlockEndProperty<TLength>
-      $mediumInsetBlockEndFocus?: InsetBlockEndProperty<TLength>
-      $mediumInsetBlockEndHover?: InsetBlockEndProperty<TLength>
-      $smallInsetBlockEndFocus?: InsetBlockEndProperty<TLength>
-      $smallInsetBlockEndHover?: InsetBlockEndProperty<TLength>
       $insetBlockEndFocus?: InsetBlockEndProperty<TLength>
       $insetBlockEndHover?: InsetBlockEndProperty<TLength>
       $insetBlockStart?: InsetBlockStartProperty<TLength>
       $largeInsetBlockStart?: InsetBlockStartProperty<TLength>
       $mediumInsetBlockStart?: InsetBlockStartProperty<TLength>
       $smallInsetBlockStart?: InsetBlockStartProperty<TLength>
-      $largeInsetBlockStartFocus?: InsetBlockStartProperty<TLength>
-      $largeInsetBlockStartHover?: InsetBlockStartProperty<TLength>
-      $mediumInsetBlockStartFocus?: InsetBlockStartProperty<TLength>
-      $mediumInsetBlockStartHover?: InsetBlockStartProperty<TLength>
-      $smallInsetBlockStartFocus?: InsetBlockStartProperty<TLength>
-      $smallInsetBlockStartHover?: InsetBlockStartProperty<TLength>
       $insetBlockStartFocus?: InsetBlockStartProperty<TLength>
       $insetBlockStartHover?: InsetBlockStartProperty<TLength>
       $insetInline?: InsetInlineProperty<TLength>
       $largeInsetInline?: InsetInlineProperty<TLength>
       $mediumInsetInline?: InsetInlineProperty<TLength>
       $smallInsetInline?: InsetInlineProperty<TLength>
-      $largeInsetInlineFocus?: InsetInlineProperty<TLength>
-      $largeInsetInlineHover?: InsetInlineProperty<TLength>
-      $mediumInsetInlineFocus?: InsetInlineProperty<TLength>
-      $mediumInsetInlineHover?: InsetInlineProperty<TLength>
-      $smallInsetInlineFocus?: InsetInlineProperty<TLength>
-      $smallInsetInlineHover?: InsetInlineProperty<TLength>
       $insetInlineFocus?: InsetInlineProperty<TLength>
       $insetInlineHover?: InsetInlineProperty<TLength>
       $insetInlineEnd?: InsetInlineEndProperty<TLength>
       $largeInsetInlineEnd?: InsetInlineEndProperty<TLength>
       $mediumInsetInlineEnd?: InsetInlineEndProperty<TLength>
       $smallInsetInlineEnd?: InsetInlineEndProperty<TLength>
-      $largeInsetInlineEndFocus?: InsetInlineEndProperty<TLength>
-      $largeInsetInlineEndHover?: InsetInlineEndProperty<TLength>
-      $mediumInsetInlineEndFocus?: InsetInlineEndProperty<TLength>
-      $mediumInsetInlineEndHover?: InsetInlineEndProperty<TLength>
-      $smallInsetInlineEndFocus?: InsetInlineEndProperty<TLength>
-      $smallInsetInlineEndHover?: InsetInlineEndProperty<TLength>
       $insetInlineEndFocus?: InsetInlineEndProperty<TLength>
       $insetInlineEndHover?: InsetInlineEndProperty<TLength>
       $insetInlineStart?: InsetInlineStartProperty<TLength>
       $largeInsetInlineStart?: InsetInlineStartProperty<TLength>
       $mediumInsetInlineStart?: InsetInlineStartProperty<TLength>
       $smallInsetInlineStart?: InsetInlineStartProperty<TLength>
-      $largeInsetInlineStartFocus?: InsetInlineStartProperty<TLength>
-      $largeInsetInlineStartHover?: InsetInlineStartProperty<TLength>
-      $mediumInsetInlineStartFocus?: InsetInlineStartProperty<TLength>
-      $mediumInsetInlineStartHover?: InsetInlineStartProperty<TLength>
-      $smallInsetInlineStartFocus?: InsetInlineStartProperty<TLength>
-      $smallInsetInlineStartHover?: InsetInlineStartProperty<TLength>
       $insetInlineStartFocus?: InsetInlineStartProperty<TLength>
       $insetInlineStartHover?: InsetInlineStartProperty<TLength>
       $isolation?: IsolationProperty
       $largeIsolation?: IsolationProperty
       $mediumIsolation?: IsolationProperty
       $smallIsolation?: IsolationProperty
-      $largeIsolationFocus?: IsolationProperty
-      $largeIsolationHover?: IsolationProperty
-      $mediumIsolationFocus?: IsolationProperty
-      $mediumIsolationHover?: IsolationProperty
-      $smallIsolationFocus?: IsolationProperty
-      $smallIsolationHover?: IsolationProperty
       $isolationFocus?: IsolationProperty
       $isolationHover?: IsolationProperty
       $justifyContent?: JustifyContentProperty
       $largeJustifyContent?: JustifyContentProperty
       $mediumJustifyContent?: JustifyContentProperty
       $smallJustifyContent?: JustifyContentProperty
-      $largeJustifyContentFocus?: JustifyContentProperty
-      $largeJustifyContentHover?: JustifyContentProperty
-      $mediumJustifyContentFocus?: JustifyContentProperty
-      $mediumJustifyContentHover?: JustifyContentProperty
-      $smallJustifyContentFocus?: JustifyContentProperty
-      $smallJustifyContentHover?: JustifyContentProperty
       $justifyContentFocus?: JustifyContentProperty
       $justifyContentHover?: JustifyContentProperty
       $justifyItems?: JustifyItemsProperty
       $largeJustifyItems?: JustifyItemsProperty
       $mediumJustifyItems?: JustifyItemsProperty
       $smallJustifyItems?: JustifyItemsProperty
-      $largeJustifyItemsFocus?: JustifyItemsProperty
-      $largeJustifyItemsHover?: JustifyItemsProperty
-      $mediumJustifyItemsFocus?: JustifyItemsProperty
-      $mediumJustifyItemsHover?: JustifyItemsProperty
-      $smallJustifyItemsFocus?: JustifyItemsProperty
-      $smallJustifyItemsHover?: JustifyItemsProperty
       $justifyItemsFocus?: JustifyItemsProperty
       $justifyItemsHover?: JustifyItemsProperty
       $justifySelf?: JustifySelfProperty
       $largeJustifySelf?: JustifySelfProperty
       $mediumJustifySelf?: JustifySelfProperty
       $smallJustifySelf?: JustifySelfProperty
-      $largeJustifySelfFocus?: JustifySelfProperty
-      $largeJustifySelfHover?: JustifySelfProperty
-      $mediumJustifySelfFocus?: JustifySelfProperty
-      $mediumJustifySelfHover?: JustifySelfProperty
-      $smallJustifySelfFocus?: JustifySelfProperty
-      $smallJustifySelfHover?: JustifySelfProperty
       $justifySelfFocus?: JustifySelfProperty
       $justifySelfHover?: JustifySelfProperty
       $left?: LeftProperty<TLength>
       $largeLeft?: LeftProperty<TLength>
       $mediumLeft?: LeftProperty<TLength>
       $smallLeft?: LeftProperty<TLength>
-      $largeLeftFocus?: LeftProperty<TLength>
-      $largeLeftHover?: LeftProperty<TLength>
-      $mediumLeftFocus?: LeftProperty<TLength>
-      $mediumLeftHover?: LeftProperty<TLength>
-      $smallLeftFocus?: LeftProperty<TLength>
-      $smallLeftHover?: LeftProperty<TLength>
       $leftFocus?: LeftProperty<TLength>
       $leftHover?: LeftProperty<TLength>
       $letterSpacing?: LetterSpacingProperty<TLength>
       $largeLetterSpacing?: LetterSpacingProperty<TLength>
       $mediumLetterSpacing?: LetterSpacingProperty<TLength>
       $smallLetterSpacing?: LetterSpacingProperty<TLength>
-      $largeLetterSpacingFocus?: LetterSpacingProperty<TLength>
-      $largeLetterSpacingHover?: LetterSpacingProperty<TLength>
-      $mediumLetterSpacingFocus?: LetterSpacingProperty<TLength>
-      $mediumLetterSpacingHover?: LetterSpacingProperty<TLength>
-      $smallLetterSpacingFocus?: LetterSpacingProperty<TLength>
-      $smallLetterSpacingHover?: LetterSpacingProperty<TLength>
       $letterSpacingFocus?: LetterSpacingProperty<TLength>
       $letterSpacingHover?: LetterSpacingProperty<TLength>
       $lineBreak?: LineBreakProperty
       $largeLineBreak?: LineBreakProperty
       $mediumLineBreak?: LineBreakProperty
       $smallLineBreak?: LineBreakProperty
-      $largeLineBreakFocus?: LineBreakProperty
-      $largeLineBreakHover?: LineBreakProperty
-      $mediumLineBreakFocus?: LineBreakProperty
-      $mediumLineBreakHover?: LineBreakProperty
-      $smallLineBreakFocus?: LineBreakProperty
-      $smallLineBreakHover?: LineBreakProperty
       $lineBreakFocus?: LineBreakProperty
       $lineBreakHover?: LineBreakProperty
       $lineClamp?: LineClampProperty
       $largeLineClamp?: LineClampProperty
       $mediumLineClamp?: LineClampProperty
       $smallLineClamp?: LineClampProperty
-      $largeLineClampFocus?: LineClampProperty
-      $largeLineClampHover?: LineClampProperty
-      $mediumLineClampFocus?: LineClampProperty
-      $mediumLineClampHover?: LineClampProperty
-      $smallLineClampFocus?: LineClampProperty
-      $smallLineClampHover?: LineClampProperty
       $lineClampFocus?: LineClampProperty
       $lineClampHover?: LineClampProperty
       $lineHeight?: LineHeightProperty<TLength>
       $largeLineHeight?: LineHeightProperty<TLength>
       $mediumLineHeight?: LineHeightProperty<TLength>
       $smallLineHeight?: LineHeightProperty<TLength>
-      $largeLineHeightFocus?: LineHeightProperty<TLength>
-      $largeLineHeightHover?: LineHeightProperty<TLength>
-      $mediumLineHeightFocus?: LineHeightProperty<TLength>
-      $mediumLineHeightHover?: LineHeightProperty<TLength>
-      $smallLineHeightFocus?: LineHeightProperty<TLength>
-      $smallLineHeightHover?: LineHeightProperty<TLength>
       $lineHeightFocus?: LineHeightProperty<TLength>
       $lineHeightHover?: LineHeightProperty<TLength>
       $lineHeightStep?: LineHeightStepProperty<TLength>
       $largeLineHeightStep?: LineHeightStepProperty<TLength>
       $mediumLineHeightStep?: LineHeightStepProperty<TLength>
       $smallLineHeightStep?: LineHeightStepProperty<TLength>
-      $largeLineHeightStepFocus?: LineHeightStepProperty<TLength>
-      $largeLineHeightStepHover?: LineHeightStepProperty<TLength>
-      $mediumLineHeightStepFocus?: LineHeightStepProperty<TLength>
-      $mediumLineHeightStepHover?: LineHeightStepProperty<TLength>
-      $smallLineHeightStepFocus?: LineHeightStepProperty<TLength>
-      $smallLineHeightStepHover?: LineHeightStepProperty<TLength>
       $lineHeightStepFocus?: LineHeightStepProperty<TLength>
       $lineHeightStepHover?: LineHeightStepProperty<TLength>
       $listStyle?: ListStyleProperty
       $largeListStyle?: ListStyleProperty
       $mediumListStyle?: ListStyleProperty
       $smallListStyle?: ListStyleProperty
-      $largeListStyleFocus?: ListStyleProperty
-      $largeListStyleHover?: ListStyleProperty
-      $mediumListStyleFocus?: ListStyleProperty
-      $mediumListStyleHover?: ListStyleProperty
-      $smallListStyleFocus?: ListStyleProperty
-      $smallListStyleHover?: ListStyleProperty
       $listStyleFocus?: ListStyleProperty
       $listStyleHover?: ListStyleProperty
       $listStyleImage?: ListStyleImageProperty
       $largeListStyleImage?: ListStyleImageProperty
       $mediumListStyleImage?: ListStyleImageProperty
       $smallListStyleImage?: ListStyleImageProperty
-      $largeListStyleImageFocus?: ListStyleImageProperty
-      $largeListStyleImageHover?: ListStyleImageProperty
-      $mediumListStyleImageFocus?: ListStyleImageProperty
-      $mediumListStyleImageHover?: ListStyleImageProperty
-      $smallListStyleImageFocus?: ListStyleImageProperty
-      $smallListStyleImageHover?: ListStyleImageProperty
       $listStyleImageFocus?: ListStyleImageProperty
       $listStyleImageHover?: ListStyleImageProperty
       $listStylePosition?: ListStylePositionProperty
       $largeListStylePosition?: ListStylePositionProperty
       $mediumListStylePosition?: ListStylePositionProperty
       $smallListStylePosition?: ListStylePositionProperty
-      $largeListStylePositionFocus?: ListStylePositionProperty
-      $largeListStylePositionHover?: ListStylePositionProperty
-      $mediumListStylePositionFocus?: ListStylePositionProperty
-      $mediumListStylePositionHover?: ListStylePositionProperty
-      $smallListStylePositionFocus?: ListStylePositionProperty
-      $smallListStylePositionHover?: ListStylePositionProperty
       $listStylePositionFocus?: ListStylePositionProperty
       $listStylePositionHover?: ListStylePositionProperty
       $listStyleType?: ListStyleTypeProperty
       $largeListStyleType?: ListStyleTypeProperty
       $mediumListStyleType?: ListStyleTypeProperty
       $smallListStyleType?: ListStyleTypeProperty
-      $largeListStyleTypeFocus?: ListStyleTypeProperty
-      $largeListStyleTypeHover?: ListStyleTypeProperty
-      $mediumListStyleTypeFocus?: ListStyleTypeProperty
-      $mediumListStyleTypeHover?: ListStyleTypeProperty
-      $smallListStyleTypeFocus?: ListStyleTypeProperty
-      $smallListStyleTypeHover?: ListStyleTypeProperty
       $listStyleTypeFocus?: ListStyleTypeProperty
       $listStyleTypeHover?: ListStyleTypeProperty
       $margin?: MarginProperty<TLength>
       $largeMargin?: MarginProperty<TLength>
       $mediumMargin?: MarginProperty<TLength>
       $smallMargin?: MarginProperty<TLength>
-      $largeMarginFocus?: MarginProperty<TLength>
-      $largeMarginHover?: MarginProperty<TLength>
-      $mediumMarginFocus?: MarginProperty<TLength>
-      $mediumMarginHover?: MarginProperty<TLength>
-      $smallMarginFocus?: MarginProperty<TLength>
-      $smallMarginHover?: MarginProperty<TLength>
       $marginFocus?: MarginProperty<TLength>
       $marginHover?: MarginProperty<TLength>
       $marginBlock?: MarginBlockProperty<TLength>
       $largeMarginBlock?: MarginBlockProperty<TLength>
       $mediumMarginBlock?: MarginBlockProperty<TLength>
       $smallMarginBlock?: MarginBlockProperty<TLength>
-      $largeMarginBlockFocus?: MarginBlockProperty<TLength>
-      $largeMarginBlockHover?: MarginBlockProperty<TLength>
-      $mediumMarginBlockFocus?: MarginBlockProperty<TLength>
-      $mediumMarginBlockHover?: MarginBlockProperty<TLength>
-      $smallMarginBlockFocus?: MarginBlockProperty<TLength>
-      $smallMarginBlockHover?: MarginBlockProperty<TLength>
       $marginBlockFocus?: MarginBlockProperty<TLength>
       $marginBlockHover?: MarginBlockProperty<TLength>
       $marginBlockEnd?: MarginBlockEndProperty<TLength>
       $largeMarginBlockEnd?: MarginBlockEndProperty<TLength>
       $mediumMarginBlockEnd?: MarginBlockEndProperty<TLength>
       $smallMarginBlockEnd?: MarginBlockEndProperty<TLength>
-      $largeMarginBlockEndFocus?: MarginBlockEndProperty<TLength>
-      $largeMarginBlockEndHover?: MarginBlockEndProperty<TLength>
-      $mediumMarginBlockEndFocus?: MarginBlockEndProperty<TLength>
-      $mediumMarginBlockEndHover?: MarginBlockEndProperty<TLength>
-      $smallMarginBlockEndFocus?: MarginBlockEndProperty<TLength>
-      $smallMarginBlockEndHover?: MarginBlockEndProperty<TLength>
       $marginBlockEndFocus?: MarginBlockEndProperty<TLength>
       $marginBlockEndHover?: MarginBlockEndProperty<TLength>
       $marginBlockStart?: MarginBlockStartProperty<TLength>
       $largeMarginBlockStart?: MarginBlockStartProperty<TLength>
       $mediumMarginBlockStart?: MarginBlockStartProperty<TLength>
       $smallMarginBlockStart?: MarginBlockStartProperty<TLength>
-      $largeMarginBlockStartFocus?: MarginBlockStartProperty<TLength>
-      $largeMarginBlockStartHover?: MarginBlockStartProperty<TLength>
-      $mediumMarginBlockStartFocus?: MarginBlockStartProperty<TLength>
-      $mediumMarginBlockStartHover?: MarginBlockStartProperty<TLength>
-      $smallMarginBlockStartFocus?: MarginBlockStartProperty<TLength>
-      $smallMarginBlockStartHover?: MarginBlockStartProperty<TLength>
       $marginBlockStartFocus?: MarginBlockStartProperty<TLength>
       $marginBlockStartHover?: MarginBlockStartProperty<TLength>
       $marginBottom?: MarginBottomProperty<TLength>
       $largeMarginBottom?: MarginBottomProperty<TLength>
       $mediumMarginBottom?: MarginBottomProperty<TLength>
       $smallMarginBottom?: MarginBottomProperty<TLength>
-      $largeMarginBottomFocus?: MarginBottomProperty<TLength>
-      $largeMarginBottomHover?: MarginBottomProperty<TLength>
-      $mediumMarginBottomFocus?: MarginBottomProperty<TLength>
-      $mediumMarginBottomHover?: MarginBottomProperty<TLength>
-      $smallMarginBottomFocus?: MarginBottomProperty<TLength>
-      $smallMarginBottomHover?: MarginBottomProperty<TLength>
       $marginBottomFocus?: MarginBottomProperty<TLength>
       $marginBottomHover?: MarginBottomProperty<TLength>
       $marginInline?: MarginInlineProperty<TLength>
       $largeMarginInline?: MarginInlineProperty<TLength>
       $mediumMarginInline?: MarginInlineProperty<TLength>
       $smallMarginInline?: MarginInlineProperty<TLength>
-      $largeMarginInlineFocus?: MarginInlineProperty<TLength>
-      $largeMarginInlineHover?: MarginInlineProperty<TLength>
-      $mediumMarginInlineFocus?: MarginInlineProperty<TLength>
-      $mediumMarginInlineHover?: MarginInlineProperty<TLength>
-      $smallMarginInlineFocus?: MarginInlineProperty<TLength>
-      $smallMarginInlineHover?: MarginInlineProperty<TLength>
       $marginInlineFocus?: MarginInlineProperty<TLength>
       $marginInlineHover?: MarginInlineProperty<TLength>
       $marginInlineEnd?: MarginInlineEndProperty<TLength>
       $largeMarginInlineEnd?: MarginInlineEndProperty<TLength>
       $mediumMarginInlineEnd?: MarginInlineEndProperty<TLength>
       $smallMarginInlineEnd?: MarginInlineEndProperty<TLength>
-      $largeMarginInlineEndFocus?: MarginInlineEndProperty<TLength>
-      $largeMarginInlineEndHover?: MarginInlineEndProperty<TLength>
-      $mediumMarginInlineEndFocus?: MarginInlineEndProperty<TLength>
-      $mediumMarginInlineEndHover?: MarginInlineEndProperty<TLength>
-      $smallMarginInlineEndFocus?: MarginInlineEndProperty<TLength>
-      $smallMarginInlineEndHover?: MarginInlineEndProperty<TLength>
       $marginInlineEndFocus?: MarginInlineEndProperty<TLength>
       $marginInlineEndHover?: MarginInlineEndProperty<TLength>
       $marginInlineStart?: MarginInlineStartProperty<TLength>
       $largeMarginInlineStart?: MarginInlineStartProperty<TLength>
       $mediumMarginInlineStart?: MarginInlineStartProperty<TLength>
       $smallMarginInlineStart?: MarginInlineStartProperty<TLength>
-      $largeMarginInlineStartFocus?: MarginInlineStartProperty<TLength>
-      $largeMarginInlineStartHover?: MarginInlineStartProperty<TLength>
-      $mediumMarginInlineStartFocus?: MarginInlineStartProperty<TLength>
-      $mediumMarginInlineStartHover?: MarginInlineStartProperty<TLength>
-      $smallMarginInlineStartFocus?: MarginInlineStartProperty<TLength>
-      $smallMarginInlineStartHover?: MarginInlineStartProperty<TLength>
       $marginInlineStartFocus?: MarginInlineStartProperty<TLength>
       $marginInlineStartHover?: MarginInlineStartProperty<TLength>
       $marginLeft?: MarginLeftProperty<TLength>
       $largeMarginLeft?: MarginLeftProperty<TLength>
       $mediumMarginLeft?: MarginLeftProperty<TLength>
       $smallMarginLeft?: MarginLeftProperty<TLength>
-      $largeMarginLeftFocus?: MarginLeftProperty<TLength>
-      $largeMarginLeftHover?: MarginLeftProperty<TLength>
-      $mediumMarginLeftFocus?: MarginLeftProperty<TLength>
-      $mediumMarginLeftHover?: MarginLeftProperty<TLength>
-      $smallMarginLeftFocus?: MarginLeftProperty<TLength>
-      $smallMarginLeftHover?: MarginLeftProperty<TLength>
       $marginLeftFocus?: MarginLeftProperty<TLength>
       $marginLeftHover?: MarginLeftProperty<TLength>
       $marginRight?: MarginRightProperty<TLength>
       $largeMarginRight?: MarginRightProperty<TLength>
       $mediumMarginRight?: MarginRightProperty<TLength>
       $smallMarginRight?: MarginRightProperty<TLength>
-      $largeMarginRightFocus?: MarginRightProperty<TLength>
-      $largeMarginRightHover?: MarginRightProperty<TLength>
-      $mediumMarginRightFocus?: MarginRightProperty<TLength>
-      $mediumMarginRightHover?: MarginRightProperty<TLength>
-      $smallMarginRightFocus?: MarginRightProperty<TLength>
-      $smallMarginRightHover?: MarginRightProperty<TLength>
       $marginRightFocus?: MarginRightProperty<TLength>
       $marginRightHover?: MarginRightProperty<TLength>
       $marginTop?: MarginTopProperty<TLength>
       $largeMarginTop?: MarginTopProperty<TLength>
       $mediumMarginTop?: MarginTopProperty<TLength>
       $smallMarginTop?: MarginTopProperty<TLength>
-      $largeMarginTopFocus?: MarginTopProperty<TLength>
-      $largeMarginTopHover?: MarginTopProperty<TLength>
-      $mediumMarginTopFocus?: MarginTopProperty<TLength>
-      $mediumMarginTopHover?: MarginTopProperty<TLength>
-      $smallMarginTopFocus?: MarginTopProperty<TLength>
-      $smallMarginTopHover?: MarginTopProperty<TLength>
       $marginTopFocus?: MarginTopProperty<TLength>
       $marginTopHover?: MarginTopProperty<TLength>
       $mask?: MaskProperty<TLength>
       $largeMask?: MaskProperty<TLength>
       $mediumMask?: MaskProperty<TLength>
       $smallMask?: MaskProperty<TLength>
-      $largeMaskFocus?: MaskProperty<TLength>
-      $largeMaskHover?: MaskProperty<TLength>
-      $mediumMaskFocus?: MaskProperty<TLength>
-      $mediumMaskHover?: MaskProperty<TLength>
-      $smallMaskFocus?: MaskProperty<TLength>
-      $smallMaskHover?: MaskProperty<TLength>
       $maskFocus?: MaskProperty<TLength>
       $maskHover?: MaskProperty<TLength>
       $maskBorder?: MaskBorderProperty
       $largeMaskBorder?: MaskBorderProperty
       $mediumMaskBorder?: MaskBorderProperty
       $smallMaskBorder?: MaskBorderProperty
-      $largeMaskBorderFocus?: MaskBorderProperty
-      $largeMaskBorderHover?: MaskBorderProperty
-      $mediumMaskBorderFocus?: MaskBorderProperty
-      $mediumMaskBorderHover?: MaskBorderProperty
-      $smallMaskBorderFocus?: MaskBorderProperty
-      $smallMaskBorderHover?: MaskBorderProperty
       $maskBorderFocus?: MaskBorderProperty
       $maskBorderHover?: MaskBorderProperty
       $maskBorderMode?: MaskBorderModeProperty
       $largeMaskBorderMode?: MaskBorderModeProperty
       $mediumMaskBorderMode?: MaskBorderModeProperty
       $smallMaskBorderMode?: MaskBorderModeProperty
-      $largeMaskBorderModeFocus?: MaskBorderModeProperty
-      $largeMaskBorderModeHover?: MaskBorderModeProperty
-      $mediumMaskBorderModeFocus?: MaskBorderModeProperty
-      $mediumMaskBorderModeHover?: MaskBorderModeProperty
-      $smallMaskBorderModeFocus?: MaskBorderModeProperty
-      $smallMaskBorderModeHover?: MaskBorderModeProperty
       $maskBorderModeFocus?: MaskBorderModeProperty
       $maskBorderModeHover?: MaskBorderModeProperty
       $maskBorderOutset?: MaskBorderOutsetProperty<TLength>
       $largeMaskBorderOutset?: MaskBorderOutsetProperty<TLength>
       $mediumMaskBorderOutset?: MaskBorderOutsetProperty<TLength>
       $smallMaskBorderOutset?: MaskBorderOutsetProperty<TLength>
-      $largeMaskBorderOutsetFocus?: MaskBorderOutsetProperty<TLength>
-      $largeMaskBorderOutsetHover?: MaskBorderOutsetProperty<TLength>
-      $mediumMaskBorderOutsetFocus?: MaskBorderOutsetProperty<TLength>
-      $mediumMaskBorderOutsetHover?: MaskBorderOutsetProperty<TLength>
-      $smallMaskBorderOutsetFocus?: MaskBorderOutsetProperty<TLength>
-      $smallMaskBorderOutsetHover?: MaskBorderOutsetProperty<TLength>
       $maskBorderOutsetFocus?: MaskBorderOutsetProperty<TLength>
       $maskBorderOutsetHover?: MaskBorderOutsetProperty<TLength>
       $maskBorderRepeat?: MaskBorderRepeatProperty
       $largeMaskBorderRepeat?: MaskBorderRepeatProperty
       $mediumMaskBorderRepeat?: MaskBorderRepeatProperty
       $smallMaskBorderRepeat?: MaskBorderRepeatProperty
-      $largeMaskBorderRepeatFocus?: MaskBorderRepeatProperty
-      $largeMaskBorderRepeatHover?: MaskBorderRepeatProperty
-      $mediumMaskBorderRepeatFocus?: MaskBorderRepeatProperty
-      $mediumMaskBorderRepeatHover?: MaskBorderRepeatProperty
-      $smallMaskBorderRepeatFocus?: MaskBorderRepeatProperty
-      $smallMaskBorderRepeatHover?: MaskBorderRepeatProperty
       $maskBorderRepeatFocus?: MaskBorderRepeatProperty
       $maskBorderRepeatHover?: MaskBorderRepeatProperty
       $maskBorderSlice?: MaskBorderSliceProperty
       $largeMaskBorderSlice?: MaskBorderSliceProperty
       $mediumMaskBorderSlice?: MaskBorderSliceProperty
       $smallMaskBorderSlice?: MaskBorderSliceProperty
-      $largeMaskBorderSliceFocus?: MaskBorderSliceProperty
-      $largeMaskBorderSliceHover?: MaskBorderSliceProperty
-      $mediumMaskBorderSliceFocus?: MaskBorderSliceProperty
-      $mediumMaskBorderSliceHover?: MaskBorderSliceProperty
-      $smallMaskBorderSliceFocus?: MaskBorderSliceProperty
-      $smallMaskBorderSliceHover?: MaskBorderSliceProperty
       $maskBorderSliceFocus?: MaskBorderSliceProperty
       $maskBorderSliceHover?: MaskBorderSliceProperty
       $maskBorderSource?: MaskBorderSourceProperty
       $largeMaskBorderSource?: MaskBorderSourceProperty
       $mediumMaskBorderSource?: MaskBorderSourceProperty
       $smallMaskBorderSource?: MaskBorderSourceProperty
-      $largeMaskBorderSourceFocus?: MaskBorderSourceProperty
-      $largeMaskBorderSourceHover?: MaskBorderSourceProperty
-      $mediumMaskBorderSourceFocus?: MaskBorderSourceProperty
-      $mediumMaskBorderSourceHover?: MaskBorderSourceProperty
-      $smallMaskBorderSourceFocus?: MaskBorderSourceProperty
-      $smallMaskBorderSourceHover?: MaskBorderSourceProperty
       $maskBorderSourceFocus?: MaskBorderSourceProperty
       $maskBorderSourceHover?: MaskBorderSourceProperty
       $maskBorderWidth?: MaskBorderWidthProperty<TLength>
       $largeMaskBorderWidth?: MaskBorderWidthProperty<TLength>
       $mediumMaskBorderWidth?: MaskBorderWidthProperty<TLength>
       $smallMaskBorderWidth?: MaskBorderWidthProperty<TLength>
-      $largeMaskBorderWidthFocus?: MaskBorderWidthProperty<TLength>
-      $largeMaskBorderWidthHover?: MaskBorderWidthProperty<TLength>
-      $mediumMaskBorderWidthFocus?: MaskBorderWidthProperty<TLength>
-      $mediumMaskBorderWidthHover?: MaskBorderWidthProperty<TLength>
-      $smallMaskBorderWidthFocus?: MaskBorderWidthProperty<TLength>
-      $smallMaskBorderWidthHover?: MaskBorderWidthProperty<TLength>
       $maskBorderWidthFocus?: MaskBorderWidthProperty<TLength>
       $maskBorderWidthHover?: MaskBorderWidthProperty<TLength>
       $maskClip?: MaskClipProperty
       $largeMaskClip?: MaskClipProperty
       $mediumMaskClip?: MaskClipProperty
       $smallMaskClip?: MaskClipProperty
-      $largeMaskClipFocus?: MaskClipProperty
-      $largeMaskClipHover?: MaskClipProperty
-      $mediumMaskClipFocus?: MaskClipProperty
-      $mediumMaskClipHover?: MaskClipProperty
-      $smallMaskClipFocus?: MaskClipProperty
-      $smallMaskClipHover?: MaskClipProperty
       $maskClipFocus?: MaskClipProperty
       $maskClipHover?: MaskClipProperty
       $maskComposite?: MaskCompositeProperty
       $largeMaskComposite?: MaskCompositeProperty
       $mediumMaskComposite?: MaskCompositeProperty
       $smallMaskComposite?: MaskCompositeProperty
-      $largeMaskCompositeFocus?: MaskCompositeProperty
-      $largeMaskCompositeHover?: MaskCompositeProperty
-      $mediumMaskCompositeFocus?: MaskCompositeProperty
-      $mediumMaskCompositeHover?: MaskCompositeProperty
-      $smallMaskCompositeFocus?: MaskCompositeProperty
-      $smallMaskCompositeHover?: MaskCompositeProperty
       $maskCompositeFocus?: MaskCompositeProperty
       $maskCompositeHover?: MaskCompositeProperty
       $maskImage?: MaskImageProperty
       $largeMaskImage?: MaskImageProperty
       $mediumMaskImage?: MaskImageProperty
       $smallMaskImage?: MaskImageProperty
-      $largeMaskImageFocus?: MaskImageProperty
-      $largeMaskImageHover?: MaskImageProperty
-      $mediumMaskImageFocus?: MaskImageProperty
-      $mediumMaskImageHover?: MaskImageProperty
-      $smallMaskImageFocus?: MaskImageProperty
-      $smallMaskImageHover?: MaskImageProperty
       $maskImageFocus?: MaskImageProperty
       $maskImageHover?: MaskImageProperty
       $maskMode?: MaskModeProperty
       $largeMaskMode?: MaskModeProperty
       $mediumMaskMode?: MaskModeProperty
       $smallMaskMode?: MaskModeProperty
-      $largeMaskModeFocus?: MaskModeProperty
-      $largeMaskModeHover?: MaskModeProperty
-      $mediumMaskModeFocus?: MaskModeProperty
-      $mediumMaskModeHover?: MaskModeProperty
-      $smallMaskModeFocus?: MaskModeProperty
-      $smallMaskModeHover?: MaskModeProperty
       $maskModeFocus?: MaskModeProperty
       $maskModeHover?: MaskModeProperty
       $maskOrigin?: MaskOriginProperty
       $largeMaskOrigin?: MaskOriginProperty
       $mediumMaskOrigin?: MaskOriginProperty
       $smallMaskOrigin?: MaskOriginProperty
-      $largeMaskOriginFocus?: MaskOriginProperty
-      $largeMaskOriginHover?: MaskOriginProperty
-      $mediumMaskOriginFocus?: MaskOriginProperty
-      $mediumMaskOriginHover?: MaskOriginProperty
-      $smallMaskOriginFocus?: MaskOriginProperty
-      $smallMaskOriginHover?: MaskOriginProperty
       $maskOriginFocus?: MaskOriginProperty
       $maskOriginHover?: MaskOriginProperty
       $maskPosition?: MaskPositionProperty<TLength>
       $largeMaskPosition?: MaskPositionProperty<TLength>
       $mediumMaskPosition?: MaskPositionProperty<TLength>
       $smallMaskPosition?: MaskPositionProperty<TLength>
-      $largeMaskPositionFocus?: MaskPositionProperty<TLength>
-      $largeMaskPositionHover?: MaskPositionProperty<TLength>
-      $mediumMaskPositionFocus?: MaskPositionProperty<TLength>
-      $mediumMaskPositionHover?: MaskPositionProperty<TLength>
-      $smallMaskPositionFocus?: MaskPositionProperty<TLength>
-      $smallMaskPositionHover?: MaskPositionProperty<TLength>
       $maskPositionFocus?: MaskPositionProperty<TLength>
       $maskPositionHover?: MaskPositionProperty<TLength>
       $maskRepeat?: MaskRepeatProperty
       $largeMaskRepeat?: MaskRepeatProperty
       $mediumMaskRepeat?: MaskRepeatProperty
       $smallMaskRepeat?: MaskRepeatProperty
-      $largeMaskRepeatFocus?: MaskRepeatProperty
-      $largeMaskRepeatHover?: MaskRepeatProperty
-      $mediumMaskRepeatFocus?: MaskRepeatProperty
-      $mediumMaskRepeatHover?: MaskRepeatProperty
-      $smallMaskRepeatFocus?: MaskRepeatProperty
-      $smallMaskRepeatHover?: MaskRepeatProperty
       $maskRepeatFocus?: MaskRepeatProperty
       $maskRepeatHover?: MaskRepeatProperty
       $maskSize?: MaskSizeProperty<TLength>
       $largeMaskSize?: MaskSizeProperty<TLength>
       $mediumMaskSize?: MaskSizeProperty<TLength>
       $smallMaskSize?: MaskSizeProperty<TLength>
-      $largeMaskSizeFocus?: MaskSizeProperty<TLength>
-      $largeMaskSizeHover?: MaskSizeProperty<TLength>
-      $mediumMaskSizeFocus?: MaskSizeProperty<TLength>
-      $mediumMaskSizeHover?: MaskSizeProperty<TLength>
-      $smallMaskSizeFocus?: MaskSizeProperty<TLength>
-      $smallMaskSizeHover?: MaskSizeProperty<TLength>
       $maskSizeFocus?: MaskSizeProperty<TLength>
       $maskSizeHover?: MaskSizeProperty<TLength>
       $maskType?: MaskTypeProperty
       $largeMaskType?: MaskTypeProperty
       $mediumMaskType?: MaskTypeProperty
       $smallMaskType?: MaskTypeProperty
-      $largeMaskTypeFocus?: MaskTypeProperty
-      $largeMaskTypeHover?: MaskTypeProperty
-      $mediumMaskTypeFocus?: MaskTypeProperty
-      $mediumMaskTypeHover?: MaskTypeProperty
-      $smallMaskTypeFocus?: MaskTypeProperty
-      $smallMaskTypeHover?: MaskTypeProperty
       $maskTypeFocus?: MaskTypeProperty
       $maskTypeHover?: MaskTypeProperty
       $maxBlockSize?: MaxBlockSizeProperty<TLength>
       $largeMaxBlockSize?: MaxBlockSizeProperty<TLength>
       $mediumMaxBlockSize?: MaxBlockSizeProperty<TLength>
       $smallMaxBlockSize?: MaxBlockSizeProperty<TLength>
-      $largeMaxBlockSizeFocus?: MaxBlockSizeProperty<TLength>
-      $largeMaxBlockSizeHover?: MaxBlockSizeProperty<TLength>
-      $mediumMaxBlockSizeFocus?: MaxBlockSizeProperty<TLength>
-      $mediumMaxBlockSizeHover?: MaxBlockSizeProperty<TLength>
-      $smallMaxBlockSizeFocus?: MaxBlockSizeProperty<TLength>
-      $smallMaxBlockSizeHover?: MaxBlockSizeProperty<TLength>
       $maxBlockSizeFocus?: MaxBlockSizeProperty<TLength>
       $maxBlockSizeHover?: MaxBlockSizeProperty<TLength>
       $maxHeight?: MaxHeightProperty<TLength>
       $largeMaxHeight?: MaxHeightProperty<TLength>
       $mediumMaxHeight?: MaxHeightProperty<TLength>
       $smallMaxHeight?: MaxHeightProperty<TLength>
-      $largeMaxHeightFocus?: MaxHeightProperty<TLength>
-      $largeMaxHeightHover?: MaxHeightProperty<TLength>
-      $mediumMaxHeightFocus?: MaxHeightProperty<TLength>
-      $mediumMaxHeightHover?: MaxHeightProperty<TLength>
-      $smallMaxHeightFocus?: MaxHeightProperty<TLength>
-      $smallMaxHeightHover?: MaxHeightProperty<TLength>
       $maxHeightFocus?: MaxHeightProperty<TLength>
       $maxHeightHover?: MaxHeightProperty<TLength>
       $maxInlineSize?: MaxInlineSizeProperty<TLength>
       $largeMaxInlineSize?: MaxInlineSizeProperty<TLength>
       $mediumMaxInlineSize?: MaxInlineSizeProperty<TLength>
       $smallMaxInlineSize?: MaxInlineSizeProperty<TLength>
-      $largeMaxInlineSizeFocus?: MaxInlineSizeProperty<TLength>
-      $largeMaxInlineSizeHover?: MaxInlineSizeProperty<TLength>
-      $mediumMaxInlineSizeFocus?: MaxInlineSizeProperty<TLength>
-      $mediumMaxInlineSizeHover?: MaxInlineSizeProperty<TLength>
-      $smallMaxInlineSizeFocus?: MaxInlineSizeProperty<TLength>
-      $smallMaxInlineSizeHover?: MaxInlineSizeProperty<TLength>
       $maxInlineSizeFocus?: MaxInlineSizeProperty<TLength>
       $maxInlineSizeHover?: MaxInlineSizeProperty<TLength>
       $maxLines?: MaxLinesProperty
       $largeMaxLines?: MaxLinesProperty
       $mediumMaxLines?: MaxLinesProperty
       $smallMaxLines?: MaxLinesProperty
-      $largeMaxLinesFocus?: MaxLinesProperty
-      $largeMaxLinesHover?: MaxLinesProperty
-      $mediumMaxLinesFocus?: MaxLinesProperty
-      $mediumMaxLinesHover?: MaxLinesProperty
-      $smallMaxLinesFocus?: MaxLinesProperty
-      $smallMaxLinesHover?: MaxLinesProperty
       $maxLinesFocus?: MaxLinesProperty
       $maxLinesHover?: MaxLinesProperty
       $maxWidth?: MaxWidthProperty<TLength>
       $largeMaxWidth?: MaxWidthProperty<TLength>
       $mediumMaxWidth?: MaxWidthProperty<TLength>
       $smallMaxWidth?: MaxWidthProperty<TLength>
-      $largeMaxWidthFocus?: MaxWidthProperty<TLength>
-      $largeMaxWidthHover?: MaxWidthProperty<TLength>
-      $mediumMaxWidthFocus?: MaxWidthProperty<TLength>
-      $mediumMaxWidthHover?: MaxWidthProperty<TLength>
-      $smallMaxWidthFocus?: MaxWidthProperty<TLength>
-      $smallMaxWidthHover?: MaxWidthProperty<TLength>
       $maxWidthFocus?: MaxWidthProperty<TLength>
       $maxWidthHover?: MaxWidthProperty<TLength>
       $minBlockSize?: MinBlockSizeProperty<TLength>
       $largeMinBlockSize?: MinBlockSizeProperty<TLength>
       $mediumMinBlockSize?: MinBlockSizeProperty<TLength>
       $smallMinBlockSize?: MinBlockSizeProperty<TLength>
-      $largeMinBlockSizeFocus?: MinBlockSizeProperty<TLength>
-      $largeMinBlockSizeHover?: MinBlockSizeProperty<TLength>
-      $mediumMinBlockSizeFocus?: MinBlockSizeProperty<TLength>
-      $mediumMinBlockSizeHover?: MinBlockSizeProperty<TLength>
-      $smallMinBlockSizeFocus?: MinBlockSizeProperty<TLength>
-      $smallMinBlockSizeHover?: MinBlockSizeProperty<TLength>
       $minBlockSizeFocus?: MinBlockSizeProperty<TLength>
       $minBlockSizeHover?: MinBlockSizeProperty<TLength>
       $minHeight?: MinHeightProperty<TLength>
       $largeMinHeight?: MinHeightProperty<TLength>
       $mediumMinHeight?: MinHeightProperty<TLength>
       $smallMinHeight?: MinHeightProperty<TLength>
-      $largeMinHeightFocus?: MinHeightProperty<TLength>
-      $largeMinHeightHover?: MinHeightProperty<TLength>
-      $mediumMinHeightFocus?: MinHeightProperty<TLength>
-      $mediumMinHeightHover?: MinHeightProperty<TLength>
-      $smallMinHeightFocus?: MinHeightProperty<TLength>
-      $smallMinHeightHover?: MinHeightProperty<TLength>
       $minHeightFocus?: MinHeightProperty<TLength>
       $minHeightHover?: MinHeightProperty<TLength>
       $minInlineSize?: MinInlineSizeProperty<TLength>
       $largeMinInlineSize?: MinInlineSizeProperty<TLength>
       $mediumMinInlineSize?: MinInlineSizeProperty<TLength>
       $smallMinInlineSize?: MinInlineSizeProperty<TLength>
-      $largeMinInlineSizeFocus?: MinInlineSizeProperty<TLength>
-      $largeMinInlineSizeHover?: MinInlineSizeProperty<TLength>
-      $mediumMinInlineSizeFocus?: MinInlineSizeProperty<TLength>
-      $mediumMinInlineSizeHover?: MinInlineSizeProperty<TLength>
-      $smallMinInlineSizeFocus?: MinInlineSizeProperty<TLength>
-      $smallMinInlineSizeHover?: MinInlineSizeProperty<TLength>
       $minInlineSizeFocus?: MinInlineSizeProperty<TLength>
       $minInlineSizeHover?: MinInlineSizeProperty<TLength>
       $minWidth?: MinWidthProperty<TLength>
       $largeMinWidth?: MinWidthProperty<TLength>
       $mediumMinWidth?: MinWidthProperty<TLength>
       $smallMinWidth?: MinWidthProperty<TLength>
-      $largeMinWidthFocus?: MinWidthProperty<TLength>
-      $largeMinWidthHover?: MinWidthProperty<TLength>
-      $mediumMinWidthFocus?: MinWidthProperty<TLength>
-      $mediumMinWidthHover?: MinWidthProperty<TLength>
-      $smallMinWidthFocus?: MinWidthProperty<TLength>
-      $smallMinWidthHover?: MinWidthProperty<TLength>
       $minWidthFocus?: MinWidthProperty<TLength>
       $minWidthHover?: MinWidthProperty<TLength>
       $mixBlendMode?: MixBlendModeProperty
       $largeMixBlendMode?: MixBlendModeProperty
       $mediumMixBlendMode?: MixBlendModeProperty
       $smallMixBlendMode?: MixBlendModeProperty
-      $largeMixBlendModeFocus?: MixBlendModeProperty
-      $largeMixBlendModeHover?: MixBlendModeProperty
-      $mediumMixBlendModeFocus?: MixBlendModeProperty
-      $mediumMixBlendModeHover?: MixBlendModeProperty
-      $smallMixBlendModeFocus?: MixBlendModeProperty
-      $smallMixBlendModeHover?: MixBlendModeProperty
       $mixBlendModeFocus?: MixBlendModeProperty
       $mixBlendModeHover?: MixBlendModeProperty
       $offset?: OffsetProperty<TLength>
       $largeOffset?: OffsetProperty<TLength>
       $mediumOffset?: OffsetProperty<TLength>
       $smallOffset?: OffsetProperty<TLength>
-      $largeOffsetFocus?: OffsetProperty<TLength>
-      $largeOffsetHover?: OffsetProperty<TLength>
-      $mediumOffsetFocus?: OffsetProperty<TLength>
-      $mediumOffsetHover?: OffsetProperty<TLength>
-      $smallOffsetFocus?: OffsetProperty<TLength>
-      $smallOffsetHover?: OffsetProperty<TLength>
       $offsetFocus?: OffsetProperty<TLength>
       $offsetHover?: OffsetProperty<TLength>
       $offsetDistance?: OffsetDistanceProperty<TLength>
       $largeOffsetDistance?: OffsetDistanceProperty<TLength>
       $mediumOffsetDistance?: OffsetDistanceProperty<TLength>
       $smallOffsetDistance?: OffsetDistanceProperty<TLength>
-      $largeOffsetDistanceFocus?: OffsetDistanceProperty<TLength>
-      $largeOffsetDistanceHover?: OffsetDistanceProperty<TLength>
-      $mediumOffsetDistanceFocus?: OffsetDistanceProperty<TLength>
-      $mediumOffsetDistanceHover?: OffsetDistanceProperty<TLength>
-      $smallOffsetDistanceFocus?: OffsetDistanceProperty<TLength>
-      $smallOffsetDistanceHover?: OffsetDistanceProperty<TLength>
       $offsetDistanceFocus?: OffsetDistanceProperty<TLength>
       $offsetDistanceHover?: OffsetDistanceProperty<TLength>
       $offsetPath?: OffsetPathProperty
       $largeOffsetPath?: OffsetPathProperty
       $mediumOffsetPath?: OffsetPathProperty
       $smallOffsetPath?: OffsetPathProperty
-      $largeOffsetPathFocus?: OffsetPathProperty
-      $largeOffsetPathHover?: OffsetPathProperty
-      $mediumOffsetPathFocus?: OffsetPathProperty
-      $mediumOffsetPathHover?: OffsetPathProperty
-      $smallOffsetPathFocus?: OffsetPathProperty
-      $smallOffsetPathHover?: OffsetPathProperty
       $offsetPathFocus?: OffsetPathProperty
       $offsetPathHover?: OffsetPathProperty
       $offsetRotate?: OffsetRotateProperty
       $largeOffsetRotate?: OffsetRotateProperty
       $mediumOffsetRotate?: OffsetRotateProperty
       $smallOffsetRotate?: OffsetRotateProperty
-      $largeOffsetRotateFocus?: OffsetRotateProperty
-      $largeOffsetRotateHover?: OffsetRotateProperty
-      $mediumOffsetRotateFocus?: OffsetRotateProperty
-      $mediumOffsetRotateHover?: OffsetRotateProperty
-      $smallOffsetRotateFocus?: OffsetRotateProperty
-      $smallOffsetRotateHover?: OffsetRotateProperty
       $offsetRotateFocus?: OffsetRotateProperty
       $offsetRotateHover?: OffsetRotateProperty
       $objectFit?: ObjectFitProperty
       $largeObjectFit?: ObjectFitProperty
       $mediumObjectFit?: ObjectFitProperty
       $smallObjectFit?: ObjectFitProperty
-      $largeObjectFitFocus?: ObjectFitProperty
-      $largeObjectFitHover?: ObjectFitProperty
-      $mediumObjectFitFocus?: ObjectFitProperty
-      $mediumObjectFitHover?: ObjectFitProperty
-      $smallObjectFitFocus?: ObjectFitProperty
-      $smallObjectFitHover?: ObjectFitProperty
       $objectFitFocus?: ObjectFitProperty
       $objectFitHover?: ObjectFitProperty
       $objectPosition?: ObjectPositionProperty<TLength>
       $largeObjectPosition?: ObjectPositionProperty<TLength>
       $mediumObjectPosition?: ObjectPositionProperty<TLength>
       $smallObjectPosition?: ObjectPositionProperty<TLength>
-      $largeObjectPositionFocus?: ObjectPositionProperty<TLength>
-      $largeObjectPositionHover?: ObjectPositionProperty<TLength>
-      $mediumObjectPositionFocus?: ObjectPositionProperty<TLength>
-      $mediumObjectPositionHover?: ObjectPositionProperty<TLength>
-      $smallObjectPositionFocus?: ObjectPositionProperty<TLength>
-      $smallObjectPositionHover?: ObjectPositionProperty<TLength>
       $objectPositionFocus?: ObjectPositionProperty<TLength>
       $objectPositionHover?: ObjectPositionProperty<TLength>
       $offsetAnchor?: OffsetAnchorProperty<TLength>
       $largeOffsetAnchor?: OffsetAnchorProperty<TLength>
       $mediumOffsetAnchor?: OffsetAnchorProperty<TLength>
       $smallOffsetAnchor?: OffsetAnchorProperty<TLength>
-      $largeOffsetAnchorFocus?: OffsetAnchorProperty<TLength>
-      $largeOffsetAnchorHover?: OffsetAnchorProperty<TLength>
-      $mediumOffsetAnchorFocus?: OffsetAnchorProperty<TLength>
-      $mediumOffsetAnchorHover?: OffsetAnchorProperty<TLength>
-      $smallOffsetAnchorFocus?: OffsetAnchorProperty<TLength>
-      $smallOffsetAnchorHover?: OffsetAnchorProperty<TLength>
       $offsetAnchorFocus?: OffsetAnchorProperty<TLength>
       $offsetAnchorHover?: OffsetAnchorProperty<TLength>
       $opacity?: OpacityProperty
       $largeOpacity?: OpacityProperty
       $mediumOpacity?: OpacityProperty
       $smallOpacity?: OpacityProperty
-      $largeOpacityFocus?: OpacityProperty
-      $largeOpacityHover?: OpacityProperty
-      $mediumOpacityFocus?: OpacityProperty
-      $mediumOpacityHover?: OpacityProperty
-      $smallOpacityFocus?: OpacityProperty
-      $smallOpacityHover?: OpacityProperty
       $opacityFocus?: OpacityProperty
       $opacityHover?: OpacityProperty
       $outline?: OutlineProperty<TLength>
       $largeOutline?: OutlineProperty<TLength>
       $mediumOutline?: OutlineProperty<TLength>
       $smallOutline?: OutlineProperty<TLength>
-      $largeOutlineFocus?: OutlineProperty<TLength>
-      $largeOutlineHover?: OutlineProperty<TLength>
-      $mediumOutlineFocus?: OutlineProperty<TLength>
-      $mediumOutlineHover?: OutlineProperty<TLength>
-      $smallOutlineFocus?: OutlineProperty<TLength>
-      $smallOutlineHover?: OutlineProperty<TLength>
       $outlineFocus?: OutlineProperty<TLength>
       $outlineHover?: OutlineProperty<TLength>
       $outlineColor?: OutlineColorProperty
       $largeOutlineColor?: OutlineColorProperty
       $mediumOutlineColor?: OutlineColorProperty
       $smallOutlineColor?: OutlineColorProperty
-      $largeOutlineColorFocus?: OutlineColorProperty
-      $largeOutlineColorHover?: OutlineColorProperty
-      $mediumOutlineColorFocus?: OutlineColorProperty
-      $mediumOutlineColorHover?: OutlineColorProperty
-      $smallOutlineColorFocus?: OutlineColorProperty
-      $smallOutlineColorHover?: OutlineColorProperty
       $outlineColorFocus?: OutlineColorProperty
       $outlineColorHover?: OutlineColorProperty
       $outlineOffset?: OutlineOffsetProperty<TLength>
       $largeOutlineOffset?: OutlineOffsetProperty<TLength>
       $mediumOutlineOffset?: OutlineOffsetProperty<TLength>
       $smallOutlineOffset?: OutlineOffsetProperty<TLength>
-      $largeOutlineOffsetFocus?: OutlineOffsetProperty<TLength>
-      $largeOutlineOffsetHover?: OutlineOffsetProperty<TLength>
-      $mediumOutlineOffsetFocus?: OutlineOffsetProperty<TLength>
-      $mediumOutlineOffsetHover?: OutlineOffsetProperty<TLength>
-      $smallOutlineOffsetFocus?: OutlineOffsetProperty<TLength>
-      $smallOutlineOffsetHover?: OutlineOffsetProperty<TLength>
       $outlineOffsetFocus?: OutlineOffsetProperty<TLength>
       $outlineOffsetHover?: OutlineOffsetProperty<TLength>
       $outlineStyle?: OutlineStyleProperty
       $largeOutlineStyle?: OutlineStyleProperty
       $mediumOutlineStyle?: OutlineStyleProperty
       $smallOutlineStyle?: OutlineStyleProperty
-      $largeOutlineStyleFocus?: OutlineStyleProperty
-      $largeOutlineStyleHover?: OutlineStyleProperty
-      $mediumOutlineStyleFocus?: OutlineStyleProperty
-      $mediumOutlineStyleHover?: OutlineStyleProperty
-      $smallOutlineStyleFocus?: OutlineStyleProperty
-      $smallOutlineStyleHover?: OutlineStyleProperty
       $outlineStyleFocus?: OutlineStyleProperty
       $outlineStyleHover?: OutlineStyleProperty
       $outlineWidth?: OutlineWidthProperty<TLength>
       $largeOutlineWidth?: OutlineWidthProperty<TLength>
       $mediumOutlineWidth?: OutlineWidthProperty<TLength>
       $smallOutlineWidth?: OutlineWidthProperty<TLength>
-      $largeOutlineWidthFocus?: OutlineWidthProperty<TLength>
-      $largeOutlineWidthHover?: OutlineWidthProperty<TLength>
-      $mediumOutlineWidthFocus?: OutlineWidthProperty<TLength>
-      $mediumOutlineWidthHover?: OutlineWidthProperty<TLength>
-      $smallOutlineWidthFocus?: OutlineWidthProperty<TLength>
-      $smallOutlineWidthHover?: OutlineWidthProperty<TLength>
       $outlineWidthFocus?: OutlineWidthProperty<TLength>
       $outlineWidthHover?: OutlineWidthProperty<TLength>
       $overflow?: OverflowProperty
       $largeOverflow?: OverflowProperty
       $mediumOverflow?: OverflowProperty
       $smallOverflow?: OverflowProperty
-      $largeOverflowFocus?: OverflowProperty
-      $largeOverflowHover?: OverflowProperty
-      $mediumOverflowFocus?: OverflowProperty
-      $mediumOverflowHover?: OverflowProperty
-      $smallOverflowFocus?: OverflowProperty
-      $smallOverflowHover?: OverflowProperty
       $overflowFocus?: OverflowProperty
       $overflowHover?: OverflowProperty
       $overflowAnchor?: OverflowAnchorProperty
       $largeOverflowAnchor?: OverflowAnchorProperty
       $mediumOverflowAnchor?: OverflowAnchorProperty
       $smallOverflowAnchor?: OverflowAnchorProperty
-      $largeOverflowAnchorFocus?: OverflowAnchorProperty
-      $largeOverflowAnchorHover?: OverflowAnchorProperty
-      $mediumOverflowAnchorFocus?: OverflowAnchorProperty
-      $mediumOverflowAnchorHover?: OverflowAnchorProperty
-      $smallOverflowAnchorFocus?: OverflowAnchorProperty
-      $smallOverflowAnchorHover?: OverflowAnchorProperty
       $overflowAnchorFocus?: OverflowAnchorProperty
       $overflowAnchorHover?: OverflowAnchorProperty
       $overflowBlock?: OverflowBlockProperty
       $largeOverflowBlock?: OverflowBlockProperty
       $mediumOverflowBlock?: OverflowBlockProperty
       $smallOverflowBlock?: OverflowBlockProperty
-      $largeOverflowBlockFocus?: OverflowBlockProperty
-      $largeOverflowBlockHover?: OverflowBlockProperty
-      $mediumOverflowBlockFocus?: OverflowBlockProperty
-      $mediumOverflowBlockHover?: OverflowBlockProperty
-      $smallOverflowBlockFocus?: OverflowBlockProperty
-      $smallOverflowBlockHover?: OverflowBlockProperty
       $overflowBlockFocus?: OverflowBlockProperty
       $overflowBlockHover?: OverflowBlockProperty
       $overflowClipBox?: OverflowClipBoxProperty
       $largeOverflowClipBox?: OverflowClipBoxProperty
       $mediumOverflowClipBox?: OverflowClipBoxProperty
       $smallOverflowClipBox?: OverflowClipBoxProperty
-      $largeOverflowClipBoxFocus?: OverflowClipBoxProperty
-      $largeOverflowClipBoxHover?: OverflowClipBoxProperty
-      $mediumOverflowClipBoxFocus?: OverflowClipBoxProperty
-      $mediumOverflowClipBoxHover?: OverflowClipBoxProperty
-      $smallOverflowClipBoxFocus?: OverflowClipBoxProperty
-      $smallOverflowClipBoxHover?: OverflowClipBoxProperty
       $overflowClipBoxFocus?: OverflowClipBoxProperty
       $overflowClipBoxHover?: OverflowClipBoxProperty
       $overflowInline?: OverflowInlineProperty
       $largeOverflowInline?: OverflowInlineProperty
       $mediumOverflowInline?: OverflowInlineProperty
       $smallOverflowInline?: OverflowInlineProperty
-      $largeOverflowInlineFocus?: OverflowInlineProperty
-      $largeOverflowInlineHover?: OverflowInlineProperty
-      $mediumOverflowInlineFocus?: OverflowInlineProperty
-      $mediumOverflowInlineHover?: OverflowInlineProperty
-      $smallOverflowInlineFocus?: OverflowInlineProperty
-      $smallOverflowInlineHover?: OverflowInlineProperty
       $overflowInlineFocus?: OverflowInlineProperty
       $overflowInlineHover?: OverflowInlineProperty
       $overflowWrap?: OverflowWrapProperty
       $largeOverflowWrap?: OverflowWrapProperty
       $mediumOverflowWrap?: OverflowWrapProperty
       $smallOverflowWrap?: OverflowWrapProperty
-      $largeOverflowWrapFocus?: OverflowWrapProperty
-      $largeOverflowWrapHover?: OverflowWrapProperty
-      $mediumOverflowWrapFocus?: OverflowWrapProperty
-      $mediumOverflowWrapHover?: OverflowWrapProperty
-      $smallOverflowWrapFocus?: OverflowWrapProperty
-      $smallOverflowWrapHover?: OverflowWrapProperty
       $overflowWrapFocus?: OverflowWrapProperty
       $overflowWrapHover?: OverflowWrapProperty
       $overflowX?: OverflowXProperty
       $largeOverflowX?: OverflowXProperty
       $mediumOverflowX?: OverflowXProperty
       $smallOverflowX?: OverflowXProperty
-      $largeOverflowXFocus?: OverflowXProperty
-      $largeOverflowXHover?: OverflowXProperty
-      $mediumOverflowXFocus?: OverflowXProperty
-      $mediumOverflowXHover?: OverflowXProperty
-      $smallOverflowXFocus?: OverflowXProperty
-      $smallOverflowXHover?: OverflowXProperty
       $overflowXFocus?: OverflowXProperty
       $overflowXHover?: OverflowXProperty
       $overflowY?: OverflowYProperty
       $largeOverflowY?: OverflowYProperty
       $mediumOverflowY?: OverflowYProperty
       $smallOverflowY?: OverflowYProperty
-      $largeOverflowYFocus?: OverflowYProperty
-      $largeOverflowYHover?: OverflowYProperty
-      $mediumOverflowYFocus?: OverflowYProperty
-      $mediumOverflowYHover?: OverflowYProperty
-      $smallOverflowYFocus?: OverflowYProperty
-      $smallOverflowYHover?: OverflowYProperty
       $overflowYFocus?: OverflowYProperty
       $overflowYHover?: OverflowYProperty
       $overscrollBehavior?: OverscrollBehaviorProperty
       $largeOverscrollBehavior?: OverscrollBehaviorProperty
       $mediumOverscrollBehavior?: OverscrollBehaviorProperty
       $smallOverscrollBehavior?: OverscrollBehaviorProperty
-      $largeOverscrollBehaviorFocus?: OverscrollBehaviorProperty
-      $largeOverscrollBehaviorHover?: OverscrollBehaviorProperty
-      $mediumOverscrollBehaviorFocus?: OverscrollBehaviorProperty
-      $mediumOverscrollBehaviorHover?: OverscrollBehaviorProperty
-      $smallOverscrollBehaviorFocus?: OverscrollBehaviorProperty
-      $smallOverscrollBehaviorHover?: OverscrollBehaviorProperty
       $overscrollBehaviorFocus?: OverscrollBehaviorProperty
       $overscrollBehaviorHover?: OverscrollBehaviorProperty
       $overscrollBehaviorX?: OverscrollBehaviorXProperty
       $largeOverscrollBehaviorX?: OverscrollBehaviorXProperty
       $mediumOverscrollBehaviorX?: OverscrollBehaviorXProperty
       $smallOverscrollBehaviorX?: OverscrollBehaviorXProperty
-      $largeOverscrollBehaviorXFocus?: OverscrollBehaviorXProperty
-      $largeOverscrollBehaviorXHover?: OverscrollBehaviorXProperty
-      $mediumOverscrollBehaviorXFocus?: OverscrollBehaviorXProperty
-      $mediumOverscrollBehaviorXHover?: OverscrollBehaviorXProperty
-      $smallOverscrollBehaviorXFocus?: OverscrollBehaviorXProperty
-      $smallOverscrollBehaviorXHover?: OverscrollBehaviorXProperty
       $overscrollBehaviorXFocus?: OverscrollBehaviorXProperty
       $overscrollBehaviorXHover?: OverscrollBehaviorXProperty
       $overscrollBehaviorY?: OverscrollBehaviorYProperty
       $largeOverscrollBehaviorY?: OverscrollBehaviorYProperty
       $mediumOverscrollBehaviorY?: OverscrollBehaviorYProperty
       $smallOverscrollBehaviorY?: OverscrollBehaviorYProperty
-      $largeOverscrollBehaviorYFocus?: OverscrollBehaviorYProperty
-      $largeOverscrollBehaviorYHover?: OverscrollBehaviorYProperty
-      $mediumOverscrollBehaviorYFocus?: OverscrollBehaviorYProperty
-      $mediumOverscrollBehaviorYHover?: OverscrollBehaviorYProperty
-      $smallOverscrollBehaviorYFocus?: OverscrollBehaviorYProperty
-      $smallOverscrollBehaviorYHover?: OverscrollBehaviorYProperty
       $overscrollBehaviorYFocus?: OverscrollBehaviorYProperty
       $overscrollBehaviorYHover?: OverscrollBehaviorYProperty
       $padding?: PaddingProperty<TLength>
       $largePadding?: PaddingProperty<TLength>
       $mediumPadding?: PaddingProperty<TLength>
       $smallPadding?: PaddingProperty<TLength>
-      $largePaddingFocus?: PaddingProperty<TLength>
-      $largePaddingHover?: PaddingProperty<TLength>
-      $mediumPaddingFocus?: PaddingProperty<TLength>
-      $mediumPaddingHover?: PaddingProperty<TLength>
-      $smallPaddingFocus?: PaddingProperty<TLength>
-      $smallPaddingHover?: PaddingProperty<TLength>
       $paddingFocus?: PaddingProperty<TLength>
       $paddingHover?: PaddingProperty<TLength>
       $paddingBlock?: PaddingBlockProperty<TLength>
       $largePaddingBlock?: PaddingBlockProperty<TLength>
       $mediumPaddingBlock?: PaddingBlockProperty<TLength>
       $smallPaddingBlock?: PaddingBlockProperty<TLength>
-      $largePaddingBlockFocus?: PaddingBlockProperty<TLength>
-      $largePaddingBlockHover?: PaddingBlockProperty<TLength>
-      $mediumPaddingBlockFocus?: PaddingBlockProperty<TLength>
-      $mediumPaddingBlockHover?: PaddingBlockProperty<TLength>
-      $smallPaddingBlockFocus?: PaddingBlockProperty<TLength>
-      $smallPaddingBlockHover?: PaddingBlockProperty<TLength>
       $paddingBlockFocus?: PaddingBlockProperty<TLength>
       $paddingBlockHover?: PaddingBlockProperty<TLength>
       $paddingBlockEnd?: PaddingBlockEndProperty<TLength>
       $largePaddingBlockEnd?: PaddingBlockEndProperty<TLength>
       $mediumPaddingBlockEnd?: PaddingBlockEndProperty<TLength>
       $smallPaddingBlockEnd?: PaddingBlockEndProperty<TLength>
-      $largePaddingBlockEndFocus?: PaddingBlockEndProperty<TLength>
-      $largePaddingBlockEndHover?: PaddingBlockEndProperty<TLength>
-      $mediumPaddingBlockEndFocus?: PaddingBlockEndProperty<TLength>
-      $mediumPaddingBlockEndHover?: PaddingBlockEndProperty<TLength>
-      $smallPaddingBlockEndFocus?: PaddingBlockEndProperty<TLength>
-      $smallPaddingBlockEndHover?: PaddingBlockEndProperty<TLength>
       $paddingBlockEndFocus?: PaddingBlockEndProperty<TLength>
       $paddingBlockEndHover?: PaddingBlockEndProperty<TLength>
       $paddingBlockStart?: PaddingBlockStartProperty<TLength>
       $largePaddingBlockStart?: PaddingBlockStartProperty<TLength>
       $mediumPaddingBlockStart?: PaddingBlockStartProperty<TLength>
       $smallPaddingBlockStart?: PaddingBlockStartProperty<TLength>
-      $largePaddingBlockStartFocus?: PaddingBlockStartProperty<TLength>
-      $largePaddingBlockStartHover?: PaddingBlockStartProperty<TLength>
-      $mediumPaddingBlockStartFocus?: PaddingBlockStartProperty<TLength>
-      $mediumPaddingBlockStartHover?: PaddingBlockStartProperty<TLength>
-      $smallPaddingBlockStartFocus?: PaddingBlockStartProperty<TLength>
-      $smallPaddingBlockStartHover?: PaddingBlockStartProperty<TLength>
       $paddingBlockStartFocus?: PaddingBlockStartProperty<TLength>
       $paddingBlockStartHover?: PaddingBlockStartProperty<TLength>
       $paddingBottom?: PaddingBottomProperty<TLength>
       $largePaddingBottom?: PaddingBottomProperty<TLength>
       $mediumPaddingBottom?: PaddingBottomProperty<TLength>
       $smallPaddingBottom?: PaddingBottomProperty<TLength>
-      $largePaddingBottomFocus?: PaddingBottomProperty<TLength>
-      $largePaddingBottomHover?: PaddingBottomProperty<TLength>
-      $mediumPaddingBottomFocus?: PaddingBottomProperty<TLength>
-      $mediumPaddingBottomHover?: PaddingBottomProperty<TLength>
-      $smallPaddingBottomFocus?: PaddingBottomProperty<TLength>
-      $smallPaddingBottomHover?: PaddingBottomProperty<TLength>
       $paddingBottomFocus?: PaddingBottomProperty<TLength>
       $paddingBottomHover?: PaddingBottomProperty<TLength>
       $paddingInline?: PaddingInlineProperty<TLength>
       $largePaddingInline?: PaddingInlineProperty<TLength>
       $mediumPaddingInline?: PaddingInlineProperty<TLength>
       $smallPaddingInline?: PaddingInlineProperty<TLength>
-      $largePaddingInlineFocus?: PaddingInlineProperty<TLength>
-      $largePaddingInlineHover?: PaddingInlineProperty<TLength>
-      $mediumPaddingInlineFocus?: PaddingInlineProperty<TLength>
-      $mediumPaddingInlineHover?: PaddingInlineProperty<TLength>
-      $smallPaddingInlineFocus?: PaddingInlineProperty<TLength>
-      $smallPaddingInlineHover?: PaddingInlineProperty<TLength>
       $paddingInlineFocus?: PaddingInlineProperty<TLength>
       $paddingInlineHover?: PaddingInlineProperty<TLength>
       $paddingInlineEnd?: PaddingInlineEndProperty<TLength>
       $largePaddingInlineEnd?: PaddingInlineEndProperty<TLength>
       $mediumPaddingInlineEnd?: PaddingInlineEndProperty<TLength>
       $smallPaddingInlineEnd?: PaddingInlineEndProperty<TLength>
-      $largePaddingInlineEndFocus?: PaddingInlineEndProperty<TLength>
-      $largePaddingInlineEndHover?: PaddingInlineEndProperty<TLength>
-      $mediumPaddingInlineEndFocus?: PaddingInlineEndProperty<TLength>
-      $mediumPaddingInlineEndHover?: PaddingInlineEndProperty<TLength>
-      $smallPaddingInlineEndFocus?: PaddingInlineEndProperty<TLength>
-      $smallPaddingInlineEndHover?: PaddingInlineEndProperty<TLength>
       $paddingInlineEndFocus?: PaddingInlineEndProperty<TLength>
       $paddingInlineEndHover?: PaddingInlineEndProperty<TLength>
       $paddingInlineStart?: PaddingInlineStartProperty<TLength>
       $largePaddingInlineStart?: PaddingInlineStartProperty<TLength>
       $mediumPaddingInlineStart?: PaddingInlineStartProperty<TLength>
       $smallPaddingInlineStart?: PaddingInlineStartProperty<TLength>
-      $largePaddingInlineStartFocus?: PaddingInlineStartProperty<TLength>
-      $largePaddingInlineStartHover?: PaddingInlineStartProperty<TLength>
-      $mediumPaddingInlineStartFocus?: PaddingInlineStartProperty<TLength>
-      $mediumPaddingInlineStartHover?: PaddingInlineStartProperty<TLength>
-      $smallPaddingInlineStartFocus?: PaddingInlineStartProperty<TLength>
-      $smallPaddingInlineStartHover?: PaddingInlineStartProperty<TLength>
       $paddingInlineStartFocus?: PaddingInlineStartProperty<TLength>
       $paddingInlineStartHover?: PaddingInlineStartProperty<TLength>
       $paddingLeft?: PaddingLeftProperty<TLength>
       $largePaddingLeft?: PaddingLeftProperty<TLength>
       $mediumPaddingLeft?: PaddingLeftProperty<TLength>
       $smallPaddingLeft?: PaddingLeftProperty<TLength>
-      $largePaddingLeftFocus?: PaddingLeftProperty<TLength>
-      $largePaddingLeftHover?: PaddingLeftProperty<TLength>
-      $mediumPaddingLeftFocus?: PaddingLeftProperty<TLength>
-      $mediumPaddingLeftHover?: PaddingLeftProperty<TLength>
-      $smallPaddingLeftFocus?: PaddingLeftProperty<TLength>
-      $smallPaddingLeftHover?: PaddingLeftProperty<TLength>
       $paddingLeftFocus?: PaddingLeftProperty<TLength>
       $paddingLeftHover?: PaddingLeftProperty<TLength>
       $paddingRight?: PaddingRightProperty<TLength>
       $largePaddingRight?: PaddingRightProperty<TLength>
       $mediumPaddingRight?: PaddingRightProperty<TLength>
       $smallPaddingRight?: PaddingRightProperty<TLength>
-      $largePaddingRightFocus?: PaddingRightProperty<TLength>
-      $largePaddingRightHover?: PaddingRightProperty<TLength>
-      $mediumPaddingRightFocus?: PaddingRightProperty<TLength>
-      $mediumPaddingRightHover?: PaddingRightProperty<TLength>
-      $smallPaddingRightFocus?: PaddingRightProperty<TLength>
-      $smallPaddingRightHover?: PaddingRightProperty<TLength>
       $paddingRightFocus?: PaddingRightProperty<TLength>
       $paddingRightHover?: PaddingRightProperty<TLength>
       $paddingTop?: PaddingTopProperty<TLength>
       $largePaddingTop?: PaddingTopProperty<TLength>
       $mediumPaddingTop?: PaddingTopProperty<TLength>
       $smallPaddingTop?: PaddingTopProperty<TLength>
-      $largePaddingTopFocus?: PaddingTopProperty<TLength>
-      $largePaddingTopHover?: PaddingTopProperty<TLength>
-      $mediumPaddingTopFocus?: PaddingTopProperty<TLength>
-      $mediumPaddingTopHover?: PaddingTopProperty<TLength>
-      $smallPaddingTopFocus?: PaddingTopProperty<TLength>
-      $smallPaddingTopHover?: PaddingTopProperty<TLength>
       $paddingTopFocus?: PaddingTopProperty<TLength>
       $paddingTopHover?: PaddingTopProperty<TLength>
       $pageBreakAfter?: PageBreakAfterProperty
       $largePageBreakAfter?: PageBreakAfterProperty
       $mediumPageBreakAfter?: PageBreakAfterProperty
       $smallPageBreakAfter?: PageBreakAfterProperty
-      $largePageBreakAfterFocus?: PageBreakAfterProperty
-      $largePageBreakAfterHover?: PageBreakAfterProperty
-      $mediumPageBreakAfterFocus?: PageBreakAfterProperty
-      $mediumPageBreakAfterHover?: PageBreakAfterProperty
-      $smallPageBreakAfterFocus?: PageBreakAfterProperty
-      $smallPageBreakAfterHover?: PageBreakAfterProperty
       $pageBreakAfterFocus?: PageBreakAfterProperty
       $pageBreakAfterHover?: PageBreakAfterProperty
       $pageBreakBefore?: PageBreakBeforeProperty
       $largePageBreakBefore?: PageBreakBeforeProperty
       $mediumPageBreakBefore?: PageBreakBeforeProperty
       $smallPageBreakBefore?: PageBreakBeforeProperty
-      $largePageBreakBeforeFocus?: PageBreakBeforeProperty
-      $largePageBreakBeforeHover?: PageBreakBeforeProperty
-      $mediumPageBreakBeforeFocus?: PageBreakBeforeProperty
-      $mediumPageBreakBeforeHover?: PageBreakBeforeProperty
-      $smallPageBreakBeforeFocus?: PageBreakBeforeProperty
-      $smallPageBreakBeforeHover?: PageBreakBeforeProperty
       $pageBreakBeforeFocus?: PageBreakBeforeProperty
       $pageBreakBeforeHover?: PageBreakBeforeProperty
       $pageBreakInside?: PageBreakInsideProperty
       $largePageBreakInside?: PageBreakInsideProperty
       $mediumPageBreakInside?: PageBreakInsideProperty
       $smallPageBreakInside?: PageBreakInsideProperty
-      $largePageBreakInsideFocus?: PageBreakInsideProperty
-      $largePageBreakInsideHover?: PageBreakInsideProperty
-      $mediumPageBreakInsideFocus?: PageBreakInsideProperty
-      $mediumPageBreakInsideHover?: PageBreakInsideProperty
-      $smallPageBreakInsideFocus?: PageBreakInsideProperty
-      $smallPageBreakInsideHover?: PageBreakInsideProperty
       $pageBreakInsideFocus?: PageBreakInsideProperty
       $pageBreakInsideHover?: PageBreakInsideProperty
       $paintOrder?: PaintOrderProperty
       $largePaintOrder?: PaintOrderProperty
       $mediumPaintOrder?: PaintOrderProperty
       $smallPaintOrder?: PaintOrderProperty
-      $largePaintOrderFocus?: PaintOrderProperty
-      $largePaintOrderHover?: PaintOrderProperty
-      $mediumPaintOrderFocus?: PaintOrderProperty
-      $mediumPaintOrderHover?: PaintOrderProperty
-      $smallPaintOrderFocus?: PaintOrderProperty
-      $smallPaintOrderHover?: PaintOrderProperty
       $paintOrderFocus?: PaintOrderProperty
       $paintOrderHover?: PaintOrderProperty
       $perspective?: PerspectiveProperty<TLength>
       $largePerspective?: PerspectiveProperty<TLength>
       $mediumPerspective?: PerspectiveProperty<TLength>
       $smallPerspective?: PerspectiveProperty<TLength>
-      $largePerspectiveFocus?: PerspectiveProperty<TLength>
-      $largePerspectiveHover?: PerspectiveProperty<TLength>
-      $mediumPerspectiveFocus?: PerspectiveProperty<TLength>
-      $mediumPerspectiveHover?: PerspectiveProperty<TLength>
-      $smallPerspectiveFocus?: PerspectiveProperty<TLength>
-      $smallPerspectiveHover?: PerspectiveProperty<TLength>
       $perspectiveFocus?: PerspectiveProperty<TLength>
       $perspectiveHover?: PerspectiveProperty<TLength>
       $perspectiveOrigin?: PerspectiveOriginProperty<TLength>
       $largePerspectiveOrigin?: PerspectiveOriginProperty<TLength>
       $mediumPerspectiveOrigin?: PerspectiveOriginProperty<TLength>
       $smallPerspectiveOrigin?: PerspectiveOriginProperty<TLength>
-      $largePerspectiveOriginFocus?: PerspectiveOriginProperty<TLength>
-      $largePerspectiveOriginHover?: PerspectiveOriginProperty<TLength>
-      $mediumPerspectiveOriginFocus?: PerspectiveOriginProperty<TLength>
-      $mediumPerspectiveOriginHover?: PerspectiveOriginProperty<TLength>
-      $smallPerspectiveOriginFocus?: PerspectiveOriginProperty<TLength>
-      $smallPerspectiveOriginHover?: PerspectiveOriginProperty<TLength>
       $perspectiveOriginFocus?: PerspectiveOriginProperty<TLength>
       $perspectiveOriginHover?: PerspectiveOriginProperty<TLength>
       $placeContent?: PlaceContentProperty
       $largePlaceContent?: PlaceContentProperty
       $mediumPlaceContent?: PlaceContentProperty
       $smallPlaceContent?: PlaceContentProperty
-      $largePlaceContentFocus?: PlaceContentProperty
-      $largePlaceContentHover?: PlaceContentProperty
-      $mediumPlaceContentFocus?: PlaceContentProperty
-      $mediumPlaceContentHover?: PlaceContentProperty
-      $smallPlaceContentFocus?: PlaceContentProperty
-      $smallPlaceContentHover?: PlaceContentProperty
       $placeContentFocus?: PlaceContentProperty
       $placeContentHover?: PlaceContentProperty
       $placeItems?: PlaceItemsProperty
       $largePlaceItems?: PlaceItemsProperty
       $mediumPlaceItems?: PlaceItemsProperty
       $smallPlaceItems?: PlaceItemsProperty
-      $largePlaceItemsFocus?: PlaceItemsProperty
-      $largePlaceItemsHover?: PlaceItemsProperty
-      $mediumPlaceItemsFocus?: PlaceItemsProperty
-      $mediumPlaceItemsHover?: PlaceItemsProperty
-      $smallPlaceItemsFocus?: PlaceItemsProperty
-      $smallPlaceItemsHover?: PlaceItemsProperty
       $placeItemsFocus?: PlaceItemsProperty
       $placeItemsHover?: PlaceItemsProperty
       $placeSelf?: PlaceSelfProperty
       $largePlaceSelf?: PlaceSelfProperty
       $mediumPlaceSelf?: PlaceSelfProperty
       $smallPlaceSelf?: PlaceSelfProperty
-      $largePlaceSelfFocus?: PlaceSelfProperty
-      $largePlaceSelfHover?: PlaceSelfProperty
-      $mediumPlaceSelfFocus?: PlaceSelfProperty
-      $mediumPlaceSelfHover?: PlaceSelfProperty
-      $smallPlaceSelfFocus?: PlaceSelfProperty
-      $smallPlaceSelfHover?: PlaceSelfProperty
       $placeSelfFocus?: PlaceSelfProperty
       $placeSelfHover?: PlaceSelfProperty
       $pointerEvents?: PointerEventsProperty
       $largePointerEvents?: PointerEventsProperty
       $mediumPointerEvents?: PointerEventsProperty
       $smallPointerEvents?: PointerEventsProperty
-      $largePointerEventsFocus?: PointerEventsProperty
-      $largePointerEventsHover?: PointerEventsProperty
-      $mediumPointerEventsFocus?: PointerEventsProperty
-      $mediumPointerEventsHover?: PointerEventsProperty
-      $smallPointerEventsFocus?: PointerEventsProperty
-      $smallPointerEventsHover?: PointerEventsProperty
       $pointerEventsFocus?: PointerEventsProperty
       $pointerEventsHover?: PointerEventsProperty
       $position?: PositionProperty
       $largePosition?: PositionProperty
       $mediumPosition?: PositionProperty
       $smallPosition?: PositionProperty
-      $largePositionFocus?: PositionProperty
-      $largePositionHover?: PositionProperty
-      $mediumPositionFocus?: PositionProperty
-      $mediumPositionHover?: PositionProperty
-      $smallPositionFocus?: PositionProperty
-      $smallPositionHover?: PositionProperty
       $positionFocus?: PositionProperty
       $positionHover?: PositionProperty
       $quotes?: QuotesProperty
       $largeQuotes?: QuotesProperty
       $mediumQuotes?: QuotesProperty
       $smallQuotes?: QuotesProperty
-      $largeQuotesFocus?: QuotesProperty
-      $largeQuotesHover?: QuotesProperty
-      $mediumQuotesFocus?: QuotesProperty
-      $mediumQuotesHover?: QuotesProperty
-      $smallQuotesFocus?: QuotesProperty
-      $smallQuotesHover?: QuotesProperty
       $quotesFocus?: QuotesProperty
       $quotesHover?: QuotesProperty
       $resize?: ResizeProperty
       $largeResize?: ResizeProperty
       $mediumResize?: ResizeProperty
       $smallResize?: ResizeProperty
-      $largeResizeFocus?: ResizeProperty
-      $largeResizeHover?: ResizeProperty
-      $mediumResizeFocus?: ResizeProperty
-      $mediumResizeHover?: ResizeProperty
-      $smallResizeFocus?: ResizeProperty
-      $smallResizeHover?: ResizeProperty
       $resizeFocus?: ResizeProperty
       $resizeHover?: ResizeProperty
       $right?: RightProperty<TLength>
       $largeRight?: RightProperty<TLength>
       $mediumRight?: RightProperty<TLength>
       $smallRight?: RightProperty<TLength>
-      $largeRightFocus?: RightProperty<TLength>
-      $largeRightHover?: RightProperty<TLength>
-      $mediumRightFocus?: RightProperty<TLength>
-      $mediumRightHover?: RightProperty<TLength>
-      $smallRightFocus?: RightProperty<TLength>
-      $smallRightHover?: RightProperty<TLength>
       $rightFocus?: RightProperty<TLength>
       $rightHover?: RightProperty<TLength>
       $rotate?: RotateProperty
       $largeRotate?: RotateProperty
       $mediumRotate?: RotateProperty
       $smallRotate?: RotateProperty
-      $largeRotateFocus?: RotateProperty
-      $largeRotateHover?: RotateProperty
-      $mediumRotateFocus?: RotateProperty
-      $mediumRotateHover?: RotateProperty
-      $smallRotateFocus?: RotateProperty
-      $smallRotateHover?: RotateProperty
       $rotateFocus?: RotateProperty
       $rotateHover?: RotateProperty
       $rowGap?: RowGapProperty<TLength>
       $largeRowGap?: RowGapProperty<TLength>
       $mediumRowGap?: RowGapProperty<TLength>
       $smallRowGap?: RowGapProperty<TLength>
-      $largeRowGapFocus?: RowGapProperty<TLength>
-      $largeRowGapHover?: RowGapProperty<TLength>
-      $mediumRowGapFocus?: RowGapProperty<TLength>
-      $mediumRowGapHover?: RowGapProperty<TLength>
-      $smallRowGapFocus?: RowGapProperty<TLength>
-      $smallRowGapHover?: RowGapProperty<TLength>
       $rowGapFocus?: RowGapProperty<TLength>
       $rowGapHover?: RowGapProperty<TLength>
       $rubyAlign?: RubyAlignProperty
       $largeRubyAlign?: RubyAlignProperty
       $mediumRubyAlign?: RubyAlignProperty
       $smallRubyAlign?: RubyAlignProperty
-      $largeRubyAlignFocus?: RubyAlignProperty
-      $largeRubyAlignHover?: RubyAlignProperty
-      $mediumRubyAlignFocus?: RubyAlignProperty
-      $mediumRubyAlignHover?: RubyAlignProperty
-      $smallRubyAlignFocus?: RubyAlignProperty
-      $smallRubyAlignHover?: RubyAlignProperty
       $rubyAlignFocus?: RubyAlignProperty
       $rubyAlignHover?: RubyAlignProperty
       $rubyMerge?: RubyMergeProperty
       $largeRubyMerge?: RubyMergeProperty
       $mediumRubyMerge?: RubyMergeProperty
       $smallRubyMerge?: RubyMergeProperty
-      $largeRubyMergeFocus?: RubyMergeProperty
-      $largeRubyMergeHover?: RubyMergeProperty
-      $mediumRubyMergeFocus?: RubyMergeProperty
-      $mediumRubyMergeHover?: RubyMergeProperty
-      $smallRubyMergeFocus?: RubyMergeProperty
-      $smallRubyMergeHover?: RubyMergeProperty
       $rubyMergeFocus?: RubyMergeProperty
       $rubyMergeHover?: RubyMergeProperty
       $rubyPosition?: RubyPositionProperty
       $largeRubyPosition?: RubyPositionProperty
       $mediumRubyPosition?: RubyPositionProperty
       $smallRubyPosition?: RubyPositionProperty
-      $largeRubyPositionFocus?: RubyPositionProperty
-      $largeRubyPositionHover?: RubyPositionProperty
-      $mediumRubyPositionFocus?: RubyPositionProperty
-      $mediumRubyPositionHover?: RubyPositionProperty
-      $smallRubyPositionFocus?: RubyPositionProperty
-      $smallRubyPositionHover?: RubyPositionProperty
       $rubyPositionFocus?: RubyPositionProperty
       $rubyPositionHover?: RubyPositionProperty
       $scale?: ScaleProperty
       $largeScale?: ScaleProperty
       $mediumScale?: ScaleProperty
       $smallScale?: ScaleProperty
-      $largeScaleFocus?: ScaleProperty
-      $largeScaleHover?: ScaleProperty
-      $mediumScaleFocus?: ScaleProperty
-      $mediumScaleHover?: ScaleProperty
-      $smallScaleFocus?: ScaleProperty
-      $smallScaleHover?: ScaleProperty
       $scaleFocus?: ScaleProperty
       $scaleHover?: ScaleProperty
       $scrollBehavior?: ScrollBehaviorProperty
       $largeScrollBehavior?: ScrollBehaviorProperty
       $mediumScrollBehavior?: ScrollBehaviorProperty
       $smallScrollBehavior?: ScrollBehaviorProperty
-      $largeScrollBehaviorFocus?: ScrollBehaviorProperty
-      $largeScrollBehaviorHover?: ScrollBehaviorProperty
-      $mediumScrollBehaviorFocus?: ScrollBehaviorProperty
-      $mediumScrollBehaviorHover?: ScrollBehaviorProperty
-      $smallScrollBehaviorFocus?: ScrollBehaviorProperty
-      $smallScrollBehaviorHover?: ScrollBehaviorProperty
       $scrollBehaviorFocus?: ScrollBehaviorProperty
       $scrollBehaviorHover?: ScrollBehaviorProperty
       $scrollMargin?: ScrollMarginProperty<TLength>
       $largeScrollMargin?: ScrollMarginProperty<TLength>
       $mediumScrollMargin?: ScrollMarginProperty<TLength>
       $smallScrollMargin?: ScrollMarginProperty<TLength>
-      $largeScrollMarginFocus?: ScrollMarginProperty<TLength>
-      $largeScrollMarginHover?: ScrollMarginProperty<TLength>
-      $mediumScrollMarginFocus?: ScrollMarginProperty<TLength>
-      $mediumScrollMarginHover?: ScrollMarginProperty<TLength>
-      $smallScrollMarginFocus?: ScrollMarginProperty<TLength>
-      $smallScrollMarginHover?: ScrollMarginProperty<TLength>
       $scrollMarginFocus?: ScrollMarginProperty<TLength>
       $scrollMarginHover?: ScrollMarginProperty<TLength>
       $scrollMarginBlock?: ScrollMarginBlockProperty<TLength>
       $largeScrollMarginBlock?: ScrollMarginBlockProperty<TLength>
       $mediumScrollMarginBlock?: ScrollMarginBlockProperty<TLength>
       $smallScrollMarginBlock?: ScrollMarginBlockProperty<TLength>
-      $largeScrollMarginBlockFocus?: ScrollMarginBlockProperty<TLength>
-      $largeScrollMarginBlockHover?: ScrollMarginBlockProperty<TLength>
-      $mediumScrollMarginBlockFocus?: ScrollMarginBlockProperty<TLength>
-      $mediumScrollMarginBlockHover?: ScrollMarginBlockProperty<TLength>
-      $smallScrollMarginBlockFocus?: ScrollMarginBlockProperty<TLength>
-      $smallScrollMarginBlockHover?: ScrollMarginBlockProperty<TLength>
       $scrollMarginBlockFocus?: ScrollMarginBlockProperty<TLength>
       $scrollMarginBlockHover?: ScrollMarginBlockProperty<TLength>
       $scrollMarginBlockEnd?: ScrollMarginBlockEndProperty<TLength>
       $largeScrollMarginBlockEnd?: ScrollMarginBlockEndProperty<TLength>
       $mediumScrollMarginBlockEnd?: ScrollMarginBlockEndProperty<TLength>
       $smallScrollMarginBlockEnd?: ScrollMarginBlockEndProperty<TLength>
-      $largeScrollMarginBlockEndFocus?: ScrollMarginBlockEndProperty<TLength>
-      $largeScrollMarginBlockEndHover?: ScrollMarginBlockEndProperty<TLength>
-      $mediumScrollMarginBlockEndFocus?: ScrollMarginBlockEndProperty<TLength>
-      $mediumScrollMarginBlockEndHover?: ScrollMarginBlockEndProperty<TLength>
-      $smallScrollMarginBlockEndFocus?: ScrollMarginBlockEndProperty<TLength>
-      $smallScrollMarginBlockEndHover?: ScrollMarginBlockEndProperty<TLength>
       $scrollMarginBlockEndFocus?: ScrollMarginBlockEndProperty<TLength>
       $scrollMarginBlockEndHover?: ScrollMarginBlockEndProperty<TLength>
       $scrollMarginBlockStart?: ScrollMarginBlockStartProperty<TLength>
       $largeScrollMarginBlockStart?: ScrollMarginBlockStartProperty<TLength>
       $mediumScrollMarginBlockStart?: ScrollMarginBlockStartProperty<TLength>
       $smallScrollMarginBlockStart?: ScrollMarginBlockStartProperty<TLength>
-      $largeScrollMarginBlockStartFocus?: ScrollMarginBlockStartProperty<TLength>
-      $largeScrollMarginBlockStartHover?: ScrollMarginBlockStartProperty<TLength>
-      $mediumScrollMarginBlockStartFocus?: ScrollMarginBlockStartProperty<TLength>
-      $mediumScrollMarginBlockStartHover?: ScrollMarginBlockStartProperty<TLength>
-      $smallScrollMarginBlockStartFocus?: ScrollMarginBlockStartProperty<TLength>
-      $smallScrollMarginBlockStartHover?: ScrollMarginBlockStartProperty<TLength>
       $scrollMarginBlockStartFocus?: ScrollMarginBlockStartProperty<TLength>
       $scrollMarginBlockStartHover?: ScrollMarginBlockStartProperty<TLength>
       $scrollMarginBottom?: ScrollMarginBottomProperty<TLength>
       $largeScrollMarginBottom?: ScrollMarginBottomProperty<TLength>
       $mediumScrollMarginBottom?: ScrollMarginBottomProperty<TLength>
       $smallScrollMarginBottom?: ScrollMarginBottomProperty<TLength>
-      $largeScrollMarginBottomFocus?: ScrollMarginBottomProperty<TLength>
-      $largeScrollMarginBottomHover?: ScrollMarginBottomProperty<TLength>
-      $mediumScrollMarginBottomFocus?: ScrollMarginBottomProperty<TLength>
-      $mediumScrollMarginBottomHover?: ScrollMarginBottomProperty<TLength>
-      $smallScrollMarginBottomFocus?: ScrollMarginBottomProperty<TLength>
-      $smallScrollMarginBottomHover?: ScrollMarginBottomProperty<TLength>
       $scrollMarginBottomFocus?: ScrollMarginBottomProperty<TLength>
       $scrollMarginBottomHover?: ScrollMarginBottomProperty<TLength>
       $scrollMarginInline?: ScrollMarginInlineProperty<TLength>
       $largeScrollMarginInline?: ScrollMarginInlineProperty<TLength>
       $mediumScrollMarginInline?: ScrollMarginInlineProperty<TLength>
       $smallScrollMarginInline?: ScrollMarginInlineProperty<TLength>
-      $largeScrollMarginInlineFocus?: ScrollMarginInlineProperty<TLength>
-      $largeScrollMarginInlineHover?: ScrollMarginInlineProperty<TLength>
-      $mediumScrollMarginInlineFocus?: ScrollMarginInlineProperty<TLength>
-      $mediumScrollMarginInlineHover?: ScrollMarginInlineProperty<TLength>
-      $smallScrollMarginInlineFocus?: ScrollMarginInlineProperty<TLength>
-      $smallScrollMarginInlineHover?: ScrollMarginInlineProperty<TLength>
       $scrollMarginInlineFocus?: ScrollMarginInlineProperty<TLength>
       $scrollMarginInlineHover?: ScrollMarginInlineProperty<TLength>
       $scrollMarginInlineEnd?: ScrollMarginInlineEndProperty<TLength>
       $largeScrollMarginInlineEnd?: ScrollMarginInlineEndProperty<TLength>
       $mediumScrollMarginInlineEnd?: ScrollMarginInlineEndProperty<TLength>
       $smallScrollMarginInlineEnd?: ScrollMarginInlineEndProperty<TLength>
-      $largeScrollMarginInlineEndFocus?: ScrollMarginInlineEndProperty<TLength>
-      $largeScrollMarginInlineEndHover?: ScrollMarginInlineEndProperty<TLength>
-      $mediumScrollMarginInlineEndFocus?: ScrollMarginInlineEndProperty<TLength>
-      $mediumScrollMarginInlineEndHover?: ScrollMarginInlineEndProperty<TLength>
-      $smallScrollMarginInlineEndFocus?: ScrollMarginInlineEndProperty<TLength>
-      $smallScrollMarginInlineEndHover?: ScrollMarginInlineEndProperty<TLength>
       $scrollMarginInlineEndFocus?: ScrollMarginInlineEndProperty<TLength>
       $scrollMarginInlineEndHover?: ScrollMarginInlineEndProperty<TLength>
       $scrollMarginInlineStart?: ScrollMarginInlineStartProperty<TLength>
       $largeScrollMarginInlineStart?: ScrollMarginInlineStartProperty<TLength>
       $mediumScrollMarginInlineStart?: ScrollMarginInlineStartProperty<TLength>
       $smallScrollMarginInlineStart?: ScrollMarginInlineStartProperty<TLength>
-      $largeScrollMarginInlineStartFocus?: ScrollMarginInlineStartProperty<TLength>
-      $largeScrollMarginInlineStartHover?: ScrollMarginInlineStartProperty<TLength>
-      $mediumScrollMarginInlineStartFocus?: ScrollMarginInlineStartProperty<TLength>
-      $mediumScrollMarginInlineStartHover?: ScrollMarginInlineStartProperty<TLength>
-      $smallScrollMarginInlineStartFocus?: ScrollMarginInlineStartProperty<TLength>
-      $smallScrollMarginInlineStartHover?: ScrollMarginInlineStartProperty<TLength>
       $scrollMarginInlineStartFocus?: ScrollMarginInlineStartProperty<TLength>
       $scrollMarginInlineStartHover?: ScrollMarginInlineStartProperty<TLength>
       $scrollMarginLeft?: ScrollMarginLeftProperty<TLength>
       $largeScrollMarginLeft?: ScrollMarginLeftProperty<TLength>
       $mediumScrollMarginLeft?: ScrollMarginLeftProperty<TLength>
       $smallScrollMarginLeft?: ScrollMarginLeftProperty<TLength>
-      $largeScrollMarginLeftFocus?: ScrollMarginLeftProperty<TLength>
-      $largeScrollMarginLeftHover?: ScrollMarginLeftProperty<TLength>
-      $mediumScrollMarginLeftFocus?: ScrollMarginLeftProperty<TLength>
-      $mediumScrollMarginLeftHover?: ScrollMarginLeftProperty<TLength>
-      $smallScrollMarginLeftFocus?: ScrollMarginLeftProperty<TLength>
-      $smallScrollMarginLeftHover?: ScrollMarginLeftProperty<TLength>
       $scrollMarginLeftFocus?: ScrollMarginLeftProperty<TLength>
       $scrollMarginLeftHover?: ScrollMarginLeftProperty<TLength>
       $scrollMarginRight?: ScrollMarginRightProperty<TLength>
       $largeScrollMarginRight?: ScrollMarginRightProperty<TLength>
       $mediumScrollMarginRight?: ScrollMarginRightProperty<TLength>
       $smallScrollMarginRight?: ScrollMarginRightProperty<TLength>
-      $largeScrollMarginRightFocus?: ScrollMarginRightProperty<TLength>
-      $largeScrollMarginRightHover?: ScrollMarginRightProperty<TLength>
-      $mediumScrollMarginRightFocus?: ScrollMarginRightProperty<TLength>
-      $mediumScrollMarginRightHover?: ScrollMarginRightProperty<TLength>
-      $smallScrollMarginRightFocus?: ScrollMarginRightProperty<TLength>
-      $smallScrollMarginRightHover?: ScrollMarginRightProperty<TLength>
       $scrollMarginRightFocus?: ScrollMarginRightProperty<TLength>
       $scrollMarginRightHover?: ScrollMarginRightProperty<TLength>
       $scrollMarginTop?: ScrollMarginTopProperty<TLength>
       $largeScrollMarginTop?: ScrollMarginTopProperty<TLength>
       $mediumScrollMarginTop?: ScrollMarginTopProperty<TLength>
       $smallScrollMarginTop?: ScrollMarginTopProperty<TLength>
-      $largeScrollMarginTopFocus?: ScrollMarginTopProperty<TLength>
-      $largeScrollMarginTopHover?: ScrollMarginTopProperty<TLength>
-      $mediumScrollMarginTopFocus?: ScrollMarginTopProperty<TLength>
-      $mediumScrollMarginTopHover?: ScrollMarginTopProperty<TLength>
-      $smallScrollMarginTopFocus?: ScrollMarginTopProperty<TLength>
-      $smallScrollMarginTopHover?: ScrollMarginTopProperty<TLength>
       $scrollMarginTopFocus?: ScrollMarginTopProperty<TLength>
       $scrollMarginTopHover?: ScrollMarginTopProperty<TLength>
       $scrollPadding?: ScrollPaddingProperty<TLength>
       $largeScrollPadding?: ScrollPaddingProperty<TLength>
       $mediumScrollPadding?: ScrollPaddingProperty<TLength>
       $smallScrollPadding?: ScrollPaddingProperty<TLength>
-      $largeScrollPaddingFocus?: ScrollPaddingProperty<TLength>
-      $largeScrollPaddingHover?: ScrollPaddingProperty<TLength>
-      $mediumScrollPaddingFocus?: ScrollPaddingProperty<TLength>
-      $mediumScrollPaddingHover?: ScrollPaddingProperty<TLength>
-      $smallScrollPaddingFocus?: ScrollPaddingProperty<TLength>
-      $smallScrollPaddingHover?: ScrollPaddingProperty<TLength>
       $scrollPaddingFocus?: ScrollPaddingProperty<TLength>
       $scrollPaddingHover?: ScrollPaddingProperty<TLength>
       $scrollPaddingBlock?: ScrollPaddingBlockProperty<TLength>
       $largeScrollPaddingBlock?: ScrollPaddingBlockProperty<TLength>
       $mediumScrollPaddingBlock?: ScrollPaddingBlockProperty<TLength>
       $smallScrollPaddingBlock?: ScrollPaddingBlockProperty<TLength>
-      $largeScrollPaddingBlockFocus?: ScrollPaddingBlockProperty<TLength>
-      $largeScrollPaddingBlockHover?: ScrollPaddingBlockProperty<TLength>
-      $mediumScrollPaddingBlockFocus?: ScrollPaddingBlockProperty<TLength>
-      $mediumScrollPaddingBlockHover?: ScrollPaddingBlockProperty<TLength>
-      $smallScrollPaddingBlockFocus?: ScrollPaddingBlockProperty<TLength>
-      $smallScrollPaddingBlockHover?: ScrollPaddingBlockProperty<TLength>
       $scrollPaddingBlockFocus?: ScrollPaddingBlockProperty<TLength>
       $scrollPaddingBlockHover?: ScrollPaddingBlockProperty<TLength>
       $scrollPaddingBlockEnd?: ScrollPaddingBlockEndProperty<TLength>
       $largeScrollPaddingBlockEnd?: ScrollPaddingBlockEndProperty<TLength>
       $mediumScrollPaddingBlockEnd?: ScrollPaddingBlockEndProperty<TLength>
       $smallScrollPaddingBlockEnd?: ScrollPaddingBlockEndProperty<TLength>
-      $largeScrollPaddingBlockEndFocus?: ScrollPaddingBlockEndProperty<TLength>
-      $largeScrollPaddingBlockEndHover?: ScrollPaddingBlockEndProperty<TLength>
-      $mediumScrollPaddingBlockEndFocus?: ScrollPaddingBlockEndProperty<TLength>
-      $mediumScrollPaddingBlockEndHover?: ScrollPaddingBlockEndProperty<TLength>
-      $smallScrollPaddingBlockEndFocus?: ScrollPaddingBlockEndProperty<TLength>
-      $smallScrollPaddingBlockEndHover?: ScrollPaddingBlockEndProperty<TLength>
       $scrollPaddingBlockEndFocus?: ScrollPaddingBlockEndProperty<TLength>
       $scrollPaddingBlockEndHover?: ScrollPaddingBlockEndProperty<TLength>
       $scrollPaddingBlockStart?: ScrollPaddingBlockStartProperty<TLength>
       $largeScrollPaddingBlockStart?: ScrollPaddingBlockStartProperty<TLength>
       $mediumScrollPaddingBlockStart?: ScrollPaddingBlockStartProperty<TLength>
       $smallScrollPaddingBlockStart?: ScrollPaddingBlockStartProperty<TLength>
-      $largeScrollPaddingBlockStartFocus?: ScrollPaddingBlockStartProperty<TLength>
-      $largeScrollPaddingBlockStartHover?: ScrollPaddingBlockStartProperty<TLength>
-      $mediumScrollPaddingBlockStartFocus?: ScrollPaddingBlockStartProperty<TLength>
-      $mediumScrollPaddingBlockStartHover?: ScrollPaddingBlockStartProperty<TLength>
-      $smallScrollPaddingBlockStartFocus?: ScrollPaddingBlockStartProperty<TLength>
-      $smallScrollPaddingBlockStartHover?: ScrollPaddingBlockStartProperty<TLength>
       $scrollPaddingBlockStartFocus?: ScrollPaddingBlockStartProperty<TLength>
       $scrollPaddingBlockStartHover?: ScrollPaddingBlockStartProperty<TLength>
       $scrollPaddingBottom?: ScrollPaddingBottomProperty<TLength>
       $largeScrollPaddingBottom?: ScrollPaddingBottomProperty<TLength>
       $mediumScrollPaddingBottom?: ScrollPaddingBottomProperty<TLength>
       $smallScrollPaddingBottom?: ScrollPaddingBottomProperty<TLength>
-      $largeScrollPaddingBottomFocus?: ScrollPaddingBottomProperty<TLength>
-      $largeScrollPaddingBottomHover?: ScrollPaddingBottomProperty<TLength>
-      $mediumScrollPaddingBottomFocus?: ScrollPaddingBottomProperty<TLength>
-      $mediumScrollPaddingBottomHover?: ScrollPaddingBottomProperty<TLength>
-      $smallScrollPaddingBottomFocus?: ScrollPaddingBottomProperty<TLength>
-      $smallScrollPaddingBottomHover?: ScrollPaddingBottomProperty<TLength>
       $scrollPaddingBottomFocus?: ScrollPaddingBottomProperty<TLength>
       $scrollPaddingBottomHover?: ScrollPaddingBottomProperty<TLength>
       $scrollPaddingInline?: ScrollPaddingInlineProperty<TLength>
       $largeScrollPaddingInline?: ScrollPaddingInlineProperty<TLength>
       $mediumScrollPaddingInline?: ScrollPaddingInlineProperty<TLength>
       $smallScrollPaddingInline?: ScrollPaddingInlineProperty<TLength>
-      $largeScrollPaddingInlineFocus?: ScrollPaddingInlineProperty<TLength>
-      $largeScrollPaddingInlineHover?: ScrollPaddingInlineProperty<TLength>
-      $mediumScrollPaddingInlineFocus?: ScrollPaddingInlineProperty<TLength>
-      $mediumScrollPaddingInlineHover?: ScrollPaddingInlineProperty<TLength>
-      $smallScrollPaddingInlineFocus?: ScrollPaddingInlineProperty<TLength>
-      $smallScrollPaddingInlineHover?: ScrollPaddingInlineProperty<TLength>
       $scrollPaddingInlineFocus?: ScrollPaddingInlineProperty<TLength>
       $scrollPaddingInlineHover?: ScrollPaddingInlineProperty<TLength>
       $scrollPaddingInlineEnd?: ScrollPaddingInlineEndProperty<TLength>
       $largeScrollPaddingInlineEnd?: ScrollPaddingInlineEndProperty<TLength>
       $mediumScrollPaddingInlineEnd?: ScrollPaddingInlineEndProperty<TLength>
       $smallScrollPaddingInlineEnd?: ScrollPaddingInlineEndProperty<TLength>
-      $largeScrollPaddingInlineEndFocus?: ScrollPaddingInlineEndProperty<TLength>
-      $largeScrollPaddingInlineEndHover?: ScrollPaddingInlineEndProperty<TLength>
-      $mediumScrollPaddingInlineEndFocus?: ScrollPaddingInlineEndProperty<TLength>
-      $mediumScrollPaddingInlineEndHover?: ScrollPaddingInlineEndProperty<TLength>
-      $smallScrollPaddingInlineEndFocus?: ScrollPaddingInlineEndProperty<TLength>
-      $smallScrollPaddingInlineEndHover?: ScrollPaddingInlineEndProperty<TLength>
       $scrollPaddingInlineEndFocus?: ScrollPaddingInlineEndProperty<TLength>
       $scrollPaddingInlineEndHover?: ScrollPaddingInlineEndProperty<TLength>
       $scrollPaddingInlineStart?: ScrollPaddingInlineStartProperty<TLength>
       $largeScrollPaddingInlineStart?: ScrollPaddingInlineStartProperty<TLength>
       $mediumScrollPaddingInlineStart?: ScrollPaddingInlineStartProperty<TLength>
       $smallScrollPaddingInlineStart?: ScrollPaddingInlineStartProperty<TLength>
-      $largeScrollPaddingInlineStartFocus?: ScrollPaddingInlineStartProperty<TLength>
-      $largeScrollPaddingInlineStartHover?: ScrollPaddingInlineStartProperty<TLength>
-      $mediumScrollPaddingInlineStartFocus?: ScrollPaddingInlineStartProperty<TLength>
-      $mediumScrollPaddingInlineStartHover?: ScrollPaddingInlineStartProperty<TLength>
-      $smallScrollPaddingInlineStartFocus?: ScrollPaddingInlineStartProperty<TLength>
-      $smallScrollPaddingInlineStartHover?: ScrollPaddingInlineStartProperty<TLength>
       $scrollPaddingInlineStartFocus?: ScrollPaddingInlineStartProperty<TLength>
       $scrollPaddingInlineStartHover?: ScrollPaddingInlineStartProperty<TLength>
       $scrollPaddingLeft?: ScrollPaddingLeftProperty<TLength>
       $largeScrollPaddingLeft?: ScrollPaddingLeftProperty<TLength>
       $mediumScrollPaddingLeft?: ScrollPaddingLeftProperty<TLength>
       $smallScrollPaddingLeft?: ScrollPaddingLeftProperty<TLength>
-      $largeScrollPaddingLeftFocus?: ScrollPaddingLeftProperty<TLength>
-      $largeScrollPaddingLeftHover?: ScrollPaddingLeftProperty<TLength>
-      $mediumScrollPaddingLeftFocus?: ScrollPaddingLeftProperty<TLength>
-      $mediumScrollPaddingLeftHover?: ScrollPaddingLeftProperty<TLength>
-      $smallScrollPaddingLeftFocus?: ScrollPaddingLeftProperty<TLength>
-      $smallScrollPaddingLeftHover?: ScrollPaddingLeftProperty<TLength>
       $scrollPaddingLeftFocus?: ScrollPaddingLeftProperty<TLength>
       $scrollPaddingLeftHover?: ScrollPaddingLeftProperty<TLength>
       $scrollPaddingRight?: ScrollPaddingRightProperty<TLength>
       $largeScrollPaddingRight?: ScrollPaddingRightProperty<TLength>
       $mediumScrollPaddingRight?: ScrollPaddingRightProperty<TLength>
       $smallScrollPaddingRight?: ScrollPaddingRightProperty<TLength>
-      $largeScrollPaddingRightFocus?: ScrollPaddingRightProperty<TLength>
-      $largeScrollPaddingRightHover?: ScrollPaddingRightProperty<TLength>
-      $mediumScrollPaddingRightFocus?: ScrollPaddingRightProperty<TLength>
-      $mediumScrollPaddingRightHover?: ScrollPaddingRightProperty<TLength>
-      $smallScrollPaddingRightFocus?: ScrollPaddingRightProperty<TLength>
-      $smallScrollPaddingRightHover?: ScrollPaddingRightProperty<TLength>
       $scrollPaddingRightFocus?: ScrollPaddingRightProperty<TLength>
       $scrollPaddingRightHover?: ScrollPaddingRightProperty<TLength>
       $scrollPaddingTop?: ScrollPaddingTopProperty<TLength>
       $largeScrollPaddingTop?: ScrollPaddingTopProperty<TLength>
       $mediumScrollPaddingTop?: ScrollPaddingTopProperty<TLength>
       $smallScrollPaddingTop?: ScrollPaddingTopProperty<TLength>
-      $largeScrollPaddingTopFocus?: ScrollPaddingTopProperty<TLength>
-      $largeScrollPaddingTopHover?: ScrollPaddingTopProperty<TLength>
-      $mediumScrollPaddingTopFocus?: ScrollPaddingTopProperty<TLength>
-      $mediumScrollPaddingTopHover?: ScrollPaddingTopProperty<TLength>
-      $smallScrollPaddingTopFocus?: ScrollPaddingTopProperty<TLength>
-      $smallScrollPaddingTopHover?: ScrollPaddingTopProperty<TLength>
       $scrollPaddingTopFocus?: ScrollPaddingTopProperty<TLength>
       $scrollPaddingTopHover?: ScrollPaddingTopProperty<TLength>
       $scrollSnapAlign?: ScrollSnapAlignProperty
       $largeScrollSnapAlign?: ScrollSnapAlignProperty
       $mediumScrollSnapAlign?: ScrollSnapAlignProperty
       $smallScrollSnapAlign?: ScrollSnapAlignProperty
-      $largeScrollSnapAlignFocus?: ScrollSnapAlignProperty
-      $largeScrollSnapAlignHover?: ScrollSnapAlignProperty
-      $mediumScrollSnapAlignFocus?: ScrollSnapAlignProperty
-      $mediumScrollSnapAlignHover?: ScrollSnapAlignProperty
-      $smallScrollSnapAlignFocus?: ScrollSnapAlignProperty
-      $smallScrollSnapAlignHover?: ScrollSnapAlignProperty
       $scrollSnapAlignFocus?: ScrollSnapAlignProperty
       $scrollSnapAlignHover?: ScrollSnapAlignProperty
       $scrollSnapCoordinate?: ScrollSnapCoordinateProperty<TLength>
       $largeScrollSnapCoordinate?: ScrollSnapCoordinateProperty<TLength>
       $mediumScrollSnapCoordinate?: ScrollSnapCoordinateProperty<TLength>
       $smallScrollSnapCoordinate?: ScrollSnapCoordinateProperty<TLength>
-      $largeScrollSnapCoordinateFocus?: ScrollSnapCoordinateProperty<TLength>
-      $largeScrollSnapCoordinateHover?: ScrollSnapCoordinateProperty<TLength>
-      $mediumScrollSnapCoordinateFocus?: ScrollSnapCoordinateProperty<TLength>
-      $mediumScrollSnapCoordinateHover?: ScrollSnapCoordinateProperty<TLength>
-      $smallScrollSnapCoordinateFocus?: ScrollSnapCoordinateProperty<TLength>
-      $smallScrollSnapCoordinateHover?: ScrollSnapCoordinateProperty<TLength>
       $scrollSnapCoordinateFocus?: ScrollSnapCoordinateProperty<TLength>
       $scrollSnapCoordinateHover?: ScrollSnapCoordinateProperty<TLength>
       $scrollSnapDestination?: ScrollSnapDestinationProperty<TLength>
       $largeScrollSnapDestination?: ScrollSnapDestinationProperty<TLength>
       $mediumScrollSnapDestination?: ScrollSnapDestinationProperty<TLength>
       $smallScrollSnapDestination?: ScrollSnapDestinationProperty<TLength>
-      $largeScrollSnapDestinationFocus?: ScrollSnapDestinationProperty<TLength>
-      $largeScrollSnapDestinationHover?: ScrollSnapDestinationProperty<TLength>
-      $mediumScrollSnapDestinationFocus?: ScrollSnapDestinationProperty<TLength>
-      $mediumScrollSnapDestinationHover?: ScrollSnapDestinationProperty<TLength>
-      $smallScrollSnapDestinationFocus?: ScrollSnapDestinationProperty<TLength>
-      $smallScrollSnapDestinationHover?: ScrollSnapDestinationProperty<TLength>
       $scrollSnapDestinationFocus?: ScrollSnapDestinationProperty<TLength>
       $scrollSnapDestinationHover?: ScrollSnapDestinationProperty<TLength>
       $scrollSnapPointsX?: ScrollSnapPointsXProperty
       $largeScrollSnapPointsX?: ScrollSnapPointsXProperty
       $mediumScrollSnapPointsX?: ScrollSnapPointsXProperty
       $smallScrollSnapPointsX?: ScrollSnapPointsXProperty
-      $largeScrollSnapPointsXFocus?: ScrollSnapPointsXProperty
-      $largeScrollSnapPointsXHover?: ScrollSnapPointsXProperty
-      $mediumScrollSnapPointsXFocus?: ScrollSnapPointsXProperty
-      $mediumScrollSnapPointsXHover?: ScrollSnapPointsXProperty
-      $smallScrollSnapPointsXFocus?: ScrollSnapPointsXProperty
-      $smallScrollSnapPointsXHover?: ScrollSnapPointsXProperty
       $scrollSnapPointsXFocus?: ScrollSnapPointsXProperty
       $scrollSnapPointsXHover?: ScrollSnapPointsXProperty
       $scrollSnapPointsY?: ScrollSnapPointsYProperty
       $largeScrollSnapPointsY?: ScrollSnapPointsYProperty
       $mediumScrollSnapPointsY?: ScrollSnapPointsYProperty
       $smallScrollSnapPointsY?: ScrollSnapPointsYProperty
-      $largeScrollSnapPointsYFocus?: ScrollSnapPointsYProperty
-      $largeScrollSnapPointsYHover?: ScrollSnapPointsYProperty
-      $mediumScrollSnapPointsYFocus?: ScrollSnapPointsYProperty
-      $mediumScrollSnapPointsYHover?: ScrollSnapPointsYProperty
-      $smallScrollSnapPointsYFocus?: ScrollSnapPointsYProperty
-      $smallScrollSnapPointsYHover?: ScrollSnapPointsYProperty
       $scrollSnapPointsYFocus?: ScrollSnapPointsYProperty
       $scrollSnapPointsYHover?: ScrollSnapPointsYProperty
       $scrollSnapStop?: ScrollSnapStopProperty
       $largeScrollSnapStop?: ScrollSnapStopProperty
       $mediumScrollSnapStop?: ScrollSnapStopProperty
       $smallScrollSnapStop?: ScrollSnapStopProperty
-      $largeScrollSnapStopFocus?: ScrollSnapStopProperty
-      $largeScrollSnapStopHover?: ScrollSnapStopProperty
-      $mediumScrollSnapStopFocus?: ScrollSnapStopProperty
-      $mediumScrollSnapStopHover?: ScrollSnapStopProperty
-      $smallScrollSnapStopFocus?: ScrollSnapStopProperty
-      $smallScrollSnapStopHover?: ScrollSnapStopProperty
       $scrollSnapStopFocus?: ScrollSnapStopProperty
       $scrollSnapStopHover?: ScrollSnapStopProperty
       $scrollSnapType?: ScrollSnapTypeProperty
       $largeScrollSnapType?: ScrollSnapTypeProperty
       $mediumScrollSnapType?: ScrollSnapTypeProperty
       $smallScrollSnapType?: ScrollSnapTypeProperty
-      $largeScrollSnapTypeFocus?: ScrollSnapTypeProperty
-      $largeScrollSnapTypeHover?: ScrollSnapTypeProperty
-      $mediumScrollSnapTypeFocus?: ScrollSnapTypeProperty
-      $mediumScrollSnapTypeHover?: ScrollSnapTypeProperty
-      $smallScrollSnapTypeFocus?: ScrollSnapTypeProperty
-      $smallScrollSnapTypeHover?: ScrollSnapTypeProperty
       $scrollSnapTypeFocus?: ScrollSnapTypeProperty
       $scrollSnapTypeHover?: ScrollSnapTypeProperty
       $scrollSnapTypeX?: ScrollSnapTypeXProperty
       $largeScrollSnapTypeX?: ScrollSnapTypeXProperty
       $mediumScrollSnapTypeX?: ScrollSnapTypeXProperty
       $smallScrollSnapTypeX?: ScrollSnapTypeXProperty
-      $largeScrollSnapTypeXFocus?: ScrollSnapTypeXProperty
-      $largeScrollSnapTypeXHover?: ScrollSnapTypeXProperty
-      $mediumScrollSnapTypeXFocus?: ScrollSnapTypeXProperty
-      $mediumScrollSnapTypeXHover?: ScrollSnapTypeXProperty
-      $smallScrollSnapTypeXFocus?: ScrollSnapTypeXProperty
-      $smallScrollSnapTypeXHover?: ScrollSnapTypeXProperty
       $scrollSnapTypeXFocus?: ScrollSnapTypeXProperty
       $scrollSnapTypeXHover?: ScrollSnapTypeXProperty
       $scrollSnapTypeY?: ScrollSnapTypeYProperty
       $largeScrollSnapTypeY?: ScrollSnapTypeYProperty
       $mediumScrollSnapTypeY?: ScrollSnapTypeYProperty
       $smallScrollSnapTypeY?: ScrollSnapTypeYProperty
-      $largeScrollSnapTypeYFocus?: ScrollSnapTypeYProperty
-      $largeScrollSnapTypeYHover?: ScrollSnapTypeYProperty
-      $mediumScrollSnapTypeYFocus?: ScrollSnapTypeYProperty
-      $mediumScrollSnapTypeYHover?: ScrollSnapTypeYProperty
-      $smallScrollSnapTypeYFocus?: ScrollSnapTypeYProperty
-      $smallScrollSnapTypeYHover?: ScrollSnapTypeYProperty
       $scrollSnapTypeYFocus?: ScrollSnapTypeYProperty
       $scrollSnapTypeYHover?: ScrollSnapTypeYProperty
       $scrollbarColor?: ScrollbarColorProperty
       $largeScrollbarColor?: ScrollbarColorProperty
       $mediumScrollbarColor?: ScrollbarColorProperty
       $smallScrollbarColor?: ScrollbarColorProperty
-      $largeScrollbarColorFocus?: ScrollbarColorProperty
-      $largeScrollbarColorHover?: ScrollbarColorProperty
-      $mediumScrollbarColorFocus?: ScrollbarColorProperty
-      $mediumScrollbarColorHover?: ScrollbarColorProperty
-      $smallScrollbarColorFocus?: ScrollbarColorProperty
-      $smallScrollbarColorHover?: ScrollbarColorProperty
       $scrollbarColorFocus?: ScrollbarColorProperty
       $scrollbarColorHover?: ScrollbarColorProperty
       $scrollbarWidth?: ScrollbarWidthProperty
       $largeScrollbarWidth?: ScrollbarWidthProperty
       $mediumScrollbarWidth?: ScrollbarWidthProperty
       $smallScrollbarWidth?: ScrollbarWidthProperty
-      $largeScrollbarWidthFocus?: ScrollbarWidthProperty
-      $largeScrollbarWidthHover?: ScrollbarWidthProperty
-      $mediumScrollbarWidthFocus?: ScrollbarWidthProperty
-      $mediumScrollbarWidthHover?: ScrollbarWidthProperty
-      $smallScrollbarWidthFocus?: ScrollbarWidthProperty
-      $smallScrollbarWidthHover?: ScrollbarWidthProperty
       $scrollbarWidthFocus?: ScrollbarWidthProperty
       $scrollbarWidthHover?: ScrollbarWidthProperty
       $shapeImageThreshold?: ShapeImageThresholdProperty
       $largeShapeImageThreshold?: ShapeImageThresholdProperty
       $mediumShapeImageThreshold?: ShapeImageThresholdProperty
       $smallShapeImageThreshold?: ShapeImageThresholdProperty
-      $largeShapeImageThresholdFocus?: ShapeImageThresholdProperty
-      $largeShapeImageThresholdHover?: ShapeImageThresholdProperty
-      $mediumShapeImageThresholdFocus?: ShapeImageThresholdProperty
-      $mediumShapeImageThresholdHover?: ShapeImageThresholdProperty
-      $smallShapeImageThresholdFocus?: ShapeImageThresholdProperty
-      $smallShapeImageThresholdHover?: ShapeImageThresholdProperty
       $shapeImageThresholdFocus?: ShapeImageThresholdProperty
       $shapeImageThresholdHover?: ShapeImageThresholdProperty
       $shapeMargin?: ShapeMarginProperty<TLength>
       $largeShapeMargin?: ShapeMarginProperty<TLength>
       $mediumShapeMargin?: ShapeMarginProperty<TLength>
       $smallShapeMargin?: ShapeMarginProperty<TLength>
-      $largeShapeMarginFocus?: ShapeMarginProperty<TLength>
-      $largeShapeMarginHover?: ShapeMarginProperty<TLength>
-      $mediumShapeMarginFocus?: ShapeMarginProperty<TLength>
-      $mediumShapeMarginHover?: ShapeMarginProperty<TLength>
-      $smallShapeMarginFocus?: ShapeMarginProperty<TLength>
-      $smallShapeMarginHover?: ShapeMarginProperty<TLength>
       $shapeMarginFocus?: ShapeMarginProperty<TLength>
       $shapeMarginHover?: ShapeMarginProperty<TLength>
       $shapeOutside?: ShapeOutsideProperty
       $largeShapeOutside?: ShapeOutsideProperty
       $mediumShapeOutside?: ShapeOutsideProperty
       $smallShapeOutside?: ShapeOutsideProperty
-      $largeShapeOutsideFocus?: ShapeOutsideProperty
-      $largeShapeOutsideHover?: ShapeOutsideProperty
-      $mediumShapeOutsideFocus?: ShapeOutsideProperty
-      $mediumShapeOutsideHover?: ShapeOutsideProperty
-      $smallShapeOutsideFocus?: ShapeOutsideProperty
-      $smallShapeOutsideHover?: ShapeOutsideProperty
       $shapeOutsideFocus?: ShapeOutsideProperty
       $shapeOutsideHover?: ShapeOutsideProperty
       $tabSize?: TabSizeProperty<TLength>
       $largeTabSize?: TabSizeProperty<TLength>
       $mediumTabSize?: TabSizeProperty<TLength>
       $smallTabSize?: TabSizeProperty<TLength>
-      $largeTabSizeFocus?: TabSizeProperty<TLength>
-      $largeTabSizeHover?: TabSizeProperty<TLength>
-      $mediumTabSizeFocus?: TabSizeProperty<TLength>
-      $mediumTabSizeHover?: TabSizeProperty<TLength>
-      $smallTabSizeFocus?: TabSizeProperty<TLength>
-      $smallTabSizeHover?: TabSizeProperty<TLength>
       $tabSizeFocus?: TabSizeProperty<TLength>
       $tabSizeHover?: TabSizeProperty<TLength>
       $tableLayout?: TableLayoutProperty
       $largeTableLayout?: TableLayoutProperty
       $mediumTableLayout?: TableLayoutProperty
       $smallTableLayout?: TableLayoutProperty
-      $largeTableLayoutFocus?: TableLayoutProperty
-      $largeTableLayoutHover?: TableLayoutProperty
-      $mediumTableLayoutFocus?: TableLayoutProperty
-      $mediumTableLayoutHover?: TableLayoutProperty
-      $smallTableLayoutFocus?: TableLayoutProperty
-      $smallTableLayoutHover?: TableLayoutProperty
       $tableLayoutFocus?: TableLayoutProperty
       $tableLayoutHover?: TableLayoutProperty
       $textAlign?: TextAlignProperty
       $largeTextAlign?: TextAlignProperty
       $mediumTextAlign?: TextAlignProperty
       $smallTextAlign?: TextAlignProperty
-      $largeTextAlignFocus?: TextAlignProperty
-      $largeTextAlignHover?: TextAlignProperty
-      $mediumTextAlignFocus?: TextAlignProperty
-      $mediumTextAlignHover?: TextAlignProperty
-      $smallTextAlignFocus?: TextAlignProperty
-      $smallTextAlignHover?: TextAlignProperty
       $textAlignFocus?: TextAlignProperty
       $textAlignHover?: TextAlignProperty
       $textAlignLast?: TextAlignLastProperty
       $largeTextAlignLast?: TextAlignLastProperty
       $mediumTextAlignLast?: TextAlignLastProperty
       $smallTextAlignLast?: TextAlignLastProperty
-      $largeTextAlignLastFocus?: TextAlignLastProperty
-      $largeTextAlignLastHover?: TextAlignLastProperty
-      $mediumTextAlignLastFocus?: TextAlignLastProperty
-      $mediumTextAlignLastHover?: TextAlignLastProperty
-      $smallTextAlignLastFocus?: TextAlignLastProperty
-      $smallTextAlignLastHover?: TextAlignLastProperty
       $textAlignLastFocus?: TextAlignLastProperty
       $textAlignLastHover?: TextAlignLastProperty
       $textCombineUpright?: TextCombineUprightProperty
       $largeTextCombineUpright?: TextCombineUprightProperty
       $mediumTextCombineUpright?: TextCombineUprightProperty
       $smallTextCombineUpright?: TextCombineUprightProperty
-      $largeTextCombineUprightFocus?: TextCombineUprightProperty
-      $largeTextCombineUprightHover?: TextCombineUprightProperty
-      $mediumTextCombineUprightFocus?: TextCombineUprightProperty
-      $mediumTextCombineUprightHover?: TextCombineUprightProperty
-      $smallTextCombineUprightFocus?: TextCombineUprightProperty
-      $smallTextCombineUprightHover?: TextCombineUprightProperty
       $textCombineUprightFocus?: TextCombineUprightProperty
       $textCombineUprightHover?: TextCombineUprightProperty
       $textDecoration?: TextDecorationProperty<TLength>
       $largeTextDecoration?: TextDecorationProperty<TLength>
       $mediumTextDecoration?: TextDecorationProperty<TLength>
       $smallTextDecoration?: TextDecorationProperty<TLength>
-      $largeTextDecorationFocus?: TextDecorationProperty<TLength>
-      $largeTextDecorationHover?: TextDecorationProperty<TLength>
-      $mediumTextDecorationFocus?: TextDecorationProperty<TLength>
-      $mediumTextDecorationHover?: TextDecorationProperty<TLength>
-      $smallTextDecorationFocus?: TextDecorationProperty<TLength>
-      $smallTextDecorationHover?: TextDecorationProperty<TLength>
       $textDecorationFocus?: TextDecorationProperty<TLength>
       $textDecorationHover?: TextDecorationProperty<TLength>
       $textDecorationColor?: TextDecorationColorProperty
       $largeTextDecorationColor?: TextDecorationColorProperty
       $mediumTextDecorationColor?: TextDecorationColorProperty
       $smallTextDecorationColor?: TextDecorationColorProperty
-      $largeTextDecorationColorFocus?: TextDecorationColorProperty
-      $largeTextDecorationColorHover?: TextDecorationColorProperty
-      $mediumTextDecorationColorFocus?: TextDecorationColorProperty
-      $mediumTextDecorationColorHover?: TextDecorationColorProperty
-      $smallTextDecorationColorFocus?: TextDecorationColorProperty
-      $smallTextDecorationColorHover?: TextDecorationColorProperty
       $textDecorationColorFocus?: TextDecorationColorProperty
       $textDecorationColorHover?: TextDecorationColorProperty
       $textDecorationLine?: TextDecorationLineProperty
       $largeTextDecorationLine?: TextDecorationLineProperty
       $mediumTextDecorationLine?: TextDecorationLineProperty
       $smallTextDecorationLine?: TextDecorationLineProperty
-      $largeTextDecorationLineFocus?: TextDecorationLineProperty
-      $largeTextDecorationLineHover?: TextDecorationLineProperty
-      $mediumTextDecorationLineFocus?: TextDecorationLineProperty
-      $mediumTextDecorationLineHover?: TextDecorationLineProperty
-      $smallTextDecorationLineFocus?: TextDecorationLineProperty
-      $smallTextDecorationLineHover?: TextDecorationLineProperty
       $textDecorationLineFocus?: TextDecorationLineProperty
       $textDecorationLineHover?: TextDecorationLineProperty
       $textDecorationSkip?: TextDecorationSkipProperty
       $largeTextDecorationSkip?: TextDecorationSkipProperty
       $mediumTextDecorationSkip?: TextDecorationSkipProperty
       $smallTextDecorationSkip?: TextDecorationSkipProperty
-      $largeTextDecorationSkipFocus?: TextDecorationSkipProperty
-      $largeTextDecorationSkipHover?: TextDecorationSkipProperty
-      $mediumTextDecorationSkipFocus?: TextDecorationSkipProperty
-      $mediumTextDecorationSkipHover?: TextDecorationSkipProperty
-      $smallTextDecorationSkipFocus?: TextDecorationSkipProperty
-      $smallTextDecorationSkipHover?: TextDecorationSkipProperty
       $textDecorationSkipFocus?: TextDecorationSkipProperty
       $textDecorationSkipHover?: TextDecorationSkipProperty
       $textDecorationSkipInk?: TextDecorationSkipInkProperty
       $largeTextDecorationSkipInk?: TextDecorationSkipInkProperty
       $mediumTextDecorationSkipInk?: TextDecorationSkipInkProperty
       $smallTextDecorationSkipInk?: TextDecorationSkipInkProperty
-      $largeTextDecorationSkipInkFocus?: TextDecorationSkipInkProperty
-      $largeTextDecorationSkipInkHover?: TextDecorationSkipInkProperty
-      $mediumTextDecorationSkipInkFocus?: TextDecorationSkipInkProperty
-      $mediumTextDecorationSkipInkHover?: TextDecorationSkipInkProperty
-      $smallTextDecorationSkipInkFocus?: TextDecorationSkipInkProperty
-      $smallTextDecorationSkipInkHover?: TextDecorationSkipInkProperty
       $textDecorationSkipInkFocus?: TextDecorationSkipInkProperty
       $textDecorationSkipInkHover?: TextDecorationSkipInkProperty
       $textDecorationStyle?: TextDecorationStyleProperty
       $largeTextDecorationStyle?: TextDecorationStyleProperty
       $mediumTextDecorationStyle?: TextDecorationStyleProperty
       $smallTextDecorationStyle?: TextDecorationStyleProperty
-      $largeTextDecorationStyleFocus?: TextDecorationStyleProperty
-      $largeTextDecorationStyleHover?: TextDecorationStyleProperty
-      $mediumTextDecorationStyleFocus?: TextDecorationStyleProperty
-      $mediumTextDecorationStyleHover?: TextDecorationStyleProperty
-      $smallTextDecorationStyleFocus?: TextDecorationStyleProperty
-      $smallTextDecorationStyleHover?: TextDecorationStyleProperty
       $textDecorationStyleFocus?: TextDecorationStyleProperty
       $textDecorationStyleHover?: TextDecorationStyleProperty
       $textDecorationThickness?: TextDecorationThicknessProperty<TLength>
       $largeTextDecorationThickness?: TextDecorationThicknessProperty<TLength>
       $mediumTextDecorationThickness?: TextDecorationThicknessProperty<TLength>
       $smallTextDecorationThickness?: TextDecorationThicknessProperty<TLength>
-      $largeTextDecorationThicknessFocus?: TextDecorationThicknessProperty<TLength>
-      $largeTextDecorationThicknessHover?: TextDecorationThicknessProperty<TLength>
-      $mediumTextDecorationThicknessFocus?: TextDecorationThicknessProperty<TLength>
-      $mediumTextDecorationThicknessHover?: TextDecorationThicknessProperty<TLength>
-      $smallTextDecorationThicknessFocus?: TextDecorationThicknessProperty<TLength>
-      $smallTextDecorationThicknessHover?: TextDecorationThicknessProperty<TLength>
       $textDecorationThicknessFocus?: TextDecorationThicknessProperty<TLength>
       $textDecorationThicknessHover?: TextDecorationThicknessProperty<TLength>
       $textEmphasis?: TextEmphasisProperty
       $largeTextEmphasis?: TextEmphasisProperty
       $mediumTextEmphasis?: TextEmphasisProperty
       $smallTextEmphasis?: TextEmphasisProperty
-      $largeTextEmphasisFocus?: TextEmphasisProperty
-      $largeTextEmphasisHover?: TextEmphasisProperty
-      $mediumTextEmphasisFocus?: TextEmphasisProperty
-      $mediumTextEmphasisHover?: TextEmphasisProperty
-      $smallTextEmphasisFocus?: TextEmphasisProperty
-      $smallTextEmphasisHover?: TextEmphasisProperty
       $textEmphasisFocus?: TextEmphasisProperty
       $textEmphasisHover?: TextEmphasisProperty
       $textEmphasisColor?: TextEmphasisColorProperty
       $largeTextEmphasisColor?: TextEmphasisColorProperty
       $mediumTextEmphasisColor?: TextEmphasisColorProperty
       $smallTextEmphasisColor?: TextEmphasisColorProperty
-      $largeTextEmphasisColorFocus?: TextEmphasisColorProperty
-      $largeTextEmphasisColorHover?: TextEmphasisColorProperty
-      $mediumTextEmphasisColorFocus?: TextEmphasisColorProperty
-      $mediumTextEmphasisColorHover?: TextEmphasisColorProperty
-      $smallTextEmphasisColorFocus?: TextEmphasisColorProperty
-      $smallTextEmphasisColorHover?: TextEmphasisColorProperty
       $textEmphasisColorFocus?: TextEmphasisColorProperty
       $textEmphasisColorHover?: TextEmphasisColorProperty
       $textEmphasisStyle?: TextEmphasisStyleProperty
       $largeTextEmphasisStyle?: TextEmphasisStyleProperty
       $mediumTextEmphasisStyle?: TextEmphasisStyleProperty
       $smallTextEmphasisStyle?: TextEmphasisStyleProperty
-      $largeTextEmphasisStyleFocus?: TextEmphasisStyleProperty
-      $largeTextEmphasisStyleHover?: TextEmphasisStyleProperty
-      $mediumTextEmphasisStyleFocus?: TextEmphasisStyleProperty
-      $mediumTextEmphasisStyleHover?: TextEmphasisStyleProperty
-      $smallTextEmphasisStyleFocus?: TextEmphasisStyleProperty
-      $smallTextEmphasisStyleHover?: TextEmphasisStyleProperty
       $textEmphasisStyleFocus?: TextEmphasisStyleProperty
       $textEmphasisStyleHover?: TextEmphasisStyleProperty
       $textIndent?: TextIndentProperty<TLength>
       $largeTextIndent?: TextIndentProperty<TLength>
       $mediumTextIndent?: TextIndentProperty<TLength>
       $smallTextIndent?: TextIndentProperty<TLength>
-      $largeTextIndentFocus?: TextIndentProperty<TLength>
-      $largeTextIndentHover?: TextIndentProperty<TLength>
-      $mediumTextIndentFocus?: TextIndentProperty<TLength>
-      $mediumTextIndentHover?: TextIndentProperty<TLength>
-      $smallTextIndentFocus?: TextIndentProperty<TLength>
-      $smallTextIndentHover?: TextIndentProperty<TLength>
       $textIndentFocus?: TextIndentProperty<TLength>
       $textIndentHover?: TextIndentProperty<TLength>
       $textJustify?: TextJustifyProperty
       $largeTextJustify?: TextJustifyProperty
       $mediumTextJustify?: TextJustifyProperty
       $smallTextJustify?: TextJustifyProperty
-      $largeTextJustifyFocus?: TextJustifyProperty
-      $largeTextJustifyHover?: TextJustifyProperty
-      $mediumTextJustifyFocus?: TextJustifyProperty
-      $mediumTextJustifyHover?: TextJustifyProperty
-      $smallTextJustifyFocus?: TextJustifyProperty
-      $smallTextJustifyHover?: TextJustifyProperty
       $textJustifyFocus?: TextJustifyProperty
       $textJustifyHover?: TextJustifyProperty
       $textOrientation?: TextOrientationProperty
       $largeTextOrientation?: TextOrientationProperty
       $mediumTextOrientation?: TextOrientationProperty
       $smallTextOrientation?: TextOrientationProperty
-      $largeTextOrientationFocus?: TextOrientationProperty
-      $largeTextOrientationHover?: TextOrientationProperty
-      $mediumTextOrientationFocus?: TextOrientationProperty
-      $mediumTextOrientationHover?: TextOrientationProperty
-      $smallTextOrientationFocus?: TextOrientationProperty
-      $smallTextOrientationHover?: TextOrientationProperty
       $textOrientationFocus?: TextOrientationProperty
       $textOrientationHover?: TextOrientationProperty
       $textOverflow?: TextOverflowProperty
       $largeTextOverflow?: TextOverflowProperty
       $mediumTextOverflow?: TextOverflowProperty
       $smallTextOverflow?: TextOverflowProperty
-      $largeTextOverflowFocus?: TextOverflowProperty
-      $largeTextOverflowHover?: TextOverflowProperty
-      $mediumTextOverflowFocus?: TextOverflowProperty
-      $mediumTextOverflowHover?: TextOverflowProperty
-      $smallTextOverflowFocus?: TextOverflowProperty
-      $smallTextOverflowHover?: TextOverflowProperty
       $textOverflowFocus?: TextOverflowProperty
       $textOverflowHover?: TextOverflowProperty
       $textRendering?: TextRenderingProperty
       $largeTextRendering?: TextRenderingProperty
       $mediumTextRendering?: TextRenderingProperty
       $smallTextRendering?: TextRenderingProperty
-      $largeTextRenderingFocus?: TextRenderingProperty
-      $largeTextRenderingHover?: TextRenderingProperty
-      $mediumTextRenderingFocus?: TextRenderingProperty
-      $mediumTextRenderingHover?: TextRenderingProperty
-      $smallTextRenderingFocus?: TextRenderingProperty
-      $smallTextRenderingHover?: TextRenderingProperty
       $textRenderingFocus?: TextRenderingProperty
       $textRenderingHover?: TextRenderingProperty
       $textShadow?: TextShadowProperty
       $largeTextShadow?: TextShadowProperty
       $mediumTextShadow?: TextShadowProperty
       $smallTextShadow?: TextShadowProperty
-      $largeTextShadowFocus?: TextShadowProperty
-      $largeTextShadowHover?: TextShadowProperty
-      $mediumTextShadowFocus?: TextShadowProperty
-      $mediumTextShadowHover?: TextShadowProperty
-      $smallTextShadowFocus?: TextShadowProperty
-      $smallTextShadowHover?: TextShadowProperty
       $textShadowFocus?: TextShadowProperty
       $textShadowHover?: TextShadowProperty
       $textSizeAdjust?: TextSizeAdjustProperty
       $largeTextSizeAdjust?: TextSizeAdjustProperty
       $mediumTextSizeAdjust?: TextSizeAdjustProperty
       $smallTextSizeAdjust?: TextSizeAdjustProperty
-      $largeTextSizeAdjustFocus?: TextSizeAdjustProperty
-      $largeTextSizeAdjustHover?: TextSizeAdjustProperty
-      $mediumTextSizeAdjustFocus?: TextSizeAdjustProperty
-      $mediumTextSizeAdjustHover?: TextSizeAdjustProperty
-      $smallTextSizeAdjustFocus?: TextSizeAdjustProperty
-      $smallTextSizeAdjustHover?: TextSizeAdjustProperty
       $textSizeAdjustFocus?: TextSizeAdjustProperty
       $textSizeAdjustHover?: TextSizeAdjustProperty
       $textTransform?: TextTransformProperty
       $largeTextTransform?: TextTransformProperty
       $mediumTextTransform?: TextTransformProperty
       $smallTextTransform?: TextTransformProperty
-      $largeTextTransformFocus?: TextTransformProperty
-      $largeTextTransformHover?: TextTransformProperty
-      $mediumTextTransformFocus?: TextTransformProperty
-      $mediumTextTransformHover?: TextTransformProperty
-      $smallTextTransformFocus?: TextTransformProperty
-      $smallTextTransformHover?: TextTransformProperty
       $textTransformFocus?: TextTransformProperty
       $textTransformHover?: TextTransformProperty
       $textUnderlineOffset?: TextUnderlineOffsetProperty<TLength>
       $largeTextUnderlineOffset?: TextUnderlineOffsetProperty<TLength>
       $mediumTextUnderlineOffset?: TextUnderlineOffsetProperty<TLength>
       $smallTextUnderlineOffset?: TextUnderlineOffsetProperty<TLength>
-      $largeTextUnderlineOffsetFocus?: TextUnderlineOffsetProperty<TLength>
-      $largeTextUnderlineOffsetHover?: TextUnderlineOffsetProperty<TLength>
-      $mediumTextUnderlineOffsetFocus?: TextUnderlineOffsetProperty<TLength>
-      $mediumTextUnderlineOffsetHover?: TextUnderlineOffsetProperty<TLength>
-      $smallTextUnderlineOffsetFocus?: TextUnderlineOffsetProperty<TLength>
-      $smallTextUnderlineOffsetHover?: TextUnderlineOffsetProperty<TLength>
       $textUnderlineOffsetFocus?: TextUnderlineOffsetProperty<TLength>
       $textUnderlineOffsetHover?: TextUnderlineOffsetProperty<TLength>
       $textUnderlinePosition?: TextUnderlinePositionProperty
       $largeTextUnderlinePosition?: TextUnderlinePositionProperty
       $mediumTextUnderlinePosition?: TextUnderlinePositionProperty
       $smallTextUnderlinePosition?: TextUnderlinePositionProperty
-      $largeTextUnderlinePositionFocus?: TextUnderlinePositionProperty
-      $largeTextUnderlinePositionHover?: TextUnderlinePositionProperty
-      $mediumTextUnderlinePositionFocus?: TextUnderlinePositionProperty
-      $mediumTextUnderlinePositionHover?: TextUnderlinePositionProperty
-      $smallTextUnderlinePositionFocus?: TextUnderlinePositionProperty
-      $smallTextUnderlinePositionHover?: TextUnderlinePositionProperty
       $textUnderlinePositionFocus?: TextUnderlinePositionProperty
       $textUnderlinePositionHover?: TextUnderlinePositionProperty
       $top?: TopProperty<TLength>
       $largeTop?: TopProperty<TLength>
       $mediumTop?: TopProperty<TLength>
       $smallTop?: TopProperty<TLength>
-      $largeTopFocus?: TopProperty<TLength>
-      $largeTopHover?: TopProperty<TLength>
-      $mediumTopFocus?: TopProperty<TLength>
-      $mediumTopHover?: TopProperty<TLength>
-      $smallTopFocus?: TopProperty<TLength>
-      $smallTopHover?: TopProperty<TLength>
       $topFocus?: TopProperty<TLength>
       $topHover?: TopProperty<TLength>
       $touchAction?: TouchActionProperty
       $largeTouchAction?: TouchActionProperty
       $mediumTouchAction?: TouchActionProperty
       $smallTouchAction?: TouchActionProperty
-      $largeTouchActionFocus?: TouchActionProperty
-      $largeTouchActionHover?: TouchActionProperty
-      $mediumTouchActionFocus?: TouchActionProperty
-      $mediumTouchActionHover?: TouchActionProperty
-      $smallTouchActionFocus?: TouchActionProperty
-      $smallTouchActionHover?: TouchActionProperty
       $touchActionFocus?: TouchActionProperty
       $touchActionHover?: TouchActionProperty
       $transform?: TransformProperty
       $largeTransform?: TransformProperty
       $mediumTransform?: TransformProperty
       $smallTransform?: TransformProperty
-      $largeTransformFocus?: TransformProperty
-      $largeTransformHover?: TransformProperty
-      $mediumTransformFocus?: TransformProperty
-      $mediumTransformHover?: TransformProperty
-      $smallTransformFocus?: TransformProperty
-      $smallTransformHover?: TransformProperty
       $transformFocus?: TransformProperty
       $transformHover?: TransformProperty
       $transformBox?: TransformBoxProperty
       $largeTransformBox?: TransformBoxProperty
       $mediumTransformBox?: TransformBoxProperty
       $smallTransformBox?: TransformBoxProperty
-      $largeTransformBoxFocus?: TransformBoxProperty
-      $largeTransformBoxHover?: TransformBoxProperty
-      $mediumTransformBoxFocus?: TransformBoxProperty
-      $mediumTransformBoxHover?: TransformBoxProperty
-      $smallTransformBoxFocus?: TransformBoxProperty
-      $smallTransformBoxHover?: TransformBoxProperty
       $transformBoxFocus?: TransformBoxProperty
       $transformBoxHover?: TransformBoxProperty
       $transformOrigin?: TransformOriginProperty<TLength>
       $largeTransformOrigin?: TransformOriginProperty<TLength>
       $mediumTransformOrigin?: TransformOriginProperty<TLength>
       $smallTransformOrigin?: TransformOriginProperty<TLength>
-      $largeTransformOriginFocus?: TransformOriginProperty<TLength>
-      $largeTransformOriginHover?: TransformOriginProperty<TLength>
-      $mediumTransformOriginFocus?: TransformOriginProperty<TLength>
-      $mediumTransformOriginHover?: TransformOriginProperty<TLength>
-      $smallTransformOriginFocus?: TransformOriginProperty<TLength>
-      $smallTransformOriginHover?: TransformOriginProperty<TLength>
       $transformOriginFocus?: TransformOriginProperty<TLength>
       $transformOriginHover?: TransformOriginProperty<TLength>
       $transformStyle?: TransformStyleProperty
       $largeTransformStyle?: TransformStyleProperty
       $mediumTransformStyle?: TransformStyleProperty
       $smallTransformStyle?: TransformStyleProperty
-      $largeTransformStyleFocus?: TransformStyleProperty
-      $largeTransformStyleHover?: TransformStyleProperty
-      $mediumTransformStyleFocus?: TransformStyleProperty
-      $mediumTransformStyleHover?: TransformStyleProperty
-      $smallTransformStyleFocus?: TransformStyleProperty
-      $smallTransformStyleHover?: TransformStyleProperty
       $transformStyleFocus?: TransformStyleProperty
       $transformStyleHover?: TransformStyleProperty
       $transition?: TransitionProperty
       $largeTransition?: TransitionProperty
       $mediumTransition?: TransitionProperty
       $smallTransition?: TransitionProperty
-      $largeTransitionFocus?: TransitionProperty
-      $largeTransitionHover?: TransitionProperty
-      $mediumTransitionFocus?: TransitionProperty
-      $mediumTransitionHover?: TransitionProperty
-      $smallTransitionFocus?: TransitionProperty
-      $smallTransitionHover?: TransitionProperty
       $transitionFocus?: TransitionProperty
       $transitionHover?: TransitionProperty
       $transitionProperty?: TransitionPropertyProperty
       $largeTransitionProperty?: TransitionPropertyProperty
       $mediumTransitionProperty?: TransitionPropertyProperty
       $smallTransitionProperty?: TransitionPropertyProperty
-      $largeTransitionPropertyFocus?: TransitionPropertyProperty
-      $largeTransitionPropertyHover?: TransitionPropertyProperty
-      $mediumTransitionPropertyFocus?: TransitionPropertyProperty
-      $mediumTransitionPropertyHover?: TransitionPropertyProperty
-      $smallTransitionPropertyFocus?: TransitionPropertyProperty
-      $smallTransitionPropertyHover?: TransitionPropertyProperty
       $transitionPropertyFocus?: TransitionPropertyProperty
       $transitionPropertyHover?: TransitionPropertyProperty
       $transitionTimingFunction?: TransitionTimingFunctionProperty
       $largeTransitionTimingFunction?: TransitionTimingFunctionProperty
       $mediumTransitionTimingFunction?: TransitionTimingFunctionProperty
       $smallTransitionTimingFunction?: TransitionTimingFunctionProperty
-      $largeTransitionTimingFunctionFocus?: TransitionTimingFunctionProperty
-      $largeTransitionTimingFunctionHover?: TransitionTimingFunctionProperty
-      $mediumTransitionTimingFunctionFocus?: TransitionTimingFunctionProperty
-      $mediumTransitionTimingFunctionHover?: TransitionTimingFunctionProperty
-      $smallTransitionTimingFunctionFocus?: TransitionTimingFunctionProperty
-      $smallTransitionTimingFunctionHover?: TransitionTimingFunctionProperty
       $transitionTimingFunctionFocus?: TransitionTimingFunctionProperty
       $transitionTimingFunctionHover?: TransitionTimingFunctionProperty
       $translate?: TranslateProperty<TLength>
       $largeTranslate?: TranslateProperty<TLength>
       $mediumTranslate?: TranslateProperty<TLength>
       $smallTranslate?: TranslateProperty<TLength>
-      $largeTranslateFocus?: TranslateProperty<TLength>
-      $largeTranslateHover?: TranslateProperty<TLength>
-      $mediumTranslateFocus?: TranslateProperty<TLength>
-      $mediumTranslateHover?: TranslateProperty<TLength>
-      $smallTranslateFocus?: TranslateProperty<TLength>
-      $smallTranslateHover?: TranslateProperty<TLength>
       $translateFocus?: TranslateProperty<TLength>
       $translateHover?: TranslateProperty<TLength>
       $unicodeBidi?: UnicodeBidiProperty
       $largeUnicodeBidi?: UnicodeBidiProperty
       $mediumUnicodeBidi?: UnicodeBidiProperty
       $smallUnicodeBidi?: UnicodeBidiProperty
-      $largeUnicodeBidiFocus?: UnicodeBidiProperty
-      $largeUnicodeBidiHover?: UnicodeBidiProperty
-      $mediumUnicodeBidiFocus?: UnicodeBidiProperty
-      $mediumUnicodeBidiHover?: UnicodeBidiProperty
-      $smallUnicodeBidiFocus?: UnicodeBidiProperty
-      $smallUnicodeBidiHover?: UnicodeBidiProperty
       $unicodeBidiFocus?: UnicodeBidiProperty
       $unicodeBidiHover?: UnicodeBidiProperty
       $userSelect?: UserSelectProperty
       $largeUserSelect?: UserSelectProperty
       $mediumUserSelect?: UserSelectProperty
       $smallUserSelect?: UserSelectProperty
-      $largeUserSelectFocus?: UserSelectProperty
-      $largeUserSelectHover?: UserSelectProperty
-      $mediumUserSelectFocus?: UserSelectProperty
-      $mediumUserSelectHover?: UserSelectProperty
-      $smallUserSelectFocus?: UserSelectProperty
-      $smallUserSelectHover?: UserSelectProperty
       $userSelectFocus?: UserSelectProperty
       $userSelectHover?: UserSelectProperty
       $verticalAlign?: VerticalAlignProperty<TLength>
       $largeVerticalAlign?: VerticalAlignProperty<TLength>
       $mediumVerticalAlign?: VerticalAlignProperty<TLength>
       $smallVerticalAlign?: VerticalAlignProperty<TLength>
-      $largeVerticalAlignFocus?: VerticalAlignProperty<TLength>
-      $largeVerticalAlignHover?: VerticalAlignProperty<TLength>
-      $mediumVerticalAlignFocus?: VerticalAlignProperty<TLength>
-      $mediumVerticalAlignHover?: VerticalAlignProperty<TLength>
-      $smallVerticalAlignFocus?: VerticalAlignProperty<TLength>
-      $smallVerticalAlignHover?: VerticalAlignProperty<TLength>
       $verticalAlignFocus?: VerticalAlignProperty<TLength>
       $verticalAlignHover?: VerticalAlignProperty<TLength>
       $visibility?: VisibilityProperty
       $largeVisibility?: VisibilityProperty
       $mediumVisibility?: VisibilityProperty
       $smallVisibility?: VisibilityProperty
-      $largeVisibilityFocus?: VisibilityProperty
-      $largeVisibilityHover?: VisibilityProperty
-      $mediumVisibilityFocus?: VisibilityProperty
-      $mediumVisibilityHover?: VisibilityProperty
-      $smallVisibilityFocus?: VisibilityProperty
-      $smallVisibilityHover?: VisibilityProperty
       $visibilityFocus?: VisibilityProperty
       $visibilityHover?: VisibilityProperty
       $whiteSpace?: WhiteSpaceProperty
       $largeWhiteSpace?: WhiteSpaceProperty
       $mediumWhiteSpace?: WhiteSpaceProperty
       $smallWhiteSpace?: WhiteSpaceProperty
-      $largeWhiteSpaceFocus?: WhiteSpaceProperty
-      $largeWhiteSpaceHover?: WhiteSpaceProperty
-      $mediumWhiteSpaceFocus?: WhiteSpaceProperty
-      $mediumWhiteSpaceHover?: WhiteSpaceProperty
-      $smallWhiteSpaceFocus?: WhiteSpaceProperty
-      $smallWhiteSpaceHover?: WhiteSpaceProperty
       $whiteSpaceFocus?: WhiteSpaceProperty
       $whiteSpaceHover?: WhiteSpaceProperty
       $width?: WidthProperty<TLength>
       $largeWidth?: WidthProperty<TLength>
       $mediumWidth?: WidthProperty<TLength>
       $smallWidth?: WidthProperty<TLength>
-      $largeWidthFocus?: WidthProperty<TLength>
-      $largeWidthHover?: WidthProperty<TLength>
-      $mediumWidthFocus?: WidthProperty<TLength>
-      $mediumWidthHover?: WidthProperty<TLength>
-      $smallWidthFocus?: WidthProperty<TLength>
-      $smallWidthHover?: WidthProperty<TLength>
       $widthFocus?: WidthProperty<TLength>
       $widthHover?: WidthProperty<TLength>
       $willChange?: WillChangeProperty
       $largeWillChange?: WillChangeProperty
       $mediumWillChange?: WillChangeProperty
       $smallWillChange?: WillChangeProperty
-      $largeWillChangeFocus?: WillChangeProperty
-      $largeWillChangeHover?: WillChangeProperty
-      $mediumWillChangeFocus?: WillChangeProperty
-      $mediumWillChangeHover?: WillChangeProperty
-      $smallWillChangeFocus?: WillChangeProperty
-      $smallWillChangeHover?: WillChangeProperty
       $willChangeFocus?: WillChangeProperty
       $willChangeHover?: WillChangeProperty
       $wordBreak?: WordBreakProperty
       $largeWordBreak?: WordBreakProperty
       $mediumWordBreak?: WordBreakProperty
       $smallWordBreak?: WordBreakProperty
-      $largeWordBreakFocus?: WordBreakProperty
-      $largeWordBreakHover?: WordBreakProperty
-      $mediumWordBreakFocus?: WordBreakProperty
-      $mediumWordBreakHover?: WordBreakProperty
-      $smallWordBreakFocus?: WordBreakProperty
-      $smallWordBreakHover?: WordBreakProperty
       $wordBreakFocus?: WordBreakProperty
       $wordBreakHover?: WordBreakProperty
       $wordSpacing?: WordSpacingProperty<TLength>
       $largeWordSpacing?: WordSpacingProperty<TLength>
       $mediumWordSpacing?: WordSpacingProperty<TLength>
       $smallWordSpacing?: WordSpacingProperty<TLength>
-      $largeWordSpacingFocus?: WordSpacingProperty<TLength>
-      $largeWordSpacingHover?: WordSpacingProperty<TLength>
-      $mediumWordSpacingFocus?: WordSpacingProperty<TLength>
-      $mediumWordSpacingHover?: WordSpacingProperty<TLength>
-      $smallWordSpacingFocus?: WordSpacingProperty<TLength>
-      $smallWordSpacingHover?: WordSpacingProperty<TLength>
       $wordSpacingFocus?: WordSpacingProperty<TLength>
       $wordSpacingHover?: WordSpacingProperty<TLength>
       $wordWrap?: WordWrapProperty
       $largeWordWrap?: WordWrapProperty
       $mediumWordWrap?: WordWrapProperty
       $smallWordWrap?: WordWrapProperty
-      $largeWordWrapFocus?: WordWrapProperty
-      $largeWordWrapHover?: WordWrapProperty
-      $mediumWordWrapFocus?: WordWrapProperty
-      $mediumWordWrapHover?: WordWrapProperty
-      $smallWordWrapFocus?: WordWrapProperty
-      $smallWordWrapHover?: WordWrapProperty
       $wordWrapFocus?: WordWrapProperty
       $wordWrapHover?: WordWrapProperty
       $writingMode?: WritingModeProperty
       $largeWritingMode?: WritingModeProperty
       $mediumWritingMode?: WritingModeProperty
       $smallWritingMode?: WritingModeProperty
-      $largeWritingModeFocus?: WritingModeProperty
-      $largeWritingModeHover?: WritingModeProperty
-      $mediumWritingModeFocus?: WritingModeProperty
-      $mediumWritingModeHover?: WritingModeProperty
-      $smallWritingModeFocus?: WritingModeProperty
-      $smallWritingModeHover?: WritingModeProperty
       $writingModeFocus?: WritingModeProperty
       $writingModeHover?: WritingModeProperty
       $zIndex?: ZIndexProperty
       $largeZIndex?: ZIndexProperty
       $mediumZIndex?: ZIndexProperty
       $smallZIndex?: ZIndexProperty
-      $largeZIndexFocus?: ZIndexProperty
-      $largeZIndexHover?: ZIndexProperty
-      $mediumZIndexFocus?: ZIndexProperty
-      $mediumZIndexHover?: ZIndexProperty
-      $smallZIndexFocus?: ZIndexProperty
-      $smallZIndexHover?: ZIndexProperty
       $zIndexFocus?: ZIndexProperty
       $zIndexHover?: ZIndexProperty
       $zoom?: ZoomProperty
       $largeZoom?: ZoomProperty
       $mediumZoom?: ZoomProperty
       $smallZoom?: ZoomProperty
-      $largeZoomFocus?: ZoomProperty
-      $largeZoomHover?: ZoomProperty
-      $mediumZoomFocus?: ZoomProperty
-      $mediumZoomHover?: ZoomProperty
-      $smallZoomFocus?: ZoomProperty
-      $smallZoomHover?: ZoomProperty
       $zoomFocus?: ZoomProperty
       $zoomHover?: ZoomProperty
       $alignmentBaseline?: AlignmentBaselineProperty
       $largeAlignmentBaseline?: AlignmentBaselineProperty
       $mediumAlignmentBaseline?: AlignmentBaselineProperty
       $smallAlignmentBaseline?: AlignmentBaselineProperty
-      $largeAlignmentBaselineFocus?: AlignmentBaselineProperty
-      $largeAlignmentBaselineHover?: AlignmentBaselineProperty
-      $mediumAlignmentBaselineFocus?: AlignmentBaselineProperty
-      $mediumAlignmentBaselineHover?: AlignmentBaselineProperty
-      $smallAlignmentBaselineFocus?: AlignmentBaselineProperty
-      $smallAlignmentBaselineHover?: AlignmentBaselineProperty
       $alignmentBaselineFocus?: AlignmentBaselineProperty
       $alignmentBaselineHover?: AlignmentBaselineProperty
       $baselineShift?: BaselineShiftProperty<TLength>
       $largeBaselineShift?: BaselineShiftProperty<TLength>
       $mediumBaselineShift?: BaselineShiftProperty<TLength>
       $smallBaselineShift?: BaselineShiftProperty<TLength>
-      $largeBaselineShiftFocus?: BaselineShiftProperty<TLength>
-      $largeBaselineShiftHover?: BaselineShiftProperty<TLength>
-      $mediumBaselineShiftFocus?: BaselineShiftProperty<TLength>
-      $mediumBaselineShiftHover?: BaselineShiftProperty<TLength>
-      $smallBaselineShiftFocus?: BaselineShiftProperty<TLength>
-      $smallBaselineShiftHover?: BaselineShiftProperty<TLength>
       $baselineShiftFocus?: BaselineShiftProperty<TLength>
       $baselineShiftHover?: BaselineShiftProperty<TLength>
       $clipRule?: ClipRuleProperty
       $largeClipRule?: ClipRuleProperty
       $mediumClipRule?: ClipRuleProperty
       $smallClipRule?: ClipRuleProperty
-      $largeClipRuleFocus?: ClipRuleProperty
-      $largeClipRuleHover?: ClipRuleProperty
-      $mediumClipRuleFocus?: ClipRuleProperty
-      $mediumClipRuleHover?: ClipRuleProperty
-      $smallClipRuleFocus?: ClipRuleProperty
-      $smallClipRuleHover?: ClipRuleProperty
       $clipRuleFocus?: ClipRuleProperty
       $clipRuleHover?: ClipRuleProperty
       $colorInterpolation?: ColorInterpolationProperty
       $largeColorInterpolation?: ColorInterpolationProperty
       $mediumColorInterpolation?: ColorInterpolationProperty
       $smallColorInterpolation?: ColorInterpolationProperty
-      $largeColorInterpolationFocus?: ColorInterpolationProperty
-      $largeColorInterpolationHover?: ColorInterpolationProperty
-      $mediumColorInterpolationFocus?: ColorInterpolationProperty
-      $mediumColorInterpolationHover?: ColorInterpolationProperty
-      $smallColorInterpolationFocus?: ColorInterpolationProperty
-      $smallColorInterpolationHover?: ColorInterpolationProperty
       $colorInterpolationFocus?: ColorInterpolationProperty
       $colorInterpolationHover?: ColorInterpolationProperty
       $colorRendering?: ColorRenderingProperty
       $largeColorRendering?: ColorRenderingProperty
       $mediumColorRendering?: ColorRenderingProperty
       $smallColorRendering?: ColorRenderingProperty
-      $largeColorRenderingFocus?: ColorRenderingProperty
-      $largeColorRenderingHover?: ColorRenderingProperty
-      $mediumColorRenderingFocus?: ColorRenderingProperty
-      $mediumColorRenderingHover?: ColorRenderingProperty
-      $smallColorRenderingFocus?: ColorRenderingProperty
-      $smallColorRenderingHover?: ColorRenderingProperty
       $colorRenderingFocus?: ColorRenderingProperty
       $colorRenderingHover?: ColorRenderingProperty
       $dominantBaseline?: DominantBaselineProperty
       $largeDominantBaseline?: DominantBaselineProperty
       $mediumDominantBaseline?: DominantBaselineProperty
       $smallDominantBaseline?: DominantBaselineProperty
-      $largeDominantBaselineFocus?: DominantBaselineProperty
-      $largeDominantBaselineHover?: DominantBaselineProperty
-      $mediumDominantBaselineFocus?: DominantBaselineProperty
-      $mediumDominantBaselineHover?: DominantBaselineProperty
-      $smallDominantBaselineFocus?: DominantBaselineProperty
-      $smallDominantBaselineHover?: DominantBaselineProperty
       $dominantBaselineFocus?: DominantBaselineProperty
       $dominantBaselineHover?: DominantBaselineProperty
       $fill?: FillProperty
       $largeFill?: FillProperty
       $mediumFill?: FillProperty
       $smallFill?: FillProperty
-      $largeFillFocus?: FillProperty
-      $largeFillHover?: FillProperty
-      $mediumFillFocus?: FillProperty
-      $mediumFillHover?: FillProperty
-      $smallFillFocus?: FillProperty
-      $smallFillHover?: FillProperty
       $fillFocus?: FillProperty
       $fillHover?: FillProperty
       $fillRule?: FillRuleProperty
       $largeFillRule?: FillRuleProperty
       $mediumFillRule?: FillRuleProperty
       $smallFillRule?: FillRuleProperty
-      $largeFillRuleFocus?: FillRuleProperty
-      $largeFillRuleHover?: FillRuleProperty
-      $mediumFillRuleFocus?: FillRuleProperty
-      $mediumFillRuleHover?: FillRuleProperty
-      $smallFillRuleFocus?: FillRuleProperty
-      $smallFillRuleHover?: FillRuleProperty
       $fillRuleFocus?: FillRuleProperty
       $fillRuleHover?: FillRuleProperty
       $floodColor?: FloodColorProperty
       $largeFloodColor?: FloodColorProperty
       $mediumFloodColor?: FloodColorProperty
       $smallFloodColor?: FloodColorProperty
-      $largeFloodColorFocus?: FloodColorProperty
-      $largeFloodColorHover?: FloodColorProperty
-      $mediumFloodColorFocus?: FloodColorProperty
-      $mediumFloodColorHover?: FloodColorProperty
-      $smallFloodColorFocus?: FloodColorProperty
-      $smallFloodColorHover?: FloodColorProperty
       $floodColorFocus?: FloodColorProperty
       $floodColorHover?: FloodColorProperty
       $glyphOrientationVertical?: GlyphOrientationVerticalProperty
       $largeGlyphOrientationVertical?: GlyphOrientationVerticalProperty
       $mediumGlyphOrientationVertical?: GlyphOrientationVerticalProperty
       $smallGlyphOrientationVertical?: GlyphOrientationVerticalProperty
-      $largeGlyphOrientationVerticalFocus?: GlyphOrientationVerticalProperty
-      $largeGlyphOrientationVerticalHover?: GlyphOrientationVerticalProperty
-      $mediumGlyphOrientationVerticalFocus?: GlyphOrientationVerticalProperty
-      $mediumGlyphOrientationVerticalHover?: GlyphOrientationVerticalProperty
-      $smallGlyphOrientationVerticalFocus?: GlyphOrientationVerticalProperty
-      $smallGlyphOrientationVerticalHover?: GlyphOrientationVerticalProperty
       $glyphOrientationVerticalFocus?: GlyphOrientationVerticalProperty
       $glyphOrientationVerticalHover?: GlyphOrientationVerticalProperty
       $lightingColor?: LightingColorProperty
       $largeLightingColor?: LightingColorProperty
       $mediumLightingColor?: LightingColorProperty
       $smallLightingColor?: LightingColorProperty
-      $largeLightingColorFocus?: LightingColorProperty
-      $largeLightingColorHover?: LightingColorProperty
-      $mediumLightingColorFocus?: LightingColorProperty
-      $mediumLightingColorHover?: LightingColorProperty
-      $smallLightingColorFocus?: LightingColorProperty
-      $smallLightingColorHover?: LightingColorProperty
       $lightingColorFocus?: LightingColorProperty
       $lightingColorHover?: LightingColorProperty
       $marker?: MarkerProperty
       $largeMarker?: MarkerProperty
       $mediumMarker?: MarkerProperty
       $smallMarker?: MarkerProperty
-      $largeMarkerFocus?: MarkerProperty
-      $largeMarkerHover?: MarkerProperty
-      $mediumMarkerFocus?: MarkerProperty
-      $mediumMarkerHover?: MarkerProperty
-      $smallMarkerFocus?: MarkerProperty
-      $smallMarkerHover?: MarkerProperty
       $markerFocus?: MarkerProperty
       $markerHover?: MarkerProperty
       $markerEnd?: MarkerEndProperty
       $largeMarkerEnd?: MarkerEndProperty
       $mediumMarkerEnd?: MarkerEndProperty
       $smallMarkerEnd?: MarkerEndProperty
-      $largeMarkerEndFocus?: MarkerEndProperty
-      $largeMarkerEndHover?: MarkerEndProperty
-      $mediumMarkerEndFocus?: MarkerEndProperty
-      $mediumMarkerEndHover?: MarkerEndProperty
-      $smallMarkerEndFocus?: MarkerEndProperty
-      $smallMarkerEndHover?: MarkerEndProperty
       $markerEndFocus?: MarkerEndProperty
       $markerEndHover?: MarkerEndProperty
       $markerMid?: MarkerMidProperty
       $largeMarkerMid?: MarkerMidProperty
       $mediumMarkerMid?: MarkerMidProperty
       $smallMarkerMid?: MarkerMidProperty
-      $largeMarkerMidFocus?: MarkerMidProperty
-      $largeMarkerMidHover?: MarkerMidProperty
-      $mediumMarkerMidFocus?: MarkerMidProperty
-      $mediumMarkerMidHover?: MarkerMidProperty
-      $smallMarkerMidFocus?: MarkerMidProperty
-      $smallMarkerMidHover?: MarkerMidProperty
       $markerMidFocus?: MarkerMidProperty
       $markerMidHover?: MarkerMidProperty
       $markerStart?: MarkerStartProperty
       $largeMarkerStart?: MarkerStartProperty
       $mediumMarkerStart?: MarkerStartProperty
       $smallMarkerStart?: MarkerStartProperty
-      $largeMarkerStartFocus?: MarkerStartProperty
-      $largeMarkerStartHover?: MarkerStartProperty
-      $mediumMarkerStartFocus?: MarkerStartProperty
-      $mediumMarkerStartHover?: MarkerStartProperty
-      $smallMarkerStartFocus?: MarkerStartProperty
-      $smallMarkerStartHover?: MarkerStartProperty
       $markerStartFocus?: MarkerStartProperty
       $markerStartHover?: MarkerStartProperty
       $shapeRendering?: ShapeRenderingProperty
       $largeShapeRendering?: ShapeRenderingProperty
       $mediumShapeRendering?: ShapeRenderingProperty
       $smallShapeRendering?: ShapeRenderingProperty
-      $largeShapeRenderingFocus?: ShapeRenderingProperty
-      $largeShapeRenderingHover?: ShapeRenderingProperty
-      $mediumShapeRenderingFocus?: ShapeRenderingProperty
-      $mediumShapeRenderingHover?: ShapeRenderingProperty
-      $smallShapeRenderingFocus?: ShapeRenderingProperty
-      $smallShapeRenderingHover?: ShapeRenderingProperty
       $shapeRenderingFocus?: ShapeRenderingProperty
       $shapeRenderingHover?: ShapeRenderingProperty
       $stopColor?: StopColorProperty
       $largeStopColor?: StopColorProperty
       $mediumStopColor?: StopColorProperty
       $smallStopColor?: StopColorProperty
-      $largeStopColorFocus?: StopColorProperty
-      $largeStopColorHover?: StopColorProperty
-      $mediumStopColorFocus?: StopColorProperty
-      $mediumStopColorHover?: StopColorProperty
-      $smallStopColorFocus?: StopColorProperty
-      $smallStopColorHover?: StopColorProperty
       $stopColorFocus?: StopColorProperty
       $stopColorHover?: StopColorProperty
       $stroke?: StrokeProperty
       $largeStroke?: StrokeProperty
       $mediumStroke?: StrokeProperty
       $smallStroke?: StrokeProperty
-      $largeStrokeFocus?: StrokeProperty
-      $largeStrokeHover?: StrokeProperty
-      $mediumStrokeFocus?: StrokeProperty
-      $mediumStrokeHover?: StrokeProperty
-      $smallStrokeFocus?: StrokeProperty
-      $smallStrokeHover?: StrokeProperty
       $strokeFocus?: StrokeProperty
       $strokeHover?: StrokeProperty
       $strokeDasharray?: StrokeDasharrayProperty<TLength>
       $largeStrokeDasharray?: StrokeDasharrayProperty<TLength>
       $mediumStrokeDasharray?: StrokeDasharrayProperty<TLength>
       $smallStrokeDasharray?: StrokeDasharrayProperty<TLength>
-      $largeStrokeDasharrayFocus?: StrokeDasharrayProperty<TLength>
-      $largeStrokeDasharrayHover?: StrokeDasharrayProperty<TLength>
-      $mediumStrokeDasharrayFocus?: StrokeDasharrayProperty<TLength>
-      $mediumStrokeDasharrayHover?: StrokeDasharrayProperty<TLength>
-      $smallStrokeDasharrayFocus?: StrokeDasharrayProperty<TLength>
-      $smallStrokeDasharrayHover?: StrokeDasharrayProperty<TLength>
       $strokeDasharrayFocus?: StrokeDasharrayProperty<TLength>
       $strokeDasharrayHover?: StrokeDasharrayProperty<TLength>
       $strokeDashoffset?: StrokeDashoffsetProperty<TLength>
       $largeStrokeDashoffset?: StrokeDashoffsetProperty<TLength>
       $mediumStrokeDashoffset?: StrokeDashoffsetProperty<TLength>
       $smallStrokeDashoffset?: StrokeDashoffsetProperty<TLength>
-      $largeStrokeDashoffsetFocus?: StrokeDashoffsetProperty<TLength>
-      $largeStrokeDashoffsetHover?: StrokeDashoffsetProperty<TLength>
-      $mediumStrokeDashoffsetFocus?: StrokeDashoffsetProperty<TLength>
-      $mediumStrokeDashoffsetHover?: StrokeDashoffsetProperty<TLength>
-      $smallStrokeDashoffsetFocus?: StrokeDashoffsetProperty<TLength>
-      $smallStrokeDashoffsetHover?: StrokeDashoffsetProperty<TLength>
       $strokeDashoffsetFocus?: StrokeDashoffsetProperty<TLength>
       $strokeDashoffsetHover?: StrokeDashoffsetProperty<TLength>
       $strokeLinecap?: StrokeLinecapProperty
       $largeStrokeLinecap?: StrokeLinecapProperty
       $mediumStrokeLinecap?: StrokeLinecapProperty
       $smallStrokeLinecap?: StrokeLinecapProperty
-      $largeStrokeLinecapFocus?: StrokeLinecapProperty
-      $largeStrokeLinecapHover?: StrokeLinecapProperty
-      $mediumStrokeLinecapFocus?: StrokeLinecapProperty
-      $mediumStrokeLinecapHover?: StrokeLinecapProperty
-      $smallStrokeLinecapFocus?: StrokeLinecapProperty
-      $smallStrokeLinecapHover?: StrokeLinecapProperty
       $strokeLinecapFocus?: StrokeLinecapProperty
       $strokeLinecapHover?: StrokeLinecapProperty
       $strokeLinejoin?: StrokeLinejoinProperty
       $largeStrokeLinejoin?: StrokeLinejoinProperty
       $mediumStrokeLinejoin?: StrokeLinejoinProperty
       $smallStrokeLinejoin?: StrokeLinejoinProperty
-      $largeStrokeLinejoinFocus?: StrokeLinejoinProperty
-      $largeStrokeLinejoinHover?: StrokeLinejoinProperty
-      $mediumStrokeLinejoinFocus?: StrokeLinejoinProperty
-      $mediumStrokeLinejoinHover?: StrokeLinejoinProperty
-      $smallStrokeLinejoinFocus?: StrokeLinejoinProperty
-      $smallStrokeLinejoinHover?: StrokeLinejoinProperty
       $strokeLinejoinFocus?: StrokeLinejoinProperty
       $strokeLinejoinHover?: StrokeLinejoinProperty
       $strokeWidth?: StrokeWidthProperty<TLength>
       $largeStrokeWidth?: StrokeWidthProperty<TLength>
       $mediumStrokeWidth?: StrokeWidthProperty<TLength>
       $smallStrokeWidth?: StrokeWidthProperty<TLength>
-      $largeStrokeWidthFocus?: StrokeWidthProperty<TLength>
-      $largeStrokeWidthHover?: StrokeWidthProperty<TLength>
-      $mediumStrokeWidthFocus?: StrokeWidthProperty<TLength>
-      $mediumStrokeWidthHover?: StrokeWidthProperty<TLength>
-      $smallStrokeWidthFocus?: StrokeWidthProperty<TLength>
-      $smallStrokeWidthHover?: StrokeWidthProperty<TLength>
       $strokeWidthFocus?: StrokeWidthProperty<TLength>
       $strokeWidthHover?: StrokeWidthProperty<TLength>
       $textAnchor?: TextAnchorProperty
       $largeTextAnchor?: TextAnchorProperty
       $mediumTextAnchor?: TextAnchorProperty
       $smallTextAnchor?: TextAnchorProperty
-      $largeTextAnchorFocus?: TextAnchorProperty
-      $largeTextAnchorHover?: TextAnchorProperty
-      $mediumTextAnchorFocus?: TextAnchorProperty
-      $mediumTextAnchorHover?: TextAnchorProperty
-      $smallTextAnchorFocus?: TextAnchorProperty
-      $smallTextAnchorHover?: TextAnchorProperty
       $textAnchorFocus?: TextAnchorProperty
       $textAnchorHover?: TextAnchorProperty
       $vectorEffect?: VectorEffectProperty
       $largeVectorEffect?: VectorEffectProperty
       $mediumVectorEffect?: VectorEffectProperty
       $smallVectorEffect?: VectorEffectProperty
-      $largeVectorEffectFocus?: VectorEffectProperty
-      $largeVectorEffectHover?: VectorEffectProperty
-      $mediumVectorEffectFocus?: VectorEffectProperty
-      $mediumVectorEffectHover?: VectorEffectProperty
-      $smallVectorEffectFocus?: VectorEffectProperty
-      $smallVectorEffectHover?: VectorEffectProperty
       $vectorEffectFocus?: VectorEffectProperty
       $vectorEffectHover?: VectorEffectProperty
     }

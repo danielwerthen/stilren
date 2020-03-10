@@ -47,11 +47,6 @@ function spreadIxes(prop) {
   return [
     prop,
     ...prefixes.map(pre => `${pre}${humps.pascalize(prop)}`),
-    ...prefixes.flatMap(pre =>
-      pseudoSuffixes.map(
-        suf => `${pre}${humps.pascalize(prop)}${humps.pascalize(suf)}`
-      )
-    ),
     ...pseudoSuffixes.map(suf => `${prop}${humps.pascalize(suf)}`)
   ];
 }
@@ -85,5 +80,3 @@ const typeDef = `
 `;
 
 fs.writeFileSync(path.join(__dirname, "../dist/types.d.ts"), typeDef);
-
-console.log(typeDef);
