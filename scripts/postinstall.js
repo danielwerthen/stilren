@@ -2,6 +2,7 @@ const fs = require("fs");
 const humps = require("humps");
 const path = require("path");
 const recast = require("recast");
+const pseudos = require("../src/default-pseudos");
 
 const input = recast.parse(
   fs.readFileSync(path.join(__dirname, "../node_modules/csstype/index.d.ts")),
@@ -39,15 +40,33 @@ const mediaPrefixes = Object.keys(process.env)
 
 const prefixes = Object.keys(mediaPrefixes);
 
-const pseudoSuffixes = (
-  process.env.npm_package_stilren_pseudoSuffixes || ""
-).split(",");
+const pseudoSuffixes = Object.keys(pseudos);
 
 function spreadIxes(prop) {
   return [
     prop,
-    ...prefixes.map(pre => `${pre}${humps.pascalize(prop)}`),
-    ...pseudoSuffixes.map(suf => `${prop}${humps.pascalize(suf)}`)
+    ...prefixes.map(pre => {
+      if (prop.toLowerCase().startsWith(pre.toLowerCase())) {
+        console.warn(
+          "Potential naming collision between",
+          prop,
+          "and media prefix",
+          pre
+        );
+      }
+      return `${pre}${humps.pascalize(prop)}`;
+    }),
+    ...pseudoSuffixes.map(suf => {
+      if (prop.toLowerCase().endsWith(suf.toLowerCase())) {
+        console.warn(
+          "Potential naming collision between",
+          prop,
+          "and pseudo suffix",
+          suf
+        );
+      }
+      return `${prop}${humps.pascalize(suf)}`;
+    })
   ];
 }
 

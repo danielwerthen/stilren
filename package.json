@@ -42,10 +42,9 @@
   "stilren": {
     "mediaPrefixes": {
       "small": "(max-width: 768px)",
-      "medium": "(max-width: 1024px) and (min-width: 769px)",
+      "medium": "((max-width: 1024px) and (min-width: 769px))",
       "large": "(min-width: 1025px)"
-    },
-    "pseudoSuffixes": "focus, hover"
+    }
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.8.3",

@@ -1,7 +1,13 @@
-import { transform } from "./index";
+import { createTransformer } from "./index";
 
 describe("Transform", () => {
+  const transform = createTransformer({});
   it("should just work", () => {
-    expect(transform(2)).toEqual(4);
+    expect(
+      transform({
+        fontSize: "66px",
+        smallMediumFontSize: "12px"
+      })
+    ).toEqual(4);
   });
 });
