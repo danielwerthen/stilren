@@ -25,6 +25,7 @@
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-typescript": "^7.8.3",
+    "@dwerthen/react-extension": "^0.0.7",
     "@types/jest": "^25.1.4",
     "@types/node": "^13.1.4",
     "@types/react": "^16.9.17",
@@ -45,7 +46,8 @@
     "styletron-engine-snapshot": "^0.1.4"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": "*",
+    "@dwerthen/react-extension": "^0.0.7"
   },
   "stilren": {
     "mediaPrefixes": {
@@ -55,7 +57,6 @@
     }
   },
   "dependencies": {
-    "@dwerthen/react-extension": "^0.0.7",
     "styletron-standard": "^3.0.4"
   }
 }
