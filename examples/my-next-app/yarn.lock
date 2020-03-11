@@ -908,10 +908,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@dwerthen/react-extension@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@dwerthen/react-extension/-/react-extension-0.0.7.tgz#a1f8a4b09e1034f428baa52ab0a9f1d03f2b00d5"
-  integrity sha512-d4EqrX75kTDLbAnTPpNliY371EllK2iXNWUas3tOxE5S9Wb6WRyjCp8RJuVY/H8Tsx5qimxgadjC0Vxo2pYYrQ==
+"@dwerthen/react-extension@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@dwerthen/react-extension/-/react-extension-0.0.8.tgz#8ddec8dff1c5c082986e7a3391dd8219213b22a9"
+  integrity sha512-VHHuODeSdJWhEyV1rOIX0nCHVOxtgci5jHQCz4yXTuBGScro50yUC4krLu/dfR5qh295sbDKfE7P5UIAH0YAcg==
 
 "@next/polyfill-nomodule@9.3.0":
   version "9.3.0"
@@ -5396,12 +5396,11 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-stilren@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/stilren/-/stilren-0.2.0.tgz#9a3471d404a7556695a149d653c1534f8743382f"
-  integrity sha512-UVBEwB5EBSzg5UV1Lb4NCbHh5TTiFmjcfu6lXUUGURDkloQwbGOy5ePhmoL3JNoLqUHMmBfdO4EMbWNsFnjWag==
+stilren@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/stilren/-/stilren-0.2.1.tgz#3711268eed0ff75db3efba05f9c257d54e0f0816"
+  integrity sha512-ZKSColkdQBp8g/yf5K1ITVJkactbsgfQn+NzAu/JNFL4m77QJ/ByV1o6CUcwwsul+iKvLjtqnlRo4L4n06HBZQ==
   dependencies:
-    "@dwerthen/react-extension" "^0.0.7"
     styletron-standard "^3.0.4"
 
 stream-browserify@^2.0.1:

@@ -8,12 +8,13 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@dwerthen/react-extension": "^0.0.8",
     "@types/styletron-engine-atomic": "^1.1.0",
     "isomorphic-unfetch": "3.0.0",
     "next": "latest",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "stilren": "^0.2.0",
+    "stilren": "^0.2.1",
     "styletron-engine-atomic": "^1.4.6"
   },
   "devDependencies": {

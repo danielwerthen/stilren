@@ -46,7 +46,7 @@
     "styletron-engine-snapshot": "^0.1.4"
   },
   "peerDependencies": {
-    "@dwerthen/react-extension": "^0.0.7",
+    "@dwerthen/react-extension": "^0.0.8",
     "react": "*"
   },
   "stilren": {
