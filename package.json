@@ -10,8 +10,7 @@
     "prepublish": "yarn build",
     "test": "jest",
     "build": "microbundle",
-    "dev": "microbundle watch",
-    "postinstall": "node scripts/postinstall.js"
+    "dev": "microbundle watch"
   },
   "repository": "git@github.com:danielwerthen/stilren.git",
   "author": "<danielwerthen@gmail.com>",
