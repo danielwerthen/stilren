@@ -19,7 +19,7 @@ describe("Transform", () => {
             {
               $color: "red",
               $smallLargeBackgroundColorHover: "yellow",
-              $smallColor: "red"
+              $smallColor: "blue"
             },
             "Test"
           )
