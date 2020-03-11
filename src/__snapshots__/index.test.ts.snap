@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transform should just work 1`] = `
+"<div class=\\"style={
+  &#x27;@media (max-width: 768px)&#x27;: {
+    color: &#x27;blue&#x27;
+  },
+  &#x27;@media (max-width: 768px) or (min-width: 1025px)&#x27;: {
+    &#x27;::hover&#x27;: {
+      backgroundColor: &#x27;yellow&#x27;
+    }
+  },
+  color: &#x27;red&#x27;
+}
+\\">Test</div>"
+`;
