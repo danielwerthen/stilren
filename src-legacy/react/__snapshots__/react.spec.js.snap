@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`React createFactory should render stuff 1`] = `"<div class=\\"ae af\\"><p class=\\"ag\\">Cloned</p></div>"`;
-
-exports[`React createFactory should render stuff 2`] = `".ae{font-size:15px}.ag{font-size:25px}@media (min-width: 100px){.af{font-size:25px}}"`;
-
-exports[`React extensions should render stuff 1`] = `"<div><p class=\\"ae af ag\\">Daniel</p><p class=\\"ae af ah\\">Daniel</p><p class=\\"ae ah\\">Daniel</p></div>"`;
-
-exports[`React extensions should render stuff 2`] = `".ae{font-size:15px}.af{color:red}.ag{background:yellow}.ah{background:green}"`;

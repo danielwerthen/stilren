@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Modifier can combine media modifiers 1`] = `"@media (max-width: 800px) and (min-width: 450px)"`;
-
-exports[`Modifier can combine pseudo modifiers 1`] = `":focus:hover"`;
