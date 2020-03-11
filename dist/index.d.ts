@@ -25,7 +25,7 @@ export declare function StilrenProvider({ mediaPrefixes, pseudoSuffixes, styletr
         [key: string]: string;
     };
     propPrefix?: string;
-    children: any;
+    children?: any;
 }): any;
 export declare const StilrenConsumer: React.Consumer<{
     renderStyle: RenderStyleFn;

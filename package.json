@@ -36,7 +36,13 @@
     "react-dom": "^16.13.0",
     "rimraf": "*",
     "styletron-engine-atomic": "^1.4.4",
-    "styletron-engine-snapshot": "^0.1.4"
+    "styletron-engine-snapshot": "^0.1.4",
+    "csstype": "^2.6.8",
+    "humps": "^2.0.1",
+    "mdn-data": "^2.0.6",
+    "recast": "^0.18.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.4"
   },
   "peerDependencies": {
     "react": "*"
@@ -49,13 +55,7 @@
     }
   },
   "dependencies": {
-    "@babel/preset-typescript": "^7.8.3",
     "@dwerthen/react-extension": "^0.0.7",
-    "@types/jest": "^25.1.4",
-    "csstype": "^2.6.8",
-    "humps": "^2.0.1",
-    "mdn-data": "^2.0.6",
-    "recast": "^0.18.7",
     "styletron-standard": "^3.0.4"
   }
 }
