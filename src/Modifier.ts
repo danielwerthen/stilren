@@ -79,8 +79,24 @@ export class PseudoModifier extends Modifier {
     if (alpha === beta) {
       return beta;
     }
-    const left = alpha.value < beta.value ? alpha : beta;
-    const right = alpha.value < beta.value ? beta : alpha;
+    let left: Modifier;
+    let right: Modifier;
+    const aStart = alpha.value.startsWith(":");
+    const bStart = beta.value.startsWith(":");
+    if (aStart && bStart) {
+      left = alpha.value < beta.value ? alpha : beta;
+      right = alpha.value < beta.value ? beta : alpha;
+    } else if (aStart) {
+      left = beta;
+      right = alpha;
+    } else if (bStart) {
+      left = alpha;
+      right = beta;
+    } else {
+      left = alpha.value < beta.value ? alpha : beta;
+      right = alpha.value < beta.value ? beta : alpha;
+    }
+
     return new PseudoModifier(`${left.value}:${right.value}`);
   }
   getKey() {

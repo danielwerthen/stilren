@@ -28,4 +28,6 @@ export default {
   Target: "target",
   Valid: "valid",
   Visited: "visited",
+  Before: ":before",
+  After: ":after",
 };

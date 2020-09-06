@@ -20,15 +20,30 @@ const allProps = input.program.body
   .reduce((sum, node) => [...sum, ...node.declaration.body.body], [])
   .map((propSig) => ({
     name: propSig.key.name,
-    type: propSig.typeAnnotation.typeAnnotation.typeName.name,
+    type: propSig.typeAnnotation.typeAnnotation.typeName.right.name,
     typeArg:
       propSig.typeAnnotation.typeAnnotation.typeParameters &&
       propSig.typeAnnotation.typeAnnotation.typeParameters.params[0].typeName
         .name,
     comment: propSig.comments[0].value,
   }));
+function renderProp(prop) {
+  if (prop.name === "animationName") {
+    return `$${prop.name}?: Property.${prop.type}${
+      prop.typeArg ? `<${prop.typeArg}>` : ""
+    } | { [key: string]: StandardProperties<TLength, TTime> };`;
+  }
+  if (prop.name === "fontFamily") {
+    return `$${prop.name}?: Property.${prop.type}${
+      prop.typeArg ? `<${prop.typeArg}>` : ""
+    } | { src: string };`;
+  }
 
-const typeImports = allProps.map((p) => p.type).join(",\n  ");
+  return `$${prop.name}?: Property.${prop.type}${
+    prop.typeArg ? `<${prop.typeArg}>` : ""
+  };`;
+}
+
 const props = allProps.reduce(
   (sum, prop) => [
     ...sum,
@@ -36,20 +51,21 @@ const props = allProps.reduce(
       .split("\n")
       .map((str) => `  ${str}`)
       .join("\n")}*/`,
-    `$${prop.name}?: ${prop.type}${prop.typeArg ? `<${prop.typeArg}>` : ""};`,
+    renderProp(prop),
   ],
   []
 );
 
 const typeDef = [
-  `import "react";`,
-  "import {",
-  "  " + typeImports,
-  '} from "csstype";',
+  'import "react";',
+  'import { Property, StandardProperties } from "csstype";',
   "",
   `declare module "react" {`,
+  "  type TLength = (string & {}) | 0;",
+  "  type TTime = string & {};",
   "  interface HTMLAttributes<T> {",
   ...props.map((p) => `    ${p}`),
+  "    [key: string]: unknown;",
   "  }",
   "}",
 ].join("\n");

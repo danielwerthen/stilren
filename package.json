@@ -31,7 +31,6 @@
     "@types/react-dom": "^16.9.5",
     "@types/styletron-standard": "^2.0.0",
     "babel-jest": "^25.1.0",
-    "csstype": "^2.6.8",
     "humps": "^2.0.1",
     "jest": "^25.1.0",
     "mdn-data": "^2.0.6",
@@ -49,6 +48,7 @@
   },
   "dependencies": {
     "@dwerthen/react-extension": "^0.0.8",
-    "styletron-standard": "^3.0.4"
+    "styletron-standard": "^3.0.4",
+    "csstype": "3.0.3"
   }
 }
