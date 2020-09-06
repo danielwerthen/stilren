@@ -1,7 +1,7 @@
 {
   "name": "stilren",
   "description": "Expressive and highly extendable styling api",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@dwerthen/react-extension": "^0.0.8",
-    "styletron-standard": "^3.0.4",
-    "csstype": "3.0.3"
+    "csstype": "3.0.3",
+    "styletron-standard": "^3.0.4"
   }
 }

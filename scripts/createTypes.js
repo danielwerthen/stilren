@@ -10,6 +10,19 @@ const input = recast.parse(
   }
 );
 
+function mapPropSig(propSig) {
+  return {
+    name: propSig.key.name,
+    type: propSig.typeAnnotation.typeAnnotation.typeName.right.name,
+    typeArg:
+      propSig.typeAnnotation.typeAnnotation.typeParameters &&
+      propSig.typeAnnotation.typeAnnotation.typeParameters.params[0].typeName
+        .name,
+    comment:
+      propSig.comments && propSig.comments[0] && propSig.comments[0].value,
+  };
+}
+
 const allProps = input.program.body
   .filter(
     (node) =>
@@ -18,15 +31,15 @@ const allProps = input.program.body
       node.declaration.id.name.endsWith("handProperties")
   )
   .reduce((sum, node) => [...sum, ...node.declaration.body.body], [])
-  .map((propSig) => ({
-    name: propSig.key.name,
-    type: propSig.typeAnnotation.typeAnnotation.typeName.right.name,
-    typeArg:
-      propSig.typeAnnotation.typeAnnotation.typeParameters &&
-      propSig.typeAnnotation.typeAnnotation.typeParameters.params[0].typeName
-        .name,
-    comment: propSig.comments[0].value,
-  }));
+  .map(mapPropSig);
+
+const allSvgProps = input.program.body
+  .filter(
+    (node) => node.declaration && node.declaration.id.name === "SvgProperties"
+  )
+  .reduce((sum, node) => [...sum, ...node.declaration.body.body], [])
+  .map(mapPropSig);
+
 function renderProp(prop) {
   if (prop.name === "animationName") {
     return `$${prop.name}?: Property.${prop.type}${
@@ -47,11 +60,26 @@ function renderProp(prop) {
 const props = allProps.reduce(
   (sum, prop) => [
     ...sum,
-    `/*${prop.comment
-      .split("\n")
-      .map((str) => `  ${str}`)
-      .join("\n")}*/`,
+    prop.comment &&
+      `/*${prop.comment
+        .split("\n")
+        .map((str) => `  ${str}`)
+        .join("\n")}*/`,
     renderProp(prop),
+  ],
+  []
+);
+const svgProps = allSvgProps.reduce(
+  (sum, prop) => [
+    ...sum,
+    ...[
+      prop.comment &&
+        `/*${prop.comment
+          .split("\n")
+          .map((str) => `  ${str}`)
+          .join("\n")}*/`,
+      renderProp(prop),
+    ].filter((id) => id),
   ],
   []
 );
@@ -65,6 +93,10 @@ const typeDef = [
   "  type TTime = string & {};",
   "  interface HTMLAttributes<T> {",
   ...props.map((p) => `    ${p}`),
+  "    [key: string]: unknown;",
+  "  }",
+  "  interface SVGAttributes<T> {",
+  ...svgProps.map((p) => `    ${p}`),
   "    [key: string]: unknown;",
   "  }",
   "}",
