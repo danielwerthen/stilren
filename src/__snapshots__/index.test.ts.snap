@@ -6,7 +6,7 @@ exports[`Transform should just work 1`] = `
     color: &#x27;blue&#x27;
   },
   &#x27;@media (max-width: 768px) or (min-width: 1025px)&#x27;: {
-    &#x27;::hover&#x27;: {
+    &#x27;:hover&#x27;: {
       backgroundColor: &#x27;yellow&#x27;
     }
   },
