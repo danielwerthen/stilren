@@ -36,18 +36,18 @@ const props = allProps.reduce(
       .split("\n")
       .map((str) => `  ${str}`)
       .join("\n")}*/`,
-    `$${prop.name}?: ${prop.type}${prop.typeArg ? `<${prop.typeArg}>` : ""},`,
+    `$${prop.name}?: ${prop.type}${prop.typeArg ? `<${prop.typeArg}>` : ""};`,
   ],
   []
 );
 
 const typeDef = [
-  'import "react"',
+  `import "react";`,
   "import {",
   "  " + typeImports,
-  '} from "csstype"',
+  '} from "csstype";',
   "",
-  'declare module "react" {',
+  `declare module "react" {`,
   "  interface HTMLAttributes<T> {",
   ...props.map((p) => `    ${p}`),
   "  }",

@@ -380,7 +380,7 @@ import {
   PlaceSelfProperty,
   TextDecorationProperty,
   TextEmphasisProperty,
-  TransitionProperty,
+  TransitionProperty
 } from "csstype";
 
 declare module "react" {
