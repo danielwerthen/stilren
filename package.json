@@ -48,13 +48,6 @@
   "peerDependencies": {
     "react": "*"
   },
-  "stilren": {
-    "mediaPrefixes": {
-      "small": "(max-width: 768px)",
-      "medium": "((max-width: 1024px) and (min-width: 769px))",
-      "large": "(min-width: 1025px)"
-    }
-  },
   "dependencies": {
     "@dwerthen/react-extension": "^0.0.8",
     "styletron-standard": "^3.0.4"

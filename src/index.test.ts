@@ -12,14 +12,18 @@ describe("Transform", () => {
         h(
           StilrenProvider,
           {
-            styletron
+            styletron,
+            mediaPrefixes: {
+              small: "(max-width: 768px)",
+              large: "(min-width: 1025px)",
+            },
           },
           h(
             "div",
             {
               $color: "red",
               $smallLargeBackgroundColorHover: "yellow",
-              $smallColor: "blue"
+              $smallColor: "blue",
             },
             "Test"
           )

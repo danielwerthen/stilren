@@ -4,7 +4,7 @@ export declare type StyleProps = {
     [key: string]: unknown;
 };
 export declare type RenderStyleFn = (props: StyleProps) => string;
-export declare function createRenderStyle({ mediaPrefixes, pseudoSuffixes, styletron }: {
+export declare function createRenderStyle({ mediaPrefixes, pseudoSuffixes, styletron, }: {
     styletron: StandardEngine;
     mediaPrefixes?: {
         [key: string]: string;
@@ -16,7 +16,7 @@ export declare function createRenderStyle({ mediaPrefixes, pseudoSuffixes, style
 export declare const stilrenContext: React.Context<{
     renderStyle: RenderStyleFn;
 }>;
-export declare function StilrenProvider({ mediaPrefixes, pseudoSuffixes, styletron, propPrefix, children }: {
+export declare function StilrenProvider({ mediaPrefixes, pseudoSuffixes, styletron, propPrefix, children, }: {
     styletron: StandardEngine;
     mediaPrefixes?: {
         [key: string]: string;

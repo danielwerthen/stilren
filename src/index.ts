@@ -1,6 +1,6 @@
 import {
   ExtensionProvider,
-  originalCreateElement
+  originalCreateElement,
 } from "@dwerthen/react-extension";
 import React from "react";
 import { createParser } from "./Parser";
@@ -10,24 +10,17 @@ import { PseudoModifier, MediaModifier } from "./Modifier";
 import {
   StandardEngine,
   renderDeclarativeRules,
-  StyleObject
+  StyleObject,
 } from "styletron-standard";
-
-const defaultMediaPrefixes = Object.keys(process.env)
-  .filter(key => key.startsWith("npm_package_stilren_mediaPrefixes"))
-  .reduce((sum, key) => {
-    const target = key.replace("npm_package_stilren_mediaPrefixes_", "");
-    return Object.assign(sum, { [target]: process.env[key] });
-  }, {});
 
 export type StyleProps = { [key: string]: unknown };
 
 export type RenderStyleFn = (props: StyleProps) => string;
 
 export function createRenderStyle({
-  mediaPrefixes = defaultMediaPrefixes,
+  mediaPrefixes = {},
   pseudoSuffixes = defaultPseudos,
-  styletron
+  styletron,
 }: {
   styletron: StandardEngine;
   mediaPrefixes?: { [key: string]: string };
@@ -37,14 +30,14 @@ export function createRenderStyle({
     Object.keys(mediaPrefixes).reduce(
       (sum, key) => ({
         ...sum,
-        [key]: new MediaModifier(mediaPrefixes[key])
+        [key]: new MediaModifier(mediaPrefixes[key]),
       }),
       {}
     ),
     Object.keys(pseudoSuffixes).reduce(
       (sum, key) => ({
         ...sum,
-        [key]: new PseudoModifier(pseudoSuffixes[key])
+        [key]: new PseudoModifier(pseudoSuffixes[key]),
       }),
       {}
     )
@@ -71,7 +64,7 @@ const emptyRender = () => "";
 export const stilrenContext = React.createContext<{
   renderStyle: RenderStyleFn;
 }>({
-  renderStyle: emptyRender
+  renderStyle: emptyRender,
 });
 
 export function StilrenProvider({
@@ -79,7 +72,7 @@ export function StilrenProvider({
   pseudoSuffixes,
   styletron,
   propPrefix = "$",
-  children
+  children,
 }: {
   styletron: StandardEngine;
   mediaPrefixes?: { [key: string]: string };
