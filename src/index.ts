@@ -1,8 +1,4 @@
-import {
-  ExtensionProvider,
-  originalCreateElement,
-} from "@dwerthen/react-extension";
-import React from "react";
+import { registerExtension } from "@dwerthen/react-extension";
 import { createParser } from "./Parser";
 import Node from "./Node";
 import defaultPseudos from "./default-pseudos";
@@ -59,57 +55,28 @@ export function createRenderStyle({
   return renderStyle;
 }
 
-const emptyRender = () => "";
-
-export const stilrenContext = React.createContext<{
-  renderStyle: RenderStyleFn;
-}>({
-  renderStyle: emptyRender,
-});
-
-export function StilrenProvider({
-  mediaPrefixes,
-  pseudoSuffixes,
-  styletron,
-  propPrefix = "$",
-  children,
-}: {
+export type StilrenOptions = {
   styletron: StandardEngine;
   mediaPrefixes?: { [key: string]: string };
   pseudoSuffixes?: { [key: string]: string };
   propPrefix?: string;
-  children?: any;
-}) {
-  const renderStyle = React.useMemo(
-    () => createRenderStyle({ styletron, mediaPrefixes, pseudoSuffixes }),
-    []
-  );
-  const extender = React.useMemo(
-    () => createExtender(renderStyle, propPrefix),
-    [renderStyle]
-  );
-  const ctx = React.useMemo(() => ({ renderStyle }), [renderStyle]);
-  return originalCreateElement(
-    stilrenContext.Provider,
-    { value: ctx },
-    originalCreateElement(ExtensionProvider, { value: extender }, children)
-  );
-}
-export const StilrenConsumer = stilrenContext.Consumer;
+};
 
-export function useStilren(props: StyleProps) {
-  const { renderStyle } = React.useContext(stilrenContext);
-  if (renderStyle === emptyRender) {
-    console.warn("Stilren Provider must be initialized with a renderStyle");
-  }
-  return renderStyle(props);
-}
-
-export function createExtender(
-  renderStyle: RenderStyleFn,
-  propPrefix: string = "$"
-) {
-  return (_tagName: string, props: { [key: string]: unknown }) => {
+export function registerStilren({
+  mediaPrefixes,
+  pseudoSuffixes,
+  styletron,
+  propPrefix = "$",
+}: StilrenOptions) {
+  const renderStyle = createRenderStyle({
+    styletron,
+    mediaPrefixes,
+    pseudoSuffixes,
+  });
+  registerExtension((tagName, props: any, ...children) => {
+    if (typeof props !== "object") {
+      return [tagName, props, children];
+    }
     const output: { [key: string]: unknown } = {};
     const style: { [key: string]: unknown } = {};
     let touched = false;
@@ -129,6 +96,6 @@ export function createExtender(
         ? `${output.className} ${className}`
         : className;
     }
-    return output;
-  };
+    return [tagName, output, children];
+  });
 }

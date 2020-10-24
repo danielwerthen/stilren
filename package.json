@@ -34,7 +34,7 @@
     "humps": "^2.0.1",
     "jest": "^25.1.0",
     "mdn-data": "^2.0.6",
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.12.4",
     "prettier": "*",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -47,7 +47,7 @@
     "react": "*"
   },
   "dependencies": {
-    "@dwerthen/react-extension": "^0.0.8",
+    "@dwerthen/react-extension": "^0.0.9-rc1",
     "csstype": "3.0.3",
     "styletron-standard": "^3.0.4"
   }
