@@ -1,3 +1,4 @@
+import "@dwerthen/react-extension/react";
 import { StandardEngine } from "styletron-standard";
 export declare type StyleProps = {
     [key: string]: unknown;

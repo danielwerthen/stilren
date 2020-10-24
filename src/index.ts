@@ -1,3 +1,4 @@
+import "@dwerthen/react-extension/react";
 import { registerExtension } from "@dwerthen/react-extension";
 import { createParser } from "./Parser";
 import Node from "./Node";

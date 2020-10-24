@@ -1669,10 +1669,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dwerthen/react-extension@^0.0.9-rc1":
-  version "0.0.9-rc1"
-  resolved "https://registry.yarnpkg.com/@dwerthen/react-extension/-/react-extension-0.0.9-rc1.tgz#e4507ec5724eb0895862cbac9fa8b884ba4e219e"
-  integrity sha512-2NT3YvOSew9UZ+fGpYrzMRMxglyLJ8F9llM/n8HyfOCxAGwwOedcupRGvaMGTpD/uA4nedK2ibTfHSOmsShIWA==
+"@dwerthen/react-extension@^0.0.9-rc2":
+  version "0.0.9-rc2"
+  resolved "https://registry.yarnpkg.com/@dwerthen/react-extension/-/react-extension-0.0.9-rc2.tgz#da51db23d54b20bd82e98a433094e2a5e8cfc697"
+  integrity sha512-RY4eJAQzWzAoEKc1G7jo1Sbo9OxMDxMOMJy4fftfkVZuIttcqp1zmh8i8i48qyfU4J+WPV8umKPbKOQyI499HQ==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.0.0"

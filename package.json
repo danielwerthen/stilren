@@ -47,7 +47,7 @@
     "react": "*"
   },
   "dependencies": {
-    "@dwerthen/react-extension": "^0.0.9-rc1",
+    "@dwerthen/react-extension": "^0.0.9-rc2",
     "csstype": "3.0.3",
     "styletron-standard": "^3.0.4"
   }
