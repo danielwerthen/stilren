@@ -908,7 +908,7 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@dwerthen/react-extension@0.0.9-rc2":
+"@dwerthen/react-extension@0.0.9-rc2", "@dwerthen/react-extension@^0.0.9-rc2":
   version "0.0.9-rc2"
   resolved "https://registry.yarnpkg.com/@dwerthen/react-extension/-/react-extension-0.0.9-rc2.tgz#da51db23d54b20bd82e98a433094e2a5e8cfc697"
   integrity sha512-RY4eJAQzWzAoEKc1G7jo1Sbo9OxMDxMOMJy4fftfkVZuIttcqp1zmh8i8i48qyfU4J+WPV8umKPbKOQyI499HQ==
@@ -2154,6 +2154,11 @@ cssnano-simple@1.0.0:
   dependencies:
     cssnano-preset-simple "^1.0.0"
     postcss "^7.0.18"
+
+csstype@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.3.tgz#2b410bbeba38ba9633353aff34b05d9755d065f8"
+  integrity sha512-jPl+wbWPOWJ7SXsWyqGRk3lGecbar0Cb0OvZF/r/ZU011R4YqiRehgkQ9p4eQfo9DSDLqLL3wHwfxeJiuIsNag==
 
 csstype@^2.2.0, csstype@^2.6.4:
   version "2.6.9"
@@ -5396,11 +5401,14 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-stilren@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/stilren/-/stilren-0.2.1.tgz#3711268eed0ff75db3efba05f9c257d54e0f0816"
-  integrity sha512-ZKSColkdQBp8g/yf5K1ITVJkactbsgfQn+NzAu/JNFL4m77QJ/ByV1o6CUcwwsul+iKvLjtqnlRo4L4n06HBZQ==
+stilren@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/stilren/-/stilren-0.3.2.tgz#a5d83b52a0b2a3836e9fbb2f71921f2c5bbbb059"
+  integrity sha512-dWsMBtmVFNw5JDIo/0PHLAUBbZiGEBsqYZ0VSE0JWSy7CvpQPcKlVBpJWXwpvgypb4S9ORkIeRHZualp52eUCQ==
   dependencies:
+    "@dwerthen/react-extension" "^0.0.9-rc2"
+    "@types/styletron-engine-atomic" "^1.1.0"
+    csstype "3.0.3"
     styletron-standard "^3.0.4"
 
 stream-browserify@^2.0.1:

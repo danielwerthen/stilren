@@ -1,4 +1,4 @@
-import { registerStilren } from "../../../";
+import { registerStilren } from "stilren";
 import React from "react";
 import App from "next/app";
 import { styletron } from "../styletron";
