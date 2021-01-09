@@ -908,10 +908,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@dwerthen/react-extension@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@dwerthen/react-extension/-/react-extension-0.0.8.tgz#8ddec8dff1c5c082986e7a3391dd8219213b22a9"
-  integrity sha512-VHHuODeSdJWhEyV1rOIX0nCHVOxtgci5jHQCz4yXTuBGScro50yUC4krLu/dfR5qh295sbDKfE7P5UIAH0YAcg==
+"@dwerthen/react-extension@0.0.9-rc2":
+  version "0.0.9-rc2"
+  resolved "https://registry.yarnpkg.com/@dwerthen/react-extension/-/react-extension-0.0.9-rc2.tgz#da51db23d54b20bd82e98a433094e2a5e8cfc697"
+  integrity sha512-RY4eJAQzWzAoEKc1G7jo1Sbo9OxMDxMOMJy4fftfkVZuIttcqp1zmh8i8i48qyfU4J+WPV8umKPbKOQyI499HQ==
 
 "@next/polyfill-nomodule@9.3.0":
   version "9.3.0"

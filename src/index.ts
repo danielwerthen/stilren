@@ -109,14 +109,3 @@ export function useStyle(style: StilrenStyleObject): string {
   }
   return currentRenderStyle(style);
 }
-
-useStyle({
-  display: "block",
-  fontWeight: "bold",
-});
-
-useStyle({
-  clip: "revert",
-  fontSize: "5px",
-  rx: "4",
-});
