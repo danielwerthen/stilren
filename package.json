@@ -17,9 +17,7 @@
   "license": "MIT",
   "private": false,
   "files": [
-    "dist/**/*",
-    "react.js",
-    "react.d.js"
+    "dist/**/*"
   ],
   "devDependencies": {
     "@babel/core": "^7.8.7",

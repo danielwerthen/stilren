@@ -1,5 +1,5 @@
 import "@dwerthen/react-extension/react";
-import { registerExtension } from "@dwerthen/react-extension";
+import { registerExtension, TeardownCallback } from "@dwerthen/react-extension";
 import { createParser } from "./Parser";
 import Node from "./Node";
 import defaultPseudos from "./default-pseudos";
@@ -9,10 +9,9 @@ import {
   renderDeclarativeRules,
   StyleObject,
 } from "styletron-standard";
+import { StilrenStyleObject } from "./types";
 
-export type StyleProps = { [key: string]: unknown };
-
-export type RenderStyleFn = (props: StyleProps) => string;
+export type RenderStyleFn = (props: StilrenStyleObject) => string;
 
 export function createRenderStyle({
   mediaPrefixes = {},
@@ -40,7 +39,7 @@ export function createRenderStyle({
     )
   );
 
-  function renderStyle(props: StyleProps) {
+  function renderStyle(props: StilrenStyleObject) {
     const node = new Node();
     for (var key in props) {
       if (props.hasOwnProperty(key)) {
@@ -63,18 +62,21 @@ export type StilrenOptions = {
   propPrefix?: string;
 };
 
+let currentRenderStyle: RenderStyleFn | null = null;
+
 export function registerStilren({
   mediaPrefixes,
   pseudoSuffixes,
   styletron,
   propPrefix = "$",
-}: StilrenOptions) {
+}: StilrenOptions): TeardownCallback {
   const renderStyle = createRenderStyle({
     styletron,
     mediaPrefixes,
     pseudoSuffixes,
   });
-  registerExtension((tagName, props: any, ...children) => {
+  currentRenderStyle = renderStyle;
+  return registerExtension((tagName, props: any, ...children) => {
     if (typeof props !== "object" || typeof tagName !== "string") {
       return [tagName, props, children];
     }
@@ -100,3 +102,21 @@ export function registerStilren({
     return [tagName, output, children];
   });
 }
+
+export function useStyle(style: StilrenStyleObject): string {
+  if (!currentRenderStyle) {
+    throw new Error("You need to call registerStilren before using this hook.");
+  }
+  return currentRenderStyle(style);
+}
+
+useStyle({
+  display: "block",
+  fontWeight: "bold",
+});
+
+useStyle({
+  clip: "revert",
+  fontSize: "5px",
+  rx: "4",
+});

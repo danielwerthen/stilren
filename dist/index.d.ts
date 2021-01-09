@@ -1,9 +1,8 @@
 import "@dwerthen/react-extension/react";
+import { TeardownCallback } from "@dwerthen/react-extension";
 import { StandardEngine } from "styletron-standard";
-export declare type StyleProps = {
-    [key: string]: unknown;
-};
-export declare type RenderStyleFn = (props: StyleProps) => string;
+import { StilrenStyleObject } from "./types";
+export declare type RenderStyleFn = (props: StilrenStyleObject) => string;
 export declare function createRenderStyle({ mediaPrefixes, pseudoSuffixes, styletron, }: {
     styletron: StandardEngine;
     mediaPrefixes?: {
@@ -23,4 +22,5 @@ export declare type StilrenOptions = {
     };
     propPrefix?: string;
 };
-export declare function registerStilren({ mediaPrefixes, pseudoSuffixes, styletron, propPrefix, }: StilrenOptions): void;
+export declare function registerStilren({ mediaPrefixes, pseudoSuffixes, styletron, propPrefix, }: StilrenOptions): TeardownCallback;
+export declare function useStyle(style: StilrenStyleObject): string;
