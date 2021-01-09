@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "@dwerthen/react-extension": "^0.0.9-rc2",
+    "@types/styletron-engine-atomic": "^1.1.0",
     "csstype": "3.0.3",
     "styletron-standard": "^3.0.4"
   }

@@ -10,7 +10,9 @@ exports[`Transform should just work 1`] = `
       backgroundColor: &#x27;yellow&#x27;
     }
   },
-  color: &#x27;red&#x27;
+  background: &#x27;red&#x27;,
+  color: &#x27;red&#x27;,
+  margin: &#x27;5em&#x27;
 }
 \\">Test</div>"
 `;

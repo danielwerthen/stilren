@@ -75,7 +75,7 @@ export function registerStilren({
     pseudoSuffixes,
   });
   registerExtension((tagName, props: any, ...children) => {
-    if (typeof props !== "object") {
+    if (typeof props !== "object" || typeof tagName !== "string") {
       return [tagName, props, children];
     }
     const output: { [key: string]: unknown } = {};
