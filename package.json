@@ -1,5 +1,10 @@
 {
-  "version": "0.1.0",
+  "name": "stilren",
+  "description": "Expressive and highly extendable styling api",
+  "repository": "git@github.com:danielwerthen/stilren.git",
+  "author": "<danielwerthen@gmail.com>",
+  "private": false,
+  "version": "0.3.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -32,8 +37,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "tsdx",
-  "author": "Daniel Lichtenstein",
   "module": "dist/tsdx.esm.js",
   "size-limit": [
     {
