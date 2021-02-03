@@ -10,7 +10,11 @@
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
-    "src"
+    "src",
+    "jsx-dev-runtime.d.ts",
+    "jsx-dev-runtime.ts",
+    "jsx-runtime.d.ts",
+    "jsx-runtime.ts"
   ],
   "engines": {
     "node": ">=10"
@@ -81,6 +85,7 @@
   },
   "resolutions": {
     "eslint": "7.17.0",
-    "eslint-config-react-app": "6.0.0"
+    "eslint-config-react-app": "6.0.0",
+    "typescript": "4.1.3"
   }
 }
