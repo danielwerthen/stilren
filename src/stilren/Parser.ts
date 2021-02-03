@@ -1,4 +1,4 @@
-import { Modifier } from "./Modifier";
+import { Modifier } from './Modifier';
 
 function isUpperCase(str: string): boolean {
   return str !== str.toLowerCase() && str === str.toUpperCase();
@@ -23,7 +23,7 @@ export function createParser(prefixMap: ModifierMap, suffixMap: ModifierMap) {
   const suffixes = Object.keys(suffixMap);
 
   function parsePrefix(key: string): [string, Modifier[]] {
-    const match = prefixes.find(item => {
+    const match = prefixes.find((item) => {
       return (
         key.length > item.length &&
         isUpperCase(key[item.length]) &&
@@ -40,7 +40,7 @@ export function createParser(prefixMap: ModifierMap, suffixMap: ModifierMap) {
     return [key, []];
   }
   function parseSuffix(key: string): [string, Modifier[]] {
-    const match = suffixes.find(item => {
+    const match = suffixes.find((item) => {
       return key.length > item.length && key.endsWith(item);
     });
     if (match) {
@@ -57,7 +57,7 @@ export function createParser(prefixMap: ModifierMap, suffixMap: ModifierMap) {
     const [innerKey, suffixMods] = parseSuffix(first);
     return [
       innerKey,
-      Modifier.combineModifiers([...prefixMods, ...suffixMods])
+      Modifier.combineModifiers([...prefixMods, ...suffixMods]),
     ];
   }
   return cache(parse);

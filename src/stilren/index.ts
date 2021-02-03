@@ -1,15 +1,13 @@
-import "@dwerthen/react-extension/react";
-import { registerExtension, TeardownCallback } from "@dwerthen/react-extension";
-import { createParser } from "./Parser";
-import Node from "./Node";
-import defaultPseudos from "./default-pseudos";
-import { PseudoModifier, MediaModifier } from "./Modifier";
+import { createParser } from './Parser';
+import Node from './Node';
+import defaultPseudos from './default-pseudos';
+import { PseudoModifier, MediaModifier } from './Modifier';
 import {
   StandardEngine,
   renderDeclarativeRules,
   StyleObject,
-} from "styletron-standard";
-import { StilrenStyleObject } from "./types";
+} from 'styletron-standard';
+import { StilrenStyleObject } from './types';
 
 export type RenderStyleFn = (props: StilrenStyleObject) => string;
 
@@ -62,6 +60,7 @@ export type StilrenOptions = {
   propPrefix?: string;
 };
 
+/*
 let currentRenderStyle: RenderStyleFn | null = null;
 
 export function registerStilren({
@@ -109,3 +108,5 @@ export function useStyle(style: StilrenStyleObject): string {
   }
   return currentRenderStyle(style);
 }
+
+*/

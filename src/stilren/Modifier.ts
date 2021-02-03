@@ -4,7 +4,7 @@ function getClassName(instance: Modifier) {
 
 const modifiers: { [key: string]: Modifier } = {};
 
-export type ModifierType = "prefix" | "suffix";
+export type ModifierType = 'prefix' | 'suffix';
 
 export class Modifier {
   value: string;
@@ -23,7 +23,7 @@ export class Modifier {
     return false;
   }
   combine(withMod: Modifier): Modifier {
-    throw new Error("Cannot combine with " + getClassName(withMod));
+    throw new Error('Cannot combine with ' + getClassName(withMod));
   }
   getKey() {
     return this.value;
@@ -46,7 +46,7 @@ export class Modifier {
 
 export class MediaModifier extends Modifier {
   constructor(value: string) {
-    super(value, "prefix");
+    super(value, 'prefix');
   }
   canCombine(withMod: Modifier) {
     return withMod instanceof MediaModifier;
@@ -68,7 +68,7 @@ export class MediaModifier extends Modifier {
 
 export class PseudoModifier extends Modifier {
   constructor(value: string) {
-    super(value, "suffix");
+    super(value, 'suffix');
   }
   canCombine(withMod: Modifier) {
     return withMod instanceof PseudoModifier;
@@ -81,8 +81,8 @@ export class PseudoModifier extends Modifier {
     }
     let left: Modifier;
     let right: Modifier;
-    const aStart = alpha.value.startsWith(":");
-    const bStart = beta.value.startsWith(":");
+    const aStart = alpha.value.startsWith(':');
+    const bStart = beta.value.startsWith(':');
     if (aStart && bStart) {
       left = alpha.value < beta.value ? alpha : beta;
       right = alpha.value < beta.value ? beta : alpha;

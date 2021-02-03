@@ -1,10 +1,10 @@
-import { Modifier } from "./Modifier";
+import { Modifier } from './Modifier';
 
 type Props = { [key: string]: unknown | Props };
 
 function getProps(modifier: Modifier, props: Props): Props {
   if (!(modifier instanceof Modifier)) {
-    throw new Error("Cannot get branch of unknown modifier");
+    throw new Error('Cannot get branch of unknown modifier');
   }
   const id = modifier.getKey();
   if (!props[id]) {
