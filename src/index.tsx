@@ -1,3 +1,4 @@
+import '../';
 import React, {
   AbstractView,
   AllHTMLAttributes,
