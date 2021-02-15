@@ -212,7 +212,6 @@ import React, {
   WheelEventHandler,
   cloneElement,
   createContext,
-  createElement,
   createFactory,
   createRef,
   forwardRef,
@@ -231,7 +230,6 @@ import React, {
   useState,
   version,
 } from 'react';
-import { PrefixedProperties, PrefixedSvgProperties } from './stilren/types';
 
 export default React;
 export {
@@ -448,7 +446,6 @@ export {
   WheelEventHandler,
   cloneElement,
   createContext,
-  createElement,
   createFactory,
   createRef,
   forwardRef,
@@ -468,15 +465,7 @@ export {
   version,
 };
 export { jsx } from './jsx';
+export { createElement } from './createElement';
 
 export const __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = (React as any)
   .__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
-
-declare module 'react' {
-  interface HTMLAttributes<T> extends PrefixedProperties {
-    [key: string]: unknown;
-  }
-  interface SVGAttributes<T> extends PrefixedSvgProperties {
-    [key: string]: unknown;
-  }
-}

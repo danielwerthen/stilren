@@ -5,7 +5,7 @@ import * as ReactDOM from 'react-dom';
 const App = () => {
   return (
     <div>
-      <div />
+      <div>Daniel</div>
     </div>
   );
 };
