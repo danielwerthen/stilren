@@ -1,15 +1,11 @@
-import { registerStilren } from './index';
-import { createElement as h } from 'react';
+import { initialize } from './index';
+import { createElement as h } from '../index';
 import { renderToStaticMarkup } from 'react-dom/server';
 import Engine from 'styletron-engine-snapshot';
 
 const styletron = new Engine() as any;
-registerStilren({
+initialize({
   styletron,
-  mediaPrefixes: {
-    small: '(max-width: 768px)',
-    large: '(min-width: 1025px)',
-  },
 });
 
 function Base(props: any) {

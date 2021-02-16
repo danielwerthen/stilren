@@ -6,12 +6,12 @@ import {
   ReactNode,
   ReactElement,
 } from 'base-react';
+import { transform } from './stilren';
 
 export function createElement<P extends {}>(
   type: FunctionComponent<P> | ComponentClass<P> | string,
   props?: (Attributes & P) | null,
   ...children: ReactNode[]
 ): ReactElement<P> {
-  console.log('JSX', type, props);
-  return base(type, props, ...children);
+  return base(type, transform(type, props) as P, ...children);
 }

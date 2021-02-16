@@ -1,4 +1,5 @@
 import { ComponentType, ReactElement } from 'base-react';
+import { transform } from './stilren';
 export type JsxSignature = (
   type: ComponentType,
   config: {},
@@ -13,6 +14,5 @@ export function jsx(
   maybeKey?: string,
   ...rest: any[]
 ) {
-  console.log('Jsx base for ', type, config);
-  return base(type, config, maybeKey, ...rest);
+  return base(type, transform(type, config) || config, maybeKey, ...rest);
 }
