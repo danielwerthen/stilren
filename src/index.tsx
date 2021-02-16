@@ -1,5 +1,5 @@
 import '../';
-import React, {
+import BaseReact, {
   AbstractView,
   AllHTMLAttributes,
   AnchorHTMLAttributes,
@@ -231,6 +231,12 @@ import React, {
   useState,
   version,
 } from 'base-react';
+import { createElement } from './createElement';
+
+const React = {
+  ...BaseReact,
+  createElement,
+};
 
 export default React;
 export {
@@ -447,6 +453,7 @@ export {
   WheelEventHandler,
   cloneElement,
   createContext,
+  createElement,
   createFactory,
   createRef,
   forwardRef,
@@ -466,7 +473,7 @@ export {
   version,
 };
 export { jsx } from './jsx';
-export { createElement } from './createElement';
+export { getStylesheets, initialize } from './stilren';
 
 export const __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = (React as any)
   .__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
