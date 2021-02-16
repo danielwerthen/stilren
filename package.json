@@ -4,7 +4,7 @@
   "repository": "git@github.com:danielwerthen/stilren.git",
   "author": "<danielwerthen@gmail.com>",
   "private": false,
-  "version": "0.4.0-beta3",
+  "version": "0.4.0-beta4",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
