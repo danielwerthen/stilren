@@ -15,8 +15,12 @@
     "react-dom": "../node_modules/react-dom/profiling",
     "scheduler/tracing": "../node_modules/scheduler/tracing-profiling"
   },
+  "resolutions": {
+    "@types/react": "npm:stilren-types"
+  },
   "devDependencies": {
     "@types/react-dom": "^16.8.4",
+    "@types/react": "npm:stilren-types",
     "parcel": "^1.12.3",
     "typescript": "^3.4.5"
   }

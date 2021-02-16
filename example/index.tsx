@@ -5,7 +5,7 @@ import * as ReactDOM from 'react-dom';
 const App = () => {
   return (
     <div>
-      <div className="test">Daniel</div>
+      <div {...({ $color: 'red', $smallColor: 'blue' } as any)}>Daniel</div>
     </div>
   );
 };

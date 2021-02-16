@@ -896,11 +896,6 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@types/prop-types@*":
-  version "15.7.3"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
-  integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
-
 "@types/q@^1.5.1":
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
@@ -913,12 +908,11 @@
   dependencies:
     "@types/react" "^16"
 
-"@types/react@^16":
-  version "16.14.4"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.4.tgz#365f6a1e117d1eec960ba792c7e1e91ecad38e6f"
-  integrity sha512-ETj7GbkPGjca/A4trkVeGvoIakmLV6ZtX3J8dcmOpzKzWVybbrOxanwaIPG71GZwImoMDY6Fq4wIe34lEqZ0FQ==
+"@types/react@^16", "@types/react@npm:stilren-types":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/stilren-types/-/stilren-types-0.1.0.tgz#cd377cfb70123dd812dea8182f2f523ce1af7d85"
+  integrity sha512-zMDFzyi5AVOWMRvw71upkDTdvw5H+GHOGx7b6mdElO8pjzo99iaDW9DkOVUNPMLOOvVpn46fv8x3MYT1xBWTlg==
   dependencies:
-    "@types/prop-types" "*"
     csstype "^3.0.2"
 
 abab@^2.0.0:
