@@ -5,7 +5,7 @@ import {
   Attributes,
   ReactNode,
   ReactElement,
-} from 'react';
+} from 'base-react';
 
 export function createElement<P extends {}>(
   type: FunctionComponent<P> | ComponentClass<P> | string,

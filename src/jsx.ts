@@ -1,4 +1,4 @@
-import { ComponentType, ReactElement } from 'react';
+import { ComponentType, ReactElement } from 'base-react';
 export type JsxSignature = (
   type: ComponentType,
   config: {},

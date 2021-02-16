@@ -230,7 +230,7 @@ import React, {
   useRef,
   useState,
   version,
-} from 'react';
+} from 'base-react';
 
 export default React;
 export {
