@@ -28,7 +28,7 @@ export function getStylesheets(): ReactNode {
   return createElement(
     Fragment,
     null,
-    ...(defaultStyletron as Server)
+    ...(currentRenderStyle?.styletron as Server)
       .getStylesheets()
       .map((sheet: Sheet, i: number) =>
         createElement('style', {
@@ -42,7 +42,10 @@ export function getStylesheets(): ReactNode {
   );
 }
 
-export type RenderStyleFn = (props: StilrenStyleObject) => string;
+export type RenderStyleFn = {
+  (props: StilrenStyleObject): string;
+  styletron: StandardEngine;
+};
 export const defaultMediaPrefixes = {
   small: '(max-width: 425px)',
   medium: '(min-width: 426px) and (max-width: 1024px)',
@@ -90,7 +93,7 @@ export function createRenderStyle({
     return styletron.renderStyle(tx);
   }
 
-  return renderStyle;
+  return Object.assign(renderStyle, { styletron });
 }
 
 export type StilrenOptions = {
