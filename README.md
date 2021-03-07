@@ -74,9 +74,43 @@ In any React application of a non-trivial size, styling can be a complicated bus
 
 - The component accepts css modification via the `style` prop
 - The component allows css modifications via a custom syntax
-- The component allows css modifications via the `classname` prop
+- The component allows css modifications via the `className` prop
 - The component does not accept any css modifications
 - The component styling can be modified via css modifications on a parent element
 - CSS specificity might complicate matters even further
 
-To make matters worse, not all components are created equal. Different components have different configurations of the above, and they will most often be different from the standard html elements. Navigating around the code base, answering the question of how a css attribute can be added to a jsx element is often a considerable developer burden.
+To make matters worse, not all components are created equal. Different components have different configurations of the above, and they will most often be different from the standard html elements. Navigating around the code base, answering the question of how a css attribute can be added to a jsx element of some kind is often a considerable burden.
+
+Stilren tries to solve this problem by augmenting the React function `createElement` (and the `jsx` function). This approach is subtly different from using the jsx pragma. By aliasing `react` itself, the augmented version will be used for all components, even third party components, which ensures that the stilren api is everpresent on all jsx elements. The sole exception are components which do not spread the rest of the props into a html element.
+
+The result is that you'll be able to use the `$cssAttribute="value"` syntax on close to all jsx elements, native or custom, first or third party.
+
+## Considerations
+
+_Why use top level props instead of a `css={{ cssAttribute: value }}` syntax?_
+
+This is a matter of taste, but the top level props approach makes it a little bit easier to create nested components that work the way you'd expect. You can simply spread all rest props onto elements, without having to consider merging any other objects.
+
+_Why use media prefixes and pseudo suffixes?_
+
+Again, a matter of taste. There seems to be three contending approaches.
+
+1. `css={{ '@media (min-width: 1024px)': { color: 'red' }}`
+
+Stilren prefers to colocate the media and pseudo variations with each single css attribute, rather than grouping all variants of each kind together. Again, avoiding the object values makes nesting easier and avoids merging deep prop structures.
+
+2. `$color={["red", "blue", "yellow"]}`
+
+The stilren approach is more verbose, but it is also more declarative.
+
+3. `$color={{ small: "red", medium: "blue", large: "yellow" }}`
+
+This approach means that you always have to consider all variations of single attribute. It is not as easy to override a single media query or pseudo selector.
+
+_Performance overhead_
+
+Disclaimer: This is very much an experimental library. Do not use it if you uncomfortable with some risk for unexpected performance bottlenecks or weird bugs.
+
+Stilren introduces additional work for each `createElement` call. On `<div className="foobar">Foo</div>`, there will be some overhead, even though there is no styling usage. This is due to stilren having to iterate through the props an extra time and check if a prop starts with the `$` prefix or not. How big is this overhead? Frankly, I haven't had time to figure this out just yet, my guess is that it _should_ not be enough of a bottleneck to cause problems. If there is a particular hotspot, you might be able to solve the problem by using `React.memo` or `React.useMemo` to avoid having to recreate the elements as often.
+
+On elements the that do use the styling props, there is an considerable overhead in creating the css class for each key-value pair before completing the call, this overhead is cached though, so every subsequent call with the same key value pair the overhead will be much smaller.
