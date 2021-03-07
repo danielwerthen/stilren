@@ -1,181 +1,82 @@
-# TSDX React w/ Storybook User Guide
+# What is stilren?
 
-Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
+Stilren augments react to enable a richer experience for working with css-in-js. A common trends in various approaches to css-in-js is to include a more or less complicated setup process as well as a more or less unique syntax for adding styles to jsx elements. Stilren tries to do away with both of these. A simple setup process together with a simple styling api.
 
-> This TSDX setup is meant for developing React component libraries (not apps!) that can be published to NPM. If you’re looking to build a React-based app, you should use `create-react-app`, `razzle`, `nextjs`, `gatsby`, or `react-static`.
+It uses the great library [styletron](https://github.com/styletron/styletron) under the hood.
 
-> If you’re new to TypeScript and React, checkout [this handy cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet/)
+## Setup
 
-## Commands
-
-TSDX scaffolds your new library inside `/src`, and also sets up a [Parcel-based](https://parceljs.org) playground for it inside `/example`.
-
-The recommended workflow is to run TSDX in one terminal:
+Stilren works by augmenting the react library itself. Installing it by aliasing the react module.
 
 ```bash
-npm start # or yarn start
+yarn add react@npm:stilren @types/react@npm:stilren-types
 ```
 
-This builds to `/dist` and runs the project in watch mode so any edits you save inside `src` causes a rebuild to `/dist`.
+That second part is optional, though recommended, to enable typescript support.
 
-Then run either Storybook or the example playground:
+## Usage
 
-### Storybook
+Having setup the stilren augmentation you can now use the stilren api. Stilren adds new styling props to the basic html tags themselves. So a `<div />` does not only have a `style` prop for setting styles, not it also have a `$color` prop, and a `$backgroundColor` prop, and a `$fontSize` prop. In fact, any valid css attribute is now exposed as a top level prop on all html tags, prefixed by a `$`.
 
-Run inside another terminal:
-
-```bash
-yarn storybook
-```
-
-This loads the stories from `./stories`.
-
-> NOTE: Stories should reference the components as if using the library, similar to the example playground. This means importing from the root project directory. This has been aliased in the tsconfig and the storybook webpack config as a helper.
-
-### Example
-
-Then run the example inside another:
-
-```bash
-cd example
-npm i # or yarn to install dependencies
-npm start # or yarn start
-```
-
-The default example imports and live reloads whatever is in `/dist`, so if you are seeing an out of date component, make sure TSDX is running in watch mode like we recommend above. **No symlinking required**, we use [Parcel's aliasing](https://parceljs.org/module_resolution.html#aliases).
-
-To do a one-off build, use `npm run build` or `yarn build`.
-
-To run tests, use `npm test` or `yarn test`.
-
-## Configuration
-
-Code quality is set up for you with `prettier`, `husky`, and `lint-staged`. Adjust the respective fields in `package.json` accordingly.
-
-### Jest
-
-Jest tests are set up to run with `npm test` or `yarn test`.
-
-### Bundle analysis
-
-Calculates the real cost of your library using [size-limit](https://github.com/ai/size-limit) with `npm run size` and visulize it with `npm run analyze`.
-
-#### Setup Files
-
-This is the folder structure we set up for you:
-
-```txt
-/example
-  index.html
-  index.tsx       # test your component here in a demo app
-  package.json
-  tsconfig.json
-/src
-  index.tsx       # EDIT THIS
-/test
-  blah.test.tsx   # EDIT THIS
-/stories
-  Thing.stories.tsx # EDIT THIS
-/.storybook
-  main.js
-  preview.js
-.gitignore
-package.json
-README.md         # EDIT THIS
-tsconfig.json
-```
-
-#### React Testing Library
-
-We do not set up `react-testing-library` for you yet, we welcome contributions and documentation on this.
-
-### Rollup
-
-TSDX uses [Rollup](https://rollupjs.org) as a bundler and generates multiple rollup configs for various module formats and build settings. See [Optimizations](#optimizations) for details.
-
-### TypeScript
-
-`tsconfig.json` is set up to interpret `dom` and `esnext` types, as well as `react` for `jsx`. Adjust according to your needs.
-
-## Continuous Integration
-
-### GitHub Actions
-
-Two actions are added by default:
-
-- `main` which installs deps w/ cache, lints, tests, and builds on all pushes against a Node and OS matrix
-- `size` which comments cost comparison of your library on every pull request using [size-limit](https://github.com/ai/size-limit)
-
-## Optimizations
-
-Please see the main `tsdx` [optimizations docs](https://github.com/palmerhq/tsdx#optimizations). In particular, know that you can take advantage of development-only optimizations:
+There is more, a configurable set of media queries can also prefix all of the css props. `$smallColor="red"` Would set the color to red on screens with a max width of `425px`. These can be combined like `$smallPortraitColor="red"`, meaning max width `425px` AND orientation equal to `portrait`.
 
 ```js
-// ./types/index.d.ts
-declare var __DEV__: boolean;
-
-// inside your code...
-if (__DEV__) {
-  console.log('foo');
-}
+export const defaultMediaPrefixes = {
+  small: '(max-width: 425px)',
+  medium: '(min-width: 426px) and (max-width: 1024px)',
+  large: '(min-width: 1025px)',
+  portrait: '(orientation: portrait)',
+  landscape: '(orientation: landscape)',
+};
 ```
 
-You can also choose to install and use [invariant](https://github.com/palmerhq/tsdx#invariant) and [warning](https://github.com/palmerhq/tsdx#warning) functions.
+Pseudo selectors is also available as suffixes. `colorHover="blue"` Would set the color of blue if the element is hovered. The pseudo suffixes can be combined with media prefixes. `smallColorHover="yellow"` Would set color to yellow on screens with a max width of `425px` AND if the element is hovered. The enabled pseudo suffixes can also be configured if something is missing.
 
-## Module Formats
-
-CJS, ESModules, and UMD module formats are supported.
-
-The appropriate paths are configured in `package.json` and `dist/index.js` accordingly. Please report if any issues are found.
-
-## Deploying the Example Playground
-
-The Playground is just a simple [Parcel](https://parceljs.org) app, you can deploy it anywhere you would normally deploy that. Here are some guidelines for **manually** deploying with the Netlify CLI (`npm i -g netlify-cli`):
-
-```bash
-cd example # if not already in the example folder
-npm run build # builds to dist
-netlify deploy # deploy the dist folder
+```js
+export const defaultPseudoSuffixes = {
+  Active: 'active',
+  Checked: 'checked',
+  Default: 'default',
+  Disabled: 'disabled',
+  Empty: 'empty',
+  Enabled: 'enabled',
+  First: 'first',
+  FirstChild: 'first-child',
+  FirstOfType: 'first-of-type',
+  Fullscreen: 'fullscreen',
+  Focus: 'focus',
+  Hover: 'hover',
+  Indeterminate: 'indeterminate',
+  InRange: 'in-range',
+  Invalid: 'invalid',
+  LastChild: 'last-child',
+  LastOfType: 'last-of-type',
+  Link: 'link',
+  OnlyChild: 'only-child',
+  OnlyOfType: 'only-of-type',
+  Optional: 'optional',
+  OutOfRange: 'out-of-range',
+  ReadOnly: 'read-only',
+  ReadWrite: 'read-write',
+  Required: 'required',
+  Scope: 'scope',
+  Target: 'target',
+  Valid: 'valid',
+  Visited: 'visited',
+  Before: ':before',
+  After: ':after',
+};
 ```
 
-Alternatively, if you already have a git repo connected, you can set up continuous deployment with Netlify:
+## Motivation
 
-```bash
-netlify init
-# build command: yarn build && cd example && yarn && yarn build
-# directory to deploy: example/dist
-# pick yes for netlify.toml
-```
+In any React application of a non-trivial size, styling can be a complicated business. Perhaps a UI element library is used, perhaps several. These element libraries may or may not expose a way of modifying the styling of the components. The application itself might have a defined way to declare styling in components. This approach may or may not match the element library. The problem? Well, navigating around the code base, the developer might want to import a component and use it in some way, and also modify some css. How can this be achieved? There are a range of possibilities here:
 
-## Named Exports
+- The component accepts css modification via the `style` prop
+- The component allows css modifications via a custom syntax
+- The component allows css modifications via the `classname` prop
+- The component does not accept any css modifications
+- The component styling can be modified via css modifications on a parent element
+- CSS specificity might complicate matters even further
 
-Per Palmer Group guidelines, [always use named exports.](https://github.com/palmerhq/typescript#exports) Code split inside your React app instead of your React library.
-
-## Including Styles
-
-There are many ways to ship styles, including with CSS-in-JS. TSDX has no opinion on this, configure how you like.
-
-For vanilla CSS, you can include it at the root directory and add it to the `files` section in your `package.json`, so that it can be imported separately by your users and run through their bundler's loader.
-
-## Publishing to NPM
-
-We recommend using [np](https://github.com/sindresorhus/np).
-
-## Usage with Lerna
-
-When creating a new package with TSDX within a project set up with Lerna, you might encounter a `Cannot resolve dependency` error when trying to run the `example` project. To fix that you will need to make changes to the `package.json` file _inside the `example` directory_.
-
-The problem is that due to the nature of how dependencies are installed in Lerna projects, the aliases in the example project's `package.json` might not point to the right place, as those dependencies might have been installed in the root of your Lerna project.
-
-Change the `alias` to point to where those packages are actually installed. This depends on the directory structure of your Lerna project, so the actual path might be different from the diff below.
-
-```diff
-   "alias": {
--    "react": "../node_modules/react",
--    "react-dom": "../node_modules/react-dom"
-+    "react": "../../../node_modules/react",
-+    "react-dom": "../../../node_modules/react-dom"
-   },
-```
-
-An alternative to fixing this problem would be to remove aliases altogether and define the dependencies referenced as aliases as dev dependencies instead. [However, that might cause other problems.](https://github.com/palmerhq/tsdx/issues/64)
+To make matters worse, not all components are created equal. Different components have different configurations of the above, and they will most often be different from the standard html elements. Navigating around the code base, answering the question of how a css attribute can be added to a jsx element is often a considerable developer burden.
