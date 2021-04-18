@@ -4,7 +4,7 @@
   "repository": "git@github.com:danielwerthen/stilren.git",
   "author": "<danielwerthen@gmail.com>",
   "private": false,
-  "version": "17.0.2",
+  "version": "17.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -81,7 +81,7 @@
   },
   "dependencies": {
     "@types/styletron-standard": "^2.0.1",
-    "base-react": "npm:react@17.0.3",
+    "base-react": "npm:react@17.0.2",
     "csstype": "^3.0.6",
     "styletron-engine-atomic": "^1.4.6",
     "styletron-standard": "^3.0.4"
